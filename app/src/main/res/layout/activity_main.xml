@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/t_bgColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.gwsd.open_ptt.view.AppTopView
+            android:id="@+id/viewTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+        <FrameLayout
+            android:id="@+id/viewFrameLayout"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/color_grey_40"
+            />
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/viewTablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen5dp"
+            android:background="?attr/t_tabColor"
+            app:tabIndicatorHeight="0dp"
+            app:tabIndicatorColor="@color/color_transparent"
+            app:tabPaddingStart="-1dp"
+            app:tabPaddingEnd="-1dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

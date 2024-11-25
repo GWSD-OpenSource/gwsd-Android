@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Cluster comm</string>
+
+    <string name="action_settings">설정</string>
+    <string name="app_startIng">인터콤 시작</string>
+    <string name="app_initIng">초기화 중</string>
+    <string name="app_Permission_to_change">권한 변경</string>
+
+    <string name="login_welcome_easy">공용 네트워크 인터콤</string>
+    <string name="login_welcome_easy_idata">인터콤</string>
+
+    <string name="login_welcome">환영합니다 %1$s 인터콤 시스템에 오신 것을 환영합니다</string>
+
+    <string name="login_welcome_tts">공용 네트워크 인터콤에 오신 것을 환영합니다</string>
+    <string name="login_welcome_idata">인터콤 앱에 오신 것을 환영합니다</string>
+    <string name="login_welcome_Telecom_4G">텔레콤 4G 인터콤에 오신 것을 환영합니다</string>
+    <string name="user_agreement">사용자 동의서를 읽고 동의했습니다</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">인터콤</string>
+    <string name="main_tab_report">애플리케이션</string>
+    <string name="main_tab_map">지도</string>
+    <string name="main_tab_setting">설정</string>
+    <string name="main_tab_operator">홈</string>
+    <string name="main_tab_talkbackRecord">인터콤 기록</string>
+    <string name="main_tab_grp">Group</string>
+
+    <string name="accessibility_service_description">스마트 설치, 접근성 서비스</string>
+    <string name="search_hint_group">그룹을 검색하려면 키워드를 입력하십시오</string>
+    <string name="search_hint_group_member">그룹 멤버를 검색하려면 키워드를 입력하십시오</string>
+    <string name="search_hint_friend">친구를 검색하려면 키워드를 입력하십시오</string>
+    <string name="search_hint_norm">검색하려면 키워드를 입력하십시오</string>
+    <string name="search_hint_easy">키워드를 입력하십시오</string>
+
+    <string name="title_LoginActivity">로그인</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">그룹</string>
+    <string name="title_FriendFragment">친구</string>
+    <string name="title_DispatcherFragment">디스패처</string>
+    <string name="title_contactsFragment">연락처</string>
+    <string name="title_MyFragment">나</string>
+    <string name="title_ABoutActivity">정보</string>
+    <string name="title_ConnOffDialogActivity">비정상 로그인</string>
+    <string name="title_FeedbackActivity">피드백</string>
+    <string name="title_SetLanguageActivity">언어 설정</string>
+    <string name="title_SetTextSizeActivity">글꼴 설정</string>
+    <string name="title_SetNetWorkActivity">네트워크 모드</string>
+    <string name="title_SetUpReportCycleActivity">위치 설정</string>
+    <string name="title_SetUpReportVideoSizeActivity">비디오 보고 해상도</string>
+    <string name="title_videoConfig">비디오 구성</string>
+    <string name="title_SetGPSReportCycleActivity">위치 서비스</string>
+    <string name="title_SetLocationReportActivity">위치 보고</string>
+    <string name="title_SysSetActivity">설정</string>
+    <string name="title_SetNormActivity">일반 설정</string>
+    <string name="title_PocMemberListActivity">그룹 멤버</string>
+    <string name="title_ChatActivity">Chat</string>
+    <string name="title_UpReportPhotoActivity">사진 보고</string>
+    <string name="title_UpreportVideoActivity">비디오 보고</string>
+    <string name="title_UpReportVioceActivity">음성 보고</string>
+    <string name="title_PocGroupNoticeActivity">공지사항</string>
+    <string name="title_requestDispatcher">디스패치 요청</string>
+    <string name="title_UserDescActivity">개인 정보</string>
+    <string name="title_SetSaveNoticeNumberActivity">공지 저장 설정</string>
+    <string name="title_SelectMemberActivity">멤버 선택</string>
+    <string name="title_TalkbackSoundActivity">임시 호출</string>
+    <string name="title_TempGrp">임시 그룹</string>
+    <string name="title_dispatchTempCall">디스패치 호출</string>
+
+    <string name="title_PlayRecordActivity">내 녹음</string>
+    <string name="title_RecordListActivity">내 녹음</string>
+    <string name="title_SearchConditionsActivity">검색</string>
+    <string name="title_TalkbackRecord">인터콤 기록</string>
+
+    <string name="title_activity_maps">구글 지도</string>
+    <string name="title_UserAgreementAct">사용자 동의서</string>
+    <string name="title_setDomain">도메인 설정</string>
+    <string name="title_PatrolRecordActivity">검사 목록</string>
+    <string name="title_terminal_location">터미널 위치</string>
+    <string name="title_attach_fun">빠른 애플리케이션</string>
+    <string name="server">서버</string>
+    <string name="domain">도메인</string>
+    <string name="port">포트</string>
+    <string name="other">기타</string>
+
+    <string name="title_singlechip_autobackmain_timer">자동 반환 시간</string>
+    <string name="title_poc_intercom">클러스터 인터콤</string>
+    <string name="title_file_manager">파일 재생</string>
+    
+    <string name="btn_close">끄기</string>
+    <string name="btn_open">켜기</string>
+    <string name="btn_affirm">확인</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_submit">제출</string>
+    <string name="btn_send">보내기</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_login_out">로그아웃</string>
+    <string name="btn_clean_data">계정 지우기</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">그룹 비디오 통화</string>
+
+    <string name="btn_hangup">통화 종료</string>
+    <string name="btn_accept">수락</string>
+    <string name="btn_refuse">거절</string>
+    <string name="btn_speakerphone">스피커폰</string>
+    <string name="btn_silence">음소거</string>
+    <string name="btn_camera_change">변경</string>
+
+    <string name="btn_upreport_source">원본</string>
+    <string name="btn_upreport_compress">압축</string>
+    <string name="btn_source_nativce">로컬</string>
+    <string name="btn_source_photograph">사진 촬영</string>
+    <string name="btn_source_film">영화 촬영</string>
+    <string name="btn_talk_photo">사진 찍기</string>
+
+    <string name="btn_update_now">지금 업데이트</string>
+    <string name="btn_update_no">나중에 업데이트</string>
+    <string name="btn_upreport_location">위치 보고</string>
+    <string name="btn_upreport_photo">사진 보고</string>
+    <string name="btn_upreport_video">비디오 보고</string>
+    <string name="btn_upreport_voice">음성 보고</string>
+    <string name="btn_upreport_sos">원터치 알람</string>
+    <string name="btn_upreport_Patrol">순찰 기록</string>
+    <string name="btn_upreport_scan">스캔</string>
+    <string name="btn_remote_monitoring">원격 모니터링</string>
+    <string name="btn_record_log">음성 기록</string>
+
+    <string name="menu_apply_notice">알림</string>
+    <string name="menu_apply_group">그룹</string>
+    <string name="menu_apply_friend">친구</string>
+    <string name="menu_apply_member">멤버</string>
+    <string name="menu_apply_dispatch">디스패처</string>
+    <string name="menu_apply_groupSelect">그룹 선택</string>
+    <string name="menu_apply_groupOpt">내 그룹</string>
+    <string name="menu_gid_input">그룹 ID를 입력하십시오</string>
+    <string name="menu_apply_friendSelect">친구 선택</string>
+    <string name="menu_apply_memberSelect">멤버 선택</string>
+    <string name="menu_apply_dispatchSelect">디스패처 선택</string>
+    <string name="menu_apply_location">위치</string>
+    <string name="menu_apply_setting">설정</string>
+    <string name="menu_apply_setting1">기능 설정</string>
+    <string name="menu_apply_upreport_photo">사진 보고</string>
+    <string name="menu_apply_upreport_video">비디오 보고</string>
+    <string name="menu_apply_upreport_voice">음성 보고</string>
+    <string name="menu_apply_scan">스캔</string>
+    <string name="menu_apply_patrol">검사 기록</string>
+    <string name="menu_apply_sos_record">알람 기록</string>
+    <string name="menu_apply_train">철제 신발 관리</string>
+    <string name="menu_apply_sound">사운드 열</string>
+    <string name="menu_apply_sos">원터치 알람</string>
+    <string name="menu_apply_record_log">음성 기록</string>
+    <string name="menu_apply_voice_list">음성 목록</string>
+    <string name="menu_apply_terminal_location">터미널 위치</string>
+
+    <string name="btn_call_voice">음성 통화</string>
+    <string name="btn_call_video">비디오 통화</string>
+    <string name="btn_switch_camera">전후 변경</string>
+    <string name="btn_touch_video">누르고 영화 촬영</string>
+
+    <string name="btn_fluency">부드러움</string>
+    <string name="btn_common">표준</string>
+    <string name="btn_standard">표준</string>
+    <string name="btn_high">HD</string>
+    <string name="btn_press_speak">누르고 말하기</string>
+    <string name="btn_loosen_end">풀고 끝내기</string>
+    <string name="btn_member">멤버</string>
+    <string name="btn_grplocation">그룹 위치</string>
+    <string name="btn_terminal_location">터미널 위치</string>
+<string name="btn_navigation">내비게이션</string>
+    <string name="btn_onekey_navigation">원키 내비게이션</string>
+    <string name="btn_navigation_start">내비게이션 시작</string>
+
+    <string name="item_sysset_message_hint">메시지 알림</string>
+    <string name="item_sysset_VolumeControl">볼륨 제어</string>
+    <string name="item_sysset_VoiceEnhance">음성 강화</string>
+    <string name="item_sysset_TTSVolume">TTS 볼륨</string>
+    <string name="item_sysset_PlayEnhance">볼륨 강화</string>
+    <string name="item_sysset_RecordEnhance">녹음 강화</string>
+    <string name="item_sysset_textsize">글꼴 크기</string>
+    <string name="item_sysset_network_mode">네트워크 모드</string>
+    <string name="item_sysset_language">언어 설정</string>
+    <string name="item_sysset_meeting">비디오 창</string>
+    <string name="item_sysset_resolution">해상도</string>
+    <string name="item_sysset_alarm_settings">알람 설정</string>
+    <string name="item_sysset_norm">일반 설정</string>
+    <string name="item_sysset_location">위치 설정</string>
+    <string name="item_sysset_locationinfo">위치 정보</string>
+    <string name="item_sysset_location_report">위치 서비스</string>
+    <string name="item_sysset_upreport">위치 보고 주기</string>
+    <string name="item_sysset_video_record_size">비디오 녹화 품질</string>
+    <string name="item_sysset_notice_save_number">공지 저장 번호 %1$s 항목</string>
+    <string name="item_sysset_warning_tone_switch">경고음</string>
+    <string name="item_sysset_notice_switch">공지 알림</string>
+    <string name="item_sysset_video_voice_double">비디오 음성 이중</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">비디오 배포 중 페이지 표시</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">HD 음질</string>
+    <string name="item_sysset_station">기지국</string>
+    <string name="item_sysset_station_location">기지국 위치</string>
+    <string name="item_sysset_gps">GPS 필터링</string>
+    <string name="item_sysset_gps_control">위치 배포</string>
+    <string name="item_sysset_voice_type">음성 안내</string>
+    <string name="item_sysset_voice_OnLine_ispriority">TTS 음성 온라인 우선 순위</string>
+    <string name="item_sysset_video_config">비디오 구성</string>
+    <string name="item_sysset_video_watermark">비디오 워터마크</string>
+    <string name="item_sysset_watermark_size">워터마크 크기</string>
+    <string name="item_sysset_ptt_wake_up">인터콤 화면 켜짐</string>
+    <string name="item_power_mode">전원 모드</string>
+    <string name="item_powerLowModel">대기 모드</string>
+    <string name="item_powerHeightModel">고성능 모드</string>
+    <string name="item_powerHeightModel1">성능 모드</string>
+    <string name="item_sysset_enable_agps">AGPS</string>
+    <string name="item_sysset_min_distance">최소 보고 거리</string>
+
+    <string name="item_voiceAnnouncements">음성 안내</string>
+
+    <string name="item_video_collection_ratio">비디오 수집 해상도</string>
+    <string name="item_video_auto_rcv_snd">비디오 자동 전송/수신</string>
+    <string name="item_video_auto_rcv_snd_desc">비디오 즉시 전송/수신</string>
+
+    <string name="item_upreport_no">보고 없음</string>
+    <string name="item_upreport_high">고빈도 %1$s</string>
+    <string name="item_upreport_middle">중빈도 %1$s</string>
+    <string name="item_upreport_low">저빈도 %1$s</string>
+
+    <string name="item_account">계정</string>
+    <string name="item_Feedback">피드백</string>
+    <string name="item_set">설정</string>
+    <string name="item_about">버전 정보</string>
+    <string name="item_appVersion_desc">장치 정보</string>
+    <string name="item_check_update_version">업데이트 확인</string>
+    <string name="item_sysSetting">시스템 설정</string>
+    <string name="version_RollBack">버전 롤백</string>
+    <string name="version_desc">버전 정보</string>
+    <string name="version_sys_desc">시스템 정보</string>
+    <string name="version_update_ing">업데이트 중</string>
+    <string name="version_download_succeed">업데이트가 성공적으로 가져왔습니다</string>
+    <string name="version_download_err">업데이트 가져오기 실패</string>
+    <string name="version_install_ing">설치 중</string>
+    <string name="version_install_succeed">업데이트 성공</string>
+    <string name="please_reboot_device">기기를 재부팅하십시오</string>
+    <string name="version_restart_app">재시작 중</string>
+
+    <string name="item_personal_details_username">이름: %1$s</string>
+    <string name="item_personal_details_account">계정: %1$s</string>
+    <string name="item_personal_details_ID">ID: %1$s</string>
+    <string name="item_personal_details_Imei0">IMEI:</string>
+    <string name="item_personal_details_Imei">IMEI: %1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">비디오 통화</string>
+    <string name="item_talkback_menu_item_video_upload">비디오 업로드</string>
+    <string name="item_talkback_menu_item_video_look">비디오 보기</string>
+    <string name="item_talkback_menu_item_video_silence_look">무음 보기</string>
+    <string name="item_talkback_menu_item_voice_talkback">임시 통화</string>
+    <string name="item_talkback_menu_item_voice_call">음성 통화</string>
+    <string name="item_talkback_menu_item_voice_chat">음성 채팅</string>
+    <string name="item_talkback_menu_item_chat">채팅</string>
+
+    
+    <string name="hint_please_open_gps">설정에서 GPS 켜기/끄기</string>
+    <string name="hint_please_permission">권한을 허용하십시오</string>
+    <string name="hint_please_select_condition">조건을 선택하십시오</string>
+    <string name="hint_file_size_not_none">0KB 이미지를 업로드할 수 없습니다</string>
+
+    <string name="hint_please_inputContent">내용을 입력하십시오</string>
+    <string name="hint_current_version">현재 버전</string>
+    <string name="hint_current_version_newest">사용 가능한 업데이트가 없습니다</string>
+
+    <string name="hint_content_least_10num">내용은 최소 10자 이상이어야 합니다</string>
+    <string name="hint_username_or_psw_notNull">사용자 이름 또는 비밀번호는 비워둘 수 없습니다</string>
+    <string name="hint_account_or_psw_notNull">계정 또는 비밀번호는 비워둘 수 없습니다</string>
+    <string name="hint_phone_format_err">전화번호 형식이 잘못되었습니다</string>
+    <string name="hint_psw_least_6num">비밀번호는 최소 6자 이상이어야 합니다</string>
+    <string name="hint_login_Failure">로그인 실패</string>
+    <string name="hint_login_account_notExist">계정이 존재하지 않습니다</string>
+    <string name="hint_input_invalid">잘못된 입력</string>
+    <string name="hint_login_jpassword_err">배급업체 비밀번호가 잘못되었습니다</string>
+    <string name="hint_login_jpassword_ok">배급업체 비밀번호가 성공적으로 변경되었습니다</string>
+    <string name="hint_login_psw_err">비밀번호가 잘못되었습니다</string>
+    <string name="hint_login_account_Invalid">계정이 유효하지 않습니다</string>
+    <string name="hint_login_account_or_psw_err">계정 또는 비밀번호가 잘못되었습니다</string>
+    <string name="hint_login_pswOut_of_date">비밀번호가 만료되었습니다, 변경하려면 관리자에게 문의하십시오</string>
+    <string name="hint_phone_num">전화번호</string>
+    <string name="hint_account">계정</string>
+    <string name="hint_psw">비밀번호</string>
+    <string name="hint_notice">공지</string>
+    <string name="hint_search">검색</string>
+
+    <string name="hint_reset_app_affirm_update">변경 사항을 확인하려면 APP을 재시작 하시겠습니까?</string>
+    <string name="hint_affirm_loginout">로그아웃을 확인하시겠습니까?</string>
+    <string name="hint_chat_no_self">자신과 채팅할 수 없습니다</string>
+    <string name="hint_voice_least_long">음성이 너무 짧습니다</string>
+
+    <string name="hint_target">대상</string>
+    <string name="hint_talkback_state_prepare">준비 중...</string>
+    <string name="hint_talkback_state_wait_accept">수락 대기 중...</string>
+    <string name="hint_talkback_state_talkback_ing">인터콤 진행 중...</string>
+    <string name="hint_talkback_state_request">비디오 통화 요청 중...</string>
+    <string name="hint_talkback_state_request_voice">음성 통화 요청 중...</string>
+    <string name="hint_talkback_state_opposite_hangup">다른 사람이 전화를 종료했습니다...</string>
+    <string name="hint_talkback_state_opposite_accept">다른 사람이 수락했습니다...</string>
+    <string name="hint_talkback_state_call_failure">통화 실패...</string>
+    <string name="hint_talkback_state_opposite_busy">다른 사람이 통화 중입니다...</string>
+    <string name="hint_talkback_state_no_answer">응답 없음...</string>
+    <string name="hint_UnAnswered">응답 없음...</string>
+    <string name="hint_talkback_state_native_video_err">로컬 비디오 연결 끊김...</string>
+    <string name="hint_talkback_state_opposite_video_err">다른 사람이 비디오 연결을 끊었습니다...</string>
+    <string name="hint_chatvideo_err">비디오 연결 끊김...</string>
+    <string name="hint_talkback_state_opposite_off">다른 사람이 오프라인입니다</string>
+    <string name="hint_talkback_state_conn_failure">연결 실패...</string>
+    <string name="hint_talkback_state_hanup">전화 끊기...</string>
+
+    <string name="hint_video_call_conn_ok">연결됨...</string>
+    <string name="hint_video_call_conning">연결 중...</string>
+    <string name="hint_video_request_upload_video">비디오 업로드 요청 중...</string>
+    <string name="hint_video_request_look_video">비디오 보기 요청 중...</string>
+    <string name="hint_none">유휴 상태</string>
+    <string name="wu">없음</string>
+    <string name="hint_Idle_waiting">유휴 상태에서 대기 중</string>
+
+    <string name="hint_talkback_please_new_talkback">참고로, 새 인터콤이 있습니다:</string>
+
+    <string name="hint_upreport_photo">사진 보고</string>
+    <string name="hint_please_select_photo">업로드된 사진이 없습니다</string>
+    <string name="hint_please_select_video">업로드된 비디오가 없습니다</string>
+    <string name="hint_please_sd">SD 카드를 삽입하십시오</string>
+    <string name="hint_photo_compress_ing">사진 압축 중...</string>
+    <string name="hint_file_upload_failure">파일 업로드 실패</string>
+    <string name="hint_file_upload">파일 업로드</string>
+    <string name="hint_complete">완료됨</string>
+    <string name="hint_complete_suc">완료됨</string>
+    <string name="hint_complete_no">완료되지 않음</string>
+    <string name="hint_describe">설명</string>
+    <string name="hint_describe_video">비디오 보고\n참고: 현재 지원되는 비디오 형식은 MP4입니다</string>
+<string name="hint_video_only_mp4">현재 MP4 동영상만 지원됩니다</string>
+    <string name="hint_nofile">파일을 찾을 수 없습니다</string>
+    <string name="hint_video_max_size">파일 크기는 50MB를 초과할 수 없습니다</string>
+
+    <string name="hint_affirm_">종료 확인</string>
+    
+    <string name="about_desc">그룹 인터컴</string>
+    <string name="about_desc_same">그룹 인터컴</string>
+
+    <string name="hint_textsize_set_change_hint">폰트 크기 설정, 재시작 후 적용됩니다</string>
+
+    <string name="hint_welcome_back">다시 오신 것을 환영합니다</string>
+    <string name="hint_opposite_account_exception">상대방 계정이 비정상적입니다</string>
+    <string name="hint_upload">업로드</string>
+    <string name="hint_uploading">업로드 중...</string>
+    <string name="hint_have_upload">업로드 완료</string>
+    <string name="hint_upload_succeed">업로드 성공</string>
+    <string name="hint_upload_failure">업로드 실패</string>
+
+    <string name="hint_chat_videoing">동영상 진행 중</string>
+    <string name="hint_chat_videorecording">동영상 녹화 중</string>
+    <string name="hint_chat_voicerecording">음성 녹음 중</string>
+    <string name="hint_please_hangup_call">먼저 전화를 끊어주세요</string>
+    <string name="and">그리고</string>
+    <string name="hint_in_new_video">새 인터컴이 있습니다:</string>
+    <string name="hint_double_exit">한 번 더 눌러서 종료</string>
+    <string name="hint_click_savelog">%1$s번 더 클릭하여 로그를 캡처</string>
+    <string name="hint_click_savelog_cancel">%1$s번 더 클릭하여 로그 캡처 취소</string>
+    <string name="hint_click_saveloging">로그 캡처 중</string>
+    <string name="hint_click_savelog_close">로그 캡처 닫기</string>
+    <string name="hint_get_ststoken_failure">STSToken 획득 실패</string>
+    <string name="hint_download">다운로드</string>
+    <string name="hint_download_ing">다운로드 중...</string>
+    <string name="hint_download_finish">다운로드 완료</string>
+    <string name="hint_download_failure">다운로드 실패</string>
+    <string name="hint_download_Progress">다운로드 진행률</string>
+    <string name="hint_download_address_err">주소 오류</string>
+    <string name="hint_download_file_damage">파일 손상됨</string>
+    <string name="hint_connect_timeout">연결 시간 초과</string>
+    <string name="hint_timeout">시간 초과</string>
+    <string name="hint_connect_timeout_query_group_list">그룹 목록 가져오기 시간 초과</string>
+    <string name="hint_connect_timeout_enter_group_list">그룹 전환 시간 초과</string>
+    <string name="hint_network_err">네트워크 오류</string>
+    <string name="hint_data_parse_err">데이터 분석 오류</string>
+    <string name="hint_tts_init_err">음성 합성 초기화 실패!</string>
+    <string name="hint_login_succeed">로그인 성공</string>
+    <string name="hint_login_failure">로그인 실패</string>
+    <string name="hint_yesterday">어제</string>
+    <string name="hint_open_camera_failure">카메라 열기 실패! 확인해 주세요</string>
+    <string name="hint_camera_time_small">녹화 시간은 3초 이상이어야 합니다</string>
+    <string name="hint_can_enter">%1$d자 더 입력할 수 있습니다</string>
+    <string name="hint_can_enter_count">%1$d/%2$d 문자</string>
+    <string name="character">문자</string>
+    <string name="hint_current_onLine_member">현재 온라인 회원 (%1$d명)</string>
+    <string name="hint_current_onLine_member2">온라인 (%1$d)</string>
+    <string name="hint_enter_group_failure">그룹 전환 실패</string>
+    <string name="hint_request_dispatcher">%1$s 요청을 받았습니다</string>
+    <string name="hint_request_look_video">%1$s 요청을 받았습니다</string>
+    <string name="hint_request_upload_video">%1$s 요청을 받았습니다</string>
+    <string name="hint_request_broadcast_video">%1$s 요청을 받았습니다</string>
+    <string name="hint_request_monitoring_video">%1$s 요청을 받았습니다</string>
+    <string name="hint_refuse_speak_in_video_meeting">발언 거부</string>
+    <string name="hint_can_speak_in_video_meeting">발언 가능</string>
+    <string name="hint_request_speak_in_video_meeting">발언 요청</string>
+
+    <string name="hint_enter_mode_person">단일 통화 모드로 들어가기</string>
+    <string name="hint_enter_mode_member">회원 모드로 들어가기</string>
+    <string name="hint_enter_mode_friend">친구 모드로 들어가기</string>
+    <string name="hint_enter_mode_group">그룹 모드로 들어가기</string>
+    <string name="hint_out_mode_person">단일 통화 모드 나가기</string>
+    <string name="hint_out_mode_group">그룹 모드 나가기</string>
+    <string name="hint_out_mode_member">회원 모드 나가기</string>
+    <string name="hint_out_mode_friend">친구 모드 나가기</string>
+    <string name="hint_out_mode_voice">음성 재생 나가기</string>
+    <string name="hint_enter_mode_voice">음성 재생</string>
+    <string name="hint_ptt_request_micing">마이크 요청 중...</string>
+    <string name="hint_ptt_speak_ing">발언 중...</string>
+    <string name="hint_press_record">녹음하려면 누르세요</string>
+    <string name="hint_ptt_loosen_over">끝내려면 놓으세요...</string>
+    <string name="hint_voice_record_ing">음성 재생 중...</string>
+    <string name="hint_ptt_request_mic_failure">인터컴 실패</string>
+    <string name="hint_ptt_current_no_request_mic">현재 마이크 요청 불가</string>
+    <string name="hint_enterjoin_group">그룹 들어가기</string>
+    <string name="hint_enterjoin_group_ing">그룹 전환 중...</string>
+    <string name="hint_not_available_Group">그룹 없음</string>
+    <string name="hint_not_available_Group_more">더 이상 그룹 없음</string>
+    <string name="hint_not_Group_member">회원 없음</string>
+    <string name="hint_not_Group_member_more">더 이상 회원 없음</string>
+    <string name="hint_not_enter_GroupSelect">그룹 선택</string>
+    <string name="hint_not_enter_GroupMember">회원 선택</string>
+    <string name="hint_not_currunt_Member">현재 회원</string>
+    <string name="hint_not_enter_FriendMember">친구 선택</string>
+    <string name="hint_not_exit_FriendMember">친구 선택 나가기</string>
+    <string name="hint_not_exit_GroupMember">회원 선택 나가기</string>
+    <string name="hint_not_exit_GroupSelect">그룹 선택 나가기</string>
+    <string name="hint_not_exit_DispatchMember">배정 회원 선택 나가기</string>
+    <string name="hint_not_exit_Voice">음성 재생 나가기</string>
+    <string name="hint_not_groupList">그룹 없음</string>
+    <string name="hint_not_friendList">친구 없음</string>
+    <string name="hint_not_memberList">회원 없음</string>
+    <string name="hint_not_dispatchList">배정 없음</string>
+    <string name="hint_not_noticeList">알림 없음</string>
+    <string name="hint_not_line_memberList">온라인 회원 없음</string>
+    <string name="hint_not_line_friendList">온라인 친구 없음</string>
+    <string name="hint_not_line_dispatchList">온라인 배정 없음</string>
+
+    <string name="hint_disconn_login_video_failure">동영상 로그인 실패</string>
+    <string name="hint_disconn_login_video">동영상 로그인 끊김</string>
+    <string name="hint_disconn_login_voice">음성 로그인 끊김</string>
+    <string name="hint_disconn_login">로그인 끊김</string>
+    <string name="hint_attention_please_POC_lostConnection">POC 로그인이 끊겼습니다</string>
+    <string name="hint_attention_please_Video_lostConnection">동영상 로그인이 끊겼습니다</string>
+    <string name="hint_videoLogin_Reconnect">동영상 로그인 다시 연결 중</string>
+    <string name="hint_POCLogin_Reconnect">POC 로그인 다시 연결 중</string>
+    <string name="hint_please_login">로그인되지 않음</string>
+    <string name="hint_please_loginSignalling">신호 초기화 중</string>
+    <string name="hint_login_ing">로그인 중...</string>
+    <string name="hint_please_read_userAgreement">사용자 동의서를 먼저 읽어주세요...</string>
+
+    <string name="hint_You_have_a_new_notice">새로운 알림이 있습니다</string>
+    <string name="hint_yu_an_notice">비상 방송</string>
+
+    <string name="hint_notice_save_item_range">번호는 %1$s에서 %2$s 사이</string>
+    <string name="hint_notice_save_min_item">최소 %1$s 항목 저장</string>
+    <string name="hint_notice_save_max_item">최대 %1$s 항목 저장</string>
+
+    <string name="hint_select_persion">회원 선택</string>
+    <string name="hint_select_least_persion">최소 한 명 선택</string>
+    <string name="hint_temp_call_create_failure">통화 실패</string>
+    <string name="hint_temp_call_double_exit">한 번 더 눌러서 인터컴 종료</string>
+    <string name="hint_please_insert_sim">SIM 카드를 삽입하세요</string>
+
+    <string name="hint_voice_mic_ing">발언 중 (%1$s)</string>
+    <string name="hint_voice_me_state">내 상태: %1$s</string>
+
+    <string name="hint_exploit_ing">개발 중...</string>
+
+    <string name="hint_getlocationerr_please_check_network">위치 획득 실패, 네트워크 또는 GPS 설정을 확인하세요</string>
+    <string name="hint_Anti_Hijacking_hint">로그인 화면이 가려져 있습니다. 로그인 환경이 안전한지 확인하세요</string>
+    <string name="hint_input_code_err">인증 코드 입력 오류</string>
+    <string name="hint_input_code_timeOut">인증 코드가 만료되었습니다</string>
+    <string name="hint_location_Unknown">알 수 없는 위치</string>
+
+    <string name="hint_notice_list">공지 목록</string>
+    <string name="hint_loging_otherterminals">다른 터미널에서 로그인됨</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">다른 터미널에서 로그인됨</string>
+    <string name="hint_loging_yaobi">계정 비활성화됨</string>
+
+    <string name="hint_violation_content_illegal">불법 콘텐츠</string>
+    <string name="hint_violation_video_auditing">동영상 업로드 성공, 심사 중!</string>
+    <string name="hint_violation_photo_violation">업로드 실패, 사진이 위반으로 의심됨!</string>
+    <string name="hint_violation_video_violationt">동영상 심사 실패, 동영상이 위반으로 의심됨!</string>
+    <string name="hint_Account_Sealed">계정이 동결되었습니다! 나중에 다시 시도하세요.</string>
+
+    <string name="hint_feedback_question_hint">질문 카테고리</string>
+    <string name="hint_feedback_question_type_bug">BUG</string>
+    <string name="hint_feedback_question_type_demand">요청</string>
+    <string name="hint_feedback_question_type_impeach">보고</string>
+    <string name="hint_feedback_impeach_hint">보고 내용</string>
+    <string name="hint_feedback_impeach_type_yellow">포르노</string>
+    <string name="hint_feedback_impeach_type_politik">정치</string>
+    <string name="hint_feedback_impeach_type_violence">테러</string>
+    <string name="hint_feedback_impeach_type_other">기타</string>
+    <string name="hint_feedback_content_hint">내용 설명</string>
+    <string name="hint_feedback_input_content_hint">설명을 입력하세요</string>
+    <string name="hint_feedback_phone_hint">연락처 정보 (선택 사항)</string>
+<string name="hint_feedback_input_phone_hint">연락처 정보를 입력하십시오</string>
+    <string name="hint_feedback_submit_succeed">피드백이 제출되었습니다</string>
+    <string name="hint_feedback_submit_content_stringform">
+        피드백 유형: %1$s\n
+        보고 유형: %2$s\n
+        연락처 정보: %3$s\n
+        내용 설명: %4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        피드백 유형: %1$s\n
+        연락처 정보: %2$s\n
+        내용 설명: %3$s
+    </string>
+    <string name="hint_setDomain_domain">도메인:</string>
+    <string name="hint_setDomain_loginServer_hint">로그인 서버</string>
+    <string name="hint_setDomain_pocServer">로그인 주소:</string>
+    <string name="hint_setDomain_VideoServer">시그널링 주소:</string>
+    <string name="hint_setDomain_DispatchServer">디스패치 주소:</string>
+    <string name="hint_setDomain_fastdfsServer">파일 주소:</string>
+    <string name="hint_setDomain_fastdfsUploadServer">업로드 주소:</string>
+    <string name="hint_setDomain_getconfig">구성 가져오기</string>
+    <string name="hint_setDomain_Restore_default">기본값 복원</string>
+    <string name="hint_setDomain_getconfig_failure">업데이트 실패</string>
+    <string name="hint_setDomain_getconfig_succeed">업데이트 성공, 저장을 확인하십시오</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">업데이트 성공, 환경을 선택하십시오</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">변경 사항을 저장하십시오</string>
+    <string name="hint_setDomain_getconfig_default">기본값으로 복원되었습니다, 저장을 확인하십시오</string>
+    <string name="hint_setDomain_uploadUrl_invalid">업로드 주소가 유효하지 않습니다</string>
+
+    <string name="hint_poc_current_member">현재 사용자: %1$s</string>
+    <string name="hint_poc_current_group">현재 그룹: %1$s</string>
+    <string name="hint_poc_this_machine_user">로컬 사용자: %1$s</string>
+    <string name="hint_poc_current_memberHint">현재 사용자:</string>
+    <string name="hint_poc_current_groupHint">현재 그룹:</string>
+    <string name="hint_poc_this_machine_userHint">로컬 사용자:</string>
+    <string name="hint_user_desc">사용자 정보</string>
+    <string name="hint_poc_group_select">그룹 선택</string>
+    <string name="hint_poc_friend_select">친구 선택</string>
+    <string name="hint_poc_member_select">회원 선택</string>
+    <string name="hint_poc_member_toomany">회원이 너무 많습니다</string>
+    <string name="hint_poc_dispatcher_select">디스패처 선택</string>
+    <string name="hint_poc_group_selectShort">그룹</string>
+    <string name="hint_poc_friend_selectShort">친구</string>
+    <string name="hint_poc_member_selectShort">회원</string>
+    <string name="hint_poc_dispatcher_selectShort">디스패처</string>
+    <string name="hint_please_select_group">그룹을 선택하십시오</string>
+    <string name="hint_please_select_member">회원을 선택하십시오</string>
+    <string name="hint_temp_voice_add">임시 호출에 참여하십시오</string>
+    <string name="hint_ptt_click_send_tempcall">PTT 임시 호출 시작</string>
+    <string name="hint_cur_tempcall">임시 호출 중</string>
+    <string name="hint_video_set_err">비디오 해상도 설정 오류</string>
+    <string name="hint_video_current_not_enable">현재 비디오 모듈이 지원되지 않습니다</string>
+    <string name="hint_not_support">지원되지 않음</string>
+    <string name="hint_quality">품질</string>
+    <string name="hint_Resolving">해상도</string>
+    <string name="hint_video_quality">비디오 품질</string>
+    <string name="hint_video_screenOrientation">비디오 방향</string>
+    <string name="hint_video_angle">비디오 각도</string>
+    <string name="landscape">가로</string>
+    <string name="portrait">세로</string>
+    <string name="hint_video_Resolving">비디오 해상도</string>
+    <string name="hint_uplocation_locationErr">위치 가져오기 실패</string>
+    <string name="hint_uplocation_currendLocation">위치</string>
+    <string name="hint_uplocation_isRunUpreport">보고가 시작되었습니까</string>
+    <string name="hint_uplocation_locationIsEffective">위치가 유효합니까</string>
+    <string name="hint_uplocation_distanceIsEffective">거리가 유효합니까</string>
+    <string name="hint_uplocation_UpReportState">보고 상태</string>
+
+    <string name="hint_remote_change_account">원격 번호 변경</string>
+    <string name="hint_remote_change_account_notPermission">원격 번호 변경 권한이 없습니다</string>
+    <string name="hint_notPermission">권한이 없습니다</string>
+    <string name="hint_volume_please_affirm">볼륨 조절을 확인하십시오</string>
+    <string name="hint_volume_level">볼륨 레벨 %1$s</string>
+    <string name="hint_voice_please_affirm">볼륨 향상을 확인하십시오</string>
+    <string name="hint_tts_please_affirm">TTS 볼륨을 확인하십시오</string>
+    <string name="hint_volume_enter">볼륨 조절 입력</string>
+    <string name="hint_volume_out">볼륨 조절 나가기</string>
+    <string name="hint_voice_enter">볼륨 향상 입력</string>
+    <string name="hint_voice_out">볼륨 향상 나가기</string>
+    <string name="hint_tts_enter">TTS 조절 입력</string>
+    <string name="hint_tts_out">TTS 조절 나가기</string>
+    <string name="hint_enter_control">조절 입력</string>
+    <string name="hint_out_control">조절 나가기</string>
+    <string name="hint_control_please_affirm">조절을 확인하십시오</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">볼륨 향상을 확인하십시오</string>
+    <string name="hint_EnhanceVoicePlay_enter">향상 조절 입력</string>
+    <string name="hint_EnhanceVoicePlay_out">향상 조절 나가기</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">녹음 볼륨 향상을 확인하십시오</string>
+    <string name="hint_EnhanceVoiceRecord_enter">녹음 조절 입력</string>
+    <string name="hint_EnhanceVoiceRecord_out">녹음 조절 나가기</string>
+
+    <string name="hint_sos_dig_time">시간:</string>
+    <string name="hint_sos_dig_time_strForm">시간: %1$s</string>
+    <string name="hint_sos_dig_address">위치:</string>
+    <string name="hint_sos_dig_address_strForm">위치: %1$s</string>
+    <string name="hint_sos_dig_group">비상 그룹:</string>
+    <string name="hint_sos_dig_group_strForm">비상 그룹: %1$s</string>
+    <string name="hint_sos_dig_name">인원:</string>
+    <string name="hint_sos_dig_name_strForm">인원: %1$s</string>
+    <string name="hint_sos_dig_distance_strForm">%1$s 미터 거리</string>
+    <string name="hint_sos_dig_title">%1$s가 알람을 발송했습니다</string>
+    <string name="hint_sos_dig_title_new">%1$s가 %2$s에 알람을 발송했습니다</string>
+    <string name="hint_sos_dig_title_new_ptt">인터콤 %1$s가 알람을 발송했습니다</string>
+    <string name="hint_sos_dig_title_new_alarm">알람 %1$s가 알람을 발송했습니다</string>
+    <string name="hint_sos_dig_unTitle">%1$s가 알람을 취소했습니다</string>
+    <string name="hint_sos_help_failure">알람 실패</string>
+    <string name="hint_sos_unhelp_failure">알람 취소 실패</string>
+    <string name="hint_sos_notLocation_notHelp">위치 가져오기 실패, 알람 불가</string>
+    <string name="hint_sos_exitNavi">내비게이션 종료</string>
+    <string name="hint_sos_notRecord">알람 기록 없음</string>
+    <string name="hint_sos_unHelp">알람 취소</string>
+    <string name="hint_sos_unHelping">알람 취소 중</string>
+    <string name="hint_sos_HelpIng">알람 발송 중</string>
+    <string name="hint_sos_Help_succeed">알람 성공</string>
+    <string name="hint_no_record">기록 없음</string>
+    <string name="hint_set_major_dispatch">주 디스패처로 설정</string>
+
+    <string name="hint_sos_set_title">알람 번호</string>
+
+    <string name="hint_patrol_sign_err_notLocation">출석 유효하지 않음, 위치 가져오기 실패</string>
+    <string name="hint_patrol_sign_err_server">출석 실패, 서버 오류</string>
+    <string name="hint_patrol_sign_err_location">출석 실패, 서비스 영역 외부</string>
+    <string name="hint_patrol_sign_err_network">출석 실패, 네트워크 오류</string>
+    <string name="hint_patrol_sign_err_dataErr">QR 코드 데이터 오류</string>
+    <string name="hint_patrol_sign_err_scanErr">QR 코드 스캔 실패</string>
+    <string name="hint_patrol_sign_succeed">출석 성공</string>
+    <string name="hint_patrol_record_time">순찰 시간</string>
+    <string name="hint_patrol_record_line">순찰 라인</string>
+    <string name="hint_patrol_record_postion">검사 항목</string>
+    <string name="hint_patrol_time_range">시작 시간이 종료 시간 이후일 수 없습니다</string>
+
+    <string name="hint_location_startPosition">위치 시작</string>
+    <string name="hint_location_Succeed">위치 성공</string>
+    <string name="hint_location_not">위치 없음</string>
+    <string name="hint_location_err">위치 실패</string>
+    <string name="hint_location_change">위치 변경됨</string>
+    <string name="hint_location_Navigation_planning">내비게이션 계획</string>
+    <string name="hint_location_Navigation_plannErr">내비게이션 계획 실패</string>
+    <string name="hint_location_gpsLv">GPS 신호 %1$s 바</string>
+    <string name="hint_location_gpsSignalWeak">GPS 신호 약함</string>
+    <string name="hint_location_gpsSignalStrong">GPS 신호 강함</string>
+    <string name="hint_location_gpsSignalGeneral">GPS 신호 보통</string>
+
+    <string name="hint_voiceQuality_setting">음질 설정</string>
+    <string name="hint_voiceQuality_High">HD 음질</string>
+    <string name="hint_voiceQuality_common">일반 음질</string>
+
+    <string name="notice_video_call">영상 통화</string>
+    <string name="notice_request_video_call">영상 채팅 요청</string>
+    <string name="notice_connect_exception">연결 예외</string>
+    <string name="notice_login_exception">비정상 로그인</string>
+    <string name="notice_manage_notice">공지 알림</string>
+    <string name="notice_video_call_broocast">영상 방송</string>
+    <string name="notice_video_call_monitoring">영상 디스패치</string>
+    <string name="notice_video_call_voice">음성 통화</string>
+
+    <string name="noticetop_video_onReconnecting">영상 인터콤 서비스 연결 중</string>
+    <string name="noticetop_video_onReconnected">영상 인터콤 서비스 연결 성공</string>
+    <string name="noticetop_video_onReconnectfailed">영상 인터콤 서비스 연결 실패</string>
+    <string name="noticetop_POC_onReconnecting">POC 인터콤 서비스 연결 중</string>
+    <string name="noticetop_POC_onReconnected">POC 인터콤 서비스 연결 성공</string>
+    <string name="noticetop_POC_onReconnectfailed">POC 인터콤 서비스 연결 실패</string>
+    <string name="noticetop_network_off">네트워크 검색 중</string>
+    <string name="noticetop_network_Switch">네트워크 변경 중</string>
+    <string name="noticetop_current_connection_lost">주의하십시오! 현재 연결이 끊어졌습니다</string>
+    <string name="network_signal_poor">상대방 네트워크 신호가 약합니다</string>
+    <string name="network_signal_poor1">네트워크 신호가 약합니다</string>
+
+    <string name="chat_type_video">【영상 채팅】</string>
+<string name="chat_type_voice">【음성 채팅】</string>
+    <string name="chat_imtype_video">【비디오】</string>
+    <string name="chat_imtype_img">【이미지】</string>
+    <string name="chat_imtype_voice">【음성】</string>
+    <string name="chat_imtype_pttvoice">【PTT 음성】</string>
+    <string name="chat_imtype_file">【파일】</string>
+    <string name="chat_imtype_location">【위치】</string>
+    <string name="chat_map_sendMessage_title">메시지</string>
+
+    <string name="member_offLine">상대방이 오프라인입니다</string>
+    <string name="diapatch_offLine">디스패처가 오프라인입니다</string>
+    
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">androidSdk 버전:</string>
+    <string name="android_sys_version">안드로이드 시스템 버전:</string>
+    <string name="phone_type">전화 모델:</string>
+
+    <string name="large">큰</string>
+    <string name="norm">중간</string>
+    <string name="small">작은</string>
+    <string name="large_text">큰</string>
+    <string name="norm_text">중간</string>
+    <string name="small_text">작은</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">자동</string>
+    <string name="manual">수동</string>
+
+    <string name="test_name">샤오밍</string>
+    <string name="test_name2">장산</string>
+    <string name="test_group_name">개발 그룹</string>
+    <string name="test_chat_msg">안녕하세요! 아름다움, 오늘 밤에 다시 만나서 인생에 대해 이야기합시다</string>
+
+    <string name="hint_inout_feedback">제안 감사합니다. 우리는 더 잘하겠습니다</string>
+
+    <string name="hint_about_company">PPT 음성</string>
+    <string name="title_activity_google_maps">지도</string>
+
+    <string name="have_sign_in">로그인됨</string>
+    <string name="no_sign_in">로그인되지 않음</string>
+    <string name="online_car_welcome">온라인 자동차에 오신 것을 환영합니다</string>
+    <string name="online_car_notify">안전벨트를 착용하십시오</string>
+    <string name="navigation_str">내비게이션</string>
+    <string name="navigation_Route">경로 계획</string>
+    <string name="monitor_str">모니터링</string>
+    <string name="data_str">데이터 목록</string>
+    <string name="set_str">설정</string>
+    <string name="voice_record">음성 녹음</string>
+    <string name="sos_record">알람 기록</string>
+    <string name="voice_list">음성 목록</string>
+    <string name="voice_record1">녹음 중</string>
+    <string name="media_record">녹음</string>
+    <string name="patrol_record">순찰</string>
+    <string name="voice_record_notopen">음성 녹음이 열려 있지 않음</string>
+    <string name="video_record">비디오 녹화</string>
+    <string name="text_record">문자 메시지</string>
+    <string name="look_annex">첨부 파일 보기</string>
+    <string name="annex">첨부 파일</string>
+    <string name="device_info">터미널 매개 변수</string>
+    <string name="devmenu_str">장치 상태</string>
+    <string name="reboot_str">재부팅</string>
+    <string name="voice_str">볼륨 조정</string>
+    <string name="verinfo_str">버전 정보</string>
+    <string name="exitfail">비디오가 끌리는 동안 종료 금지</string>
+
+    <string name="hint_lockscreen_lock">잠금</string>
+    <string name="hint_lockscreen_unlockIng">잠금 해제 중</string>
+    <string name="hint_lockscreen_unlockFaill">잠금 해제 실패</string>
+    <string name="hint_lockscreen_unlockSucceed">잠금 해제됨</string>
+    <string name="hint_lockscreen_unlockHint">길게 누르세요 %1$s 잠금 해제</string>
+    <string name="key_back">뒤로 가기 키</string>
+    <string name="ring_volume">벨소리 볼륨</string>
+    <string name="alarm_volume">알람 볼륨</string>
+    <string name="alert_volume">경고음 볼륨</string>
+    <string name="not_amap_app">지도 앱을 설치하십시오</string>
+    <string name="map_gaode_app">Gaode 지도</string>
+    <string name="map_baidu_app">Baidu 지도</string>
+    <string name="map_tencent_app">Tencent 지도</string>
+    <string name="map_select">지도 선택</string>
+    <string name="create_group">그룹 생성</string>
+    <string name="join_group">그룹 가입</string>
+    <string name="delete_group">그룹 삭제</string>
+    <string name="delete_mem">멤버 삭제</string>
+    <string name="create_group_succ">그룹 생성 성공</string>
+    <string name="join_group_succ">그룹 가입 성공</string>
+    <string name="delete_group_succ">그룹 삭제 성공</string>
+    <string name="delete_mem_succ">멤버 삭제 성공</string>
+
+    
+    <string name="request_pull_somebody_video">%1$s 비디오를 끌어오도록 요청합니다</string>
+    <string name="request_push_somebody_video">%1$s 비디오 업로드를 요청합니다</string>
+    <string name="pulling_somebody_video">%1$s 비디오를 끌어옵니다</string>
+    <string name="pullvideo">비디오 끌기</string>
+    <string name="somebody_request_pull_video">%1$s 비디오를 끌어오도록 요청합니다</string>
+    <string name="somebody_request_video_chat">%1$s 비디오 통화를 요청합니다</string>
+    <string name="request_somebody_video_chat">%1$s와 비디오 통화를 요청합니다</string>
+    <string name="talking_somebody_video_chat">%1$s와 비디오 통화 중입니다</string>
+    <string name="somebody_request_video_share">%1$s 비디오 공유 요청</string>
+    <string name="somebody_stop_video_share">%1$s 비디오 공유 중지</string>
+    <string name="invite_somebody_videomeeting">%1$s님이 %2$s 회의에 초대합니다</string>
+    <string name="somebody_join_videomeeting">%1$s님이 회의에 참여했습니다</string>
+    <string name="somebody_leave_videomeeting">%1$s님이 회의를 떠났습니다</string>
+    <string name="delete_somebody_videomeeting">%1$s 멤버를 제거하시겠습니까?</string>
+    <string name="create_meeting">회의 시작</string>
+    <string name="meeting_name">회의 이름</string>
+    <string name="end_meeting">종료</string>
+    <string name="meeting_members">회의 멤버</string>
+    <string name="no_member_join">참여한 사람이 없습니다</string>
+    <string name="meeting_window_9">9분할 화면</string>
+    <string name="meeting_window_4">4분할 화면</string>
+    <string name="meeting_window_2">2분할 화면</string>
+    <string name="request_upload_video">비디오 업로드 중</string>
+    <string name="videochat">비디오 통화</string>
+    <string name="hangup_video">끊기</string>
+    <string name="see_video">%1$s 비디오 보기</string>
+    <string name="ringing_video">벨소리</string>
+    <string name="accept_video">%1$s 비디오 보기</string>
+    <string name="reject_video">거절됨</string>
+    <string name="cancel_pull_video">끌기 취소</string>
+
+    <string name="hint_room_create_err">비디오 방 생성 실패</string>
+    <string name="hint_open_local_err">로컬 비디오 열기 실패</string>
+    <string name="hint_open_remote_err">원격 비디오 열기 실패</string>
+    <string name="hint_devices_err">장치 오류</string>
+
+    <string name="hint_audio_video_acquisition">오디오 및 비디오 획득</string>
+    <string name="hint_dont_operation">작동하지 마십시오</string>
+
+    
+    <string name="data_traffic_info">교통 정보</string>
+    <string name="data_traffic_low">불충분한 교통량</string>
+    <string name="data_traffic_oom">교통 초과</string>
+    <string name="data_traffic_total">총계: %1$s</string>
+    <string name="data_traffic_usedMonth">이번 달 사용량: %1$s</string>
+    <string name="data_traffic_usedDay">오늘 사용량: %1$s</string>
+    <string name="data_traffic_surplusMonth">남은 양: %1$s</string>
+
+    <string name="snd_msg">메시지 보내기</string>
+    <string name="snd_loc">위치 보내기</string>
+    <string name="clear_msg">기록 지우기</string>
+    <string name="set_work">작업 그룹으로 설정</string>
+    <string name="workgrp">작업 그룹:</string>
+    <string name="half_call">Half-duplex 통화</string>
+    <string name="twoway_call">개인 네트워크</string>
+    <string name="twoway_call1">개인 네트워크 통신</string>
+    <string name="video_duplex">비디오 듀플렉스</string>
+    <string name="add_contacts">연락처 추가</string>
+    <string name="flash_lamp">손전등</string>
+
+    <string name="code_number">번호: %1$s</string>
+    <string name="details">세부 사항</string>
+    
+    
+    <string name="uav_system_name">UAV 방송 시스템</string>
+    <string name="uav_text_broadcast">텍스트 방송</string>
+    <string name="uav_record_broadcast">녹음 방송</string>
+    <string name="uav_realtime_broadcast">실시간 방송</string>
+    <string name="uav_text_broadcast_record">기록</string>
+    <string name="uav_text_broadcast_play">재생</string>
+    <string name="uav_text_broadcast_stop">중지</string>
+    <string name="uav_text_broadcast_sex">음성 선택:</string>
+    <string name="uav_text_broadcast_language">표준 중국어</string>
+    <string name="uav_text_broadcast_man">남성</string>
+    <string name="uav_text_broadcast_woman">여성</string>
+    <string name="uav_text_broadcast_mode">재생 모드:</string>
+    <string name="uav_text_broadcast_cycle">주기</string>
+<string name="uav_text_broadcast_speed">음성 속도:</string>
+    <string name="uav_text_broadcast_normal">보통</string>
+
+    <string name="hint_filemanager_filemanager">파일 관리자</string>
+    <string name="hint_filemanager_up_list">업로드 목록</string>
+    <string name="hint_filemanager_mian_point">주요 파일</string>
+    <string name="hint_filemanager_no_mian_point">비주요 파일</string>
+    <string name="hint_filemanager_all_file">모든 파일</string>
+    <string name="hint_name">이름</string>
+    <string name="hint_date">날짜</string>
+    <string name="hint_path">경로</string>
+    <string name="hint_size">크기</string>
+
+    <string name="hint_video_record_sub_time">분할 녹화 시간</string>
+    <string name="hint_video_record_ratio">비디오 녹화 해상도</string>
+    <string name="hint_map_setting">지도 설정</string>
+    <string name="hint_other_setting">기타 설정</string>
+    <string name="hint_account_setting">계정 설정</string>
+    <string name="hint_address_setting">주소 설정</string>
+    <string name="hint_video_config2">비디오 설정</string>
+    <string name="hint_WIFI_set">WIFI 설정</string>
+    <string name="hint_blue_set">블루투스 설정</string>
+    <string name="hint_network_set">무선 및 네트워크</string>
+    <string name="hint_display_set">디스플레이 설정</string>
+    <string name="hint_sound_set">사운드 설정</string>
+    <string name="hint_about_set">버전 설정</string>
+
+    <string name="call_hand_free">핸즈프리 요청</string>
+    <string name="call_user">전화</string>
+    <string name="message_user">메시지</string>
+    <string name="change_user">편집</string>
+    <string name="change_call_user_name">사용자 이름 편집</string>
+    <string name="call_history">통화 기록</string>
+    <string name="please_inputcallnum">번호를 입력하십시오</string>
+    <string name="err_code_status">사용자 상태 비정상</string>
+    <string name="err_code_noexist">비어 있는 번호</string>
+    <string name="err_code_offline">사용자 오프라인</string>
+    <string name="err_code_busy">사용자 사용 중</string>
+    <string name="err_code_cantconn">연결할 수 없음</string>
+    <string name="err_code_timeout">연결 시간 초과</string>
+
+    <string name="alarm_iot">센서 알람</string>
+    <string name="alarm_device">장치 알람</string>
+    <string name="alarm_ptt">인터콤 알람</string>
+
+    <string name="law_start">법 집행 시작</string>
+    <string name="law_app">클러스터 애플리케이션</string>
+    <string name="law_grp">그룹 선택</string>
+    <string name="law_mem">멤버 선택</string>
+    <string name="law_fri">친구 선택</string>
+    <string name="law_dis">디스패처 선택</string>
+    <string name="law_rec">미디어 녹화</string>
+    <string name="law_set">기능 설정</string>
+    <string name="law_account_set_success">계정 설정 성공</string>
+    <string name="law_acc_or_psw_null">계정 또는 비밀번호 비어 있음</string>
+    <string name="law_about">법 집행 레코더</string>
+    <string name="law_start_record_video">비디오 녹화 시작</string>
+    <string name="law_start_record_voice">음성 녹화 시작</string>
+    <string name="law_stop_record">녹화 중지</string>
+    <string name="law_record_mark">키 마크</string>
+    <string name="item_sysset_ir_config">적외선 설정</string>
+
+    <string name="title_trainListAct">차량 목록</string>
+    <string name="add_train">기차 추가</string>
+    <string name="please_scan_code">코드를 스캔하십시오</string>
+    <string name="please_take_photo">사진을 찍으십시오</string>
+    <string name="code_not_match">코드 일치하지 않음</string>
+    <string name="btn_release">놓기</string>
+    <string name="btn_colletc">수집</string>
+
+    <string name="addr_set">주소 설정</string>
+    <string name="static_ip">고정 IP</string>
+    <string name="dynamic_ip">동적 IP</string>
+    <string name="addr_port">주소 포트:</string>
+    <string name="mac_addr">MAC 주소:</string>
+    <string name="item_sysset_priority_sharp">선명</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_my">Me</string>
+</resources>

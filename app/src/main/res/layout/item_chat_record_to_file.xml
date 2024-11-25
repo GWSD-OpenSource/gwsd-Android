@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/IMChatItemBg"
+    >
+    <include layout="@layout/item_chat_record_to_public_base"/>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/viewHead"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/user"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/viewName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="name"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/textColorBlack"-->
+        <!--android:textSize="@dimen/textSize_nroml"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toLeftOf="@+id/viewHead"-->
+        <!--app:layout_constraintTop_toTopOf=""-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/viewMsgSndState"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@mipmap/ic_im_send_fail"-->
+        <!--/>-->
+
+    <com.gwsd.open_ptt.ui.view.ChatFromFileView
+        android:id="@+id/viewFromMsgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_right_word_bubble"
+        android:layout_toLeftOf="@+id/viewHead"
+        android:layout_below="@+id/viewName"
+        android:layout_marginRight="@dimen/dimen5dp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/viewFileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/dimen120dp"
+                android:textColor="@color/textColorBlack"
+                android:textSize="@dimen/textSize_nroml"
+                android:layout_toRightOf="@+id/viewFileLogo"
+                android:text="ptt_log.txt"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <TextView
+                android:id="@+id/viewFileDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorHint"
+                android:textSize="@dimen/textSize_samllS"
+                android:layout_below="@+id/viewFileName"
+                android:text="@string/hint_download"
+                android:layout_alignRight="@+id/viewFileName"
+                app:layout_constraintRight_toRightOf="@+id/viewFileName"
+                app:layout_constraintTop_toBottomOf="@+id/viewFileName"
+                />
+            <ImageView
+                android:id="@+id/viewFileLogo"
+                android:layout_width="@dimen/dimen25dp"
+                android:layout_height="@dimen/dimen25dp"
+                android:src="@mipmap/ic_chat_file"
+                android:layout_marginRight="@dimen/dimen_boundary"
+                android:layout_centerVertical="true"
+                app:layout_constraintRight_toLeftOf="@+id/viewFileName"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.gwsd.open_ptt.ui.view.ChatFromFileView>
+    <!--android:background="@drawable/selector_green_bg_radius"-->
+
+</RelativeLayout>

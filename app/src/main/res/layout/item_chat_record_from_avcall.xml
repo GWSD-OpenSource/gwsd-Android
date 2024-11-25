@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/IMChatItemBg"
+    >
+    <ImageView
+        android:id="@+id/viewHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/user"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:id="@+id/viewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/viewHead"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/textColorBlack"
+        android:textSize="@dimen/textSize_nroml"
+        android:text=""
+        />
+    <com.gwsd.open_ptt.view.ChatFromAVCallView
+        android:id="@+id/viewFromMsgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/viewHead"
+        android:layout_below="@+id/viewName"
+        android:background="@drawable/chat_left_word_bubble"
+        android:layout_marginRight="@dimen/dimen80dp"
+        android:layout_marginLeft="@dimen/dimen5dp"
+        >
+
+        <ImageView
+            android:id="@+id/viewCallType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_msg_voice_call_day"/>
+
+        <TextView
+            android:id="@+id/viewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/viewCallType"
+            android:text="123"
+            android:textColor="@color/textColorBlack"
+            android:textSize="@dimen/textSize_nroml" />
+    </com.gwsd.open_ptt.view.ChatFromAVCallView>
+</RelativeLayout>

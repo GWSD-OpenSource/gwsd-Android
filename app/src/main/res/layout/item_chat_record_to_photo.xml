@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/IMChatItemBg"
+    >
+    <include layout="@layout/item_chat_record_to_public_base"/>
+    <!--<ImageView-->
+        <!--android:id="@+id/viewHead"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/user"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/viewName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toLeftOf="@+id/viewHead"-->
+        <!--android:gravity="center"-->
+        <!--android:text="name"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/textColorBlack"-->
+        <!--android:textSize="@dimen/textSize_nroml"-->
+        <!--/>-->
+    <!--chat_right_word_bubble-->
+    <com.gwsd.open_ptt.view.ChatFromPhotoView
+        android:id="@+id/viewFromMsgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewName"
+        android:layout_toLeftOf="@+id/viewHead"
+        android:layout_marginRight="@dimen/dimen5dp"
+        >
+        <ImageView
+            android:id="@+id/viewPhoto"
+            style="@style/IMChatBubbleImageView"
+
+            />
+    </com.gwsd.open_ptt.view.ChatFromPhotoView>
+
+</RelativeLayout>

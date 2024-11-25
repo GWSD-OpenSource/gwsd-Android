@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Cluster comm</string>
+
+    <string name="action_settings">Mga Setting</string>
+    <string name="app_startIng">Pagsisimula ng Intercom</string>
+    <string name="app_initIng">Nagsisimula</string>
+    <string name="app_Permission_to_change">Pagbabago ng Pahintulot</string>
+
+    <string name="login_welcome_easy">Intercom ng pampublikong network</string>
+    <string name="login_welcome_easy_idata">Intercom</string>
+
+    <string name="login_welcome">Maligayang pagdating sa %1$s na sistema ng intercom</string>
+
+    <string name="login_welcome_tts">Maligayang pagdating sa pampublikong network ng intercom</string>
+    <string name="login_welcome_idata">Maligayang pagdating sa APP ng intercom</string>
+    <string name="login_welcome_Telecom_4G">Maligayang pagdating sa Telecom 4G na intercom</string>
+    <string name="user_agreement">Nabasa ko at sumasang-ayon ako sa Kasunduan ng User</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">Intercom</string>
+    <string name="main_tab_report">Mga Aplikasyon</string>
+    <string name="main_tab_map">Mapa</string>
+    <string name="main_tab_setting">Mga Setting</string>
+    <string name="main_tab_operator">Home</string>
+    <string name="main_tab_talkbackRecord">Mga tala ng Intercom</string>
+    <string name="main_tab_grp">Group</string>
+
+    <string name="accessibility_service_description">Smart installation, mga serbisyo ng accessibility</string>
+    <string name="search_hint_group">Mangyaring ipasok ang mga keyword upang maghanap ng mga grupo</string>
+    <string name="search_hint_group_member">Mangyaring ipasok ang mga keyword upang maghanap ng mga miyembro ng grupo</string>
+    <string name="search_hint_friend">Mangyaring ipasok ang mga keyword upang maghanap ng mga kaibigan</string>
+    <string name="search_hint_norm">Mangyaring ipasok ang mga keyword upang maghanap</string>
+    <string name="search_hint_easy">Mangyaring ipasok ang mga keyword</string>
+
+    <string name="title_LoginActivity">Login</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">Grupo</string>
+    <string name="title_FriendFragment">Kaibigan</string>
+    <string name="title_DispatcherFragment">Dispatcher</string>
+    <string name="title_contactsFragment">Mga Contact</string>
+    <string name="title_MyFragment">Ako</string>
+    <string name="title_ABoutActivity">Tungkol sa</string>
+    <string name="title_ConnOffDialogActivity">Abnormal na pag-login</string>
+    <string name="title_FeedbackActivity">Feedback</string>
+    <string name="title_SetLanguageActivity">Mga setting ng wika</string>
+    <string name="title_SetTextSizeActivity">Mga setting ng font</string>
+    <string name="title_SetNetWorkActivity">Mode ng network</string>
+    <string name="title_SetUpReportCycleActivity">Mga setting ng lokasyon</string>
+    <string name="title_SetUpReportVideoSizeActivity">Resolusyon ng pag-uulat ng video</string>
+    <string name="title_videoConfig">Pag-configure ng video</string>
+    <string name="title_SetGPSReportCycleActivity">Serbisyo ng lokasyon</string>
+    <string name="title_SetLocationReportActivity">Pag-uulat ng lokasyon</string>
+    <string name="title_SysSetActivity">Mga Setting</string>
+    <string name="title_SetNormActivity">Mga pangkalahatang setting</string>
+    <string name="title_PocMemberListActivity">Mga miyembro ng grupo</string>
+    <string name="title_ChatActivity">Chat</string>
+    <string name="title_UpReportPhotoActivity">Pag-uulat ng larawan</string>
+    <string name="title_UpreportVideoActivity">Pag-uulat ng video</string>
+    <string name="title_UpReportVioceActivity">Pag-uulat ng boses</string>
+    <string name="title_PocGroupNoticeActivity">Mga Anunsyo</string>
+    <string name="title_requestDispatcher">Kahilingan ng dispatcher</string>
+    <string name="title_UserDescActivity">Personal na impormasyon</string>
+    <string name="title_SetSaveNoticeNumberActivity">Mga setting ng pag-save ng anunsyo</string>
+    <string name="title_SelectMemberActivity">Pagpili ng miyembro</string>
+    <string name="title_TalkbackSoundActivity">Temporaryong tawag</string>
+    <string name="title_TempGrp">Temporaryong grupo</string>
+    <string name="title_dispatchTempCall">Tawag ng dispatcher</string>
+
+    <string name="title_PlayRecordActivity">Aking mga recording</string>
+    <string name="title_RecordListActivity">Aking mga recording</string>
+    <string name="title_SearchConditionsActivity">Maghanap</string>
+    <string name="title_TalkbackRecord">Mga tala ng Intercom</string>
+
+    <string name="title_activity_maps">GoogleMap</string>
+    <string name="title_UserAgreementAct">Kasunduan ng User</string>
+    <string name="title_setDomain">Mga setting ng domain</string>
+    <string name="title_PatrolRecordActivity">Listahan ng inspeksyon</string>
+    <string name="title_terminal_location">Lokasyon ng terminal</string>
+    <string name="title_attach_fun">Mabilis na mga aplikasyon</string>
+    <string name="server">Server</string>
+    <string name="domain">Domain</string>
+    <string name="port">Port</string>
+    <string name="other">Iba pa</string>
+
+    <string name="title_singlechip_autobackmain_timer">Oras ng awtomatikong pagbalik</string>
+    <string name="title_poc_intercom">Intercom ng cluster</string>
+    <string name="title_file_manager">Pag-playback ng file</string>
+    
+    <string name="btn_close">Off</string>
+    <string name="btn_open">On</string>
+    <string name="btn_affirm">Kumpirmahin</string>
+    <string name="btn_cancel">Kanselahin</string>
+    <string name="btn_submit">Isumite</string>
+    <string name="btn_send">Ipadala</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_login_out">Logout</string>
+    <string name="btn_clean_data">I-clear ang account</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">Video tawag ng grupo</string>
+
+    <string name="btn_hangup">Ibitin</string>
+    <string name="btn_accept">Tanggapin</string>
+    <string name="btn_refuse">Tanggihan</string>
+    <string name="btn_speakerphone">Speakerphone</string>
+    <string name="btn_silence">Tahimik</string>
+    <string name="btn_camera_change">Palitan</string>
+
+    <string name="btn_upreport_source">Orihinal</string>
+    <string name="btn_upreport_compress">I-compress</string>
+    <string name="btn_source_nativce">Lokal</string>
+    <string name="btn_source_photograph">Kumuha ng larawan</string>
+    <string name="btn_source_film">Pelika</string>
+    <string name="btn_talk_photo">Kumuha ng larawan</string>
+
+    <string name="btn_update_now">I-update ngayon</string>
+    <string name="btn_update_no">I-update mamaya</string>
+    <string name="btn_upreport_location">Pag-uulat ng lokasyon</string>
+    <string name="btn_upreport_photo">Pag-uulat ng larawan</string>
+    <string name="btn_upreport_video">Pag-uulat ng video</string>
+    <string name="btn_upreport_voice">Pag-uulat ng boses</string>
+    <string name="btn_upreport_sos">Isang-click na alarma</string>
+    <string name="btn_upreport_Patrol">Talaan ng patrol</string>
+    <string name="btn_upreport_scan">I-scan</string>
+    <string name="btn_remote_monitoring">Remote monitoring</string>
+    <string name="btn_record_log">Talaan ng boses</string>
+
+    <string name="menu_apply_notice">Paunawa</string>
+    <string name="menu_apply_group">Grupo</string>
+    <string name="menu_apply_friend">Kaibigan</string>
+    <string name="menu_apply_member">Miyembro</string>
+    <string name="menu_apply_dispatch">Dispatcher</string>
+    <string name="menu_apply_groupSelect">Pagpili ng grupo</string>
+    <string name="menu_apply_groupOpt">Aking mga grupo</string>
+    <string name="menu_gid_input">Mangyaring ipasok ang ID ng grupo</string>
+    <string name="menu_apply_friendSelect">Pagpili ng kaibigan</string>
+    <string name="menu_apply_memberSelect">Pagpili ng miyembro</string>
+    <string name="menu_apply_dispatchSelect">Pagpili ng dispatcher</string>
+    <string name="menu_apply_location">Lokasyon</string>
+    <string name="menu_apply_setting">Mga Setting</string>
+    <string name="menu_apply_setting1">Mga setting ng function</string>
+    <string name="menu_apply_upreport_photo">Pag-uulat ng larawan</string>
+    <string name="menu_apply_upreport_video">Pag-uulat ng video</string>
+    <string name="menu_apply_upreport_voice">Pag-uulat ng boses</string>
+    <string name="menu_apply_scan">I-scan</string>
+    <string name="menu_apply_patrol">Talaan ng inspeksyon</string>
+    <string name="menu_apply_sos_record">Talaan ng alarma</string>
+    <string name="menu_apply_train">Pamamahala ng sapatos na bakal</string>
+    <string name="menu_apply_sound">Hanay ng tunog</string>
+    <string name="menu_apply_sos">Isang-click na alarma</string>
+    <string name="menu_apply_record_log">Talaan ng boses</string>
+    <string name="menu_apply_voice_list">Listahan ng boses</string>
+    <string name="menu_apply_terminal_location">Lokasyon ng terminal</string>
+
+    <string name="btn_call_voice">Tawag ng boses</string>
+    <string name="btn_call_video">Tawag ng video</string>
+    <string name="btn_switch_camera">Palitan harap/likod</string>
+    <string name="btn_touch_video">Pindutin upang mag-record</string>
+
+    <string name="btn_fluency">Makinis</string>
+    <string name="btn_common">Standard</string>
+    <string name="btn_standard">Standard</string>
+    <string name="btn_high">HD</string>
+    <string name="btn_press_speak">Pindutin upang magsalita</string>
+    <string name="btn_loosen_end">Bitawan upang matapos</string>
+    <string name="btn_member">Miyembro</string>
+    <string name="btn_grplocation">Lokasyon ng grupo</string>
+    <string name="btn_terminal_location">Lokasyon ng terminal</string>
+<string name="btn_navigation">Pag-navigate</string>
+    <string name="btn_onekey_navigation">Isang-key na pag-navigate</string>
+    <string name="btn_navigation_start">Simulan ang pag-navigate</string>
+
+    <string name="item_sysset_message_hint">Alerto ng mensahe</string>
+    <string name="item_sysset_VolumeControl">Kontrol ng volume</string>
+    <string name="item_sysset_VoiceEnhance">Pagpapahusay ng boses</string>
+    <string name="item_sysset_TTSVolume">Volume ng TTS</string>
+    <string name="item_sysset_PlayEnhance">Pagpapahusay ng volume</string>
+    <string name="item_sysset_RecordEnhance">Pagpapahusay ng pag-record</string>
+    <string name="item_sysset_textsize">Laki ng font</string>
+    <string name="item_sysset_network_mode">Mode ng network</string>
+    <string name="item_sysset_language">Mga setting ng wika</string>
+    <string name="item_sysset_meeting">Bintana ng video</string>
+    <string name="item_sysset_resolution">Resolusyon</string>
+    <string name="item_sysset_alarm_settings">Mga setting ng alarm</string>
+    <string name="item_sysset_norm">Mga pangkalahatang setting</string>
+    <string name="item_sysset_location">Mga setting ng lokasyon</string>
+    <string name="item_sysset_locationinfo">Impormasyon sa lokasyon</string>
+    <string name="item_sysset_location_report">Serbisyo sa lokasyon</string>
+    <string name="item_sysset_upreport">Siklo ng pag-uulat ng lokasyon</string>
+    <string name="item_sysset_video_record_size">Kalidad ng pag-record ng video</string>
+    <string name="item_sysset_notice_save_number">I-save ang numero ng anunsyo %1$s mga item</string>
+    <string name="item_sysset_warning_tone_switch">Tono ng babala</string>
+    <string name="item_sysset_notice_switch">Abiso ng anunsyo</string>
+    <string name="item_sysset_video_voice_double">Video duplex na boses</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">Ipakita ang pahina sa panahon ng pag-dispatch ng video</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">Kalidad ng tunog ng HD</string>
+    <string name="item_sysset_station">Base station</string>
+    <string name="item_sysset_station_location">Lokasyon ng base station</string>
+    <string name="item_sysset_gps">Pagsasala ng GPS</string>
+    <string name="item_sysset_gps_control">Pag-dispatch ng lokasyon</string>
+    <string name="item_sysset_voice_type">Pag-anunsyo ng boses</string>
+    <string name="item_sysset_voice_OnLine_ispriority">Prayoridad ng boses na TTS online</string>
+    <string name="item_sysset_video_config">Pag-configure ng video</string>
+    <string name="item_sysset_video_watermark">Watermark ng video</string>
+    <string name="item_sysset_watermark_size">Laki ng watermark</string>
+    <string name="item_sysset_ptt_wake_up">Screen ng intercom na naka-on</string>
+    <string name="item_power_mode">Mode ng kuryente</string>
+    <string name="item_powerLowModel">Mode ng standby</string>
+    <string name="item_powerHeightModel">Mode ng mataas na pagganap</string>
+    <string name="item_powerHeightModel1">Mode ng pagganap</string>
+    <string name="item_sysset_enable_agps">AGPS</string>
+    <string name="item_sysset_min_distance">Minimum na distansya ng pag-uulat</string>
+
+    <string name="item_voiceAnnouncements">Pag-anunsyo ng boses</string>
+
+    <string name="item_video_collection_ratio">Resolusyon ng pagkolekta ng video</string>
+    <string name="item_video_auto_rcv_snd">Auto na magpadala/tumanggap ng video</string>
+    <string name="item_video_auto_rcv_snd_desc">Ipadala/tumanggap ng video agad</string>
+
+    <string name="item_upreport_no">Walang pag-uulat</string>
+    <string name="item_upreport_high">Mataas na dalas %1$s</string>
+    <string name="item_upreport_middle">Katamtamang dalas %1$s</string>
+    <string name="item_upreport_low">Mababang dalas %1$s</string>
+
+    <string name="item_account">Account</string>
+    <string name="item_Feedback">Feedback</string>
+    <string name="item_set">Mga setting</string>
+    <string name="item_about">Tungkol sa bersyon</string>
+    <string name="item_appVersion_desc">Impormasyon ng device</string>
+    <string name="item_check_update_version">Suriin ang mga update</string>
+    <string name="item_sysSetting">Mga setting ng system</string>
+    <string name="version_RollBack">Rollback ng bersyon</string>
+    <string name="version_desc">Impormasyon sa bersyon</string>
+    <string name="version_sys_desc">Impormasyon ng system</string>
+    <string name="version_update_ing">Ina-update</string>
+    <string name="version_download_succeed">Matagumpay na nakuha ang pag-update</string>
+    <string name="version_download_err">Nabigo ang pagkuha ng pag-update</string>
+    <string name="version_install_ing">Nai-install</string>
+    <string name="version_install_succeed">Matagumpay na nag-upgrade</string>
+    <string name="please_reboot_device">Pakireboot ang device</string>
+    <string name="version_restart_app">Muling pag-restart</string>
+
+    <string name="item_personal_details_username">Pangalan: %1$s</string>
+    <string name="item_personal_details_account">Account: %1$s</string>
+    <string name="item_personal_details_ID">ID: %1$s</string>
+    <string name="item_personal_details_Imei0">IMEI:</string>
+    <string name="item_personal_details_Imei">IMEI: %1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">Video call</string>
+    <string name="item_talkback_menu_item_video_upload">I-upload ang video</string>
+    <string name="item_talkback_menu_item_video_look">Tingnan ang video</string>
+    <string name="item_talkback_menu_item_video_silence_look">Tingnan nang tahimik</string>
+    <string name="item_talkback_menu_item_voice_talkback">Temporary call</string>
+    <string name="item_talkback_menu_item_voice_call">Voice call</string>
+    <string name="item_talkback_menu_item_voice_chat">Voice chat</string>
+    <string name="item_talkback_menu_item_chat">Chat</string>
+
+    
+    <string name="hint_please_open_gps">I-on/i-off ang GPS sa mga setting</string>
+    <string name="hint_please_permission">Pakipahintulutan ang mga pahintulot</string>
+    <string name="hint_please_select_condition">Pakitanggap ang kundisyon</string>
+    <string name="hint_file_size_not_none">Hindi mai-upload ang 0KB na mga larawan</string>
+
+    <string name="hint_please_inputContent">Pakipasok ang nilalaman</string>
+    <string name="hint_current_version">Kasalukuyang bersyon</string>
+    <string name="hint_current_version_newest">Walang magagamit na mga update</string>
+
+    <string name="hint_content_least_10num">Ang nilalaman ay dapat na hindi bababa sa 10 character</string>
+    <string name="hint_username_or_psw_notNull">Ang pangalan ng gumagamit o password ay hindi maaaring walang laman</string>
+    <string name="hint_account_or_psw_notNull">Ang account o password ay hindi maaaring walang laman</string>
+    <string name="hint_phone_format_err">Hindi tamang format ng numero ng telepono</string>
+    <string name="hint_psw_least_6num">Ang password ay dapat na hindi bababa sa 6 na character</string>
+    <string name="hint_login_Failure">Nabigong mag-log in</string>
+    <string name="hint_login_account_notExist">Hindi umiiral ang account</string>
+    <string name="hint_input_invalid">Hindi tamang input</string>
+    <string name="hint_login_jpassword_err">Mali ang password ng distributor</string>
+    <string name="hint_login_jpassword_ok">Matagumpay na nabago ang password ng distributor</string>
+    <string name="hint_login_psw_err">Mali ang password</string>
+    <string name="hint_login_account_Invalid">Hindi tamang account</string>
+    <string name="hint_login_account_or_psw_err">Mali ang account o password</string>
+    <string name="hint_login_pswOut_of_date">Ang password ay nag-expire, mangyaring makipag-ugnay sa administrator upang baguhin</string>
+    <string name="hint_phone_num">Numero ng telepono</string>
+    <string name="hint_account">Account</string>
+    <string name="hint_psw">Password</string>
+    <string name="hint_notice">Anunsyo</string>
+    <string name="hint_search">Paghahanap</string>
+
+    <string name="hint_reset_app_affirm_update">I-restart ang APP upang kumpirmahin ang mga pagbabago?</string>
+    <string name="hint_affirm_loginout">Kumpirmahin ang pag-log out?</string>
+    <string name="hint_chat_no_self">Hindi maaaring makipag-chat sa sarili</string>
+    <string name="hint_voice_least_long">Ang boses ay masyadong maikli</string>
+
+    <string name="hint_target">Target</string>
+    <string name="hint_talkback_state_prepare">Naghahanda...</string>
+    <string name="hint_talkback_state_wait_accept">Naghihintay ng pagtanggap...</string>
+    <string name="hint_talkback_state_talkback_ing">Nagsasagawa ng intercom...</string>
+    <string name="hint_talkback_state_request">Humihiling ng video call...</string>
+    <string name="hint_talkback_state_request_voice">Humihiling ng voice call...</string>
+    <string name="hint_talkback_state_opposite_hangup">Nagtapos ang tawag sa kabilang linya...</string>
+    <string name="hint_talkback_state_opposite_accept">Natanggap sa kabilang linya...</string>
+    <string name="hint_talkback_state_call_failure">Nabigo ang tawag...</string>
+    <string name="hint_talkback_state_opposite_busy">Ang kabilang linya ay abala...</string>
+    <string name="hint_talkback_state_no_answer">Walang sagot...</string>
+    <string name="hint_UnAnswered">Walang sagot...</string>
+    <string name="hint_talkback_state_native_video_err">Nadisconnect ang lokal na video...</string>
+    <string name="hint_talkback_state_opposite_video_err">Nadisconnect ang video sa kabilang linya...</string>
+    <string name="hint_chatvideo_err">Nadisconnect ang video...</string>
+    <string name="hint_talkback_state_opposite_off">Ang kabilang linya ay offline</string>
+    <string name="hint_talkback_state_conn_failure">Nabigo ang koneksyon...</string>
+    <string name="hint_talkback_state_hanup">Nagtapos ang tawag...</string>
+
+    <string name="hint_video_call_conn_ok">Nakakonekta...</string>
+    <string name="hint_video_call_conning">Nagkokonekta...</string>
+    <string name="hint_video_request_upload_video">Humihiling na mag-upload ng video...</string>
+    <string name="hint_video_request_look_video">Humihiling na tingnan ang video...</string>
+    <string name="hint_none">Idle</string>
+    <string name="wu">Wala</string>
+    <string name="hint_Idle_waiting">Naghihintay sa idle</string>
+
+    <string name="hint_talkback_please_new_talkback">Pakitandaan, mayroon kang bagong intercom:</string>
+
+    <string name="hint_upreport_photo">Pag-uulat ng larawan</string>
+    <string name="hint_please_select_photo">Walang na-upload na larawan</string>
+    <string name="hint_please_select_video">Walang na-upload na video</string>
+    <string name="hint_please_sd">Pakilagay ang SD card</string>
+    <string name="hint_photo_compress_ing">Nagko-compress ng larawan...</string>
+    <string name="hint_file_upload_failure">Nabigo ang pag-upload ng file</string>
+    <string name="hint_file_upload">Pag-upload ng file</string>
+    <string name="hint_complete">Tapos na</string>
+    <string name="hint_complete_suc">Natapos na</string>
+    <string name="hint_complete_no">Hindi natapos</string>
+    <string name="hint_describe">Paglalarawan</string>
+    <string name="hint_describe_video">Pag-uulat ng video\nTandaan: Ang kasalukuyang suportadong format ng video ay MP4</string>
+<string name="hint_video_only_mp4">Sa kasalukuyan, tanging MP4 na video lang ang suportado</string>
+    <string name="hint_nofile">Walang natagpuang file</string>
+    <string name="hint_video_max_size">Ang laki ng file ay hindi dapat lumagpas sa 50MB</string>
+
+    <string name="hint_affirm_">Kumpirmahin ang paglabas</string>
+    
+    <string name="about_desc">Grupo Intercom</string>
+    <string name="about_desc_same">Grupo Intercom</string>
+
+    <string name="hint_textsize_set_change_hint">Pag-set ng laki ng font, epektibo pagkatapos i-restart</string>
+
+    <string name="hint_welcome_back">Maligayang pagbabalik</string>
+    <string name="hint_opposite_account_exception">Ang account ng kabilang partido ay hindi normal</string>
+    <string name="hint_upload">Mag-upload</string>
+    <string name="hint_uploading">Nag-upload...</string>
+    <string name="hint_have_upload">Na-upload</string>
+    <string name="hint_upload_succeed">Matagumpay na na-upload</string>
+    <string name="hint_upload_failure">Nabigo ang pag-upload</string>
+
+    <string name="hint_chat_videoing">Video na nagaganap</string>
+    <string name="hint_chat_videorecording">Nagre-record ng video</string>
+    <string name="hint_chat_voicerecording">Nagre-record ng boses</string>
+    <string name="hint_please_hangup_call">Mangyaring i-hangup muna ang tawag</string>
+    <string name="and">at</string>
+    <string name="hint_in_new_video">Mangyaring tandaan, mayroon kang bagong intercom:</string>
+    <string name="hint_double_exit">Pindutin muli upang lumabas</string>
+    <string name="hint_click_savelog">Pindutin ang %1$s pang beses upang makuha ang log</string>
+    <string name="hint_click_savelog_cancel">Pindutin ang %1$s pang beses upang kanselahin ang pagkuha ng log</string>
+    <string name="hint_click_saveloging">Kinukuha ang log</string>
+    <string name="hint_click_savelog_close">Isara ang pagkuha ng log</string>
+    <string name="hint_get_ststoken_failure">Nabigo sa pagkuha ng STSToken</string>
+    <string name="hint_download">I-download</string>
+    <string name="hint_download_ing">Nagda-download...</string>
+    <string name="hint_download_finish">Tapos na ang pag-download</string>
+    <string name="hint_download_failure">Nabigo ang pag-download</string>
+    <string name="hint_download_Progress">Pag-unlad ng pag-download</string>
+    <string name="hint_download_address_err">Pagkakamali sa address</string>
+    <string name="hint_download_file_damage">Nasirang file</string>
+    <string name="hint_connect_timeout">Pag-timeout ng koneksyon</string>
+    <string name="hint_timeout">Pag-timeout</string>
+    <string name="hint_connect_timeout_query_group_list">Pag-timeout sa pagkuha ng listahan ng grupo</string>
+    <string name="hint_connect_timeout_enter_group_list">Pag-timeout sa pagpapalit ng grupo</string>
+    <string name="hint_network_err">Pagkakamali sa network</string>
+    <string name="hint_data_parse_err">Pagkakamali sa pag-parse ng data</string>
+    <string name="hint_tts_init_err">Nabigo sa pagsisimula ng speech synthesis!</string>
+    <string name="hint_login_succeed">Matagumpay na pag-login</string>
+    <string name="hint_login_failure">Nabigo ang pag-login</string>
+    <string name="hint_yesterday">Kahapon</string>
+    <string name="hint_open_camera_failure">Nabigo sa pagbukas ng camera! Mangyaring suriin</string>
+    <string name="hint_camera_time_small">Ang oras ng pag-record ay hindi dapat bababa sa 3 segundo</string>
+    <string name="hint_can_enter">Maaari ka pang magpasok ng %1$d na mga character</string>
+    <string name="hint_can_enter_count">%1$d/%2$d na mga character</string>
+    <string name="character">mga character</string>
+    <string name="hint_current_onLine_member">Kasalukuyang online na mga miyembro (%1$d na tao)</string>
+    <string name="hint_current_onLine_member2">Online (%1$d)</string>
+    <string name="hint_enter_group_failure">Nabigo sa pagpapalit ng grupo</string>
+    <string name="hint_request_dispatcher">%1$s ay humihiling ng iyong pagpapadala</string>
+    <string name="hint_request_look_video">%1$s ay humihiling na tingnan ang video</string>
+    <string name="hint_request_upload_video">%1$s ay humihiling na mag-upload ng video</string>
+    <string name="hint_request_broadcast_video">%1$s ay humihiling ng pagsasahimpapawid ng video</string>
+    <string name="hint_request_monitoring_video">%1$s ay humihiling ng pagsubaybay sa video</string>
+    <string name="hint_refuse_speak_in_video_meeting">Tanggihan ang pagsasalita</string>
+    <string name="hint_can_speak_in_video_meeting">Maaaring magsalita</string>
+    <string name="hint_request_speak_in_video_meeting">Humihiling na magsalita</string>
+
+    <string name="hint_enter_mode_person">Pumasok sa mode ng solong tawag</string>
+    <string name="hint_enter_mode_member">Pumasok sa mode ng miyembro</string>
+    <string name="hint_enter_mode_friend">Pumasok sa mode ng kaibigan</string>
+    <string name="hint_enter_mode_group">Pumasok sa mode ng grupo</string>
+    <string name="hint_out_mode_person">Lumabas sa mode ng solong tawag</string>
+    <string name="hint_out_mode_group">Lumabas sa mode ng grupo</string>
+    <string name="hint_out_mode_member">Lumabas sa mode ng miyembro</string>
+    <string name="hint_out_mode_friend">Lumabas sa mode ng kaibigan</string>
+    <string name="hint_out_mode_voice">Lumabas sa pag-play ng boses</string>
+    <string name="hint_enter_mode_voice">Pag-play ng boses</string>
+    <string name="hint_ptt_request_micing">Humihiling ng mikropono...</string>
+    <string name="hint_ptt_speak_ing">Nagsasalita...</string>
+    <string name="hint_press_record">Pindutin upang mag-record</string>
+    <string name="hint_ptt_loosen_over">Bitawan upang matapos...</string>
+    <string name="hint_voice_record_ing">Nagpe-play ng boses...</string>
+    <string name="hint_ptt_request_mic_failure">Nabigo ang intercom</string>
+    <string name="hint_ptt_current_no_request_mic">Hindi maaaring humiling ng mikropono ngayon</string>
+    <string name="hint_enterjoin_group">Pumasok sa grupo</string>
+    <string name="hint_enterjoin_group_ing">Nagpapalit ng grupo...</string>
+    <string name="hint_not_available_Group">Walang grupo</string>
+    <string name="hint_not_available_Group_more">Wala nang ibang grupo</string>
+    <string name="hint_not_Group_member">Walang miyembro</string>
+    <string name="hint_not_Group_member_more">Wala nang ibang miyembro</string>
+    <string name="hint_not_enter_GroupSelect">Pagpili ng grupo</string>
+    <string name="hint_not_enter_GroupMember">Pagpili ng miyembro</string>
+    <string name="hint_not_currunt_Member">Kasalukuyang miyembro</string>
+    <string name="hint_not_enter_FriendMember">Pagpili ng kaibigan</string>
+    <string name="hint_not_exit_FriendMember">Lumabas sa pagpili ng kaibigan</string>
+    <string name="hint_not_exit_GroupMember">Lumabas sa pagpili ng miyembro</string>
+    <string name="hint_not_exit_GroupSelect">Lumabas sa pagpili ng grupo</string>
+    <string name="hint_not_exit_DispatchMember">Lumabas sa pagpili ng pagpapadala</string>
+    <string name="hint_not_exit_Voice">Lumabas sa pag-play ng boses</string>
+    <string name="hint_not_groupList">Walang grupo</string>
+    <string name="hint_not_friendList">Walang kaibigan</string>
+    <string name="hint_not_memberList">Walang miyembro</string>
+    <string name="hint_not_dispatchList">Walang pagpapadala</string>
+    <string name="hint_not_noticeList">Walang abiso</string>
+    <string name="hint_not_line_memberList">Walang online na miyembro</string>
+    <string name="hint_not_line_friendList">Walang online na kaibigan</string>
+    <string name="hint_not_line_dispatchList">Walang online na pagpapadala</string>
+
+    <string name="hint_disconn_login_video_failure">Nabigo ang pag-login ng video</string>
+    <string name="hint_disconn_login_video">Pag-login ng video na na-disconnect</string>
+    <string name="hint_disconn_login_voice">Pag-login ng boses na na-disconnect</string>
+    <string name="hint_disconn_login">Pag-login na na-disconnect</string>
+    <string name="hint_attention_please_POC_lostConnection">Mangyaring tandaan, ang pag-login ng POC ay na-disconnect</string>
+    <string name="hint_attention_please_Video_lostConnection">Mangyaring tandaan, ang pag-login ng video ay na-disconnect</string>
+    <string name="hint_videoLogin_Reconnect">Nagre-reconnect sa pag-login ng video</string>
+    <string name="hint_POCLogin_Reconnect">Nagre-reconnect sa pag-login ng POC</string>
+    <string name="hint_please_login">Hindi naka-login</string>
+    <string name="hint_please_loginSignalling">Inisyal na pagsenyas</string>
+    <string name="hint_login_ing">Nagla-login...</string>
+    <string name="hint_please_read_userAgreement">Mangyaring basahin muna ang Kasunduan ng User...</string>
+
+    <string name="hint_You_have_a_new_notice">Mayroon kang bagong abiso</string>
+    <string name="hint_yu_an_notice">Pang-emergency na pag-broadcast</string>
+
+    <string name="hint_notice_save_item_range">Bilang sa pagitan ng %1$s at %2$s</string>
+    <string name="hint_notice_save_min_item">Mag-save ng hindi bababa sa %1$s mga item</string>
+    <string name="hint_notice_save_max_item">Mag-save ng hanggang %1$s mga item</string>
+
+    <string name="hint_select_persion">Mangyaring piliin ang mga miyembro</string>
+    <string name="hint_select_least_persion">Mangyaring piliin ang hindi bababa sa isang tao</string>
+    <string name="hint_temp_call_create_failure">Nabigo ang tawag</string>
+    <string name="hint_temp_call_double_exit">Pindutin muli upang lumabas sa intercom</string>
+    <string name="hint_please_insert_sim">Mangyaring ipasok ang SIM card</string>
+
+    <string name="hint_voice_mic_ing">Nagsasalita (%1$s)</string>
+    <string name="hint_voice_me_state">Ang aking estado: %1$s</string>
+
+    <string name="hint_exploit_ing">Nagde-develop...</string>
+
+    <string name="hint_getlocationerr_please_check_network">Nabigo sa pagkuha ng lokasyon, mangyaring suriin ang network o GPS na mga setting</string>
+    <string name="hint_Anti_Hijacking_hint">Ang iyong login screen ay natatakpan, mangyaring kumpirmahin kung ang login environment ay ligtas</string>
+    <string name="hint_input_code_err">Pagkakamali sa pagpasok ng verification code</string>
+    <string name="hint_input_code_timeOut">Ang verification code ay nag-expire</string>
+    <string name="hint_location_Unknown">Hindi kilalang lokasyon</string>
+
+    <string name="hint_notice_list">Listahan ng mga abiso</string>
+    <string name="hint_loging_otherterminals">Naka-login sa ibang mga terminal</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">Naka-login sa ibang mga terminal</string>
+    <string name="hint_loging_yaobi">Account na naka-deactivate</string>
+
+    <string name="hint_violation_content_illegal">Ang nilalaman ay ilegal</string>
+    <string name="hint_violation_video_auditing">Matagumpay na na-upload ang video, sinusuri!</string>
+    <string name="hint_violation_photo_violation">Nabigo ang pag-upload, larawan na hinihinalang paglabag!</string>
+    <string name="hint_violation_video_violationt">Nabigo ang pagsusuri ng video, video na hinihinalang paglabag!</string>
+    <string name="hint_Account_Sealed">Ang account ay nakatago! Mangyaring subukang muli mamaya.</string>
+
+    <string name="hint_feedback_question_hint">Kategorya ng tanong</string>
+    <string name="hint_feedback_question_type_bug">BUG</string>
+    <string name="hint_feedback_question_type_demand">Hiling</string>
+    <string name="hint_feedback_question_type_impeach">Iulat</string>
+    <string name="hint_feedback_impeach_hint">Nilalaman ng ulat</string>
+    <string name="hint_feedback_impeach_type_yellow">Pornograpiya</string>
+    <string name="hint_feedback_impeach_type_politik">Pulitika</string>
+    <string name="hint_feedback_impeach_type_violence">Terorismo</string>
+    <string name="hint_feedback_impeach_type_other">Iba pa</string>
+    <string name="hint_feedback_content_hint">Paglalarawan ng nilalaman</string>
+    <string name="hint_feedback_input_content_hint">Mangyaring ipasok ang iyong paglalarawan</string>
+    <string name="hint_feedback_phone_hint">Impormasyon sa pakikipag-ugnayan (opsyonal)</string>
+<string name="hint_feedback_input_phone_hint">Mangyaring ipasok ang iyong impormasyon sa pakikipag-ugnay</string>
+    <string name="hint_feedback_submit_succeed">Matagumpay na naisumite ang puna</string>
+    <string name="hint_feedback_submit_content_stringform">
+        Uri ng puna: %1$s\n
+        Uri ng ulat: %2$s\n
+        Impormasyon sa pakikipag-ugnay: %3$s\n
+        Paglalarawan ng nilalaman: %4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        Uri ng puna: %1$s\n
+        Impormasyon sa pakikipag-ugnay: %2$s\n
+        Paglalarawan ng nilalaman: %3$s
+    </string>
+    <string name="hint_setDomain_domain">Domain:</string>
+    <string name="hint_setDomain_loginServer_hint">Server ng pag-login</string>
+    <string name="hint_setDomain_pocServer">Address ng pag-login:</string>
+    <string name="hint_setDomain_VideoServer">Address ng signaling:</string>
+    <string name="hint_setDomain_DispatchServer">Address ng dispatch:</string>
+    <string name="hint_setDomain_fastdfsServer">Address ng file:</string>
+    <string name="hint_setDomain_fastdfsUploadServer">Address ng pag-upload:</string>
+    <string name="hint_setDomain_getconfig">Kumuha ng configuration</string>
+    <string name="hint_setDomain_Restore_default">Ibalik sa default</string>
+    <string name="hint_setDomain_getconfig_failure">Nabigo ang pag-update</string>
+    <string name="hint_setDomain_getconfig_succeed">Matagumpay na na-update, mangyaring kumpirmahin upang i-save</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">Matagumpay na na-update, mangyaring pumili ng kapaligiran</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">Mangyaring i-save ang mga pagbabago</string>
+    <string name="hint_setDomain_getconfig_default">Naibalik sa default, mangyaring kumpirmahin upang i-save</string>
+    <string name="hint_setDomain_uploadUrl_invalid">Hindi wastong address ng pag-upload</string>
+
+    <string name="hint_poc_current_member">Kasalukuyang gumagamit: %1$s</string>
+    <string name="hint_poc_current_group">Kasalukuyang grupo: %1$s</string>
+    <string name="hint_poc_this_machine_user">Lokal na gumagamit: %1$s</string>
+    <string name="hint_poc_current_memberHint">Kasalukuyang gumagamit:</string>
+    <string name="hint_poc_current_groupHint">Kasalukuyang grupo:</string>
+    <string name="hint_poc_this_machine_userHint">Lokal na gumagamit:</string>
+    <string name="hint_user_desc">Impormasyon ng gumagamit</string>
+    <string name="hint_poc_group_select">Pagpili ng grupo</string>
+    <string name="hint_poc_friend_select">Pagpili ng kaibigan</string>
+    <string name="hint_poc_member_select">Pagpili ng miyembro</string>
+    <string name="hint_poc_member_toomany">Napakaraming miyembro</string>
+    <string name="hint_poc_dispatcher_select">Pagpili ng dispatcher</string>
+    <string name="hint_poc_group_selectShort">Grupo</string>
+    <string name="hint_poc_friend_selectShort">Kaibigan</string>
+    <string name="hint_poc_member_selectShort">Miyembro</string>
+    <string name="hint_poc_dispatcher_selectShort">Dispatcher</string>
+    <string name="hint_please_select_group">Mangyaring pumili ng isang grupo</string>
+    <string name="hint_please_select_member">Mangyaring pumili ng isang miyembro</string>
+    <string name="hint_temp_voice_add">Sumali sa pansamantalang tawag</string>
+    <string name="hint_ptt_click_send_tempcall">PTT magsimula ng pansamantalang tawag</string>
+    <string name="hint_cur_tempcall">Sa pansamantalang tawag</string>
+    <string name="hint_video_set_err">Pagkakamali sa setting ng resolution ng video</string>
+    <string name="hint_video_current_not_enable">Kasalukuyang video module ay hindi suportado</string>
+    <string name="hint_not_support">Hindi suportado</string>
+    <string name="hint_quality">Kalidad</string>
+    <string name="hint_Resolving">Resolusyon</string>
+    <string name="hint_video_quality">Kalidad ng video</string>
+    <string name="hint_video_screenOrientation">Oryentasyon ng screen ng video</string>
+    <string name="hint_video_angle">Anggulo ng video</string>
+    <string name="landscape">Landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="hint_video_Resolving">Resolusyon ng video</string>
+    <string name="hint_uplocation_locationErr">Nabigo ang pagkuha ng lokasyon</string>
+    <string name="hint_uplocation_currendLocation">Lokasyon</string>
+    <string name="hint_uplocation_isRunUpreport">Nagsimula ang ulat</string>
+    <string name="hint_uplocation_locationIsEffective">Epektibo ang lokasyon</string>
+    <string name="hint_uplocation_distanceIsEffective">Epektibo ang distansya</string>
+    <string name="hint_uplocation_UpReportState">Estado ng ulat</string>
+
+    <string name="hint_remote_change_account">Palitan ang remote na numero</string>
+    <string name="hint_remote_change_account_notPermission">Walang pahintulot na palitan ang remote na numero</string>
+    <string name="hint_notPermission">Walang pahintulot</string>
+    <string name="hint_volume_please_affirm">Mangyaring kumpirmahin ang kontrol ng volume</string>
+    <string name="hint_volume_level">Antas ng volume %1$s</string>
+    <string name="hint_voice_please_affirm">Mangyaring kumpirmahin ang pagtaas ng volume</string>
+    <string name="hint_tts_please_affirm">Mangyaring kumpirmahin ang volume ng TTS</string>
+    <string name="hint_volume_enter">Pumasok sa kontrol ng volume</string>
+    <string name="hint_volume_out">Lumabas sa kontrol ng volume</string>
+    <string name="hint_voice_enter">Pumasok sa pagtaas ng volume</string>
+    <string name="hint_voice_out">Lumabas sa pagtaas ng volume</string>
+    <string name="hint_tts_enter">Pumasok sa kontrol ng TTS</string>
+    <string name="hint_tts_out">Lumabas sa kontrol ng TTS</string>
+    <string name="hint_enter_control">Pumasok sa kontrol</string>
+    <string name="hint_out_control">Lumabas sa kontrol</string>
+    <string name="hint_control_please_affirm">Mangyaring kumpirmahin ang kontrol</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">Mangyaring kumpirmahin ang pagtaas ng volume</string>
+    <string name="hint_EnhanceVoicePlay_enter">Pumasok sa kontrol ng pagtaas</string>
+    <string name="hint_EnhanceVoicePlay_out">Lumabas sa kontrol ng pagtaas</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">Mangyaring kumpirmahin ang pagtaas ng volume ng pag-record</string>
+    <string name="hint_EnhanceVoiceRecord_enter">Pumasok sa kontrol ng pag-record</string>
+    <string name="hint_EnhanceVoiceRecord_out">Lumabas sa kontrol ng pag-record</string>
+
+    <string name="hint_sos_dig_time">Oras:</string>
+    <string name="hint_sos_dig_time_strForm">Oras: %1$s</string>
+    <string name="hint_sos_dig_address">Lokasyon:</string>
+    <string name="hint_sos_dig_address_strForm">Lokasyon: %1$s</string>
+    <string name="hint_sos_dig_group">Emergency na grupo:</string>
+    <string name="hint_sos_dig_group_strForm">Emergency na grupo: %1$s</string>
+    <string name="hint_sos_dig_name">Tauhan:</string>
+    <string name="hint_sos_dig_name_strForm">Tauhan: %1$s</string>
+    <string name="hint_sos_dig_distance_strForm">%1$s metro mula sa iyo</string>
+    <string name="hint_sos_dig_title">%1$s nagpadala ng alarm</string>
+    <string name="hint_sos_dig_title_new">%1$s nagpadala ng alarm sa %2$s</string>
+    <string name="hint_sos_dig_title_new_ptt">Intercom %1$s nagpadala ng alarm</string>
+    <string name="hint_sos_dig_title_new_alarm">Alarm %1$s nagpadala ng alarm</string>
+    <string name="hint_sos_dig_unTitle">%1$s kinansela ang alarm</string>
+    <string name="hint_sos_help_failure">Nabigo ang alarm</string>
+    <string name="hint_sos_unhelp_failure">Nabigo ang pagkansela ng alarm</string>
+    <string name="hint_sos_notLocation_notHelp">Nabigo ang pagkuha ng lokasyon, hindi makapagpadala ng alarm</string>
+    <string name="hint_sos_exitNavi">Lumabas sa pag-navigate</string>
+    <string name="hint_sos_notRecord">Walang rekord ng alarm</string>
+    <string name="hint_sos_unHelp">Kanselahin ang alarm</string>
+    <string name="hint_sos_unHelping">Kinakansela ang alarm</string>
+    <string name="hint_sos_HelpIng">Nagpapadala ng alarm</string>
+    <string name="hint_sos_Help_succeed">Matagumpay na alarm</string>
+    <string name="hint_no_record">Walang rekord</string>
+    <string name="hint_set_major_dispatch">Itakda bilang pangunahing dispatcher</string>
+
+    <string name="hint_sos_set_title">Numero ng alarm</string>
+
+    <string name="hint_patrol_sign_err_notLocation">Hindi wastong pag-check-in, nabigo ang pagkuha ng lokasyon</string>
+    <string name="hint_patrol_sign_err_server">Nabigo ang pag-check-in, error ng server</string>
+    <string name="hint_patrol_sign_err_location">Nabigo ang pag-check-in, labas sa lugar ng serbisyo</string>
+    <string name="hint_patrol_sign_err_network">Nabigo ang pag-check-in, error ng network</string>
+    <string name="hint_patrol_sign_err_dataErr">Error ng data ng QR code</string>
+    <string name="hint_patrol_sign_err_scanErr">Nabigo ang pag-scan ng QR code</string>
+    <string name="hint_patrol_sign_succeed">Matagumpay na pag-check-in</string>
+    <string name="hint_patrol_record_time">Oras ng patrol</string>
+    <string name="hint_patrol_record_line">Linya ng patrol</string>
+    <string name="hint_patrol_record_postion">Posisyon ng inspeksyon</string>
+    <string name="hint_patrol_time_range">Ang oras ng pagsisimula ay hindi maaaring mas huli kaysa oras ng pagtatapos</string>
+
+    <string name="hint_location_startPosition">Simulan ang pagpoposisyon</string>
+    <string name="hint_location_Succeed">Matagumpay na pagpoposisyon</string>
+    <string name="hint_location_not">Walang pagpoposisyon</string>
+    <string name="hint_location_err">Nabigo ang pagpoposisyon</string>
+    <string name="hint_location_change">Nagbago ang lokasyon</string>
+    <string name="hint_location_Navigation_planning">Pagpaplano ng pag-navigate</string>
+    <string name="hint_location_Navigation_plannErr">Nabigo ang pagpaplano ng pag-navigate</string>
+    <string name="hint_location_gpsLv">GPS signal %1$s bar</string>
+    <string name="hint_location_gpsSignalWeak">Mahina ang GPS signal</string>
+    <string name="hint_location_gpsSignalStrong">Malakas ang GPS signal</string>
+    <string name="hint_location_gpsSignalGeneral">Karaniwan ang GPS signal</string>
+
+    <string name="hint_voiceQuality_setting">Pagtatakda ng kalidad ng tunog</string>
+    <string name="hint_voiceQuality_High">HD kalidad ng tunog</string>
+    <string name="hint_voiceQuality_common">Karaniwang kalidad ng tunog</string>
+
+    <string name="notice_video_call">Tawag sa video</string>
+    <string name="notice_request_video_call">Humiling ng video chat</string>
+    <string name="notice_connect_exception">Pagkakakonekta ng error</string>
+    <string name="notice_login_exception">Hindi normal na pag-login</string>
+    <string name="notice_manage_notice">Abiso ng anunsyo</string>
+    <string name="notice_video_call_broocast">Pag-broadcast ng video</string>
+    <string name="notice_video_call_monitoring">Pagsubaybay sa video</string>
+    <string name="notice_video_call_voice">Tawag sa boses</string>
+
+    <string name="noticetop_video_onReconnecting">Serbisyo ng video intercom reconnecting</string>
+    <string name="noticetop_video_onReconnected">Matagumpay na nakakonekta ang serbisyo ng video intercom</string>
+    <string name="noticetop_video_onReconnectfailed">Nabigo ang pagkonekta ng serbisyo ng video intercom</string>
+    <string name="noticetop_POC_onReconnecting">POC intercom service reconnecting</string>
+    <string name="noticetop_POC_onReconnected">Matagumpay na nakakonekta ang serbisyo ng POC intercom</string>
+    <string name="noticetop_POC_onReconnectfailed">Nabigo ang pagkonekta ng serbisyo ng POC intercom</string>
+    <string name="noticetop_network_off">Naghahanap ng network</string>
+    <string name="noticetop_network_Switch">Nagpapalit ng network</string>
+    <string name="noticetop_current_connection_lost">Mangyaring tandaan! Ang kasalukuyang pag-login ay na-disconnect</string>
+    <string name="network_signal_poor">Mahina ang signal ng network ng kabilang partido</string>
+    <string name="network_signal_poor1">Mahina ang signal ng network</string>
+
+    <string name="chat_type_video">【Video chat】</string>
+<string name="chat_type_voice">【Boses na chat】</string>
+    <string name="chat_imtype_video">【Video】</string>
+    <string name="chat_imtype_img">【Larawan】</string>
+    <string name="chat_imtype_voice">【Boses】</string>
+    <string name="chat_imtype_pttvoice">【Boses na PTT】</string>
+    <string name="chat_imtype_file">【File】</string>
+    <string name="chat_imtype_location">【Lokasyon】</string>
+    <string name="chat_map_sendMessage_title">Mensahe</string>
+
+    <string name="member_offLine">Ang kabilang partido ay offline</string>
+    <string name="diapatch_offLine">Ang dispatcher ay offline</string>
+    
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">bersyon ng androidSdk:</string>
+    <string name="android_sys_version">bersyon ng sistema ng android:</string>
+    <string name="phone_type">Modelo ng telepono:</string>
+
+    <string name="large">Malaki</string>
+    <string name="norm">Katamtaman</string>
+    <string name="small">Maliit</string>
+    <string name="large_text">Malaki</string>
+    <string name="norm_text">Katamtaman</string>
+    <string name="small_text">Maliit</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">Awtomatiko</string>
+    <string name="manual">Manwal</string>
+
+    <string name="test_name">Xiaoming</string>
+    <string name="test_name2">Zhang San</string>
+    <string name="test_group_name">Pangkat ng Pag-unlad</string>
+    <string name="test_chat_msg">Kamusta! Kagandahan, bumalik tayo ngayong gabi upang pag-usapan ang buhay</string>
+
+    <string name="hint_inout_feedback">Salamat sa iyong mungkahi, gagawin namin ang mas mahusay</string>
+
+    <string name="hint_about_company">Boses na PPT</string>
+    <string name="title_activity_google_maps">Mapa</string>
+
+    <string name="have_sign_in">Naka-sign in</string>
+    <string name="no_sign_in">Hindi naka-sign in</string>
+    <string name="online_car_welcome">Maligayang pagdating sa online na kotse</string>
+    <string name="online_car_notify">Pakiusap, isuksok ang iyong seatbelt</string>
+    <string name="navigation_str">Pag-navigate</string>
+    <string name="navigation_Route">Pagpaplano ng ruta</string>
+    <string name="monitor_str">Pagsubaybay</string>
+    <string name="data_str">Listahan ng data</string>
+    <string name="set_str">Mga setting</string>
+    <string name="voice_record">Pag-record ng boses</string>
+    <string name="sos_record">Pag-record ng alarma</string>
+    <string name="voice_list">Listahan ng boses</string>
+    <string name="voice_record1">Pagre-record</string>
+    <string name="media_record">Pagre-record</string>
+    <string name="patrol_record">Patrolya</string>
+    <string name="voice_record_notopen">Hindi bukas ang pag-record ng boses</string>
+    <string name="video_record">Pag-record ng video</string>
+    <string name="text_record">Mensahe ng teksto</string>
+    <string name="look_annex">Tingnan ang kalakip</string>
+    <string name="annex">Kalakip</string>
+    <string name="device_info">Mga parameter ng terminal</string>
+    <string name="devmenu_str">Katayuan ng aparato</string>
+    <string name="reboot_str">I-reboot</string>
+    <string name="voice_str">Ayusin ang dami</string>
+    <string name="verinfo_str">Tungkol sa bersyon</string>
+    <string name="exitfail">Bawal lumabas habang hinahatak ang video</string>
+
+    <string name="hint_lockscreen_lock">Naka-lock</string>
+    <string name="hint_lockscreen_unlockIng">Ino-unlock</string>
+    <string name="hint_lockscreen_unlockFaill">Hindi matagumpay na pag-unlock</string>
+    <string name="hint_lockscreen_unlockSucceed">Naka-unlock</string>
+    <string name="hint_lockscreen_unlockHint">Pindutin nang matagal %1$s upang i-unlock</string>
+    <string name="key_back">Pindutan ng Pagbalik</string>
+    <string name="ring_volume">Dami ng ringtone</string>
+    <string name="alarm_volume">Dami ng alarma</string>
+    <string name="alert_volume">Dami ng alerto</string>
+    <string name="not_amap_app">Mangyaring mag-install ng app ng mapa</string>
+    <string name="map_gaode_app">Mapa ng Gaode</string>
+    <string name="map_baidu_app">Mapa ng Baidu</string>
+    <string name="map_tencent_app">Mapa ng Tencent</string>
+    <string name="map_select">Pagpili ng mapa</string>
+    <string name="create_group">Lumikha ng grupo</string>
+    <string name="join_group">Sumali sa grupo</string>
+    <string name="delete_group">Tanggalin ang grupo</string>
+    <string name="delete_mem">Tanggalin ang miyembro</string>
+    <string name="create_group_succ">Matagumpay na nalikha ang grupo</string>
+    <string name="join_group_succ">Matagumpay na nakasali sa grupo</string>
+    <string name="delete_group_succ">Matagumpay na natanggal ang grupo</string>
+    <string name="delete_mem_succ">Matagumpay na natanggal ang miyembro</string>
+
+    
+    <string name="request_pull_somebody_video">Humiling na hilahin ang video ni %1$s</string>
+    <string name="request_push_somebody_video">%1$s humihiling na mag-upload ng video</string>
+    <string name="pulling_somebody_video">Hinahatak ang video ni %1$s</string>
+    <string name="pullvideo">Hilain ang video</string>
+    <string name="somebody_request_pull_video">%1$s humihiling na hilahin ang video</string>
+    <string name="somebody_request_video_chat">%1$s humihiling ng video call</string>
+    <string name="request_somebody_video_chat">Humiling ng video call kay %1$s</string>
+    <string name="talking_somebody_video_chat">Sa video call kay %1$s</string>
+    <string name="somebody_request_video_share">%1$s humihiling ng pag-share ng video</string>
+    <string name="somebody_stop_video_share">%1$s huminto sa pag-share ng video</string>
+    <string name="invite_somebody_videomeeting">%1$s nag-anyaya na sumali sa %2$s meeting</string>
+    <string name="somebody_join_videomeeting">%1$s sumali sa meeting</string>
+    <string name="somebody_leave_videomeeting">%1$s umalis sa meeting</string>
+    <string name="delete_somebody_videomeeting">Kumpirmahin na tanggalin ang miyembro %1$s</string>
+    <string name="create_meeting">Magpasimula ng meeting</string>
+    <string name="meeting_name">Pangalan ng meeting</string>
+    <string name="end_meeting">Tapos na</string>
+    <string name="meeting_members">Mga miyembro ng meeting</string>
+    <string name="no_member_join">Walang sumali</string>
+    <string name="meeting_window_9">9-split screen</string>
+    <string name="meeting_window_4">4-split screen</string>
+    <string name="meeting_window_2">2-split screen</string>
+    <string name="request_upload_video">Ina-upload ang video</string>
+    <string name="videochat">Video call</string>
+    <string name="hangup_video">Binaba</string>
+    <string name="see_video">%1$s ay nanonood ng video</string>
+    <string name="ringing_video">Nagri-ring</string>
+    <string name="accept_video">Nanonood ng video ni %1$s</string>
+    <string name="reject_video">Tinanggihan</string>
+    <string name="cancel_pull_video">Kanselahin ang paghila</string>
+
+    <string name="hint_room_create_err">Nabigo sa paglikha ng video room</string>
+    <string name="hint_open_local_err">Nabigo sa pagbubukas ng lokal na video</string>
+    <string name="hint_open_remote_err">Nabigo sa pagbubukas ng remote na video</string>
+    <string name="hint_devices_err">Error sa aparato</string>
+
+    <string name="hint_audio_video_acquisition">Pagkuha ng audio at video</string>
+    <string name="hint_dont_operation">Huwag mag-operate</string>
+
+    
+    <string name="data_traffic_info">Impormasyon ng trapiko</string>
+    <string name="data_traffic_low">Hindi sapat na trapiko</string>
+    <string name="data_traffic_oom">Na-lampas na trapiko</string>
+    <string name="data_traffic_total">Kabuuan: %1$s</string>
+    <string name="data_traffic_usedMonth">Ginamit ngayong buwan: %1$s</string>
+    <string name="data_traffic_usedDay">Ginamit ngayon: %1$s</string>
+    <string name="data_traffic_surplusMonth">Natitira: %1$s</string>
+
+    <string name="snd_msg">Magpadala ng mensahe</string>
+    <string name="snd_loc">Magpadala ng lokasyon</string>
+    <string name="clear_msg">I-clear ang talaan</string>
+    <string name="set_work">Itakda bilang grupong trabaho</string>
+    <string name="workgrp">Grupong trabaho:</string>
+    <string name="half_call">Half-duplex na tawag</string>
+    <string name="twoway_call">Pribadong network</string>
+    <string name="twoway_call1">Komunikasyon ng pribadong network</string>
+    <string name="video_duplex">Video duplex</string>
+    <string name="add_contacts">Magdagdag ng contact</string>
+    <string name="flash_lamp">Flashlight</string>
+
+    <string name="code_number">Numero: %1$s</string>
+    <string name="details">Mga detalye</string>
+    
+    
+    <string name="uav_system_name">Sistemang broadcast ng UAV</string>
+    <string name="uav_text_broadcast">Broadcast ng teksto</string>
+    <string name="uav_record_broadcast">Broadcast ng pagre-record</string>
+    <string name="uav_realtime_broadcast">Broadcast sa real-time</string>
+    <string name="uav_text_broadcast_record">I-rekord</string>
+    <string name="uav_text_broadcast_play">I-play</string>
+    <string name="uav_text_broadcast_stop">Itigil</string>
+    <string name="uav_text_broadcast_sex">Pagpipilian ng boses:</string>
+    <string name="uav_text_broadcast_language">Mandarin</string>
+    <string name="uav_text_broadcast_man">Lalaki</string>
+    <string name="uav_text_broadcast_woman">Babae</string>
+    <string name="uav_text_broadcast_mode">Mode ng pag-playback:</string>
+    <string name="uav_text_broadcast_cycle">Siklo</string>
+<string name="uav_text_broadcast_speed">Bilis ng pagsasalita:</string>
+    <string name="uav_text_broadcast_normal">Normal</string>
+
+    <string name="hint_filemanager_filemanager">Tagapamahala ng file</string>
+    <string name="hint_filemanager_up_list">Listahan ng pag-upload</string>
+    <string name="hint_filemanager_mian_point">Pangunahing file</string>
+    <string name="hint_filemanager_no_mian_point">Di-pangunahing file</string>
+    <string name="hint_filemanager_all_file">Lahat ng file</string>
+    <string name="hint_name">Pangalan</string>
+    <string name="hint_date">Petsa</string>
+    <string name="hint_path">Daan</string>
+    <string name="hint_size">Laki</string>
+
+    <string name="hint_video_record_sub_time">Tagal ng pag-record ng segment</string>
+    <string name="hint_video_record_ratio">Resolusyon ng pag-record ng video</string>
+    <string name="hint_map_setting">Mga setting ng mapa</string>
+    <string name="hint_other_setting">Iba pang mga setting</string>
+    <string name="hint_account_setting">Mga setting ng account</string>
+    <string name="hint_address_setting">Mga setting ng address</string>
+    <string name="hint_video_config2">Mga setting ng video</string>
+    <string name="hint_WIFI_set">Mga setting ng WIFI</string>
+    <string name="hint_blue_set">Mga setting ng Bluetooth</string>
+    <string name="hint_network_set">Wireless at network</string>
+    <string name="hint_display_set">Mga setting ng display</string>
+    <string name="hint_sound_set">Mga setting ng tunog</string>
+    <string name="hint_about_set">Mga setting ng bersyon</string>
+
+    <string name="call_hand_free">Humiling ng hands-free</string>
+    <string name="call_user">Tawag</string>
+    <string name="message_user">Mensahe</string>
+    <string name="change_user">I-edit</string>
+    <string name="change_call_user_name">I-edit ang pangalan ng gumagamit</string>
+    <string name="call_history">Kasaysayan ng tawag</string>
+    <string name="please_inputcallnum">Mangyaring ipasok ang isang numero</string>
+    <string name="err_code_status">Hindi normal na status ng gumagamit</string>
+    <string name="err_code_noexist">Walang laman na numero</string>
+    <string name="err_code_offline">Gumagamit offline</string>
+    <string name="err_code_busy">Gumagamit abala</string>
+    <string name="err_code_cantconn">Hindi makakonekta</string>
+    <string name="err_code_timeout">Oras ng koneksyon lumipas na</string>
+
+    <string name="alarm_iot">Alarm ng sensor</string>
+    <string name="alarm_device">Alarm ng aparato</string>
+    <string name="alarm_ptt">Alarm ng intercom</string>
+
+    <string name="law_start">Simulan ang pagpapatupad ng batas</string>
+    <string name="law_app">Aplikasyon ng cluster</string>
+    <string name="law_grp">Pagpili ng grupo</string>
+    <string name="law_mem">Pagpili ng miyembro</string>
+    <string name="law_fri">Pagpili ng kaibigan</string>
+    <string name="law_dis">Pagpili ng dispatcher</string>
+    <string name="law_rec">Pag-record ng media</string>
+    <string name="law_set">Mga setting ng function</string>
+    <string name="law_account_set_success">Matagumpay na mga setting ng account</string>
+    <string name="law_acc_or_psw_null">Walang laman na account o password</string>
+    <string name="law_about">Recorder ng pagpapatupad ng batas</string>
+    <string name="law_start_record_video">Simulan ang pag-record ng video</string>
+    <string name="law_start_record_voice">Simulan ang pag-record ng boses</string>
+    <string name="law_stop_record">Ihinto ang pag-record</string>
+    <string name="law_record_mark">Marka ng key</string>
+    <string name="item_sysset_ir_config">Mga setting ng infrared</string>
+
+    <string name="title_trainListAct">Listahan ng sasakyan</string>
+    <string name="add_train">Magdagdag ng tren</string>
+    <string name="please_scan_code">Mangyaring i-scan ang code</string>
+    <string name="please_take_photo">Mangyaring kumuha ng larawan</string>
+    <string name="code_not_match">Hindi tugma ang code</string>
+    <string name="btn_release">Ilugar</string>
+    <string name="btn_colletc">Kolektahin</string>
+
+    <string name="addr_set">Mga setting ng address</string>
+    <string name="static_ip">Static IP</string>
+    <string name="dynamic_ip">Dynamic IP</string>
+    <string name="addr_port">Port ng address:</string>
+    <string name="mac_addr">MAC address:</string>
+    <string name="item_sysset_priority_sharp">clear</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_my">Me</string>
+</resources>

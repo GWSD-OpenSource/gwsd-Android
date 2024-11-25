@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Cluster comm</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="app_startIng">Запуск интеркома</string>
+    <string name="app_initIng">Инициализация</string>
+    <string name="app_Permission_to_change">Изменение разрешений</string>
+
+    <string name="login_welcome_easy">Общественная сеть интеркома</string>
+    <string name="login_welcome_easy_idata">Интерком</string>
+
+    <string name="login_welcome">Добро пожаловать в систему интеркома %1$s</string>
+
+    <string name="login_welcome_tts">Добро пожаловать в общественную сеть интеркома</string>
+    <string name="login_welcome_idata">Добро пожаловать в приложение интеркома</string>
+    <string name="login_welcome_Telecom_4G">Добро пожаловать в Telecom 4G интерком</string>
+    <string name="user_agreement">Я прочитал и согласен с Пользовательским соглашением</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">Интерком</string>
+    <string name="main_tab_report">Приложения</string>
+    <string name="main_tab_map">Карта</string>
+    <string name="main_tab_setting">Настройки</string>
+    <string name="main_tab_operator">Главная</string>
+    <string name="main_tab_talkbackRecord">Записи интеркома</string>
+    <string name="main_tab_grp">Group</string>
+
+    <string name="accessibility_service_description">Умная установка, услуги доступности</string>
+    <string name="search_hint_group">Введите ключевые слова для поиска групп</string>
+    <string name="search_hint_group_member">Введите ключевые слова для поиска членов группы</string>
+    <string name="search_hint_friend">Введите ключевые слова для поиска друзей</string>
+    <string name="search_hint_norm">Введите ключевые слова для поиска</string>
+    <string name="search_hint_easy">Введите ключевые слова</string>
+
+    <string name="title_LoginActivity">Вход</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">Группа</string>
+    <string name="title_FriendFragment">Друг</string>
+    <string name="title_DispatcherFragment">Диспетчер</string>
+    <string name="title_contactsFragment">Контакты</string>
+    <string name="title_MyFragment">Я</string>
+    <string name="title_ABoutActivity">О программе</string>
+    <string name="title_ConnOffDialogActivity">Аномальный вход</string>
+    <string name="title_FeedbackActivity">Обратная связь</string>
+    <string name="title_SetLanguageActivity">Настройки языка</string>
+    <string name="title_SetTextSizeActivity">Настройки шрифта</string>
+    <string name="title_SetNetWorkActivity">Режим сети</string>
+    <string name="title_SetUpReportCycleActivity">Настройки местоположения</string>
+    <string name="title_SetUpReportVideoSizeActivity">Разрешение видеоотчета</string>
+    <string name="title_videoConfig">Конфигурация видео</string>
+    <string name="title_SetGPSReportCycleActivity">Услуга местоположения</string>
+    <string name="title_SetLocationReportActivity">Отчет о местоположении</string>
+    <string name="title_SysSetActivity">Настройки</string>
+    <string name="title_SetNormActivity">Общие настройки</string>
+    <string name="title_PocMemberListActivity">Члены группы</string>
+    <string name="title_ChatActivity">Chat</string>
+    <string name="title_UpReportPhotoActivity">Фотоотчет</string>
+    <string name="title_UpreportVideoActivity">Видеоотчет</string>
+    <string name="title_UpReportVioceActivity">Голосовой отчет</string>
+    <string name="title_PocGroupNoticeActivity">Объявления</string>
+    <string name="title_requestDispatcher">Запрос диспетчера</string>
+    <string name="title_UserDescActivity">Личная информация</string>
+    <string name="title_SetSaveNoticeNumberActivity">Настройки сохранения объявлений</string>
+    <string name="title_SelectMemberActivity">Выбор членов</string>
+    <string name="title_TalkbackSoundActivity">Временный вызов</string>
+    <string name="title_TempGrp">Временная группа</string>
+    <string name="title_dispatchTempCall">Вызов диспетчера</string>
+
+    <string name="title_PlayRecordActivity">Мои записи</string>
+    <string name="title_RecordListActivity">Мои записи</string>
+    <string name="title_SearchConditionsActivity">Поиск</string>
+    <string name="title_TalkbackRecord">Записи интеркома</string>
+
+    <string name="title_activity_maps">GoogleMap</string>
+    <string name="title_UserAgreementAct">Пользовательское соглашение</string>
+    <string name="title_setDomain">Настройки домена</string>
+    <string name="title_PatrolRecordActivity">Список инспекций</string>
+    <string name="title_terminal_location">Местоположение терминала</string>
+    <string name="title_attach_fun">Быстрые приложения</string>
+    <string name="server">Сервер</string>
+    <string name="domain">Домен</string>
+    <string name="port">Порт</string>
+    <string name="other">Другие</string>
+
+    <string name="title_singlechip_autobackmain_timer">Время автоматического возврата</string>
+    <string name="title_poc_intercom">Кластерный интерком</string>
+    <string name="title_file_manager">Воспроизведение файлов</string>
+    
+    <string name="btn_close">Выкл</string>
+    <string name="btn_open">Вкл</string>
+    <string name="btn_affirm">Подтвердить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_submit">Отправить</string>
+    <string name="btn_send">Отправить</string>
+    <string name="btn_login">Вход</string>
+    <string name="btn_login_out">Выход</string>
+    <string name="btn_clean_data">Очистить аккаунт</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">Групповой видеозвонок</string>
+
+    <string name="btn_hangup">Положить трубку</string>
+    <string name="btn_accept">Принять</string>
+    <string name="btn_refuse">Отклонить</string>
+    <string name="btn_speakerphone">Громкая связь</string>
+    <string name="btn_silence">Беззвучный режим</string>
+    <string name="btn_camera_change">Смена</string>
+
+    <string name="btn_upreport_source">Оригинал</string>
+    <string name="btn_upreport_compress">Сжать</string>
+    <string name="btn_source_nativce">Локальный</string>
+    <string name="btn_source_photograph">Фотографировать</string>
+    <string name="btn_source_film">Снимать фильм</string>
+    <string name="btn_talk_photo">Сделать фото</string>
+
+    <string name="btn_update_now">Обновить сейчас</string>
+    <string name="btn_update_no">Обновить позже</string>
+    <string name="btn_upreport_location">Отчет о местоположении</string>
+    <string name="btn_upreport_photo">Фотоотчет</string>
+    <string name="btn_upreport_video">Видеоотчет</string>
+    <string name="btn_upreport_voice">Голосовой отчет</string>
+    <string name="btn_upreport_sos">Кнопка SOS</string>
+    <string name="btn_upreport_Patrol">Запись патруля</string>
+    <string name="btn_upreport_scan">Сканировать</string>
+    <string name="btn_remote_monitoring">Удаленный мониторинг</string>
+    <string name="btn_record_log">Голосовая запись</string>
+
+    <string name="menu_apply_notice">Уведомление</string>
+    <string name="menu_apply_group">Группа</string>
+    <string name="menu_apply_friend">Друг</string>
+    <string name="menu_apply_member">Член</string>
+    <string name="menu_apply_dispatch">Диспетчер</string>
+    <string name="menu_apply_groupSelect">Выбор группы</string>
+    <string name="menu_apply_groupOpt">Мои группы</string>
+    <string name="menu_gid_input">Введите ID группы</string>
+    <string name="menu_apply_friendSelect">Выбор друга</string>
+    <string name="menu_apply_memberSelect">Выбор члена</string>
+    <string name="menu_apply_dispatchSelect">Выбор диспетчера</string>
+    <string name="menu_apply_location">Местоположение</string>
+    <string name="menu_apply_setting">Настройки</string>
+    <string name="menu_apply_setting1">Настройки функции</string>
+    <string name="menu_apply_upreport_photo">Фотоотчет</string>
+    <string name="menu_apply_upreport_video">Видеоотчет</string>
+    <string name="menu_apply_upreport_voice">Голосовой отчет</string>
+    <string name="menu_apply_scan">Сканировать</string>
+    <string name="menu_apply_patrol">Запись инспекции</string>
+    <string name="menu_apply_sos_record">Запись SOS</string>
+    <string name="menu_apply_train">Управление железной обувью</string>
+    <string name="menu_apply_sound">Звуковая колонна</string>
+    <string name="menu_apply_sos">Кнопка SOS</string>
+    <string name="menu_apply_record_log">Голосовая запись</string>
+    <string name="menu_apply_voice_list">Список голосов</string>
+    <string name="menu_apply_terminal_location">Местоположение терминала</string>
+
+    <string name="btn_call_voice">Голосовой звонок</string>
+    <string name="btn_call_video">Видеозвонок</string>
+    <string name="btn_switch_camera">Смена камеры</string>
+    <string name="btn_touch_video">Удерживать для съемки</string>
+
+    <string name="btn_fluency">Плавный</string>
+    <string name="btn_common">Стандартный</string>
+    <string name="btn_standard">Стандартный</string>
+    <string name="btn_high">HD</string>
+    <string name="btn_press_speak">Удерживать для разговора</string>
+    <string name="btn_loosen_end">Отпустить для завершения</string>
+    <string name="btn_member">Член</string>
+    <string name="btn_grplocation">Местоположение группы</string>
+    <string name="btn_terminal_location">Местоположение терминала</string>
+<string name="btn_navigation">Навигация</string>
+    <string name="btn_onekey_navigation">Однокнопочная навигация</string>
+    <string name="btn_navigation_start">Начать навигацию</string>
+
+    <string name="item_sysset_message_hint">Оповещение о сообщении</string>
+    <string name="item_sysset_VolumeControl">Контроль громкости</string>
+    <string name="item_sysset_VoiceEnhance">Усиление голоса</string>
+    <string name="item_sysset_TTSVolume">Громкость TTS</string>
+    <string name="item_sysset_PlayEnhance">Усиление громкости</string>
+    <string name="item_sysset_RecordEnhance">Усиление записи</string>
+    <string name="item_sysset_textsize">Размер шрифта</string>
+    <string name="item_sysset_network_mode">Режим сети</string>
+    <string name="item_sysset_language">Настройки языка</string>
+    <string name="item_sysset_meeting">Видео окно</string>
+    <string name="item_sysset_resolution">Разрешение</string>
+    <string name="item_sysset_alarm_settings">Настройки сигнала тревоги</string>
+    <string name="item_sysset_norm">Общие настройки</string>
+    <string name="item_sysset_location">Настройки местоположения</string>
+    <string name="item_sysset_locationinfo">Информация о местоположении</string>
+    <string name="item_sysset_location_report">Служба местоположения</string>
+    <string name="item_sysset_upreport">Цикл отчета о местоположении</string>
+    <string name="item_sysset_video_record_size">Качество записи видео</string>
+    <string name="item_sysset_notice_save_number">Сохранить номер объявления %1$s элементов</string>
+    <string name="item_sysset_warning_tone_switch">Сигнал тревоги</string>
+    <string name="item_sysset_notice_switch">Уведомление об объявлении</string>
+    <string name="item_sysset_video_voice_double">Дуплекс видео голоса</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">Показать страницу во время отправки видео</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">Качество звука HD</string>
+    <string name="item_sysset_station">Базовая станция</string>
+    <string name="item_sysset_station_location">Расположение базовой станции</string>
+    <string name="item_sysset_gps">Фильтрация GPS</string>
+    <string name="item_sysset_gps_control">Отправка местоположения</string>
+    <string name="item_sysset_voice_type">Голосовое объявление</string>
+    <string name="item_sysset_voice_OnLine_ispriority">Приоритет онлайн голоса TTS</string>
+    <string name="item_sysset_video_config">Настройка видео</string>
+    <string name="item_sysset_video_watermark">Водяной знак видео</string>
+    <string name="item_sysset_watermark_size">Размер водяного знака</string>
+    <string name="item_sysset_ptt_wake_up">Экран интеркома включен</string>
+    <string name="item_power_mode">Режим питания</string>
+    <string name="item_powerLowModel">Режим ожидания</string>
+    <string name="item_powerHeightModel">Режим высокой производительности</string>
+    <string name="item_powerHeightModel1">Режим производительности</string>
+    <string name="item_sysset_enable_agps">AGPS</string>
+    <string name="item_sysset_min_distance">Минимальное расстояние для отчета</string>
+
+    <string name="item_voiceAnnouncements">Голосовое объявление</string>
+
+    <string name="item_video_collection_ratio">Разрешение сбора видео</string>
+    <string name="item_video_auto_rcv_snd">Авто отправка/получение видео</string>
+    <string name="item_video_auto_rcv_snd_desc">Немедленная отправка/получение видео</string>
+
+    <string name="item_upreport_no">Нет отчета</string>
+    <string name="item_upreport_high">Высокая частота %1$s</string>
+    <string name="item_upreport_middle">Средняя частота %1$s</string>
+    <string name="item_upreport_low">Низкая частота %1$s</string>
+
+    <string name="item_account">Аккаунт</string>
+    <string name="item_Feedback">Обратная связь</string>
+    <string name="item_set">Настройки</string>
+    <string name="item_about">О версии</string>
+    <string name="item_appVersion_desc">Информация об устройстве</string>
+    <string name="item_check_update_version">Проверить обновления</string>
+    <string name="item_sysSetting">Настройки системы</string>
+    <string name="version_RollBack">Откат версии</string>
+    <string name="version_desc">Информация о версии</string>
+    <string name="version_sys_desc">Информация о системе</string>
+    <string name="version_update_ing">Обновление</string>
+    <string name="version_download_succeed">Обновление успешно получено</string>
+    <string name="version_download_err">Ошибка получения обновления</string>
+    <string name="version_install_ing">Установка</string>
+    <string name="version_install_succeed">Обновление успешно завершено</string>
+    <string name="please_reboot_device">Перезагрузите устройство</string>
+    <string name="version_restart_app">Перезапуск</string>
+
+    <string name="item_personal_details_username">Имя: %1$s</string>
+    <string name="item_personal_details_account">Аккаунт: %1$s</string>
+    <string name="item_personal_details_ID">ID: %1$s</string>
+    <string name="item_personal_details_Imei0">IMEI:</string>
+    <string name="item_personal_details_Imei">IMEI: %1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">Видеозвонок</string>
+    <string name="item_talkback_menu_item_video_upload">Загрузка видео</string>
+    <string name="item_talkback_menu_item_video_look">Просмотр видео</string>
+    <string name="item_talkback_menu_item_video_silence_look">Бесшумный просмотр</string>
+    <string name="item_talkback_menu_item_voice_talkback">Временный звонок</string>
+    <string name="item_talkback_menu_item_voice_call">Голосовой звонок</string>
+    <string name="item_talkback_menu_item_voice_chat">Голосовой чат</string>
+    <string name="item_talkback_menu_item_chat">Чат</string>
+
+    
+    <string name="hint_please_open_gps">Включите/выключите GPS в настройках</string>
+    <string name="hint_please_permission">Пожалуйста, разрешите доступ</string>
+    <string name="hint_please_select_condition">Пожалуйста, выберите условие</string>
+    <string name="hint_file_size_not_none">Невозможно загрузить изображение размером 0KB</string>
+
+    <string name="hint_please_inputContent">Пожалуйста, введите содержимое</string>
+    <string name="hint_current_version">Текущая версия</string>
+    <string name="hint_current_version_newest">Нет доступных обновлений</string>
+
+    <string name="hint_content_least_10num">Содержимое должно быть не менее 10 символов</string>
+    <string name="hint_username_or_psw_notNull">Имя пользователя или пароль не могут быть пустыми</string>
+    <string name="hint_account_or_psw_notNull">Аккаунт или пароль не могут быть пустыми</string>
+    <string name="hint_phone_format_err">Неверный формат номера телефона</string>
+    <string name="hint_psw_least_6num">Пароль должен быть не менее 6 символов</string>
+    <string name="hint_login_Failure">Ошибка входа</string>
+    <string name="hint_login_account_notExist">Аккаунт не существует</string>
+    <string name="hint_input_invalid">Недействительный ввод</string>
+    <string name="hint_login_jpassword_err">Неверный пароль дистрибьютора</string>
+    <string name="hint_login_jpassword_ok">Пароль дистрибьютора успешно изменен</string>
+    <string name="hint_login_psw_err">Неверный пароль</string>
+    <string name="hint_login_account_Invalid">Недействительный аккаунт</string>
+    <string name="hint_login_account_or_psw_err">Неверный аккаунт или пароль</string>
+    <string name="hint_login_pswOut_of_date">Пароль истек, пожалуйста, свяжитесь с администратором для изменения</string>
+    <string name="hint_phone_num">Номер телефона</string>
+    <string name="hint_account">Аккаунт</string>
+    <string name="hint_psw">Пароль</string>
+    <string name="hint_notice">Объявление</string>
+    <string name="hint_search">Поиск</string>
+
+    <string name="hint_reset_app_affirm_update">Перезапустить приложение для подтверждения изменений?</string>
+    <string name="hint_affirm_loginout">Подтвердить выход?</string>
+    <string name="hint_chat_no_self">Невозможно общаться с самим собой</string>
+    <string name="hint_voice_least_long">Голос слишком короткий</string>
+
+    <string name="hint_target">Цель</string>
+    <string name="hint_talkback_state_prepare">Подготовка...</string>
+    <string name="hint_talkback_state_wait_accept">Ожидание принятия...</string>
+    <string name="hint_talkback_state_talkback_ing">Интерком в процессе...</string>
+    <string name="hint_talkback_state_request">Запрос видеозвонка...</string>
+    <string name="hint_talkback_state_request_voice">Запрос голосового звонка...</string>
+    <string name="hint_talkback_state_opposite_hangup">Звонок завершен другой стороной...</string>
+    <string name="hint_talkback_state_opposite_accept">Принято другой стороной...</string>
+    <string name="hint_talkback_state_call_failure">Ошибка звонка...</string>
+    <string name="hint_talkback_state_opposite_busy">Другая сторона занята...</string>
+    <string name="hint_talkback_state_no_answer">Нет ответа...</string>
+    <string name="hint_UnAnswered">Не отвечено...</string>
+    <string name="hint_talkback_state_native_video_err">Локальное видео отключено...</string>
+    <string name="hint_talkback_state_opposite_video_err">Видео отключено другой стороной...</string>
+    <string name="hint_chatvideo_err">Видео отключено...</string>
+    <string name="hint_talkback_state_opposite_off">Другая сторона оффлайн</string>
+    <string name="hint_talkback_state_conn_failure">Ошибка подключения...</string>
+    <string name="hint_talkback_state_hanup">Звонок завершен...</string>
+
+    <string name="hint_video_call_conn_ok">Подключено...</string>
+    <string name="hint_video_call_conning">Подключение...</string>
+    <string name="hint_video_request_upload_video">Запрос на загрузку видео...</string>
+    <string name="hint_video_request_look_video">Запрос на просмотр видео...</string>
+    <string name="hint_none">Неактивен</string>
+    <string name="wu">Нет</string>
+    <string name="hint_Idle_waiting">Ожидание неактивности</string>
+
+    <string name="hint_talkback_please_new_talkback">Обратите внимание, у вас новый интерком:</string>
+
+    <string name="hint_upreport_photo">Отчет о фото</string>
+    <string name="hint_please_select_photo">Нет загруженных фото</string>
+    <string name="hint_please_select_video">Нет загруженных видео</string>
+    <string name="hint_please_sd">Пожалуйста, вставьте SD карту</string>
+    <string name="hint_photo_compress_ing">Сжатие фото...</string>
+    <string name="hint_file_upload_failure">Ошибка загрузки файла</string>
+    <string name="hint_file_upload">Загрузка файла</string>
+    <string name="hint_complete">Завершено</string>
+    <string name="hint_complete_suc">Завершено</string>
+    <string name="hint_complete_no">Не завершено</string>
+    <string name="hint_describe">Описание</string>
+    <string name="hint_describe_video">Отчет о видео\nПримечание: В настоящее время поддерживаемый формат видео - MP4</string>
+<string name="hint_video_only_mp4">В настоящее время поддерживаются только видео MP4</string>
+    <string name="hint_nofile">Файл не найден</string>
+    <string name="hint_video_max_size">Размер файла не должен превышать 50 МБ</string>
+
+    <string name="hint_affirm_">Подтвердить выход</string>
+    
+    <string name="about_desc">Групповой интерком</string>
+    <string name="about_desc_same">Групповой интерком</string>
+
+    <string name="hint_textsize_set_change_hint">Настройка размера шрифта, эффективна после перезагрузки</string>
+
+    <string name="hint_welcome_back">Добро пожаловать обратно</string>
+    <string name="hint_opposite_account_exception">Аккаунт другой стороны аномален</string>
+    <string name="hint_upload">Загрузить</string>
+    <string name="hint_uploading">Загрузка...</string>
+    <string name="hint_have_upload">Загружено</string>
+    <string name="hint_upload_succeed">Загрузка успешна</string>
+    <string name="hint_upload_failure">Загрузка не удалась</string>
+
+    <string name="hint_chat_videoing">Видео идет</string>
+    <string name="hint_chat_videorecording">Запись видео</string>
+    <string name="hint_chat_voicerecording">Запись голоса</string>
+    <string name="hint_please_hangup_call">Пожалуйста, сначала завершите звонок</string>
+    <string name="and">и</string>
+    <string name="hint_in_new_video">Обратите внимание, у вас новый интерком:</string>
+    <string name="hint_double_exit">Нажмите еще раз, чтобы выйти</string>
+    <string name="hint_click_savelog">Нажмите еще %1$s раз, чтобы захватить лог</string>
+    <string name="hint_click_savelog_cancel">Нажмите еще %1$s раз, чтобы отменить захват лога</string>
+    <string name="hint_click_saveloging">Захват лога</string>
+    <string name="hint_click_savelog_close">Закрыть захват лога</string>
+    <string name="hint_get_ststoken_failure">Не удалось получить STSToken</string>
+    <string name="hint_download">Скачать</string>
+    <string name="hint_download_ing">Загрузка...</string>
+    <string name="hint_download_finish">Загрузка завершена</string>
+    <string name="hint_download_failure">Ошибка загрузки</string>
+    <string name="hint_download_Progress">Прогресс загрузки</string>
+    <string name="hint_download_address_err">Ошибка адреса</string>
+    <string name="hint_download_file_damage">Файл поврежден</string>
+    <string name="hint_connect_timeout">Тайм-аут подключения</string>
+    <string name="hint_timeout">Время вышло</string>
+    <string name="hint_connect_timeout_query_group_list">Тайм-аут получения списка групп</string>
+    <string name="hint_connect_timeout_enter_group_list">Тайм-аут переключения группы</string>
+    <string name="hint_network_err">Ошибка сети</string>
+    <string name="hint_data_parse_err">Ошибка разбора данных</string>
+    <string name="hint_tts_init_err">Не удалось инициализировать синтез речи!</string>
+    <string name="hint_login_succeed">Вход выполнен успешно</string>
+    <string name="hint_login_failure">Не удалось войти</string>
+    <string name="hint_yesterday">Вчера</string>
+    <string name="hint_open_camera_failure">Не удалось открыть камеру! Пожалуйста, проверьте</string>
+    <string name="hint_camera_time_small">Время записи должно быть не менее 3 секунд</string>
+    <string name="hint_can_enter">Вы можете ввести еще %1$d символов</string>
+    <string name="hint_can_enter_count">%1$d/%2$d символов</string>
+    <string name="character">символов</string>
+    <string name="hint_current_onLine_member">Текущие участники онлайн (%1$d человек)</string>
+    <string name="hint_current_onLine_member2">Онлайн (%1$d)</string>
+    <string name="hint_enter_group_failure">Не удалось переключить группу</string>
+    <string name="hint_request_dispatcher">%1$s запросил отправку вас</string>
+    <string name="hint_request_look_video">%1$s запросил просмотр видео</string>
+    <string name="hint_request_upload_video">%1$s запросил загрузку видео</string>
+    <string name="hint_request_broadcast_video">%1$s запросил трансляцию видео</string>
+    <string name="hint_request_monitoring_video">%1$s запросил мониторинг видео</string>
+    <string name="hint_refuse_speak_in_video_meeting">Отказаться от разговора</string>
+    <string name="hint_can_speak_in_video_meeting">Можно говорить</string>
+    <string name="hint_request_speak_in_video_meeting">Запросить разговор</string>
+
+    <string name="hint_enter_mode_person">Вход в режим одиночного вызова</string>
+    <string name="hint_enter_mode_member">Вход в режим участника</string>
+    <string name="hint_enter_mode_friend">Вход в режим друга</string>
+    <string name="hint_enter_mode_group">Вход в режим группы</string>
+    <string name="hint_out_mode_person">Выход из режима одиночного вызова</string>
+    <string name="hint_out_mode_group">Выход из режима группы</string>
+    <string name="hint_out_mode_member">Выход из режима участника</string>
+    <string name="hint_out_mode_friend">Выход из режима друга</string>
+    <string name="hint_out_mode_voice">Выход из голосового воспроизведения</string>
+    <string name="hint_enter_mode_voice">Голосовое воспроизведение</string>
+    <string name="hint_ptt_request_micing">Запрос микрофона...</string>
+    <string name="hint_ptt_speak_ing">Говорю...</string>
+    <string name="hint_press_record">Нажмите, чтобы записать</string>
+    <string name="hint_ptt_loosen_over">Отпустите, чтобы закончить...</string>
+    <string name="hint_voice_record_ing">Воспроизведение голоса...</string>
+    <string name="hint_ptt_request_mic_failure">Не удалось использовать интерком</string>
+    <string name="hint_ptt_current_no_request_mic">Невозможно запросить микрофон сейчас</string>
+    <string name="hint_enterjoin_group">Войти в группу</string>
+    <string name="hint_enterjoin_group_ing">Переключение группы...</string>
+    <string name="hint_not_available_Group">Нет группы</string>
+    <string name="hint_not_available_Group_more">Больше нет групп</string>
+    <string name="hint_not_Group_member">Нет участников</string>
+    <string name="hint_not_Group_member_more">Больше нет участников</string>
+    <string name="hint_not_enter_GroupSelect">Выбор группы</string>
+    <string name="hint_not_enter_GroupMember">Выбор участника</string>
+    <string name="hint_not_currunt_Member">Текущий участник</string>
+    <string name="hint_not_enter_FriendMember">Выбор друга</string>
+    <string name="hint_not_exit_FriendMember">Выход из выбора друга</string>
+    <string name="hint_not_exit_GroupMember">Выход из выбора участника</string>
+    <string name="hint_not_exit_GroupSelect">Выход из выбора группы</string>
+    <string name="hint_not_exit_DispatchMember">Выход из выбора отправителя</string>
+    <string name="hint_not_exit_Voice">Выход из голосового воспроизведения</string>
+    <string name="hint_not_groupList">Нет группы</string>
+    <string name="hint_not_friendList">Нет друга</string>
+    <string name="hint_not_memberList">Нет участников</string>
+    <string name="hint_not_dispatchList">Нет отправителя</string>
+    <string name="hint_not_noticeList">Нет уведомлений</string>
+    <string name="hint_not_line_memberList">Нет участников онлайн</string>
+    <string name="hint_not_line_friendList">Нет друзей онлайн</string>
+    <string name="hint_not_line_dispatchList">Нет отправителей онлайн</string>
+
+    <string name="hint_disconn_login_video_failure">Ошибка входа в видео</string>
+    <string name="hint_disconn_login_video">Видео вход отключен</string>
+    <string name="hint_disconn_login_voice">Голосовой вход отключен</string>
+    <string name="hint_disconn_login">Вход отключен</string>
+    <string name="hint_attention_please_POC_lostConnection">Обратите внимание, POC вход был отключен</string>
+    <string name="hint_attention_please_Video_lostConnection">Обратите внимание, видео вход был отключен</string>
+    <string name="hint_videoLogin_Reconnect">Повторное подключение видео входа</string>
+    <string name="hint_POCLogin_Reconnect">Повторное подключение POC входа</string>
+    <string name="hint_please_login">Не вошел</string>
+    <string name="hint_please_loginSignalling">Инициализация сигнализации</string>
+    <string name="hint_login_ing">Вход...</string>
+    <string name="hint_please_read_userAgreement">Пожалуйста, сначала прочтите Соглашение с пользователем...</string>
+
+    <string name="hint_You_have_a_new_notice">У вас новое уведомление</string>
+    <string name="hint_yu_an_notice">Аварийная передача</string>
+
+    <string name="hint_notice_save_item_range">Номер между %1$s и %2$s</string>
+    <string name="hint_notice_save_min_item">Сохранить как минимум %1$s элементов</string>
+    <string name="hint_notice_save_max_item">Сохранить до %1$s элементов</string>
+
+    <string name="hint_select_persion">Пожалуйста, выберите участников</string>
+    <string name="hint_select_least_persion">Пожалуйста, выберите как минимум одного человека</string>
+    <string name="hint_temp_call_create_failure">Звонок не удался</string>
+    <string name="hint_temp_call_double_exit">Нажмите еще раз, чтобы выйти из интеркома</string>
+    <string name="hint_please_insert_sim">Пожалуйста, вставьте SIM-карту</string>
+
+    <string name="hint_voice_mic_ing">Говорю (%1$s)</string>
+    <string name="hint_voice_me_state">Мой статус: %1$s</string>
+
+    <string name="hint_exploit_ing">Разработка...</string>
+
+    <string name="hint_getlocationerr_please_check_network">Не удалось определить местоположение, проверьте настройки сети или GPS</string>
+    <string name="hint_Anti_Hijacking_hint">Ваш экран входа в систему покрыт, пожалуйста, подтвердите, что среда входа безопасна</string>
+    <string name="hint_input_code_err">Ошибка ввода кода подтверждения</string>
+    <string name="hint_input_code_timeOut">Код подтверждения истек</string>
+    <string name="hint_location_Unknown">Неизвестное местоположение</string>
+
+    <string name="hint_notice_list">Список объявлений</string>
+    <string name="hint_loging_otherterminals">Вход выполнен на других терминалах</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">Вход выполнен на других терминалах</string>
+    <string name="hint_loging_yaobi">Аккаунт деактивирован</string>
+
+    <string name="hint_violation_content_illegal">Содержание незаконно</string>
+    <string name="hint_violation_video_auditing">Видео загружено успешно, проходит проверку!</string>
+    <string name="hint_violation_photo_violation">Загрузка не удалась, фото подозревается в нарушении!</string>
+    <string name="hint_violation_video_violationt">Видео проверка не удалась, видео подозревается в нарушении!</string>
+    <string name="hint_Account_Sealed">Аккаунт заморожен! Пожалуйста, попробуйте позже.</string>
+
+    <string name="hint_feedback_question_hint">Категория вопроса</string>
+    <string name="hint_feedback_question_type_bug">ОШИБКА</string>
+    <string name="hint_feedback_question_type_demand">Запрос</string>
+    <string name="hint_feedback_question_type_impeach">Сообщить</string>
+    <string name="hint_feedback_impeach_hint">Содержание сообщения</string>
+    <string name="hint_feedback_impeach_type_yellow">Порнография</string>
+    <string name="hint_feedback_impeach_type_politik">Политика</string>
+    <string name="hint_feedback_impeach_type_violence">Терроризм</string>
+    <string name="hint_feedback_impeach_type_other">Другие</string>
+    <string name="hint_feedback_content_hint">Описание содержания</string>
+    <string name="hint_feedback_input_content_hint">Пожалуйста, введите ваше описание</string>
+    <string name="hint_feedback_phone_hint">Контактная информация (по желанию)</string>
+<string name="hint_feedback_input_phone_hint">Пожалуйста, введите вашу контактную информацию</string>
+    <string name="hint_feedback_submit_succeed">Отзыв отправлен</string>
+    <string name="hint_feedback_submit_content_stringform">
+        Тип отзыва: %1$s\n
+        Тип отчета: %2$s\n
+        Контактная информация: %3$s\n
+        Описание содержания: %4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        Тип отзыва: %1$s\n
+        Контактная информация: %2$s\n
+        Описание содержания: %3$s
+    </string>
+    <string name="hint_setDomain_domain">Домен:</string>
+    <string name="hint_setDomain_loginServer_hint">Сервер входа</string>
+    <string name="hint_setDomain_pocServer">Адрес входа:</string>
+    <string name="hint_setDomain_VideoServer">Адрес сигнальной службы:</string>
+    <string name="hint_setDomain_DispatchServer">Адрес диспетчерской службы:</string>
+    <string name="hint_setDomain_fastdfsServer">Адрес файла:</string>
+    <string name="hint_setDomain_fastdfsUploadServer">Адрес загрузки:</string>
+    <string name="hint_setDomain_getconfig">Получить конфигурацию</string>
+    <string name="hint_setDomain_Restore_default">Восстановить по умолчанию</string>
+    <string name="hint_setDomain_getconfig_failure">Обновление не удалось</string>
+    <string name="hint_setDomain_getconfig_succeed">Обновление успешно, подтвердите сохранение</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">Обновление успешно, выберите среду</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">Пожалуйста, сохраните изменения</string>
+    <string name="hint_setDomain_getconfig_default">Восстановлено по умолчанию, подтвердите сохранение</string>
+    <string name="hint_setDomain_uploadUrl_invalid">Недопустимый адрес загрузки</string>
+
+    <string name="hint_poc_current_member">Текущий пользователь: %1$s</string>
+    <string name="hint_poc_current_group">Текущая группа: %1$s</string>
+    <string name="hint_poc_this_machine_user">Местный пользователь: %1$s</string>
+    <string name="hint_poc_current_memberHint">Текущий пользователь:</string>
+    <string name="hint_poc_current_groupHint">Текущая группа:</string>
+    <string name="hint_poc_this_machine_userHint">Местный пользователь:</string>
+    <string name="hint_user_desc">Информация о пользователе</string>
+    <string name="hint_poc_group_select">Выбор группы</string>
+    <string name="hint_poc_friend_select">Выбор друга</string>
+    <string name="hint_poc_member_select">Выбор участника</string>
+    <string name="hint_poc_member_toomany">Слишком много участников</string>
+    <string name="hint_poc_dispatcher_select">Выбор диспетчера</string>
+    <string name="hint_poc_group_selectShort">Группа</string>
+    <string name="hint_poc_friend_selectShort">Друг</string>
+    <string name="hint_poc_member_selectShort">Участник</string>
+    <string name="hint_poc_dispatcher_selectShort">Диспетчер</string>
+    <string name="hint_please_select_group">Пожалуйста, выберите группу</string>
+    <string name="hint_please_select_member">Пожалуйста, выберите участника</string>
+    <string name="hint_temp_voice_add">Присоединиться к временному вызову</string>
+    <string name="hint_ptt_click_send_tempcall">PTT начать временный вызов</string>
+    <string name="hint_cur_tempcall">В временном вызове</string>
+    <string name="hint_video_set_err">Ошибка настройки разрешения видео</string>
+    <string name="hint_video_current_not_enable">Текущий видеомодуль не поддерживается</string>
+    <string name="hint_not_support">Не поддерживается</string>
+    <string name="hint_quality">Качество</string>
+    <string name="hint_Resolving">Разрешение</string>
+    <string name="hint_video_quality">Качество видео</string>
+    <string name="hint_video_screenOrientation">Ориентация видео</string>
+    <string name="hint_video_angle">Угол видео</string>
+    <string name="landscape">Альбомная</string>
+    <string name="portrait">Портретная</string>
+    <string name="hint_video_Resolving">Разрешение видео</string>
+    <string name="hint_uplocation_locationErr">Не удалось получить местоположение</string>
+    <string name="hint_uplocation_currendLocation">Местоположение</string>
+    <string name="hint_uplocation_isRunUpreport">Отчет начат</string>
+    <string name="hint_uplocation_locationIsEffective">Местоположение эффективно</string>
+    <string name="hint_uplocation_distanceIsEffective">Расстояние эффективно</string>
+    <string name="hint_uplocation_UpReportState">Состояние отчета</string>
+
+    <string name="hint_remote_change_account">Удаленная смена номера</string>
+    <string name="hint_remote_change_account_notPermission">Нет разрешения на удаленную смену номера</string>
+    <string name="hint_notPermission">Нет разрешения</string>
+    <string name="hint_volume_please_affirm">Пожалуйста, подтвердите контроль громкости</string>
+    <string name="hint_volume_level">Уровень громкости %1$s</string>
+    <string name="hint_voice_please_affirm">Пожалуйста, подтвердите улучшение громкости</string>
+    <string name="hint_tts_please_affirm">Пожалуйста, подтвердите громкость TTS</string>
+    <string name="hint_volume_enter">Вход в контроль громкости</string>
+    <string name="hint_volume_out">Выход из контроля громкости</string>
+    <string name="hint_voice_enter">Вход в улучшение громкости</string>
+    <string name="hint_voice_out">Выход из улучшения громкости</string>
+    <string name="hint_tts_enter">Вход в контроль TTS</string>
+    <string name="hint_tts_out">Выход из контроля TTS</string>
+    <string name="hint_enter_control">Вход в контроль</string>
+    <string name="hint_out_control">Выход из контроля</string>
+    <string name="hint_control_please_affirm">Пожалуйста, подтвердите контроль</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">Пожалуйста, подтвердите улучшение громкости</string>
+    <string name="hint_EnhanceVoicePlay_enter">Вход в улучшение контроля</string>
+    <string name="hint_EnhanceVoicePlay_out">Выход из улучшения контроля</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">Пожалуйста, подтвердите улучшение громкости записи</string>
+    <string name="hint_EnhanceVoiceRecord_enter">Вход в контроль записи</string>
+    <string name="hint_EnhanceVoiceRecord_out">Выход из контроля записи</string>
+
+    <string name="hint_sos_dig_time">Время:</string>
+    <string name="hint_sos_dig_time_strForm">Время: %1$s</string>
+    <string name="hint_sos_dig_address">Местоположение:</string>
+    <string name="hint_sos_dig_address_strForm">Местоположение: %1$s</string>
+    <string name="hint_sos_dig_group">Экстренная группа:</string>
+    <string name="hint_sos_dig_group_strForm">Экстренная группа: %1$s</string>
+    <string name="hint_sos_dig_name">Персонал:</string>
+    <string name="hint_sos_dig_name_strForm">Персонал: %1$s</string>
+    <string name="hint_sos_dig_distance_strForm">%1$s метров от вас</string>
+    <string name="hint_sos_dig_title">%1$s подал сигнал тревоги</string>
+    <string name="hint_sos_dig_title_new">%1$s подал сигнал тревоги в %2$s</string>
+    <string name="hint_sos_dig_title_new_ptt">Интерком %1$s подал сигнал тревоги</string>
+    <string name="hint_sos_dig_title_new_alarm">Тревога %1$s подал сигнал тревоги</string>
+    <string name="hint_sos_dig_unTitle">%1$s отменил сигнал тревоги</string>
+    <string name="hint_sos_help_failure">Тревога не удалась</string>
+    <string name="hint_sos_unhelp_failure">Отмена тревоги не удалась</string>
+    <string name="hint_sos_notLocation_notHelp">Не удалось получить местоположение, невозможно подать сигнал тревоги</string>
+    <string name="hint_sos_exitNavi">Выйти из навигации</string>
+    <string name="hint_sos_notRecord">Нет записей тревоги</string>
+    <string name="hint_sos_unHelp">Отменить сигнал тревоги</string>
+    <string name="hint_sos_unHelping">Отмена тревоги в процессе</string>
+    <string name="hint_sos_HelpIng">Подать сигнал тревоги</string>
+    <string name="hint_sos_Help_succeed">Тревога успешна</string>
+    <string name="hint_no_record">Нет записей</string>
+    <string name="hint_set_major_dispatch">Установить как главный диспетчер</string>
+
+    <string name="hint_sos_set_title">Номер тревоги</string>
+
+    <string name="hint_patrol_sign_err_notLocation">Чек-ин недействителен, не удалось получить местоположение</string>
+    <string name="hint_patrol_sign_err_server">Чек-ин не удался, ошибка сервера</string>
+    <string name="hint_patrol_sign_err_location">Чек-ин не удался, вне зоны обслуживания</string>
+    <string name="hint_patrol_sign_err_network">Чек-ин не удался, ошибка сети</string>
+    <string name="hint_patrol_sign_err_dataErr">Ошибка данных QR-кода</string>
+    <string name="hint_patrol_sign_err_scanErr">Сканирование QR-кода не удалось</string>
+    <string name="hint_patrol_sign_succeed">Чек-ин успешен</string>
+    <string name="hint_patrol_record_time">Время патрулирования</string>
+    <string name="hint_patrol_record_line">Линия патрулирования</string>
+    <string name="hint_patrol_record_postion">Позиция проверки</string>
+    <string name="hint_patrol_time_range">Время начала не может быть позже времени окончания</string>
+
+    <string name="hint_location_startPosition">Начать позиционирование</string>
+    <string name="hint_location_Succeed">Позиционирование успешно</string>
+    <string name="hint_location_not">Нет позиции</string>
+    <string name="hint_location_err">Позиционирование не удалось</string>
+    <string name="hint_location_change">Местоположение изменено</string>
+    <string name="hint_location_Navigation_planning">Планирование навигации</string>
+    <string name="hint_location_Navigation_plannErr">Планирование навигации не удалось</string>
+    <string name="hint_location_gpsLv">Сигнал GPS %1$s бар</string>
+    <string name="hint_location_gpsSignalWeak">Слабый сигнал GPS</string>
+    <string name="hint_location_gpsSignalStrong">Сильный сигнал GPS</string>
+    <string name="hint_location_gpsSignalGeneral">Нормальный сигнал GPS</string>
+
+    <string name="hint_voiceQuality_setting">Настройка качества звука</string>
+    <string name="hint_voiceQuality_High">Качество звука HD</string>
+    <string name="hint_voiceQuality_common">Обычное качество звука</string>
+
+    <string name="notice_video_call">Видеозвонок</string>
+    <string name="notice_request_video_call">Запросить видеочат</string>
+    <string name="notice_connect_exception">Ошибка соединения</string>
+    <string name="notice_login_exception">Аномальный вход</string>
+    <string name="notice_manage_notice">Уведомление о объявлении</string>
+    <string name="notice_video_call_broocast">Трансляция видео</string>
+    <string name="notice_video_call_monitoring">Видеодиспетчеризация</string>
+    <string name="notice_video_call_voice">Голосовой вызов</string>
+
+    <string name="noticetop_video_onReconnecting">Соединение видео-интерком сервиса</string>
+    <string name="noticetop_video_onReconnected">Видео-интерком сервис успешно подключен</string>
+    <string name="noticetop_video_onReconnectfailed">Соединение видео-интерком сервиса не удалось</string>
+    <string name="noticetop_POC_onReconnecting">Соединение POC интерком сервиса</string>
+    <string name="noticetop_POC_onReconnected">POC интерком сервис успешно подключен</string>
+    <string name="noticetop_POC_onReconnectfailed">Соединение POC интерком сервиса не удалось</string>
+    <string name="noticetop_network_off">Поиск сети</string>
+    <string name="noticetop_network_Switch">Переключение сети</string>
+    <string name="noticetop_current_connection_lost">Пожалуйста, обратите внимание! Текущая связь прервана</string>
+    <string name="network_signal_poor">Слабый сетевой сигнал у другой стороны</string>
+    <string name="network_signal_poor1">Слабый сетевой сигнал</string>
+
+    <string name="chat_type_video">【Видеочат】</string>
+<string name="chat_type_voice">【Голосовой чат】</string>
+    <string name="chat_imtype_video">【Видео】</string>
+    <string name="chat_imtype_img">【Изображение】</string>
+    <string name="chat_imtype_voice">【Голос】</string>
+    <string name="chat_imtype_pttvoice">【Голос PTT】</string>
+    <string name="chat_imtype_file">【Файл】</string>
+    <string name="chat_imtype_location">【Местоположение】</string>
+    <string name="chat_map_sendMessage_title">Сообщение</string>
+
+    <string name="member_offLine">Собеседник офлайн</string>
+    <string name="diapatch_offLine">Диспетчер офлайн</string>
+    
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">версия androidSdk:</string>
+    <string name="android_sys_version">версия системы android:</string>
+    <string name="phone_type">Модель телефона:</string>
+
+    <string name="large">Большой</string>
+    <string name="norm">Средний</string>
+    <string name="small">Маленький</string>
+    <string name="large_text">Большой</string>
+    <string name="norm_text">Средний</string>
+    <string name="small_text">Маленький</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">Автоматический</string>
+    <string name="manual">Ручной</string>
+
+    <string name="test_name">Xiaoming</string>
+    <string name="test_name2">Zhang San</string>
+    <string name="test_group_name">Группа разработки</string>
+    <string name="test_chat_msg">Привет! Красавица, давай вернемся сегодня вечером, чтобы поговорить о жизни</string>
+
+    <string name="hint_inout_feedback">Спасибо за ваше предложение, мы сделаем лучше</string>
+
+    <string name="hint_about_company">Голос PPT</string>
+    <string name="title_activity_google_maps">Карта</string>
+
+    <string name="have_sign_in">Вошел в систему</string>
+    <string name="no_sign_in">Не вошел в систему</string>
+    <string name="online_car_welcome">Добро пожаловать в онлайн-автомобиль</string>
+    <string name="online_car_notify">Пожалуйста, пристегните ремень безопасности</string>
+    <string name="navigation_str">Навигация</string>
+    <string name="navigation_Route">Планирование маршрута</string>
+    <string name="monitor_str">Мониторинг</string>
+    <string name="data_str">Список данных</string>
+    <string name="set_str">Настройки</string>
+    <string name="voice_record">Запись голоса</string>
+    <string name="sos_record">Запись тревоги</string>
+    <string name="voice_list">Список голосов</string>
+    <string name="voice_record1">Запись</string>
+    <string name="media_record">Запись</string>
+    <string name="patrol_record">Патрулирование</string>
+    <string name="voice_record_notopen">Запись голоса не открыта</string>
+    <string name="video_record">Запись видео</string>
+    <string name="text_record">Текстовое сообщение</string>
+    <string name="look_annex">Посмотреть приложение</string>
+    <string name="annex">Приложение</string>
+    <string name="device_info">Параметры терминала</string>
+    <string name="devmenu_str">Состояние устройства</string>
+    <string name="reboot_str">Перезагрузка</string>
+    <string name="voice_str">Регулировка громкости</string>
+    <string name="verinfo_str">О версии</string>
+    <string name="exitfail">Запрещено выходить во время вытягивания видео</string>
+
+    <string name="hint_lockscreen_lock">Блокировка</string>
+    <string name="hint_lockscreen_unlockIng">Разблокировка</string>
+    <string name="hint_lockscreen_unlockFaill">Не удалось разблокировать</string>
+    <string name="hint_lockscreen_unlockSucceed">Разблокировано</string>
+    <string name="hint_lockscreen_unlockHint">Длительное нажатие %1$s для разблокировки</string>
+    <string name="key_back">Клавиша Назад</string>
+    <string name="ring_volume">Громкость звонка</string>
+    <string name="alarm_volume">Громкость тревоги</string>
+    <string name="alert_volume">Громкость оповещения</string>
+    <string name="not_amap_app">Пожалуйста, установите приложение карты</string>
+    <string name="map_gaode_app">Карта Gaode</string>
+    <string name="map_baidu_app">Карта Baidu</string>
+    <string name="map_tencent_app">Карта Tencent</string>
+    <string name="map_select">Выбор карты</string>
+    <string name="create_group">Создать группу</string>
+    <string name="join_group">Присоединиться к группе</string>
+    <string name="delete_group">Удалить группу</string>
+    <string name="delete_mem">Удалить участника</string>
+    <string name="create_group_succ">Группа успешно создана</string>
+    <string name="join_group_succ">Успешно присоединился к группе</string>
+    <string name="delete_group_succ">Группа успешно удалена</string>
+    <string name="delete_mem_succ">Участник успешно удален</string>
+
+    
+    <string name="request_pull_somebody_video">Запрос на вытягивание видео %1$s</string>
+    <string name="request_push_somebody_video">%1$s запрашивает загрузку видео</string>
+    <string name="pulling_somebody_video">Вытягивание видео %1$s</string>
+    <string name="pullvideo">Вытягивание видео</string>
+    <string name="somebody_request_pull_video">%1$s запрашивает вытягивание видео</string>
+    <string name="somebody_request_video_chat">%1$s запрашивает видеозвонок</string>
+    <string name="request_somebody_video_chat">Запрос видеозвонка с %1$s</string>
+    <string name="talking_somebody_video_chat">В видеозвонке с %1$s</string>
+    <string name="somebody_request_video_share">%1$s запрос на совместное использование видео</string>
+    <string name="somebody_stop_video_share">%1$s остановил совместное использование видео</string>
+    <string name="invite_somebody_videomeeting">%1$s приглашает на %2$s встречу</string>
+    <string name="somebody_join_videomeeting">%1$s присоединился к встрече</string>
+    <string name="somebody_leave_videomeeting">%1$s покинул встречу</string>
+    <string name="delete_somebody_videomeeting">Подтвердите удаление участника %1$s</string>
+    <string name="create_meeting">Начать встречу</string>
+    <string name="meeting_name">Название встречи</string>
+    <string name="end_meeting">Завершить</string>
+    <string name="meeting_members">Участники встречи</string>
+    <string name="no_member_join">Никто не присоединился</string>
+    <string name="meeting_window_9">Экран разделен на 9</string>
+    <string name="meeting_window_4">Экран разделен на 4</string>
+    <string name="meeting_window_2">Экран разделен на 2</string>
+    <string name="request_upload_video">Загрузка видео</string>
+    <string name="videochat">Видеозвонок</string>
+    <string name="hangup_video">Повесить трубку</string>
+    <string name="see_video">%1$s смотрит видео</string>
+    <string name="ringing_video">Звонок</string>
+    <string name="accept_video">Смотреть видео %1$s</string>
+    <string name="reject_video">Отклонено</string>
+    <string name="cancel_pull_video">Отменить вытягивание</string>
+
+    <string name="hint_room_create_err">Ошибка создания видеокомнаты</string>
+    <string name="hint_open_local_err">Ошибка открытия локального видео</string>
+    <string name="hint_open_remote_err">Ошибка открытия удаленного видео</string>
+    <string name="hint_devices_err">Ошибка устройства</string>
+
+    <string name="hint_audio_video_acquisition">Захват аудио и видео</string>
+    <string name="hint_dont_operation">Не оперируйте</string>
+
+    
+    <string name="data_traffic_info">Информация о трафике</string>
+    <string name="data_traffic_low">Недостаточный трафик</string>
+    <string name="data_traffic_oom">Трафик превышен</string>
+    <string name="data_traffic_total">Итого: %1$s</string>
+    <string name="data_traffic_usedMonth">Использовано в этом месяце: %1$s</string>
+    <string name="data_traffic_usedDay">Использовано сегодня: %1$s</string>
+    <string name="data_traffic_surplusMonth">Осталось: %1$s</string>
+
+    <string name="snd_msg">Отправить сообщение</string>
+    <string name="snd_loc">Отправить местоположение</string>
+    <string name="clear_msg">Очистить запись</string>
+    <string name="set_work">Установить как рабочую группу</string>
+    <string name="workgrp">Рабочая группа:</string>
+    <string name="half_call">Полудуплексный звонок</string>
+    <string name="twoway_call">Частная сеть</string>
+    <string name="twoway_call1">Частная сеть связи</string>
+    <string name="video_duplex">Видео дуплекс</string>
+    <string name="add_contacts">Добавить контакт</string>
+    <string name="flash_lamp">Фонарь</string>
+
+    <string name="code_number">Номер: %1$s</string>
+    <string name="details">Подробности</string>
+    
+    
+    <string name="uav_system_name">Система трансляции БПЛА</string>
+    <string name="uav_text_broadcast">Текстовая трансляция</string>
+    <string name="uav_record_broadcast">Запись трансляции</string>
+    <string name="uav_realtime_broadcast">Прямая трансляция</string>
+    <string name="uav_text_broadcast_record">Запись</string>
+    <string name="uav_text_broadcast_play">Воспроизведение</string>
+    <string name="uav_text_broadcast_stop">Стоп</string>
+    <string name="uav_text_broadcast_sex">Выбор голоса:</string>
+    <string name="uav_text_broadcast_language">Мандарин</string>
+    <string name="uav_text_broadcast_man">Мужчина</string>
+    <string name="uav_text_broadcast_woman">Женщина</string>
+    <string name="uav_text_broadcast_mode">Режим воспроизведения:</string>
+    <string name="uav_text_broadcast_cycle">Цикл</string>
+<string name="uav_text_broadcast_speed">Скорость речи:</string>
+    <string name="uav_text_broadcast_normal">Нормальная</string>
+
+    <string name="hint_filemanager_filemanager">Файловый менеджер</string>
+    <string name="hint_filemanager_up_list">Список загрузок</string>
+    <string name="hint_filemanager_mian_point">Ключевой файл</string>
+    <string name="hint_filemanager_no_mian_point">Не ключевой файл</string>
+    <string name="hint_filemanager_all_file">Все файлы</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_date">Дата</string>
+    <string name="hint_path">Путь</string>
+    <string name="hint_size">Размер</string>
+
+    <string name="hint_video_record_sub_time">Продолжительность сегментированной записи</string>
+    <string name="hint_video_record_ratio">Разрешение видеозаписи</string>
+    <string name="hint_map_setting">Настройки карты</string>
+    <string name="hint_other_setting">Другие настройки</string>
+    <string name="hint_account_setting">Настройки учетной записи</string>
+    <string name="hint_address_setting">Настройки адреса</string>
+    <string name="hint_video_config2">Настройки видео</string>
+    <string name="hint_WIFI_set">Настройки WIFI</string>
+    <string name="hint_blue_set">Настройки Bluetooth</string>
+    <string name="hint_network_set">Беспроводные и сетевые</string>
+    <string name="hint_display_set">Настройки дисплея</string>
+    <string name="hint_sound_set">Настройки звука</string>
+    <string name="hint_about_set">Настройки версии</string>
+
+    <string name="call_hand_free">Запрос на громкую связь</string>
+    <string name="call_user">Звонок</string>
+    <string name="message_user">Сообщение</string>
+    <string name="change_user">Редактировать</string>
+    <string name="change_call_user_name">Редактировать имя пользователя</string>
+    <string name="call_history">История звонков</string>
+    <string name="please_inputcallnum">Пожалуйста, введите номер</string>
+    <string name="err_code_status">Необычный статус пользователя</string>
+    <string name="err_code_noexist">Пустой номер</string>
+    <string name="err_code_offline">Пользователь оффлайн</string>
+    <string name="err_code_busy">Пользователь занят</string>
+    <string name="err_code_cantconn">Не удается подключиться</string>
+    <string name="err_code_timeout">Время ожидания подключения истекло</string>
+
+    <string name="alarm_iot">Сигнал тревоги датчика</string>
+    <string name="alarm_device">Сигнал тревоги устройства</string>
+    <string name="alarm_ptt">Сигнал тревоги интеркома</string>
+
+    <string name="law_start">Начать правоприменение</string>
+    <string name="law_app">Кластерное приложение</string>
+    <string name="law_grp">Выбор группы</string>
+    <string name="law_mem">Выбор членов</string>
+    <string name="law_fri">Выбор друзей</string>
+    <string name="law_dis">Выбор диспетчера</string>
+    <string name="law_rec">Медиа запись</string>
+    <string name="law_set">Настройки функций</string>
+    <string name="law_account_set_success">Настройки учетной записи успешно</string>
+    <string name="law_acc_or_psw_null">Учетная запись или пароль пусты</string>
+    <string name="law_about">Рекордер правоприменения</string>
+    <string name="law_start_record_video">Начать запись видео</string>
+    <string name="law_start_record_voice">Начать запись голоса</string>
+    <string name="law_stop_record">Остановить запись</string>
+    <string name="law_record_mark">Ключевой маркер</string>
+    <string name="item_sysset_ir_config">Настройки инфракрасного</string>
+
+    <string name="title_trainListAct">Список транспортных средств</string>
+    <string name="add_train">Добавить поезд</string>
+    <string name="please_scan_code">Пожалуйста, сканируйте код</string>
+    <string name="please_take_photo">Пожалуйста, сделайте фото</string>
+    <string name="code_not_match">Код не совпадает</string>
+    <string name="btn_release">Разместить</string>
+    <string name="btn_colletc">Собрать</string>
+
+    <string name="addr_set">Настройки адреса</string>
+    <string name="static_ip">Статический IP</string>
+    <string name="dynamic_ip">Динамический IP</string>
+    <string name="addr_port">Порт адреса:</string>
+    <string name="mac_addr">MAC-адрес:</string>
+    <string name="item_sysset_priority_sharp">Очистить</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_my">Me</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dimen_boundary"
+        android:paddingRight="@dimen/dimen_boundary"
+        android:layout_marginTop="@dimen/dimen2dp"
+        >
+        <ImageView
+            android:id="@+id/viewChangeEtType"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen35dp"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/ic_keyboard"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/viewbtn"
+            android:layout_width="@dimen/dimen50dp"
+            android:layout_height="@dimen/dimen35dp"
+            android:layout_marginTop="@dimen/dimen2dp"
+            android:layout_alignParentRight="true">
+
+            <Button
+                android:id="@+id/viewSend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_input_btn_snd"
+                android:gravity="center"
+                android:text="@string/btn_send"
+                android:textColor="@color/color_333"
+                android:visibility="gone"
+                android:textSize="@dimen/dimen16sp" />
+
+            <ImageView
+                android:id="@+id/viewShowAttach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_show_attach_day" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/viewEtInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen8dp"
+            android:layout_marginRight="@dimen/dimen8dp"
+            android:layout_toLeftOf="@+id/viewbtn"
+            android:layout_toRightOf="@+id/viewChangeEtType"
+            android:background="@drawable/yida_ic_input_bg_s"
+            android:maxLines="6"
+            android:minHeight="@dimen/dimen35dp"
+            android:text=""
+            android:textSize="@dimen/textSize_samll"
+            android:textCursorDrawable="@drawable/color_cursor" />
+        <Button
+            android:id="@+id/viewVoiceRecord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen35dp"
+            android:layout_toLeftOf="@+id/viewbtn"
+            android:layout_toRightOf="@+id/viewChangeEtType"
+            android:layout_marginLeft="@dimen/dimen8dp"
+            android:layout_marginRight="@dimen/dimen8dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yida_ic_input_voice_bg"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/viewAttach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen1dp"
+        android:visibility="visible"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen2dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/viewBtnPhoto"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_picture"
+                android:gravity="center"
+                android:text="@string/photo"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent" />
+            <Button
+                android:id="@+id/viewBtnFile"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_file"
+                android:gravity="center"
+                android:text="@string/file"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/viewBtnVideo"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_video"
+                android:gravity="center"
+                android:text="@string/video"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent" />
+            <Button
+                android:id="@+id/viewBtnLoc"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_location"
+                android:gravity="center"
+                android:text="@string/location"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen2dp">
+            <Button
+                android:id="@+id/viewBtnPttCall"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_pttcall"
+                android:gravity="center"
+                android:text="@string/pttcall"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent" />
+            <Button
+                android:id="@+id/viewBtnVoiceCall"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_voicecall"
+                android:gravity="center"
+                android:text="@string/voicecall"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent" />
+            <Button
+                android:id="@+id/viewBtnVideoCall"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_btn_videocall"
+                android:gravity="center"
+                android:text="@string/videocall"
+                android:textSize="@dimen/dimen18sp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

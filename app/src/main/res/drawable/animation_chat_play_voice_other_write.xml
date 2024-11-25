@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/voice_other_3_write" android:duration="150" />
+    <item android:drawable="@mipmap/voice_other_1_write" android:duration="150"/>
+    <item android:drawable="@mipmap/voice_other_2_write" android:duration="150" />
+    <item android:drawable="@mipmap/voice_other_3_write" android:duration="150" />
+</animation-list>

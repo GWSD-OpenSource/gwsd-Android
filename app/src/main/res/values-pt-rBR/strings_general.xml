@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d fotos</string>
+    <string name="msg_no_camera">Nenhuma câmera encontrada</string>
+    <string name="msg_maxi_capacity">Atingiu o número máximo de fotos selecionadas</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="commit">Confirmar</string>
+    <string name="agree">Concordar</string>
+    <string name="jieTing">Atender</string>
+    <string name="reject">Rejeitar</string>
+    <string name="start">Iniciar</string>
+    <string name="end">Fim</string>
+    <string name="stop">Parar</string>
+    <string name="exit">Sair</string>
+    <string name="double_exit">Clique duplo para sair</string>
+    <string name="double_back">Clique duplo para voltar</string>
+    <string name="double_operation">Por favor, clique duplo para operar</string>
+    <string name="enter">Entrar</string>
+    <string name="current">Atual</string>
+    <string name="group">Grupo</string>
+    <string name="user">Usuário</string>
+    <string name="address">Endereço</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="succeed">Sucesso</string>
+    <string name="failure">Falha</string>
+    <string name="normal">Normal</string>
+    <string name="exception">Anormal</string>
+    <string name="operationIng">Operando</string>
+    <string name="operation_failure">Falha na operação</string>
+    <string name="ongoing">Em andamento</string>
+    <string name="delete">Excluir</string>
+    <string name="menu">Menu</string>
+    <string name="batterty">Bateria</string>
+    <string name="batterty_form">Bateria %1$d</string>
+    <string name="volume">Volume</string>
+    <string name="add">Adicionar</string>
+    <string name="subtract">Subtrair</string>
+    <string name="multiply">Multiplicar</string>
+    <string name="divide">Dividir</string>
+    <string name="save">Salvar</string>
+    <string name="reset">Redefinir</string>
+    <string name="mute">Mudo</string>
+    <string name="mute_on">Ativar mudo</string>
+    <string name="mute_off">Desativar mudo</string>
+    <string name="sound_on">Ativar som</string>
+    <string name="sound_off">Desativar som</string>
+    <string name="conversation">Conversa</string>
+    <string name="contacts">Contatos</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="man">Masculino</string>
+    <string name="woman">Feminino</string>
+    <string name="oneself">Eu mesmo</string>
+    <string name="local_equipment">Dispositivo local</string>
+    <string name="local_equipment_speak">Dispositivo local falando</string>
+    <string name="talking_speak">Falando</string>
+    <string name="more">Mais</string>
+    <string name="setSucceed">Configuração bem-sucedida</string>
+    <string name="restoreDefult">Restaurar padrão</string>
+
+    <string name="commit_num">Confirmar (%1$d/%2$d)</string>
+    <string name="select_num">Selecionado (%1$s)</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="selected">Selecionado</string>
+    <string name="unit_time_hour">Hora</string>
+    <string name="unit_time_minute">Minuto</string>
+    <string name="unit_time_second">Segundo</string>
+    <string name="week">Semana</string>
+    <string name="week_Monday">Segunda-feira</string>
+    <string name="week_Tuesday">Terça-feira</string>
+    <string name="week_Wednesday">Quarta-feira</string>
+    <string name="week_Thursday">Quinta-feira</string>
+    <string name="week_Friday">Sexta-feira</string>
+    <string name="week_Saturday">Sábado</string>
+    <string name="week_Sunday">Domingo</string>
+
+    <string name="unit_m">Metro</string>
+    <string name="unit_km">Quilômetro</string>
+
+    <string name="distance">Distância</string>
+
+    <string name="nodata">Nenhum dado disponível</string>
+    <string name="nodata2">Sem dados</string>
+    <string name="not_more_data">Sem mais dados</string>
+    <string name="undefined">Indefinido</string>
+
+    <string name="search">Pesquisar</string>
+
+    <string name="title_select_photo">Selecionar foto</string>
+    <string name="hint_no_storage">Nenhum armazenamento externo disponível</string>
+    <string name="hint_photo_all">Todas as fotos</string>
+
+    <string name="expand">Fotos</string>
+    <string name="item">Itens</string>
+    <string name="house_Number">Número</string>
+
+    <string name="please_Waiting">Por favor, aguarde...</string>
+
+    <string name="hint_version_current_on_new">A versão atual é a mais recente</string>
+    <string name="hint_version_not_newVersion">Nenhum pacote de atualização</string>
+    <string name="hint_version_current">Versão atual:</string>
+    <string name="hint_version_new">Última versão:</string>
+    <string name="hint_file_size">Tamanho do arquivo:</string>
+    <string name="hint_app_update">Atualização de software</string>
+    <string name="btn_not_update">Não atualizar agora</string>
+    <string name="btn_now_update">Atualizar agora</string>
+
+    <string name="notExits">Não existe</string>
+    <string name="file">Arquivo</string>
+
+    <string name="btn_cancel_down">Cancelar download</string>
+    <string name="btn_background_update">Atualização em segundo plano</string>
+    <string name="btn_cancel_update_and_exitApp">Cancelar atualização e sair do aplicativo</string>
+    <string name="pause">Pausar</string>
+    <string name="again">Continuar</string>
+    <string name="wait">Esperar</string>
+
+    <string name="time_select">Selecionar hora</string>
+    <string name="time_start">Hora de início</string>
+    <string name="time_end">Hora de término</string>
+    <string name="time_start_please">Por favor, selecione a hora de início</string>
+    <string name="time_end_please">Por favor, selecione a hora de término</string>
+    <string name="time_start_position">Hora de início:</string>
+    <string name="time_end_position">Hora de término:</string>
+    <string name="time">Tempo</string>
+    <string name="satellite">Satélite</string>
+    <string name="satelliteCount">Número de satélites</string>
+    <string name="signal">Sinal</string>
+    <string name="hint_disk_small">Memória insuficiente</string>
+    <string name="hint_disk_no_free">Espaço de armazenamento insuficiente</string>
+
+    <string name="photo">Foto</string>
+    <string name="video">Vídeo</string>
+    <string name="voice">Voz</string>
+    <string name="document">Documento</string>
+    <string name="camera">Câmera</string>
+    <string name="location">Localização</string>
+    <string name="refresh">Atualizar</string>
+</resources>

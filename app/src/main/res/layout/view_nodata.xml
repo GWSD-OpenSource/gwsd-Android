@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewNoData"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/nodata"
+    android:textSize="@dimen/textSize_noData"
+    android:textColor="?attr/t_txColor"
+    android:layout_marginTop="10dp"
+    >
+</TextView>

@@ -1,0 +1,952 @@
+<resources>
+<!--    <string name="app_name">公网对讲</string>-->
+    <string name="app_name">集群通信</string>
+<!--    <string name="app_name">百保盾</string>-->
+    <!--<string name="app_name">星云通</string>-->
+    <!--idata-->
+    <!--<string name="app_name">对讲机</string>-->
+    <!--GT-Talk-->
+    <!--<string name="app_name">GT-Talk</string>-->
+
+    <string name="action_settings">设置</string>
+    <string name="app_startIng">对讲启动中</string>
+    <string name="app_initIng">初始化中</string>
+    <string name="app_Permission_to_change">权限变化</string>
+
+    <string name="login_welcome_easy">公网对讲</string>
+    <string name="login_welcome_easy_idata">对讲机</string>
+
+    <!--默认-->
+    <string name="login_welcome">欢迎使用%1$s系统</string>
+
+    <string name="login_welcome_tts">欢迎使用公网对讲</string>
+    <string name="login_welcome_idata">欢迎使用对讲APP</string>
+    <string name="login_welcome_Telecom_4G">欢迎使用电信4G对讲机</string>
+    <string name="user_agreement">我已阅读并同意用户协议</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">对讲</string>
+    <string name="main_tab_report">应用</string>
+    <string name="main_tab_map">地图</string>
+    <string name="main_tab_setting">设置</string>
+    <string name="main_tab_operator">首页</string>
+    <string name="main_tab_talkbackRecord">对讲记录</string>
+    <string name="main_tab_chat">聊天</string>
+    <string name="main_tab_grp">群组</string>
+    <string name="main_tab_my">我</string>
+
+    <string name="accessibility_service_description">智能安装，无障碍服务</string>
+    <string name="search_hint_group">请输入关键字搜索群组</string>
+    <string name="search_hint_group_member">请输入关键字搜索组内成员</string>
+    <string name="search_hint_friend">请输入关键字搜索好友</string>
+    <string name="search_hint_norm">请输入关键字搜索</string>
+    <string name="search_hint_easy">请输入关键字</string>
+    <!--title-->
+    <string name="title_LoginActivity">登录</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">群组</string>
+    <string name="title_FriendFragment">好友</string>
+    <string name="title_DispatcherFragment">调度员</string>
+    <string name="title_contactsFragment">通讯录</string>
+    <string name="title_MyFragment">我</string>
+    <string name="title_ABoutActivity">关于</string>
+    <string name="title_ConnOffDialogActivity">异常登录</string>
+    <string name="title_FeedbackActivity">意见反馈</string>
+    <string name="title_SetLanguageActivity">语言设置</string>
+    <string name="title_SetTextSizeActivity">字体设置</string>
+    <string name="title_SetNetWorkActivity">网络模式</string>
+    <string name="title_SetUpReportCycleActivity">定位设置</string>
+    <string name="title_SetUpReportVideoSizeActivity">视频上报分辨率</string>
+    <string name="title_videoConfig">视频配置</string>
+    <string name="title_SetGPSReportCycleActivity">位置服务</string>
+    <string name="title_SetLocationReportActivity">位置上报</string>
+    <string name="title_SysSetActivity">设置</string>
+    <string name="title_SetNormActivity">通用设置</string>
+    <string name="title_PocMemberListActivity">群成员</string>
+    <string name="title_ChatActivity">聊天</string>
+    <string name="title_UpReportPhotoActivity">图片上报</string>
+    <string name="title_UpreportVideoActivity">视频上报</string>
+    <string name="title_UpReportVioceActivity">语音上报</string>
+    <string name="title_PocGroupNoticeActivity">公告通知</string>
+    <string name="title_requestDispatcher">调度请求</string>
+    <string name="title_UserDescActivity">个人信息</string>
+    <string name="title_SetSaveNoticeNumberActivity">公告保存设置</string>
+    <string name="title_SelectMemberActivity">成员选择</string>
+    <string name="title_TalkbackSoundActivity">临时呼叫</string>
+    <string name="title_TempGrp">临时组</string>
+    <string name="title_dispatchTempCall">调度呼叫</string>
+
+    <string name="title_PlayRecordActivity">我的录音</string>
+    <string name="title_RecordListActivity">我的录音</string>
+    <string name="title_SearchConditionsActivity">搜索</string>
+    <string name="title_TalkbackRecord">对讲记录</string>
+
+    <string name="title_activity_maps">GoogleMap</string>
+    <string name="title_UserAgreementAct">用户协议</string>
+    <string name="title_setDomain">域名设置</string>
+    <string name="title_PatrolRecordActivity">巡检列表</string>
+    <string name="title_terminal_location">终端位置</string>
+    <string name="title_attach_fun">快速应用</string>
+    <string name="server">服务器</string>
+    <string name="domain">域名</string>
+    <string name="port">端口</string>
+    <string name="other">其他</string>
+
+    <string name="title_singlechip_autobackmain_timer">自动返回时间</string>
+    <string name="title_poc_intercom">集群对讲</string>
+    <string name="title_file_manager">文件回放</string>
+    <!-- button and item-->
+    <string name="btn_close">关</string>
+    <string name="btn_open">开</string>
+    <string name="btn_affirm">确认</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_submit">提交</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_login_out">退出登录</string>
+    <string name="btn_clean_data">清空账号</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">群视频呼叫</string>
+
+    <string name="btn_hangup">挂断</string>
+    <string name="btn_accept">接受</string>
+    <string name="btn_refuse">拒绝</string>
+    <string name="btn_speakerphone">免提</string>
+    <string name="btn_silence">静音</string>
+    <string name="btn_camera_change">切换</string>
+
+
+    <string name="btn_upreport_source">原图</string>
+    <string name="btn_upreport_compress">压缩</string>
+    <string name="btn_source_nativce">本地</string>
+    <string name="btn_source_photograph">拍照</string>
+    <string name="btn_source_film">拍摄</string>
+    <string name="btn_talk_photo">拍摄照片</string>>
+
+    <string name="btn_update_now">立即更新</string>
+    <string name="btn_update_no">暂不更新</string>
+    <string name="btn_upreport_location">位置上报</string>
+    <string name="btn_upreport_photo">图片上报</string>
+    <string name="btn_upreport_video">视频摄录</string>
+    <string name="btn_upreport_voice">语音上报</string>
+    <string name="btn_upreport_sos">一键报警</string>
+    <string name="btn_upreport_Patrol">巡更记录</string>
+    <string name="btn_upreport_scan">扫一扫</string>
+    <string name="btn_remote_monitoring">远程监控</string>
+    <string name="btn_record_log">语音记录</string>
+
+    <string name="menu_apply_notice">通知</string>
+    <string name="menu_apply_group">群组</string>
+    <string name="menu_apply_friend">好友</string>
+    <string name="menu_apply_member">成员</string>
+    <string name="menu_apply_dispatch">调度员</string>
+    <string name="menu_apply_groupSelect">群组选择</string>
+    <string name="menu_apply_groupOpt">我的群组</string>
+    <string name="menu_gid_input">请输入群组ID</string>
+    <string name="menu_apply_friendSelect">好友选择</string>
+    <string name="menu_apply_memberSelect">成员选择</string>
+    <string name="menu_apply_dispatchSelect">调度员选择</string>
+    <string name="menu_apply_location">位置</string>
+    <string name="menu_apply_setting">设置</string>
+    <string name="menu_apply_setting1">功能设置</string>
+    <string name="menu_apply_upreport_photo">图片上报</string>
+    <string name="menu_apply_upreport_video">视频上报</string>
+    <string name="menu_apply_upreport_voice">语音上报</string>
+    <string name="menu_apply_scan">扫一扫</string>
+    <string name="menu_apply_patrol">巡检记录</string>
+    <string name="menu_apply_sos_record">报警记录</string>
+    <string name="menu_apply_train">铁鞋管理</string>
+    <string name="menu_apply_sound">音柱</string>
+    <string name="menu_apply_sos">一键报警</string>
+    <string name="menu_apply_record_log">语音记录</string>
+    <string name="menu_apply_voice_list">语音列表</string>
+    <string name="menu_apply_terminal_location">终端位置</string>
+
+
+    <string name="btn_call_voice">语音呼叫</string>
+    <string name="btn_call_video">视频呼叫</string>
+    <string name="btn_switch_camera">切换前后</string>
+    <string name="btn_touch_video">按住拍</string>
+
+    <string name="btn_fluency">流畅</string>
+    <string name="btn_common">普清</string>
+    <string name="btn_standard">标清</string>
+    <string name="btn_high">高清</string>
+    <string name="btn_press_speak">按住说话</string>
+    <string name="btn_loosen_end">松开结束</string>
+    <string name="btn_member">成员</string>
+    <string name="btn_grplocation">群组定位</string>
+    <string name="btn_terminal_location">终端定位</string>
+    <string name="btn_navigation">导航</string>
+    <string name="btn_onekey_navigation">一键导航</string>
+    <string name="btn_navigation_start">开始导航</string>
+
+
+    <string name="item_sysset_message_hint">消息提醒</string>
+    <string name="item_sysset_VolumeControl">音量控制</string>
+    <string name="item_sysset_VoiceEnhance">语音增强</string>
+    <string name="item_sysset_TTSVolume">TTS音量</string>
+    <string name="item_sysset_PlayEnhance">音量增强</string>
+    <string name="item_sysset_RecordEnhance">录音增强</string>
+    <string name="item_sysset_textsize">字体大小</string>
+    <string name="item_sysset_network_mode">网络模式</string>
+    <string name="item_sysset_language">语言设置</string>
+    <string name="item_sysset_meeting">视频窗口</string>
+    <string name="item_sysset_resolution">分辨率</string>
+    <string name="item_sysset_priority_sharp">清晰</string>
+    <string name="item_sysset_alarm_settings">报警设置</string>
+    <string name="item_sysset_norm">通用设置</string>
+    <string name="item_sysset_location">定位设置</string>
+    <string name="item_sysset_locationinfo">定位信息</string>
+    <string name="item_sysset_location_report">位置服务</string>
+    <string name="item_sysset_upreport">位置上报周期</string>
+    <string name="item_sysset_video_record_size">视频拍摄质量</string>
+    <string name="item_sysset_notice_save_number">公告保存数量 %1$s 条</string>
+    <string name="item_sysset_warning_tone_switch">提示音</string>
+    <string name="item_sysset_notice_switch">公告通知</string>
+    <string name="item_sysset_video_voice_double">视频语音双工</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">调度视频时显示页面</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">高清音质</string>
+    <string name="item_sysset_station">基站</string>
+    <string name="item_sysset_station_location">基站定位</string>
+    <string name="item_sysset_gps">GPS过滤</string>
+    <string name="item_sysset_gps_control">位置调度中</string>
+    <string name="item_sysset_voice_type">语音播报</string>
+    <string name="item_sysset_voice_OnLine_ispriority">TTS语音在线优先</string>
+    <string name="item_sysset_video_config">视频配置</string>
+    <string name="item_sysset_video_watermark">视频水印</string>
+    <string name="item_sysset_watermark_size">水印大小</string>
+    <string name="item_sysset_ptt_wake_up">对讲亮屏</string>
+    <string name="item_power_mode">功耗模式</string>
+    <string name="item_powerLowModel">待机模式</string>
+    <string name="item_powerHeightModel">高性能模式</string>
+    <string name="item_powerHeightModel1">性能模式</string>
+    <string name="item_sysset_enable_agps">辅助定位</string>
+    <string name="item_sysset_min_distance">最小上报距离</string>
+
+    <string name="item_voiceAnnouncements">语音播报</string>
+
+    <string name="item_video_collection_ratio">视频采集分辨率</string>
+    <string name="item_video_auto_rcv_snd">自动收发视频</string>
+    <string name="item_video_auto_rcv_snd_desc">视频立即接收或发送</string>
+
+    <string name="item_upreport_no">不上报</string>
+    <string name="item_upreport_high">高频率%1$s</string>
+    <string name="item_upreport_middle">中频率%1$s</string>
+    <string name="item_upreport_low">低频率%1$s</string>
+
+    <string name="item_account">账户</string>
+    <string name="item_Feedback">意见反馈</string>
+    <string name="item_set">设置</string>
+    <string name="item_about">关于版本</string>
+    <string name="item_appVersion_desc">本机信息</string>
+    <string name="item_check_update_version">检测更新</string>
+    <string name="item_sysSetting">系统设置</string>
+    <string name="version_RollBack">版本回退</string>
+    <string name="version_desc">版本信息</string>
+    <string name="version_sys_desc">系统信息</string>
+    <string name="version_update_ing">正在更新中</string>
+    <string name="version_download_succeed">获取更新成功</string>
+    <string name="version_download_err">获取更新失败</string>
+    <string name="version_install_ing">正在安装</string>
+    <string name="version_install_succeed">升级成功</string>
+    <string name="please_reboot_device">请重启设备</string>
+    <string name="version_restart_app">正在重启</string>
+
+    <string name="item_personal_details_username">姓名：%1$s</string>
+    <string name="item_personal_details_account">账号：%1$s</string>
+    <string name="item_personal_details_ID">ID：%1$s</string>
+    <string name="item_personal_details_Imei0">IMEI：</string>
+    <string name="item_personal_details_Imei">IMEI：%1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">视频呼叫</string>
+    <string name="item_talkback_menu_item_video_upload">视频上传</string>
+    <string name="item_talkback_menu_item_video_look">视频查看</string>
+    <string name="item_talkback_menu_item_video_silence_look">静默查看</string>
+    <string name="item_talkback_menu_item_voice_talkback">临时呼叫</string>
+    <string name="item_talkback_menu_item_voice_call">语音呼叫</string>
+    <string name="item_talkback_menu_item_voice_chat">语音聊天</string>
+    <string name="item_talkback_menu_item_chat">聊天</string>
+
+    <!-- hint-->
+    <string name="hint_please_open_gps">在设置中打开关闭GPS</string>
+    <string name="hint_please_permission">请允许权限</string>
+    <string name="hint_please_select_condition">请选择条件</string>
+    <string name="hint_file_size_not_none">不能上传0KB的图片</string>
+
+    <string name="hint_please_inputContent">请输入内容</string>
+    <string name="hint_current_version">当前版本</string>
+    <string name="hint_current_version_newest">暂无更新</string>
+
+    <string name="hint_content_least_10num">内容不的少于10个字</string>
+    <string name="hint_username_or_psw_notNull">用户名或密码不能为空</string>
+    <string name="hint_account_or_psw_notNull">账号或密码不能为空</string>
+    <string name="hint_phone_format_err">手机格式不正确</string>
+    <string name="hint_psw_least_6num">密码不的少于6位数</string>
+    <string name="hint_login_Failure">登录失败</string>
+    <string name="hint_login_account_notExist">账号不存在</string>
+    <string name="hint_input_invalid">非法输入</string>
+    <string name="hint_login_jpassword_err">经销商密码错误</string>
+    <string name="hint_login_jpassword_ok">经销商密码修改成功</string>
+    <string name="hint_login_psw_err">密码错误</string>
+    <string name="hint_login_account_Invalid">账号无效</string>
+    <string name="hint_login_account_or_psw_err">账号或密码错误</string>
+    <string name="hint_login_pswOut_of_date">密码已过期，请联系管理员更改</string>
+    <string name="hint_phone_num">手机号</string>
+    <string name="hint_account">账号</string>
+    <string name="hint_psw">密码</string>
+    <string name="hint_notice">公告</string>
+    <string name="hint_search">搜索</string>
+
+    <string name="hint_reset_app_affirm_update">重启APP确认修改?</string>
+    <string name="hint_affirm_loginout">确认退出?</string>
+    <string name="hint_chat_no_self">不可以与自己聊天</string>
+    <string name="hint_voice_least_long">语音太短</string>
+
+    <string name="hint_target">目标</string>
+    <string name="hint_talkback_state_prepare">准备...</string>
+    <string name="hint_talkback_state_wait_accept">等待对方接受...</string>
+    <string name="hint_talkback_state_talkback_ing">对讲中...</string>
+    <string name="hint_talkback_state_request">请求与你视频...</string>
+    <string name="hint_talkback_state_request_voice">请求与你语音...</string>
+    <string name="hint_talkback_state_opposite_hangup">对方已挂断..</string>
+    <string name="hint_talkback_state_opposite_accept">对方已接受..</string>
+    <string name="hint_talkback_state_call_failure">呼叫失败..</string>
+    <string name="hint_talkback_state_opposite_busy">对方正忙..</string>
+    <string name="hint_talkback_state_no_answer">无人接听..</string>
+    <string name="hint_UnAnswered">无人应答..</string>
+    <string name="hint_talkback_state_native_video_err">本地视频断开..</string>
+    <string name="hint_talkback_state_opposite_video_err">对方视频断开..</string>
+    <string name="hint_chatvideo_err">视频断开..</string>
+    <string name="hint_talkback_state_opposite_off">对方离线</string>
+    <string name="hint_talkback_state_conn_failure">未接通...</string>
+    <string name="hint_talkback_state_hanup">挂断...</string>
+
+    <string name="hint_video_call_conn_ok">已连接...</string>
+    <string name="hint_video_call_conning">连接中...</string>
+    <string name="hint_video_request_upload_video">请求上传视频中...</string>
+    <string name="hint_video_request_look_video">请求查看视频中...</string>
+    <string name="hint_none">空闲</string>
+    <string name="wu">无</string>
+    <string name="hint_Idle_waiting">空闲等候</string>
+
+    <string name="hint_talkback_please_new_talkback">请注意,你有新的对讲:</string>
+
+    <string name="hint_upreport_photo">图片上报</string>
+    <string name="hint_please_select_photo">未上传图片</string>
+    <string name="hint_please_select_video">未上传视频</string>
+    <string name="hint_please_sd">请插入SD卡</string>
+    <string name="hint_photo_compress_ing">图片压缩中...</string>
+    <string name="hint_file_upload_failure">文件上传失败</string>
+    <string name="hint_file_upload">文件上传</string>
+    <string name="hint_complete">完成</string>
+    <string name="hint_complete_suc">已完成</string>
+    <string name="hint_complete_no">未完成</string>
+    <string name="hint_describe">描述</string>
+    <string name="hint_describe_video">视频上报\n注：目前支持视频格式只有 MP4</string>
+    <string name="hint_video_only_mp4">目前只支持mp4视频</string>
+    <string name="hint_nofile">找不到文件</string>
+    <string name="hint_video_max_size">文件不得大于50M</string>
+
+    <string name="hint_affirm_">确认退出</string>
+    <!--公网中性-->
+    <string name="about_desc">集群对讲</string>
+    <string name="about_desc_same">集群对讲</string>
+
+
+    <string name="hint_textsize_set_change_hint">字体大小设置，设置后重启生效</string>
+
+    <string name="hint_welcome_back">欢迎回来</string>
+    <string name="hint_opposite_account_exception">对方账号异常</string>
+    <string name="hint_upload">上传</string>
+    <string name="hint_uploading">正在上传</string>
+    <string name="hint_have_upload">已上传</string>
+    <string name="hint_upload_succeed">上传成功</string>
+    <string name="hint_upload_failure">上传失败</string>
+
+    <string name="hint_chat_videoing">正在视频</string>
+    <string name="hint_chat_videorecording">正在录像</string>
+    <string name="hint_chat_voicerecording">正在录音</string>
+    <string name="hint_please_hangup_call">请先挂断电话</string>
+    <string name="and">与</string>
+    <string name="hint_in_new_video">请注意,你有新的对讲:</string>
+    <string name="hint_double_exit">再按一次退出</string>
+    <string name="hint_click_savelog">在点击%1$s次抓取日志</string>
+    <string name="hint_click_savelog_cancel">在点击%1$s次取消抓取日志</string>
+    <string name="hint_click_saveloging">日志抓取中</string>
+    <string name="hint_click_savelog_close">关闭日志抓取</string>
+    <string name="hint_get_ststoken_failure">STSToken获取失败</string>
+    <string name="hint_download">下载</string>
+    <string name="hint_download_ing">下载中...</string>
+    <string name="hint_download_finish">下载完成</string>
+    <string name="hint_download_failure">下载失败</string>
+    <string name="hint_download_Progress">下载进度</string>
+    <string name="hint_download_address_err">地址错误</string>
+    <string name="hint_download_file_damage">文件损坏</string>
+    <string name="hint_connect_timeout">连接超时</string>
+    <string name="hint_timeout">超时</string>
+    <string name="hint_connect_timeout_query_group_list">获取群组列表超时</string>
+    <string name="hint_connect_timeout_enter_group_list">群组切换超时</string>
+    <string name="hint_network_err">网络错误</string>
+    <string name="hint_data_parse_err">数据解析错误</string>
+    <string name="hint_tts_init_err">语音合成初始化失败！</string>
+    <string name="hint_login_succeed">登录成功</string>
+    <string name="hint_login_failure">登录失败</string>
+    <string name="hint_yesterday">昨天</string>
+    <string name="hint_open_camera_failure">摄像头打开失败！请检查</string>
+    <string name="hint_camera_time_small">录制时间不得小于3秒</string>
+    <string name="hint_can_enter">你还能输入%1$d字</string>
+    <string name="hint_can_enter_count">%1$d/%2$d字</string>
+    <string name="character">characters</string>
+    <string name="hint_current_onLine_member">当前在线人数（%1$d人）</string>
+    <string name="hint_current_onLine_member2">在线（%1$d）</string>
+    <string name="hint_enter_group_failure">群组切换失败</string>
+    <string name="hint_request_dispatcher">%1$s请求调度你</string>
+    <string name="hint_request_look_video">%1$s请求查看视频</string>
+    <string name="hint_request_upload_video">%1$s请求上传视频</string>
+    <string name="hint_request_broadcast_video">%1$s请求视频广播</string>
+    <string name="hint_request_monitoring_video">%1$s请求视频调度</string>
+    <string name="hint_refuse_speak_in_video_meeting">拒绝讲话</string>
+    <string name="hint_can_speak_in_video_meeting">可以讲话</string>
+    <string name="hint_request_speak_in_video_meeting">申请讲话</string>
+
+    <string name="hint_enter_mode_person">进入单呼模式</string>
+    <string name="hint_enter_mode_member">进入成员模式</string>
+    <string name="hint_enter_mode_friend">进入好友模式</string>
+    <string name="hint_enter_mode_group">进入群组模式</string>
+    <string name="hint_out_mode_person">退出单呼模式</string>
+    <string name="hint_out_mode_group">退出群组模式</string>
+    <string name="hint_out_mode_member">退出成员模式</string>
+    <string name="hint_out_mode_friend">退出好友模式</string>
+    <string name="hint_out_mode_voice">退出语音回放</string>
+    <string name="hint_enter_mode_voice">语音回放</string>
+    <string name="hint_ptt_request_micing">抢麦中...</string>
+    <string name="hint_ptt_speak_ing">正在说话...</string>
+    <string name="hint_press_record">按住录音</string>
+    <string name="hint_ptt_loosen_over">松开结束...</string>
+    <string name="hint_voice_record_ing">录制语音中...</string>
+    <string name="hint_ptt_request_mic_failure">本机对讲失败</string>
+    <string name="hint_ptt_current_no_request_mic">当前不可以抢麦</string>
+    <string name="hint_enterjoin_group">进入群组</string>
+    <string name="hint_enterjoin_group_ing">群组切换中</string>
+    <string name="hint_not_available_Group">无群组</string>
+    <string name="hint_not_available_Group_more">无更多群组</string>
+    <string name="hint_not_Group_member">无成员</string>
+    <string name="hint_not_Group_member_more">无更多成员</string>
+    <string name="hint_not_enter_GroupSelect">群组选择</string>
+    <string name="hint_not_enter_GroupMember">成员选择</string>
+    <string name="hint_not_currunt_Member">当前成员</string>
+    <string name="hint_not_enter_FriendMember">好友选择</string>
+    <string name="hint_not_exit_FriendMember">退出好友选择</string>
+    <string name="hint_not_exit_GroupMember">退出成员选择</string>
+    <string name="hint_not_exit_GroupSelect">退出群组选择</string>
+    <string name="hint_not_exit_DispatchMember">退出调度员选择</string>
+    <string name="hint_not_exit_Voice">退出语音回放</string>
+    <string name="hint_not_groupList">无群组</string>
+    <string name="hint_not_friendList">无好友</string>
+    <string name="hint_not_memberList">无成员</string>
+    <string name="hint_not_dispatchList">无调度员</string>
+    <string name="hint_not_noticeList">无通知</string>
+    <string name="hint_not_line_memberList">无在线成员</string>
+    <string name="hint_not_line_friendList">无在线好友</string>
+    <string name="hint_not_line_dispatchList">无在线调度员</string>
+
+    <string name="hint_disconn_login_video_failure">视频登录失败</string>
+    <string name="hint_disconn_login_video">视频登录断开</string>
+    <string name="hint_disconn_login_voice">语音登录断开</string>
+    <string name="hint_disconn_login">登录断开</string>
+    <string name="hint_attention_please_POC_lostConnection">请注意,POC登录已掉线</string>
+    <string name="hint_attention_please_Video_lostConnection">请注意,视频登录已掉线</string>
+    <string name="hint_videoLogin_Reconnect">视频登录重连中</string>
+    <string name="hint_POCLogin_Reconnect">POC登录重连中</string>
+    <string name="hint_please_login">未登录</string>
+    <string name="hint_please_loginSignalling">信令初始化中</string>
+    <string name="hint_login_ing">正在登录...</string>
+    <string name="hint_please_read_userAgreement">请先阅读用户协议...</string>
+
+    <string name="hint_You_have_a_new_notice">你有新的公告通知</string>
+    <string name="hint_yu_an_notice">预案广播</string>
+
+    <string name="hint_notice_save_item_range">数量在%1$s与%2$s之间</string>
+    <string name="hint_notice_save_min_item">最少保存%1$s条</string>
+    <string name="hint_notice_save_max_item">最多保存%1$s条</string>
+
+    <string name="hint_select_persion">请选择成员</string>
+    <string name="hint_select_least_persion">请至少选择一人</string>
+    <string name="hint_temp_call_create_failure">呼叫失败</string>
+    <string name="hint_temp_call_double_exit">再按一次退出对讲</string>
+    <string name="hint_please_insert_sim">请插入SIM卡</string>
+
+    <string name="hint_voice_mic_ing">正在讲话（%1$s）</string>
+    <string name="hint_voice_me_state">我的状态 : %1$s</string>
+
+    <string name="hint_exploit_ing">开发中...</string>
+
+    <string name="hint_getlocationerr_please_check_network">位置获取失败,请检查网络设置或GPS设置</string>
+    <string name="hint_Anti_Hijacking_hint">您的登陆界面被覆盖，请确认登陆环境是否安全</string>
+    <string name="hint_input_code_err">验证码输入错误</string>
+    <string name="hint_input_code_timeOut">验证码已过期</string>
+    <string name="hint_location_Unknown">未知位置</string>
+
+    <string name="hint_notice_list">公告列表</string>
+    <string name="hint_loging_otherterminals">其他终端登录</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">其他终端登录</string>
+    <string name="hint_loging_yaobi">账号停用</string>
+
+    <string name="hint_violation_content_illegal">内容不合法</string>
+    <string name="hint_violation_video_auditing">视频上传成功,审核中!</string>
+    <string name="hint_violation_photo_violation">上报失败,图片涉嫌违规!</string>
+    <string name="hint_violation_video_violationt">视频审核未通过,视频涉嫌违规!</string>
+    <string name="hint_Account_Sealed">账号已被冻结!请稍后再试.</string>
+
+    <string name="hint_feedback_question_hint">问题分类</string>
+    <string name="hint_feedback_question_type_bug">BUG</string>
+    <string name="hint_feedback_question_type_demand">需求</string>
+    <string name="hint_feedback_question_type_impeach">举报</string>
+    <string name="hint_feedback_impeach_hint">举报内容</string>
+    <string name="hint_feedback_impeach_type_yellow">涉黄</string>
+    <string name="hint_feedback_impeach_type_politik">涉政</string>
+    <string name="hint_feedback_impeach_type_violence">涉恐</string>
+    <string name="hint_feedback_impeach_type_other">其他</string>
+    <string name="hint_feedback_content_hint">内容描述</string>
+    <string name="hint_feedback_input_content_hint">请输入你的描述内容</string>
+    <string name="hint_feedback_phone_hint">联系方式（选填）</string>
+    <string name="hint_feedback_input_phone_hint">请输入你的联系方式</string>
+    <string name="hint_feedback_submit_succeed">反馈内容已提交</string>
+    <string name="hint_feedback_submit_content_stringform">
+        反馈类型：%1$s\n
+        举报类型：%2$s\n
+        联系方式：%3$s\n
+        内容描述：%4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        反馈类型：%1$s\n
+        联系方式：%2$s\n
+        内容描述：%3$s
+    </string>
+    <string name="hint_setDomain_domain">域名：</string>
+    <string name="hint_setDomain_loginServer_hint">登录服务器</string>
+    <string name="hint_setDomain_pocServer">登录地址：</string>
+    <string name="hint_setDomain_VideoServer">信令地址：</string>
+    <string name="hint_setDomain_DispatchServer">调度地址：</string>
+    <string name="hint_setDomain_fastdfsServer">文件地址：</string>
+    <string name="hint_setDomain_fastdfsUploadServer">上传地址：</string>
+    <string name="hint_setDomain_getconfig">获取配置</string>
+    <string name="hint_setDomain_Restore_default">恢复默认</string>
+    <string name="hint_setDomain_getconfig_failure">更新失败</string>
+    <string name="hint_setDomain_getconfig_succeed">更新成功，请确认保存</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">更新成功，请选择环境</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">请保存修改</string>
+    <string name="hint_setDomain_getconfig_default">已恢复默认，请确认保存</string>
+    <string name="hint_setDomain_uploadUrl_invalid">上传地址无效</string>
+
+    <string name="hint_poc_current_member">当前用户：%1$s</string>
+    <string name="hint_poc_current_group">当前群组：%1$s</string>
+    <string name="hint_poc_this_machine_user">本机用户：%1$s</string>
+    <string name="hint_poc_current_memberHint">当前用户：</string>
+    <string name="hint_poc_current_groupHint">当前群组：</string>
+    <string name="hint_poc_this_machine_userHint">本机用户：</string>
+    <string name="hint_user_desc">用户信息</string>
+    <string name="hint_poc_group_select">群组选择</string>
+    <string name="hint_poc_friend_select">好友选择</string>
+    <string name="hint_poc_member_select">成员选择</string>
+    <string name="hint_poc_member_toomany">成员太多</string>
+    <string name="hint_poc_dispatcher_select">调度员选择</string>
+    <string name="hint_poc_group_selectShort">群组</string>
+    <string name="hint_poc_friend_selectShort">好友</string>
+    <string name="hint_poc_member_selectShort">成员</string>
+    <string name="hint_poc_dispatcher_selectShort">调度员</string>
+    <string name="hint_please_select_group">请选择群组</string>
+    <string name="hint_please_select_member">请选择成员</string>
+    <string name="hint_temp_voice_add">加入临时呼叫</string>
+    <string name="hint_ptt_click_send_tempcall">PTT发起临时呼叫</string>
+    <string name="hint_cur_tempcall">临时呼叫中</string>
+    <string name="hint_video_set_err">视频分辨率设置错误</string>
+    <string name="hint_video_current_not_enable">当前不支持视频模块</string>
+    <string name="hint_not_support">不支持</string>
+    <string name="hint_quality">质量</string>
+    <string name="hint_Resolving">分辨率</string>
+    <string name="hint_video_quality">视频质量</string>
+    <string name="hint_video_screenOrientation">视频方向</string>
+    <string name="hint_video_angle">视频角度</string>
+    <string name="landscape">横屏</string>
+    <string name="portrait">竖屏</string>
+    <string name="hint_video_Resolving">视频分辨率</string>
+    <string name="hint_uplocation_locationErr">位置获取失败</string>
+    <string name="hint_uplocation_currendLocation">位置</string>
+    <string name="hint_uplocation_isRunUpreport">上报是否启动</string>
+    <string name="hint_uplocation_locationIsEffective">是否有效</string>
+    <string name="hint_uplocation_distanceIsEffective">距离是否有效</string>
+    <string name="hint_uplocation_UpReportState">上报</string>
+
+    <string name="hint_remote_change_account">远程换号</string>
+    <string name="hint_remote_change_account_notPermission">无远程换号权限</string>
+    <string name="hint_notPermission">无权限</string>
+    <string name="hint_volume_please_affirm">请确认控制音量</string>
+    <string name="hint_volume_level">音量%1$s级</string>
+    <string name="hint_voice_please_affirm">请确认音量增强</string>
+    <string name="hint_tts_please_affirm">请确认TTS音量</string>
+    <string name="hint_volume_enter">进入音量控制</string>
+    <string name="hint_volume_out">退出音量控制</string>
+    <string name="hint_voice_enter">进入音量增强</string>
+    <string name="hint_voice_out">退出音量增强</string>
+    <string name="hint_tts_enter">进入TTS控制</string>
+    <string name="hint_tts_out">退出TTS控制</string>
+    <string name="hint_enter_control">进入控制</string>
+    <string name="hint_out_control">退出控制</string>
+    <string name="hint_control_please_affirm">请确认控制</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">请确认增强音量</string>
+    <string name="hint_EnhanceVoicePlay_enter">进入增强控制</string>
+    <string name="hint_EnhanceVoicePlay_out">退出增强控制</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">请确认录音增强音量</string>
+    <string name="hint_EnhanceVoiceRecord_enter">进入录音控制</string>
+    <string name="hint_EnhanceVoiceRecord_out">退出录音控制</string>
+
+    <string name="hint_sos_dig_time">时间:</string>
+    <string name="hint_sos_dig_time_strForm">时间:%1$s</string>
+    <string name="hint_sos_dig_address">地点:</string>
+    <string name="hint_sos_dig_address_strForm">地点:%1$s</string>
+    <string name="hint_sos_dig_group">紧急群组:</string>
+    <string name="hint_sos_dig_group_strForm">紧急群组:%1$s</string>
+    <string name="hint_sos_dig_name">人员:</string>
+    <string name="hint_sos_dig_name_strForm">人员:%1$s</string>
+    <string name="hint_sos_dig_distance_strForm">距你%1$s米</string>
+    <string name="hint_sos_dig_title">%1$s发出报警</string>
+    <string name="hint_sos_dig_title_new">%1$s在%2$s发出报警</string>
+    <string name="hint_sos_dig_title_new_ptt" >对讲机%1$s发出报警</string>
+    <string name="hint_sos_dig_title_new_alarm">报警器%1$s发出报警</string>
+    <string name="hint_sos_dig_unTitle">%1$s解除报警</string>
+    <string name="hint_sos_help_failure">报警失败</string>
+    <string name="hint_sos_unhelp_failure">报警解除失败</string>
+    <string name="hint_sos_notLocation_notHelp">位置获取失败,无法报警</string>
+    <string name="hint_sos_exitNavi">退出导航</string>
+    <string name="hint_sos_notRecord">无报警记录</string>
+    <string name="hint_sos_unHelp">解除报警</string>
+    <string name="hint_sos_unHelping">解除报警中</string>
+    <string name="hint_sos_HelpIng">报警中</string>
+    <string name="hint_sos_Help_succeed">报警成功</string>
+    <string name="hint_no_record">无记录</string>
+    <string name="hint_set_major_dispatch">设为主调度员</string>
+
+    <string name="hint_sos_set_title">报警号码</string>
+
+    <string name="hint_patrol_sign_err_notLocation">打卡无效，定位失败</string>
+    <string name="hint_patrol_sign_err_server">打卡失败，服务器异常</string>
+    <string name="hint_patrol_sign_err_location">打卡失败，不再服务区</string>
+    <string name="hint_patrol_sign_err_network">打卡失败，网络错误</string>
+    <string name="hint_patrol_sign_err_dataErr">二维码数据异常</string>
+    <string name="hint_patrol_sign_err_scanErr">二维码扫描失败</string>
+    <string name="hint_patrol_sign_succeed">打卡成功</string>
+    <string name="hint_patrol_record_time">巡更时间</string>
+    <string name="hint_patrol_record_line">巡更线</string>
+    <string name="hint_patrol_record_postion">检查项</string>
+    <string name="hint_patrol_time_range">开始时间不能小于结束时间</string>
+
+    <string name="hint_location_startPosition">开始定位</string>
+    <string name="hint_location_Succeed">定位成功</string>
+    <string name="hint_location_not">无定位</string>
+    <string name="hint_location_err">定位失败</string>
+    <string name="hint_location_change">位置发生变化</string>
+    <string name="hint_location_Navigation_planning">导航规划中</string>
+    <string name="hint_location_Navigation_plannErr">导航规划失败</string>
+    <string name="hint_location_gpsLv">GPS信号%1$s格</string>
+    <string name="hint_location_gpsSignalWeak">GPS信号弱</string>
+    <string name="hint_location_gpsSignalStrong">GPS信号强</string>
+    <string name="hint_location_gpsSignalGeneral">GPS信号正常</string>
+
+    <string name="hint_voiceQuality_setting">音质设置</string>
+    <string name="hint_voiceQuality_High">高清音质</string>
+    <string name="hint_voiceQuality_common">普通音质</string>
+
+    <!-- notice -->
+    <string name="notice_video_call">视频呼叫</string>
+    <string name="notice_request_video_call">请求视频聊天</string>
+    <string name="notice_connect_exception">连接异常</string>
+    <string name="notice_login_exception">异常登录</string>
+    <string name="notice_manage_notice">公告通知</string>
+    <string name="notice_video_call_broocast">视频广播</string>
+    <string name="notice_video_call_monitoring">视频调度</string>
+    <string name="notice_video_call_voice">语音呼叫</string>
+
+    <!-- notice top-->
+    <string name="noticetop_video_onReconnecting">视频对讲服务连接中</string>
+    <string name="noticetop_video_onReconnected">视频对讲服务连接成功</string>
+    <string name="noticetop_video_onReconnectfailed">视频对讲服务连接失败</string>
+    <string name="noticetop_POC_onReconnecting">POC对讲服务连接中</string>
+    <string name="noticetop_POC_onReconnected">POC对讲服务连接成功</string>
+    <string name="noticetop_POC_onReconnectfailed">POC对讲服务连接失败</string>
+    <string name="noticetop_network_off">搜索网络中</string>
+    <string name="noticetop_network_Switch">网络正在切换</string>
+    <string name="noticetop_current_connection_lost">请注意！当前登录已掉线</string>
+    <string name="network_signal_poor">对方网络很差</string>
+    <string name="network_signal_poor1">网络很差</string>
+
+
+
+
+    <!-- chat type-->
+    <string name="chat_type_video">【视频通话】</string>
+    <string name="chat_type_voice">【语音通话】</string>
+    <string name="chat_imtype_video">【视频】</string>
+    <string name="chat_imtype_img">【图片】</string>
+    <string name="chat_imtype_voice">【语音】</string>
+    <string name="chat_imtype_pttvoice">【PTT语音】</string>
+    <string name="chat_imtype_file">【文件】</string>
+    <string name="chat_imtype_location">【位置】</string>
+    <string name="chat_map_sendMessage_title">消息</string>
+
+    <string name="member_offLine">对方不在线</string>
+    <string name="diapatch_offLine">调度员不在线</string>
+    <!-- other -->
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">androidSdk版本:</string>
+    <string name="android_sys_version">android系统版本:</string>
+    <string name="phone_type">手机型号:</string>
+
+    <string name="large">大</string>
+    <string name="norm">中</string>
+    <string name="small">小</string>
+    <string name="large_text">大号</string>
+    <string name="norm_text">中号</string>
+    <string name="small_text">小号</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">自动</string>
+    <string name="manual">手动</string>
+
+    <string name="test_name">小明</string>
+    <string name="test_name2">张三</string>
+    <string name="test_group_name">开发群</string>
+    <string name="test_chat_msg">你好！美女，晚上一起回去探讨人生</string>
+
+
+    <string name="hint_inout_feedback">感谢您的建议，我们将会为您做到更好</string>
+
+    <string name="hint_about_company">PPT语音</string>
+    <string name="title_activity_google_maps">Map</string>
+
+
+    <string name="have_sign_in">已签到</string>
+    <string name="no_sign_in">未签到</string>
+    <string name="online_car_welcome">欢迎乘坐网约车</string>
+    <string name="online_car_notify">请系好安全带</string>
+    <string name="navigation_str">导航</string>
+    <string name="navigation_Route">路线规划</string>
+    <string name="monitor_str">监控</string>
+    <string name="data_str">数据列表</string>
+    <string name="set_str">设置</string>
+    <string name="voice_record">语音记录</string>
+    <string name="sos_record">报警记录</string>
+    <string name="voice_list">语音列表</string>
+    <string name="voice_record1">录音</string>
+    <string name="media_record">记录</string>
+    <string name="patrol_record">巡检</string>
+    <string name="voice_record_notopen">语音记录未打开</string>
+    <string name="video_record">视频记录</string>
+    <string name="text_record">文本信息</string>
+    <string name="look_annex">查看附件</string>
+    <string name="annex">附件</string>
+    <string name="device_info">终端参数</string>
+    <string name="devmenu_str">设备状态</string>
+    <string name="reboot_str">是否重启</string>
+    <string name="voice_str">调节音量</string>
+    <string name="verinfo_str">关于版本</string>
+    <string name="exitfail">正在被拉取视频，禁止退出</string>
+
+    <string name="hint_lockscreen_lock">锁屏中</string>
+    <string name="hint_lockscreen_unlockIng">解锁中</string>
+    <string name="hint_lockscreen_unlockFaill">解锁失败</string>
+    <string name="hint_lockscreen_unlockSucceed">已解锁</string>
+    <string name="hint_lockscreen_unlockHint">长按%1$s解锁</string>
+    <string name="key_back">返回键</string>
+    <string name="ring_volume">铃声音量</string>
+    <string name="alarm_volume">闹钟音量</string>
+    <string name="alert_volume">报警音量</string>
+    <string name="not_amap_app">请安装地图软件</string>
+    <string name="map_gaode_app">高德地图</string>
+    <string name="map_baidu_app">百度地图</string>
+    <string name="map_tencent_app">腾讯地图</string>
+    <string name="map_select">地图选择</string>
+    <string name="create_group">创建群组</string>
+    <string name="join_group">加入群组</string>
+    <string name="delete_group">删除群组</string>
+    <string name="delete_mem">删除成员</string>
+    <string name="create_group_succ">创建群组成功</string>
+    <string name="join_group_succ">加入群组成功</string>
+    <string name="delete_group_succ">删除群组成功</string>
+    <string name="delete_mem_succ">删除成员成功</string>
+
+
+    <!--Video-->
+    <string name="request_pull_somebody_video">请求拉取%1$s视频</string>
+    <string name="request_push_somebody_video">%1$s请求上传视频</string>
+    <string name="pulling_somebody_video">正在拉取%1$s视频</string>
+    <string name="pullvideo">拉取视频</string>
+    <string name="somebody_request_pull_video">%1$s请求拉取视频</string>
+    <string name="somebody_request_video_chat">%1$s请求视频通话</string>
+    <string name="request_somebody_video_chat">请求和%1$s视频通话</string>
+    <string name="talking_somebody_video_chat">正在和%1$s视频通话</string>
+    <string name="somebody_request_video_share">来自%1$s视频分享</string>
+    <string name="somebody_stop_video_share">%1$s停止视频分享</string>
+    <string name="invite_somebody_videomeeting">%1$s邀请加入%2$s会议</string>
+    <string name="somebody_join_videomeeting">%1$s加入会议</string>
+    <string name="somebody_leave_videomeeting">%1$s离开会议</string>
+    <string name="delete_somebody_videomeeting">确定踢出%1$s成员</string>
+    <string name="create_meeting">发起会议</string>
+    <string name="meeting_name">会议名称</string>
+    <string name="end_meeting">结束</string>
+    <string name="meeting_members">会议成员</string>
+    <string name="no_member_join">无人参加</string>
+    <string name="meeting_window_9">9分屏</string>
+    <string name="meeting_window_4">4分屏</string>
+    <string name="meeting_window_2">2分屏</string>
+    <string name="request_upload_video">正在上传视频</string>
+    <string name="videochat">视频通话</string>
+    <string name="hangup_video">已挂断</string>
+    <string name="see_video">正在被%1$s查看视频</string>
+    <string name="ringing_video">正在响铃</string>
+    <string name="accept_video">正在查看%1$s视频</string>
+    <string name="reject_video">已拒绝</string>
+    <string name="cancel_pull_video">取消拉取</string>
+
+    <string name="hint_room_create_err">视频房间创建失败</string>
+    <string name="hint_open_local_err">打开本地视频失败</string>
+    <string name="hint_open_remote_err">打开远程视频失败</string>
+    <string name="hint_devices_err">设备异常</string>
+
+    <string name="hint_audio_video_acquisition">音视频采集中</string>
+    <string name="hint_dont_operation">请勿操作</string>
+
+    <!---->
+    <string name="data_traffic_info">流量信息</string>
+    <string name="data_traffic_low">流量不足</string>
+    <string name="data_traffic_oom">流量超出</string>
+    <string name="data_traffic_total">总    量: %1$s</string>
+    <string name="data_traffic_usedMonth">本月已用 : %1$s</string>
+    <string name="data_traffic_usedDay">本日已用 : %1$s</string>
+    <string name="data_traffic_surplusMonth">剩    余 : %1$s</string>
+
+    <string name="snd_msg">发送消息</string>
+    <string name="snd_loc">发送位置</string>
+    <string name="clear_msg">清空记录</string>
+    <string name="set_work">设为工作组</string>
+    <string name="workgrp">工作组:</string>
+    <string name="half_call">半双工呼叫</string>
+    <string name="twoway_call">专网</string>
+    <string name="twoway_call1">专网通信</string>
+    <string name="video_duplex">视频双工</string>
+    <string name="add_contacts">新增联系人</string>
+    <string name="flash_lamp">闪光灯</string>
+
+    <string name="code_number">号码:%1$s</string>
+    <string name="details">详细资料</string>
+    
+    <!-- uav system -->
+    <string name="uav_system_name">无人机广播系统</string>
+    <string name="uav_text_broadcast">文本广播</string>
+    <string name="uav_record_broadcast">录音广播</string>
+    <string name="uav_realtime_broadcast">实时广播</string>
+    <string name="uav_text_broadcast_record">记录</string>
+    <string name="uav_text_broadcast_play">播放</string>
+    <string name="uav_text_broadcast_stop">停止</string>
+    <string name="uav_text_broadcast_sex">发声选择：</string>
+    <string name="uav_text_broadcast_language">普通话</string>
+    <string name="uav_text_broadcast_man">男声</string>
+    <string name="uav_text_broadcast_woman">女声</string>
+    <string name="uav_text_broadcast_mode">播放模式：</string>
+    <string name="uav_text_broadcast_cycle">循环</string>
+    <string name="uav_text_broadcast_speed">语速：</string>
+    <string name="uav_text_broadcast_normal">正常</string>
+
+    <string name="hint_filemanager_filemanager">文件管理</string>
+    <string name="hint_filemanager_up_list">上传列表</string>
+    <string name="hint_filemanager_mian_point">重点文件</string>
+    <string name="hint_filemanager_no_mian_point">非重点文件</string>
+    <string name="hint_filemanager_all_file">全部文件</string>
+    <string name="hint_name">名称</string>
+    <string name="hint_date">日期</string>
+    <string name="hint_path">路径</string>
+    <string name="hint_size">大小</string>
+
+    <string name="hint_video_record_sub_time">分段录制时长</string>
+    <string name="hint_video_record_ratio">视频录制分辨率</string>
+    <string name="hint_map_setting">地图设置</string>
+    <string name="hint_other_setting">其他设置</string>
+    <string name="hint_account_setting">账号设置</string>
+    <string name="hint_address_setting">地址设置</string>
+    <string name="hint_video_config2">影像设置</string>
+    <string name="hint_WIFI_set">WIFI设置</string>
+    <string name="hint_blue_set">蓝牙设置</string>
+    <string name="hint_network_set">无线和网络</string>
+    <string name="hint_display_set">显示设置</string>
+    <string name="hint_sound_set">音量设置</string>
+    <string name="hint_about_set">版本设置</string>
+
+    <!-- Call -->
+    <string name="call_hand_free">请求免提</string>
+    <string name="call_user">呼叫</string>
+    <string name="message_user">信息</string>
+    <string name="change_user">修改</string>
+    <string name="change_call_user_name">修改用户名</string>
+    <string name="call_history">呼叫记录</string>
+    <string name="please_inputcallnum">请输入号码</string>
+    <string name="err_code_status">用户状态异常</string>
+    <string name="err_code_noexist">空号</string>
+    <string name="err_code_offline">用户离线</string>
+    <string name="err_code_busy">用户正忙</string>
+    <string name="err_code_cantconn">无法接通</string>
+    <string name="err_code_timeout">连接超时</string>
+
+    <string name="alarm_iot">传感器报警</string>
+    <string name="alarm_device">报警器报警</string>
+    <string name="alarm_ptt">对讲机报警</string>
+
+    <!-- 执法仪设备 -->
+    <string name="law_start">开始执法</string>
+    <string name="law_app">集群应用</string>
+    <string name="law_grp">群组选择</string>
+    <string name="law_mem">成员选择</string>
+    <string name="law_fri">好友选择</string>
+    <string name="law_dis">调度员选择</string>
+    <string name="law_rec">媒体记录</string>
+    <string name="law_set">功能设置</string>
+    <string name="law_account_set_success">账号设置成功</string>
+    <string name="law_acc_or_psw_null">账号或密码为空</string>
+    <string name="law_about">执法记录仪</string>
+    <string name="law_start_record_video">开始录像</string>
+    <string name="law_start_record_voice">开始录音</string>
+    <string name="law_stop_record">停止录制</string>
+    <string name="law_record_mark">重点标记</string>
+    <string name="item_sysset_ir_config">红外设置</string>
+
+
+    <!-- T801 列车管理 -->
+    <string name="title_trainListAct">车辆列表</string>
+    <string name="add_train">添加列车</string>
+    <string name="please_scan_code">请扫码</string>
+    <string name="please_take_photo">请拍照</string>
+    <string name="code_not_match">编号不匹配</string>
+    <string name="btn_release">放置</string>
+    <string name="btn_colletc">收取</string>
+
+    <!-- 地址设置 -->
+    <string name="addr_set">地址设置</string>
+    <string name="static_ip">静态IP</string>
+    <string name="dynamic_ip">动态IP</string>
+    <string name="addr_port">地址端口:</string>
+    <string name="mac_addr">MAC地址:</string>
+
+    <string name="not_connected">未接通</string>
+    <string name="talk_time">通话时长:%1$s</string>
+    <string name="send_msg">发消息</string>
+    <string name="del_msg">清空消息</string>
+    <string name="half_duplex">对讲</string>
+    <string name="group_announcement">群公告</string>
+    <string name="group_members">群组成员</string>
+    <string name="group_detail">群组详情</string>
+    <string name="group_voice_intercom">群组对讲</string>
+
+</resources>

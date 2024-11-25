@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/t_bgColor">
+
+    <com.gwsd.open_ptt.view.AppTopView
+        android:id="@+id/viewHalfDuplexTopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:background="@color/color_blue35"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewGroupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/item_height_ss"
+            android:text="@string/hint_poc_current_group"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_nromlX" />
+
+        <ImageView
+            android:id="@+id/viewVoiceCtrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_height_ss"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimen10dp"
+            android:background="@mipmap/ic_open_voice"/>
+
+        <TextView
+            android:id="@+id/viewGroupId"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="123.000000"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_largeXXXX"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <com.gwsd.open_ptt.view.SpeakerVoiceDBAnimView
+                android:id="@+id/viewSpeakerAnim"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height_x"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/dimen_boundary_xl" />
+
+            <RelativeLayout
+                android:id="@+id/viewSpeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewSpeakerAnim"
+                >
+                <TextView
+                    android:id="@+id/viewSpeakStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/item_height_ss"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="SPEAKING"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/textSize_large" />
+                <ImageView
+                    android:id="@+id/viewSpeakLed"
+                    android:layout_width="@dimen/dimen10dp"
+                    android:layout_height="@dimen/dimen10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dimen_boundary_s"
+                    android:layout_toLeftOf="@+id/viewSpeakStatus"
+                    android:background="@drawable/selector_oval_red" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.gwsd.open_ptt.view.VoiceSendingView
+            android:id="@+id/view_VoiceSendingView"
+            android:layout_width="@dimen/group_list_ptt_VoiceSendingView_size"
+            android:layout_height="@dimen/group_list_ptt_VoiceSendingView_size"
+            android:layout_centerInParent="true"
+            app:thc_AnimationDrawable="@drawable/animation_video_voice_blue"
+            app:thc_microphone_height="@dimen/group_list_ptt_VoiceSendingView_microphone_size"
+            app:thc_microphone_width="@dimen/group_list_ptt_VoiceSendingView_microphone_size" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

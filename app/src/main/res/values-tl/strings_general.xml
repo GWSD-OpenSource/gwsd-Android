@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d mga larawan</string>
+    <string name="msg_no_camera">Walang natagpuang kamera</string>
+    <string name="msg_maxi_capacity">Naabot ang maximum na bilang ng napiling mga larawan</string>
+    <string name="confirm">Kumpirmahin</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="commit">Kumpirmahin</string>
+    <string name="agree">Sang-ayon</string>
+    <string name="jieTing">Sagutin</string>
+    <string name="reject">Tanggihan</string>
+    <string name="start">Simulan</string>
+    <string name="end">Tapos</string>
+    <string name="stop">Itigil</string>
+    <string name="exit">Lumabas</string>
+    <string name="double_exit">I-double click upang lumabas</string>
+    <string name="double_back">I-double click upang bumalik</string>
+    <string name="double_operation">Pakidoble-click upang mag-operate</string>
+    <string name="enter">Ipasok</string>
+    <string name="current">Kasalukuyan</string>
+    <string name="group">Grupo</string>
+    <string name="user">Gumagamit</string>
+    <string name="address">Address</string>
+    <string name="longitude">Haba</string>
+    <string name="latitude">Latitud</string>
+    <string name="succeed">Matagumpay</string>
+    <string name="failure">Nabigo</string>
+    <string name="normal">Normal</string>
+    <string name="exception">Hindi normal</string>
+    <string name="operationIng">Nagpapatakbo</string>
+    <string name="operation_failure">Nabigong operasyon</string>
+    <string name="ongoing">Patuloy</string>
+    <string name="delete">Tanggalin</string>
+    <string name="menu">Menu</string>
+    <string name="batterty">Baterya</string>
+    <string name="batterty_form">Baterya %1$d</string>
+    <string name="volume">Dami</string>
+    <string name="add">Idagdag</string>
+    <string name="subtract">Ibawas</string>
+    <string name="multiply">I-multiply</string>
+    <string name="divide">Hatiin</string>
+    <string name="save">I-save</string>
+    <string name="reset">I-reset</string>
+    <string name="mute">Pipi</string>
+    <string name="mute_on">I-on ang pipi</string>
+    <string name="mute_off">I-off ang pipi</string>
+    <string name="sound_on">I-on ang tunog</string>
+    <string name="sound_off">I-off ang tunog</string>
+    <string name="conversation">Pag-uusap</string>
+    <string name="contacts">Mga contact</string>
+
+    <string name="yes">Oo</string>
+    <string name="no">Hindi</string>
+
+    <string name="man">Lalaki</string>
+    <string name="woman">Babae</string>
+    <string name="oneself">Sarili</string>
+    <string name="local_equipment">Lokal na aparato</string>
+    <string name="local_equipment_speak">Nagsasalita ang lokal na aparato</string>
+    <string name="talking_speak">Nagsasalita</string>
+    <string name="more">Higit pa</string>
+    <string name="setSucceed">Matagumpay na pag-set</string>
+    <string name="restoreDefult">Ibalik ang default</string>
+
+    <string name="commit_num">Kumpirmahin (%1$d/%2$d)</string>
+    <string name="select_num">Napili (%1$s)</string>
+    <string name="select_all">Piliin lahat</string>
+    <string name="selected">Napili</string>
+    <string name="unit_time_hour">Oras</string>
+    <string name="unit_time_minute">Minuto</string>
+    <string name="unit_time_second">Segundo</string>
+    <string name="week">Linggo</string>
+    <string name="week_Monday">Lunes</string>
+    <string name="week_Tuesday">Martes</string>
+    <string name="week_Wednesday">Miyerkules</string>
+    <string name="week_Thursday">Huwebes</string>
+    <string name="week_Friday">Biyernes</string>
+    <string name="week_Saturday">Sabado</string>
+    <string name="week_Sunday">Linggo</string>
+
+    <string name="unit_m">Metro</string>
+    <string name="unit_km">Kilometro</string>
+
+    <string name="distance">Distansya</string>
+
+    <string name="nodata">Walang magagamit na data</string>
+    <string name="nodata2">Walang data</string>
+    <string name="not_more_data">Wala nang data</string>
+    <string name="undefined">Hindi natukoy</string>
+
+    <string name="search">Maghanap</string>
+
+    <string name="title_select_photo">Piliin ang larawan</string>
+    <string name="hint_no_storage">Walang magagamit na panlabas na storage</string>
+    <string name="hint_photo_all">Lahat ng larawan</string>
+
+    <string name="expand">Larawan</string>
+    <string name="item">Mga item</string>
+    <string name="house_Number">Numero</string>
+
+    <string name="please_Waiting">Pakitutok...</string>
+
+    <string name="hint_version_current_on_new">Ang kasalukuyang bersyon ay ang pinakabago</string>
+    <string name="hint_version_not_newVersion">Walang package ng pag-update</string>
+    <string name="hint_version_current">Kasalukuyang bersyon:</string>
+    <string name="hint_version_new">Pinakabagong bersyon:</string>
+    <string name="hint_file_size">Laki ng file:</string>
+    <string name="hint_app_update">Pag-update ng software</string>
+    <string name="btn_not_update">Huwag mag-update ngayon</string>
+    <string name="btn_now_update">I-update ngayon</string>
+
+    <string name="notExits">Hindi umiiral</string>
+    <string name="file">File</string>
+
+    <string name="btn_cancel_down">Kanselahin ang pag-download</string>
+    <string name="btn_background_update">Pag-update sa background</string>
+    <string name="btn_cancel_update_and_exitApp">Kanselahin ang pag-update at lumabas sa app</string>
+    <string name="pause">I-pause</string>
+    <string name="again">Magpatuloy</string>
+    <string name="wait">Maghintay</string>
+
+    <string name="time_select">Piliin ang oras</string>
+    <string name="time_start">Oras ng pagsisimula</string>
+    <string name="time_end">Oras ng pagtatapos</string>
+    <string name="time_start_please">Pakitukoy ang oras ng pagsisimula</string>
+    <string name="time_end_please">Pakitukoy ang oras ng pagtatapos</string>
+    <string name="time_start_position">Oras ng pagsisimula:</string>
+    <string name="time_end_position">Oras ng pagtatapos:</string>
+    <string name="time">Oras</string>
+    <string name="satellite">Satelite</string>
+    <string name="satelliteCount">Bilang ng mga satelite</string>
+    <string name="signal">Signal</string>
+    <string name="hint_disk_small">Hindi sapat ang memorya</string>
+    <string name="hint_disk_no_free">Hindi sapat ang espasyo ng imbakan</string>
+
+    <string name="photo">Larawan</string>
+    <string name="video">Video</string>
+    <string name="voice">Boses</string>
+    <string name="document">Dokumento</string>
+    <string name="camera">Kamera</string>
+    <string name="location">Lokasyon</string>
+    <string name="refresh">I-refresh</string>
+</resources>

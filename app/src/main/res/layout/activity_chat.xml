@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/t_bgColor"
+    >
+    <!--?attr/t_bgColor-->
+    <com.gwsd.open_ptt.view.AppTopView
+        android:id="@+id/viewChatTopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/viewRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/viewChatGroup"
+        android:layout_below="@+id/viewChatTopView" />
+
+    <com.gwsd.open_ptt.view.VoiceSendingView
+        android:id="@+id/viewVoiceAnimPanel"
+        android:layout_width="@dimen/group_list_ptt_VoiceSendingView_size"
+        android:layout_height="@dimen/group_list_ptt_VoiceSendingView_size"
+        android:layout_centerInParent="true"
+        android:background="@color/color_transparent10"
+        app:thc_microphone_height="@dimen/group_list_ptt_VoiceSendingView_microphone_size"
+        app:thc_microphone_width="@dimen/group_list_ptt_VoiceSendingView_microphone_size" />
+
+    <FrameLayout
+        android:id="@+id/viewChatGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dimen1dp"
+        >
+        <com.gwsd.open_ptt.view.ChatInputView
+            android:id="@+id/viewChatInputView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+    </FrameLayout>
+</RelativeLayout>

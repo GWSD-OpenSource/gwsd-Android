@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Cluster comm</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="app_startIng">Interkom memulai</string>
+    <string name="app_initIng">Menginisialisasi</string>
+    <string name="app_Permission_to_change">Perubahan izin</string>
+
+    <string name="login_welcome_easy">Interkom jaringan publik</string>
+    <string name="login_welcome_easy_idata">Interkom</string>
+
+    <string name="login_welcome">Selamat datang di sistem interkom %1$s</string>
+
+    <string name="login_welcome_tts">Selamat datang di interkom jaringan publik</string>
+    <string name="login_welcome_idata">Selamat datang di aplikasi interkom</string>
+    <string name="login_welcome_Telecom_4G">Selamat datang di interkom Telecom 4G</string>
+    <string name="user_agreement">Saya telah membaca dan setuju dengan Perjanjian Pengguna</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">Interkom</string>
+    <string name="main_tab_report">Aplikasi</string>
+    <string name="main_tab_map">Peta</string>
+    <string name="main_tab_setting">Pengaturan</string>
+    <string name="main_tab_operator">Beranda</string>
+    <string name="main_tab_talkbackRecord">Catatan interkom</string>
+    <string name="main_tab_grp">Group</string>
+
+    <string name="accessibility_service_description">Instalasi pintar, layanan aksesibilitas</string>
+    <string name="search_hint_group">Masukkan kata kunci untuk mencari grup</string>
+    <string name="search_hint_group_member">Masukkan kata kunci untuk mencari anggota grup</string>
+    <string name="search_hint_friend">Masukkan kata kunci untuk mencari teman</string>
+    <string name="search_hint_norm">Masukkan kata kunci untuk mencari</string>
+    <string name="search_hint_easy">Masukkan kata kunci</string>
+
+    <string name="title_LoginActivity">Login</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">Grup</string>
+    <string name="title_FriendFragment">Teman</string>
+    <string name="title_DispatcherFragment">Dispatcher</string>
+    <string name="title_contactsFragment">Kontak</string>
+    <string name="title_MyFragment">Saya</string>
+    <string name="title_ABoutActivity">Tentang</string>
+    <string name="title_ConnOffDialogActivity">Login tidak normal</string>
+    <string name="title_FeedbackActivity">Umpan balik</string>
+    <string name="title_SetLanguageActivity">Pengaturan bahasa</string>
+    <string name="title_SetTextSizeActivity">Pengaturan font</string>
+    <string name="title_SetNetWorkActivity">Mode jaringan</string>
+    <string name="title_SetUpReportCycleActivity">Pengaturan lokasi</string>
+    <string name="title_SetUpReportVideoSizeActivity">Resolusi pelaporan video</string>
+    <string name="title_videoConfig">Konfigurasi video</string>
+    <string name="title_SetGPSReportCycleActivity">Layanan lokasi</string>
+    <string name="title_SetLocationReportActivity">Pelaporan lokasi</string>
+    <string name="title_SysSetActivity">Pengaturan</string>
+    <string name="title_SetNormActivity">Pengaturan umum</string>
+    <string name="title_PocMemberListActivity">Anggota grup</string>
+    <string name="title_ChatActivity">Chat</string>
+    <string name="title_UpReportPhotoActivity">Pelaporan foto</string>
+    <string name="title_UpreportVideoActivity">Pelaporan video</string>
+    <string name="title_UpReportVioceActivity">Pelaporan suara</string>
+    <string name="title_PocGroupNoticeActivity">Pengumuman</string>
+    <string name="title_requestDispatcher">Permintaan dispatch</string>
+    <string name="title_UserDescActivity">Informasi pribadi</string>
+    <string name="title_SetSaveNoticeNumberActivity">Pengaturan simpan pengumuman</string>
+    <string name="title_SelectMemberActivity">Pemilihan anggota</string>
+    <string name="title_TalkbackSoundActivity">Panggilan sementara</string>
+    <string name="title_TempGrp">Grup sementara</string>
+    <string name="title_dispatchTempCall">Panggilan dispatch</string>
+
+    <string name="title_PlayRecordActivity">Rekaman saya</string>
+    <string name="title_RecordListActivity">Rekaman saya</string>
+    <string name="title_SearchConditionsActivity">Cari</string>
+    <string name="title_TalkbackRecord">Catatan interkom</string>
+
+    <string name="title_activity_maps">GoogleMap</string>
+    <string name="title_UserAgreementAct">Perjanjian Pengguna</string>
+    <string name="title_setDomain">Pengaturan domain</string>
+    <string name="title_PatrolRecordActivity">Daftar inspeksi</string>
+    <string name="title_terminal_location">Lokasi terminal</string>
+    <string name="title_attach_fun">Aplikasi cepat</string>
+    <string name="server">Server</string>
+    <string name="domain">Domain</string>
+    <string name="port">Port</string>
+    <string name="other">Lainnya</string>
+
+    <string name="title_singlechip_autobackmain_timer">Waktu kembali otomatis</string>
+    <string name="title_poc_intercom">Interkom cluster</string>
+    <string name="title_file_manager">Pemutaran file</string>
+    
+    <string name="btn_close">Mati</string>
+    <string name="btn_open">Hidup</string>
+    <string name="btn_affirm">Konfirmasi</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_submit">Kirim</string>
+    <string name="btn_send">Kirim</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_login_out">Logout</string>
+    <string name="btn_clean_data">Bersihkan akun</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">Panggilan video grup</string>
+
+    <string name="btn_hangup">Tutup telepon</string>
+    <string name="btn_accept">Terima</string>
+    <string name="btn_refuse">Tolak</string>
+    <string name="btn_speakerphone">Pengeras suara</string>
+    <string name="btn_silence">Diam</string>
+    <string name="btn_camera_change">Ganti</string>
+
+    <string name="btn_upreport_source">Asli</string>
+    <string name="btn_upreport_compress">Kompres</string>
+    <string name="btn_source_nativce">Lokal</string>
+    <string name="btn_source_photograph">Fotografi</string>
+    <string name="btn_source_film">Film</string>
+    <string name="btn_talk_photo">Ambil foto</string>
+
+    <string name="btn_update_now">Perbarui sekarang</string>
+    <string name="btn_update_no">Perbarui nanti</string>
+    <string name="btn_upreport_location">Pelaporan lokasi</string>
+    <string name="btn_upreport_photo">Pelaporan foto</string>
+    <string name="btn_upreport_video">Pelaporan video</string>
+    <string name="btn_upreport_voice">Pelaporan suara</string>
+    <string name="btn_upreport_sos">Alarm satu tombol</string>
+    <string name="btn_upreport_Patrol">Catatan patroli</string>
+    <string name="btn_upreport_scan">Pindai</string>
+    <string name="btn_remote_monitoring">Pemantauan jarak jauh</string>
+    <string name="btn_record_log">Catatan suara</string>
+
+    <string name="menu_apply_notice">Pemberitahuan</string>
+    <string name="menu_apply_group">Grup</string>
+    <string name="menu_apply_friend">Teman</string>
+    <string name="menu_apply_member">Anggota</string>
+    <string name="menu_apply_dispatch">Dispatcher</string>
+    <string name="menu_apply_groupSelect">Pemilihan grup</string>
+    <string name="menu_apply_groupOpt">Grup saya</string>
+    <string name="menu_gid_input">Silakan masukkan ID grup</string>
+    <string name="menu_apply_friendSelect">Pemilihan teman</string>
+    <string name="menu_apply_memberSelect">Pemilihan anggota</string>
+    <string name="menu_apply_dispatchSelect">Pemilihan dispatcher</string>
+    <string name="menu_apply_location">Lokasi</string>
+    <string name="menu_apply_setting">Pengaturan</string>
+    <string name="menu_apply_setting1">Pengaturan fungsi</string>
+    <string name="menu_apply_upreport_photo">Pelaporan foto</string>
+    <string name="menu_apply_upreport_video">Pelaporan video</string>
+    <string name="menu_apply_upreport_voice">Pelaporan suara</string>
+    <string name="menu_apply_scan">Pindai</string>
+    <string name="menu_apply_patrol">Catatan inspeksi</string>
+    <string name="menu_apply_sos_record">Catatan alarm</string>
+    <string name="menu_apply_train">Manajemen sepatu besi</string>
+    <string name="menu_apply_sound">Kolom suara</string>
+    <string name="menu_apply_sos">Alarm satu tombol</string>
+    <string name="menu_apply_record_log">Catatan suara</string>
+    <string name="menu_apply_voice_list">Daftar suara</string>
+    <string name="menu_apply_terminal_location">Lokasi terminal</string>
+
+    <string name="btn_call_voice">Panggilan suara</string>
+    <string name="btn_call_video">Panggilan video</string>
+    <string name="btn_switch_camera">Ganti depan/belakang</string>
+    <string name="btn_touch_video">Tahan untuk merekam</string>
+
+    <string name="btn_fluency">Lancar</string>
+    <string name="btn_common">Standar</string>
+    <string name="btn_standard">Standar</string>
+    <string name="btn_high">HD</string>
+    <string name="btn_press_speak">Tahan untuk bicara</string>
+    <string name="btn_loosen_end">Lepaskan untuk selesai</string>
+    <string name="btn_member">Anggota</string>
+    <string name="btn_grplocation">Lokasi grup</string>
+    <string name="btn_terminal_location">Lokasi terminal</string>
+<string name="btn_navigation">Navigasi</string>
+    <string name="btn_onekey_navigation">Navigasi satu kunci</string>
+    <string name="btn_navigation_start">Mulai navigasi</string>
+
+    <string name="item_sysset_message_hint">Pemberitahuan pesan</string>
+    <string name="item_sysset_VolumeControl">Kontrol volume</string>
+    <string name="item_sysset_VoiceEnhance">Peningkatan suara</string>
+    <string name="item_sysset_TTSVolume">Volume TTS</string>
+    <string name="item_sysset_PlayEnhance">Peningkatan volume</string>
+    <string name="item_sysset_RecordEnhance">Peningkatan rekaman</string>
+    <string name="item_sysset_textsize">Ukuran font</string>
+    <string name="item_sysset_network_mode">Mode jaringan</string>
+    <string name="item_sysset_language">Pengaturan bahasa</string>
+    <string name="item_sysset_meeting">Jendela video</string>
+    <string name="item_sysset_resolution">Resolusi</string>
+    <string name="item_sysset_alarm_settings">Pengaturan alarm</string>
+    <string name="item_sysset_norm">Pengaturan umum</string>
+    <string name="item_sysset_location">Pengaturan lokasi</string>
+    <string name="item_sysset_locationinfo">Informasi lokasi</string>
+    <string name="item_sysset_location_report">Layanan lokasi</string>
+    <string name="item_sysset_upreport">Siklus pelaporan lokasi</string>
+    <string name="item_sysset_video_record_size">Kualitas rekaman video</string>
+    <string name="item_sysset_notice_save_number">Simpan nomor pengumuman %1$s item</string>
+    <string name="item_sysset_warning_tone_switch">Nada prompt</string>
+    <string name="item_sysset_notice_switch">Pemberitahuan pengumuman</string>
+    <string name="item_sysset_video_voice_double">Dupleks suara video</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">Tampilkan halaman saat pengiriman video</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">Kualitas suara HD</string>
+    <string name="item_sysset_station">Stasiun dasar</string>
+    <string name="item_sysset_station_location">Lokasi stasiun dasar</string>
+    <string name="item_sysset_gps">Penyaringan GPS</string>
+    <string name="item_sysset_gps_control">Pengiriman lokasi</string>
+    <string name="item_sysset_voice_type">Pengumuman suara</string>
+    <string name="item_sysset_voice_OnLine_ispriority">Prioritas suara TTS online</string>
+    <string name="item_sysset_video_config">Konfigurasi video</string>
+    <string name="item_sysset_video_watermark">Watermark video</string>
+    <string name="item_sysset_watermark_size">Ukuran watermark</string>
+    <string name="item_sysset_ptt_wake_up">Layar interkom menyala</string>
+    <string name="item_power_mode">Mode daya</string>
+    <string name="item_powerLowModel">Mode siaga</string>
+    <string name="item_powerHeightModel">Mode kinerja tinggi</string>
+    <string name="item_powerHeightModel1">Mode kinerja</string>
+    <string name="item_sysset_enable_agps">AGPS</string>
+    <string name="item_sysset_min_distance">Jarak pelaporan minimum</string>
+
+    <string name="item_voiceAnnouncements">Pengumuman suara</string>
+
+    <string name="item_video_collection_ratio">Resolusi koleksi video</string>
+    <string name="item_video_auto_rcv_snd">Otomatis kirim/terima video</string>
+    <string name="item_video_auto_rcv_snd_desc">Kirim/terima video segera</string>
+
+    <string name="item_upreport_no">Tidak melaporkan</string>
+    <string name="item_upreport_high">Frekuensi tinggi %1$s</string>
+    <string name="item_upreport_middle">Frekuensi menengah %1$s</string>
+    <string name="item_upreport_low">Frekuensi rendah %1$s</string>
+
+    <string name="item_account">Akun</string>
+    <string name="item_Feedback">Masukan</string>
+    <string name="item_set">Pengaturan</string>
+    <string name="item_about">Tentang versi</string>
+    <string name="item_appVersion_desc">Informasi perangkat</string>
+    <string name="item_check_update_version">Periksa pembaruan</string>
+    <string name="item_sysSetting">Pengaturan sistem</string>
+    <string name="version_RollBack">Rollback versi</string>
+    <string name="version_desc">Informasi versi</string>
+    <string name="version_sys_desc">Informasi sistem</string>
+    <string name="version_update_ing">Memperbarui</string>
+    <string name="version_download_succeed">Pembaruan berhasil diunduh</string>
+    <string name="version_download_err">Gagal mengunduh pembaruan</string>
+    <string name="version_install_ing">Menginstal</string>
+    <string name="version_install_succeed">Pembaruan berhasil</string>
+    <string name="please_reboot_device">Silakan nyalakan ulang perangkat</string>
+    <string name="version_restart_app">Memulai ulang</string>
+
+    <string name="item_personal_details_username">Nama: %1$s</string>
+    <string name="item_personal_details_account">Akun: %1$s</string>
+    <string name="item_personal_details_ID">ID: %1$s</string>
+    <string name="item_personal_details_Imei0">IMEI:</string>
+    <string name="item_personal_details_Imei">IMEI: %1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">Panggilan video</string>
+    <string name="item_talkback_menu_item_video_upload">Unggah video</string>
+    <string name="item_talkback_menu_item_video_look">Lihat video</string>
+    <string name="item_talkback_menu_item_video_silence_look">Lihat diam</string>
+    <string name="item_talkback_menu_item_voice_talkback">Panggilan sementara</string>
+    <string name="item_talkback_menu_item_voice_call">Panggilan suara</string>
+    <string name="item_talkback_menu_item_voice_chat">Obrolan suara</string>
+    <string name="item_talkback_menu_item_chat">Obrolan</string>
+
+    
+    <string name="hint_please_open_gps">Nyalakan/matikan GPS di pengaturan</string>
+    <string name="hint_please_permission">Silakan izinkan izin</string>
+    <string name="hint_please_select_condition">Silakan pilih kondisi</string>
+    <string name="hint_file_size_not_none">Tidak dapat mengunggah gambar 0KB</string>
+
+    <string name="hint_please_inputContent">Silakan masukkan konten</string>
+    <string name="hint_current_version">Versi saat ini</string>
+    <string name="hint_current_version_newest">Tidak ada pembaruan tersedia</string>
+
+    <string name="hint_content_least_10num">Konten harus setidaknya 10 karakter</string>
+    <string name="hint_username_or_psw_notNull">Nama pengguna atau kata sandi tidak boleh kosong</string>
+    <string name="hint_account_or_psw_notNull">Akun atau kata sandi tidak boleh kosong</string>
+    <string name="hint_phone_format_err">Format nomor telepon salah</string>
+    <string name="hint_psw_least_6num">Kata sandi harus setidaknya 6 karakter</string>
+    <string name="hint_login_Failure">Gagal masuk</string>
+    <string name="hint_login_account_notExist">Akun tidak ada</string>
+    <string name="hint_input_invalid">Masukan tidak valid</string>
+    <string name="hint_login_jpassword_err">Kata sandi distributor salah</string>
+    <string name="hint_login_jpassword_ok">Kata sandi distributor berhasil diubah</string>
+    <string name="hint_login_psw_err">Kata sandi salah</string>
+    <string name="hint_login_account_Invalid">Akun tidak valid</string>
+    <string name="hint_login_account_or_psw_err">Akun atau kata sandi salah</string>
+    <string name="hint_login_pswOut_of_date">Kata sandi telah kedaluwarsa, silakan hubungi administrator untuk mengubah</string>
+    <string name="hint_phone_num">Nomor telepon</string>
+    <string name="hint_account">Akun</string>
+    <string name="hint_psw">Kata sandi</string>
+    <string name="hint_notice">Pengumuman</string>
+    <string name="hint_search">Cari</string>
+
+    <string name="hint_reset_app_affirm_update">Mulai ulang APP untuk mengonfirmasi perubahan?</string>
+    <string name="hint_affirm_loginout">Konfirmasi keluar?</string>
+    <string name="hint_chat_no_self">Tidak bisa mengobrol dengan diri sendiri</string>
+    <string name="hint_voice_least_long">Suara terlalu pendek</string>
+
+    <string name="hint_target">Target</string>
+    <string name="hint_talkback_state_prepare">Menyiapkan...</string>
+    <string name="hint_talkback_state_wait_accept">Menunggu penerimaan...</string>
+    <string name="hint_talkback_state_talkback_ing">Interkom sedang berlangsung...</string>
+    <string name="hint_talkback_state_request">Meminta panggilan video...</string>
+    <string name="hint_talkback_state_request_voice">Meminta panggilan suara...</string>
+    <string name="hint_talkback_state_opposite_hangup">Panggilan dihentikan oleh pihak lain...</string>
+    <string name="hint_talkback_state_opposite_accept">Diterima oleh pihak lain...</string>
+    <string name="hint_talkback_state_call_failure">Panggilan gagal...</string>
+    <string name="hint_talkback_state_opposite_busy">Pihak lain sedang sibuk...</string>
+    <string name="hint_talkback_state_no_answer">Tidak ada jawaban...</string>
+    <string name="hint_UnAnswered">Tidak dijawab...</string>
+    <string name="hint_talkback_state_native_video_err">Video lokal terputus...</string>
+    <string name="hint_talkback_state_opposite_video_err">Video terputus oleh pihak lain...</string>
+    <string name="hint_chatvideo_err">Video terputus...</string>
+    <string name="hint_talkback_state_opposite_off">Pihak lain sedang offline</string>
+    <string name="hint_talkback_state_conn_failure">Koneksi gagal...</string>
+    <string name="hint_talkback_state_hanup">Tutup telepon...</string>
+
+    <string name="hint_video_call_conn_ok">Terhubung...</string>
+    <string name="hint_video_call_conning">Menghubungkan...</string>
+    <string name="hint_video_request_upload_video">Meminta untuk mengunggah video...</string>
+    <string name="hint_video_request_look_video">Meminta untuk melihat video...</string>
+    <string name="hint_none">Idle</string>
+    <string name="wu">Tidak ada</string>
+    <string name="hint_Idle_waiting">Menunggu idle</string>
+
+    <string name="hint_talkback_please_new_talkback">Harap dicatat, Anda memiliki interkom baru:</string>
+
+    <string name="hint_upreport_photo">Pelaporan foto</string>
+    <string name="hint_please_select_photo">Tidak ada foto yang diunggah</string>
+    <string name="hint_please_select_video">Tidak ada video yang diunggah</string>
+    <string name="hint_please_sd">Harap masukkan kartu SD</string>
+    <string name="hint_photo_compress_ing">Mengompres foto...</string>
+    <string name="hint_file_upload_failure">Gagal mengunggah file</string>
+    <string name="hint_file_upload">Unggah file</string>
+    <string name="hint_complete">Selesai</string>
+    <string name="hint_complete_suc">Selesai</string>
+    <string name="hint_complete_no">Belum selesai</string>
+    <string name="hint_describe">Deskripsi</string>
+    <string name="hint_describe_video">Pelaporan video\nCatatan: Format video yang didukung saat ini adalah MP4</string>
+<string name="hint_video_only_mp4">Saat ini hanya mendukung video MP4</string>
+    <string name="hint_nofile">File tidak ditemukan</string>
+    <string name="hint_video_max_size">Ukuran file tidak boleh melebihi 50MB</string>
+
+    <string name="hint_affirm_">Konfirmasi keluar</string>
+    
+    <string name="about_desc">Interkom kelompok</string>
+    <string name="about_desc_same">Interkom kelompok</string>
+
+    <string name="hint_textsize_set_change_hint">Pengaturan ukuran font, berlaku setelah restart</string>
+
+    <string name="hint_welcome_back">Selamat datang kembali</string>
+    <string name="hint_opposite_account_exception">Akun pihak lain tidak normal</string>
+    <string name="hint_upload">Unggah</string>
+    <string name="hint_uploading">Mengunggah...</string>
+    <string name="hint_have_upload">Diunggah</string>
+    <string name="hint_upload_succeed">Unggahan berhasil</string>
+    <string name="hint_upload_failure">Unggahan gagal</string>
+
+    <string name="hint_chat_videoing">Video sedang berlangsung</string>
+    <string name="hint_chat_videorecording">Merekam video</string>
+    <string name="hint_chat_voicerecording">Merekam suara</string>
+    <string name="hint_please_hangup_call">Harap tutup telepon terlebih dahulu</string>
+    <string name="and">dan</string>
+    <string name="hint_in_new_video">Harap perhatikan, Anda memiliki interkom baru:</string>
+    <string name="hint_double_exit">Tekan lagi untuk keluar</string>
+    <string name="hint_click_savelog">Klik %1$s kali lagi untuk menangkap log</string>
+    <string name="hint_click_savelog_cancel">Klik %1$s kali lagi untuk membatalkan penangkapan log</string>
+    <string name="hint_click_saveloging">Menangkap log</string>
+    <string name="hint_click_savelog_close">Tutup penangkapan log</string>
+    <string name="hint_get_ststoken_failure">Gagal mendapatkan STSToken</string>
+    <string name="hint_download">Unduh</string>
+    <string name="hint_download_ing">Mengunduh...</string>
+    <string name="hint_download_finish">Unduhan selesai</string>
+    <string name="hint_download_failure">Unduhan gagal</string>
+    <string name="hint_download_Progress">Progres unduhan</string>
+    <string name="hint_download_address_err">Kesalahan alamat</string>
+    <string name="hint_download_file_damage">File rusak</string>
+    <string name="hint_connect_timeout">Waktu koneksi habis</string>
+    <string name="hint_timeout">Waktu habis</string>
+    <string name="hint_connect_timeout_query_group_list">Waktu habis untuk mendapatkan daftar grup</string>
+    <string name="hint_connect_timeout_enter_group_list">Waktu habis untuk berpindah grup</string>
+    <string name="hint_network_err">Kesalahan jaringan</string>
+    <string name="hint_data_parse_err">Kesalahan parsing data</string>
+    <string name="hint_tts_init_err">Gagal menginisialisasi sintesis suara!</string>
+    <string name="hint_login_succeed">Login berhasil</string>
+    <string name="hint_login_failure">Login gagal</string>
+    <string name="hint_yesterday">Kemarin</string>
+    <string name="hint_open_camera_failure">Gagal membuka kamera! Harap periksa</string>
+    <string name="hint_camera_time_small">Waktu rekaman tidak boleh kurang dari 3 detik</string>
+    <string name="hint_can_enter">Anda masih bisa memasukkan %1$d karakter</string>
+    <string name="hint_can_enter_count">%1$d/%2$d karakter</string>
+    <string name="character">karakter</string>
+    <string name="hint_current_onLine_member">Anggota online saat ini (%1$d orang)</string>
+    <string name="hint_current_onLine_member2">Online (%1$d)</string>
+    <string name="hint_enter_group_failure">Gagal berpindah grup</string>
+    <string name="hint_request_dispatcher">%1$s meminta pengiriman Anda</string>
+    <string name="hint_request_look_video">%1$s meminta untuk melihat video</string>
+    <string name="hint_request_upload_video">%1$s meminta untuk mengunggah video</string>
+    <string name="hint_request_broadcast_video">%1$s meminta siaran video</string>
+    <string name="hint_request_monitoring_video">%1$s meminta pemantauan video</string>
+    <string name="hint_refuse_speak_in_video_meeting">Tolak bicara</string>
+    <string name="hint_can_speak_in_video_meeting">Dapat berbicara</string>
+    <string name="hint_request_speak_in_video_meeting">Meminta untuk berbicara</string>
+
+    <string name="hint_enter_mode_person">Masuk ke mode panggilan tunggal</string>
+    <string name="hint_enter_mode_member">Masuk ke mode anggota</string>
+    <string name="hint_enter_mode_friend">Masuk ke mode teman</string>
+    <string name="hint_enter_mode_group">Masuk ke mode grup</string>
+    <string name="hint_out_mode_person">Keluar dari mode panggilan tunggal</string>
+    <string name="hint_out_mode_group">Keluar dari mode grup</string>
+    <string name="hint_out_mode_member">Keluar dari mode anggota</string>
+    <string name="hint_out_mode_friend">Keluar dari mode teman</string>
+    <string name="hint_out_mode_voice">Keluar dari pemutaran suara</string>
+    <string name="hint_enter_mode_voice">Pemutaran suara</string>
+    <string name="hint_ptt_request_micing">Meminta mikrofon...</string>
+    <string name="hint_ptt_speak_ing">Berbicara...</string>
+    <string name="hint_press_record">Tekan untuk merekam</string>
+    <string name="hint_ptt_loosen_over">Lepaskan untuk mengakhiri...</string>
+    <string name="hint_voice_record_ing">Memutar suara...</string>
+    <string name="hint_ptt_request_mic_failure">Interkom gagal</string>
+    <string name="hint_ptt_current_no_request_mic">Tidak bisa meminta mikrofon sekarang</string>
+    <string name="hint_enterjoin_group">Masuk ke grup</string>
+    <string name="hint_enterjoin_group_ing">Berpindah grup...</string>
+    <string name="hint_not_available_Group">Tidak ada grup</string>
+    <string name="hint_not_available_Group_more">Tidak ada lagi grup</string>
+    <string name="hint_not_Group_member">Tidak ada anggota</string>
+    <string name="hint_not_Group_member_more">Tidak ada lagi anggota</string>
+    <string name="hint_not_enter_GroupSelect">Seleksi grup</string>
+    <string name="hint_not_enter_GroupMember">Seleksi anggota</string>
+    <string name="hint_not_currunt_Member">Anggota saat ini</string>
+    <string name="hint_not_enter_FriendMember">Seleksi teman</string>
+    <string name="hint_not_exit_FriendMember">Keluar dari seleksi teman</string>
+    <string name="hint_not_exit_GroupMember">Keluar dari seleksi anggota</string>
+    <string name="hint_not_exit_GroupSelect">Keluar dari seleksi grup</string>
+    <string name="hint_not_exit_DispatchMember">Keluar dari seleksi pengiriman</string>
+    <string name="hint_not_exit_Voice">Keluar dari pemutaran suara</string>
+    <string name="hint_not_groupList">Tidak ada grup</string>
+    <string name="hint_not_friendList">Tidak ada teman</string>
+    <string name="hint_not_memberList">Tidak ada anggota</string>
+    <string name="hint_not_dispatchList">Tidak ada pengiriman</string>
+    <string name="hint_not_noticeList">Tidak ada pemberitahuan</string>
+    <string name="hint_not_line_memberList">Tidak ada anggota online</string>
+    <string name="hint_not_line_friendList">Tidak ada teman online</string>
+    <string name="hint_not_line_dispatchList">Tidak ada pengiriman online</string>
+
+    <string name="hint_disconn_login_video_failure">Login video gagal</string>
+    <string name="hint_disconn_login_video">Login video terputus</string>
+    <string name="hint_disconn_login_voice">Login suara terputus</string>
+    <string name="hint_disconn_login">Login terputus</string>
+    <string name="hint_attention_please_POC_lostConnection">Harap perhatikan, login POC telah terputus</string>
+    <string name="hint_attention_please_Video_lostConnection">Harap perhatikan, login video telah terputus</string>
+    <string name="hint_videoLogin_Reconnect">Menyambungkan kembali login video</string>
+    <string name="hint_POCLogin_Reconnect">Menyambungkan kembali login POC</string>
+    <string name="hint_please_login">Belum masuk</string>
+    <string name="hint_please_loginSignalling">Menginisialisasi sinyal</string>
+    <string name="hint_login_ing">Masuk...</string>
+    <string name="hint_please_read_userAgreement">Harap baca terlebih dahulu Perjanjian Pengguna...</string>
+
+    <string name="hint_You_have_a_new_notice">Anda memiliki notifikasi pengumuman baru</string>
+    <string name="hint_yu_an_notice">Siaran darurat</string>
+
+    <string name="hint_notice_save_item_range">Nomor antara %1$s dan %2$s</string>
+    <string name="hint_notice_save_min_item">Simpan minimal %1$s item</string>
+    <string name="hint_notice_save_max_item">Simpan hingga %1$s item</string>
+
+    <string name="hint_select_persion">Harap pilih anggota</string>
+    <string name="hint_select_least_persion">Harap pilih setidaknya satu orang</string>
+    <string name="hint_temp_call_create_failure">Panggilan gagal</string>
+    <string name="hint_temp_call_double_exit">Tekan lagi untuk keluar dari interkom</string>
+    <string name="hint_please_insert_sim">Harap masukkan kartu SIM</string>
+
+    <string name="hint_voice_mic_ing">Berbicara (%1$s)</string>
+    <string name="hint_voice_me_state">Status saya: %1$s</string>
+
+    <string name="hint_exploit_ing">Sedang mengembangkan...</string>
+
+    <string name="hint_getlocationerr_please_check_network">Gagal mendapatkan lokasi, harap periksa pengaturan jaringan atau GPS</string>
+    <string name="hint_Anti_Hijacking_hint">Layar login Anda tertutup, harap konfirmasi apakah lingkungan login aman</string>
+    <string name="hint_input_code_err">Kesalahan input kode verifikasi</string>
+    <string name="hint_input_code_timeOut">Kode verifikasi telah kedaluwarsa</string>
+    <string name="hint_location_Unknown">Lokasi tidak diketahui</string>
+
+    <string name="hint_notice_list">Daftar pengumuman</string>
+    <string name="hint_loging_otherterminals">Login di terminal lain</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">Login di terminal lain</string>
+    <string name="hint_loging_yaobi">Akun dinonaktifkan</string>
+
+    <string name="hint_violation_content_illegal">Konten ilegal</string>
+    <string name="hint_violation_video_auditing">Video berhasil diunggah, sedang ditinjau!</string>
+    <string name="hint_violation_photo_violation">Unggahan gagal, foto diduga melanggar!</string>
+    <string name="hint_violation_video_violationt">Tinjauan video gagal, video diduga melanggar!</string>
+    <string name="hint_Account_Sealed">Akun telah dibekukan! Silakan coba lagi nanti.</string>
+
+    <string name="hint_feedback_question_hint">Kategori pertanyaan</string>
+    <string name="hint_feedback_question_type_bug">BUG</string>
+    <string name="hint_feedback_question_type_demand">Permintaan</string>
+    <string name="hint_feedback_question_type_impeach">Laporkan</string>
+    <string name="hint_feedback_impeach_hint">Konten laporan</string>
+    <string name="hint_feedback_impeach_type_yellow">Pornografi</string>
+    <string name="hint_feedback_impeach_type_politik">Politik</string>
+    <string name="hint_feedback_impeach_type_violence">Terorisme</string>
+    <string name="hint_feedback_impeach_type_other">Lainnya</string>
+    <string name="hint_feedback_content_hint">Deskripsi konten</string>
+    <string name="hint_feedback_input_content_hint">Harap masukkan deskripsi Anda</string>
+    <string name="hint_feedback_phone_hint">Informasi kontak (opsional)</string>
+<string name="hint_feedback_input_phone_hint">Silakan masukkan informasi kontak Anda</string>
+    <string name="hint_feedback_submit_succeed">Umpan balik dikirim</string>
+    <string name="hint_feedback_submit_content_stringform">
+        Jenis umpan balik: %1$s\n
+        Jenis laporan: %2$s\n
+        Informasi kontak: %3$s\n
+        Deskripsi konten: %4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        Jenis umpan balik: %1$s\n
+        Informasi kontak: %2$s\n
+        Deskripsi konten: %3$s
+    </string>
+    <string name="hint_setDomain_domain">Domain:</string>
+    <string name="hint_setDomain_loginServer_hint">Server login</string>
+    <string name="hint_setDomain_pocServer">Alamat login:</string>
+    <string name="hint_setDomain_VideoServer">Alamat signaling:</string>
+    <string name="hint_setDomain_DispatchServer">Alamat dispatch:</string>
+    <string name="hint_setDomain_fastdfsServer">Alamat file:</string>
+    <string name="hint_setDomain_fastdfsUploadServer">Alamat upload:</string>
+    <string name="hint_setDomain_getconfig">Dapatkan konfigurasi</string>
+    <string name="hint_setDomain_Restore_default">Kembalikan ke default</string>
+    <string name="hint_setDomain_getconfig_failure">Pembaruan gagal</string>
+    <string name="hint_setDomain_getconfig_succeed">Pembaruan berhasil, silakan konfirmasi untuk menyimpan</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">Pembaruan berhasil, silakan pilih lingkungan</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">Silakan simpan perubahan</string>
+    <string name="hint_setDomain_getconfig_default">Dikembalikan ke default, silakan konfirmasi untuk menyimpan</string>
+    <string name="hint_setDomain_uploadUrl_invalid">Alamat upload tidak valid</string>
+
+    <string name="hint_poc_current_member">Pengguna saat ini: %1$s</string>
+    <string name="hint_poc_current_group">Grup saat ini: %1$s</string>
+    <string name="hint_poc_this_machine_user">Pengguna lokal: %1$s</string>
+    <string name="hint_poc_current_memberHint">Pengguna saat ini:</string>
+    <string name="hint_poc_current_groupHint">Grup saat ini:</string>
+    <string name="hint_poc_this_machine_userHint">Pengguna lokal:</string>
+    <string name="hint_user_desc">Informasi pengguna</string>
+    <string name="hint_poc_group_select">Pilihan grup</string>
+    <string name="hint_poc_friend_select">Pilihan teman</string>
+    <string name="hint_poc_member_select">Pilihan anggota</string>
+    <string name="hint_poc_member_toomany">Terlalu banyak anggota</string>
+    <string name="hint_poc_dispatcher_select">Pilihan dispatcher</string>
+    <string name="hint_poc_group_selectShort">Grup</string>
+    <string name="hint_poc_friend_selectShort">Teman</string>
+    <string name="hint_poc_member_selectShort">Anggota</string>
+    <string name="hint_poc_dispatcher_selectShort">Dispatcher</string>
+    <string name="hint_please_select_group">Silakan pilih grup</string>
+    <string name="hint_please_select_member">Silakan pilih anggota</string>
+    <string name="hint_temp_voice_add">Bergabung dengan panggilan sementara</string>
+    <string name="hint_ptt_click_send_tempcall">PTT memulai panggilan sementara</string>
+    <string name="hint_cur_tempcall">Dalam panggilan sementara</string>
+    <string name="hint_video_set_err">Kesalahan pengaturan resolusi video</string>
+    <string name="hint_video_current_not_enable">Modul video saat ini tidak didukung</string>
+    <string name="hint_not_support">Tidak didukung</string>
+    <string name="hint_quality">Kualitas</string>
+    <string name="hint_Resolving">Resolusi</string>
+    <string name="hint_video_quality">Kualitas video</string>
+    <string name="hint_video_screenOrientation">Orientasi video</string>
+    <string name="hint_video_angle">Sudut video</string>
+    <string name="landscape">Lanskap</string>
+    <string name="portrait">Potret</string>
+    <string name="hint_video_Resolving">Resolusi video</string>
+    <string name="hint_uplocation_locationErr">Gagal mendapatkan lokasi</string>
+    <string name="hint_uplocation_currendLocation">Lokasi</string>
+    <string name="hint_uplocation_isRunUpreport">Apakah laporan sudah dimulai</string>
+    <string name="hint_uplocation_locationIsEffective">Apakah lokasi efektif</string>
+    <string name="hint_uplocation_distanceIsEffective">Apakah jarak efektif</string>
+    <string name="hint_uplocation_UpReportState">Status laporan</string>
+
+    <string name="hint_remote_change_account">Ganti nomor jarak jauh</string>
+    <string name="hint_remote_change_account_notPermission">Tidak ada izin untuk mengganti nomor jarak jauh</string>
+    <string name="hint_notPermission">Tidak ada izin</string>
+    <string name="hint_volume_please_affirm">Silakan konfirmasi kontrol volume</string>
+    <string name="hint_volume_level">Tingkat volume %1$s</string>
+    <string name="hint_voice_please_affirm">Silakan konfirmasi peningkatan volume</string>
+    <string name="hint_tts_please_affirm">Silakan konfirmasi volume TTS</string>
+    <string name="hint_volume_enter">Masuk kontrol volume</string>
+    <string name="hint_volume_out">Keluar kontrol volume</string>
+    <string name="hint_voice_enter">Masuk peningkatan volume</string>
+    <string name="hint_voice_out">Keluar peningkatan volume</string>
+    <string name="hint_tts_enter">Masuk kontrol TTS</string>
+    <string name="hint_tts_out">Keluar kontrol TTS</string>
+    <string name="hint_enter_control">Masuk kontrol</string>
+    <string name="hint_out_control">Keluar kontrol</string>
+    <string name="hint_control_please_affirm">Silakan konfirmasi kontrol</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">Silakan konfirmasi peningkatan volume</string>
+    <string name="hint_EnhanceVoicePlay_enter">Masuk kontrol peningkatan</string>
+    <string name="hint_EnhanceVoicePlay_out">Keluar kontrol peningkatan</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">Silakan konfirmasi peningkatan volume rekaman</string>
+    <string name="hint_EnhanceVoiceRecord_enter">Masuk kontrol rekaman</string>
+    <string name="hint_EnhanceVoiceRecord_out">Keluar kontrol rekaman</string>
+
+    <string name="hint_sos_dig_time">Waktu:</string>
+    <string name="hint_sos_dig_time_strForm">Waktu: %1$s</string>
+    <string name="hint_sos_dig_address">Lokasi:</string>
+    <string name="hint_sos_dig_address_strForm">Lokasi: %1$s</string>
+    <string name="hint_sos_dig_group">Grup darurat:</string>
+    <string name="hint_sos_dig_group_strForm">Grup darurat: %1$s</string>
+    <string name="hint_sos_dig_name">Personil:</string>
+    <string name="hint_sos_dig_name_strForm">Personil: %1$s</string>
+    <string name="hint_sos_dig_distance_strForm">%1$s meter dari Anda</string>
+    <string name="hint_sos_dig_title">%1$s mengeluarkan alarm</string>
+    <string name="hint_sos_dig_title_new">%1$s mengeluarkan alarm pada %2$s</string>
+    <string name="hint_sos_dig_title_new_ptt">Interkom %1$s mengeluarkan alarm</string>
+    <string name="hint_sos_dig_title_new_alarm">Alarm %1$s mengeluarkan alarm</string>
+    <string name="hint_sos_dig_unTitle">%1$s membatalkan alarm</string>
+    <string name="hint_sos_help_failure">Alarm gagal</string>
+    <string name="hint_sos_unhelp_failure">Pembatalan alarm gagal</string>
+    <string name="hint_sos_notLocation_notHelp">Gagal mendapatkan lokasi, tidak dapat mengeluarkan alarm</string>
+    <string name="hint_sos_exitNavi">Keluar navigasi</string>
+    <string name="hint_sos_notRecord">Tidak ada catatan alarm</string>
+    <string name="hint_sos_unHelp">Batalkan alarm</string>
+    <string name="hint_sos_unHelping">Pembatalan alarm sedang berlangsung</string>
+    <string name="hint_sos_HelpIng">Mengeluarkan alarm</string>
+    <string name="hint_sos_Help_succeed">Alarm berhasil</string>
+    <string name="hint_no_record">Tidak ada catatan</string>
+    <string name="hint_set_major_dispatch">Tetapkan sebagai dispatcher utama</string>
+
+    <string name="hint_sos_set_title">Nomor alarm</string>
+
+    <string name="hint_patrol_sign_err_notLocation">Clock-in tidak valid, gagal mendapatkan lokasi</string>
+    <string name="hint_patrol_sign_err_server">Clock-in gagal, kesalahan server</string>
+    <string name="hint_patrol_sign_err_location">Clock-in gagal, di luar area layanan</string>
+    <string name="hint_patrol_sign_err_network">Clock-in gagal, kesalahan jaringan</string>
+    <string name="hint_patrol_sign_err_dataErr">Kesalahan data kode QR</string>
+    <string name="hint_patrol_sign_err_scanErr">Pemindaian kode QR gagal</string>
+    <string name="hint_patrol_sign_succeed">Clock-in berhasil</string>
+    <string name="hint_patrol_record_time">Waktu patroli</string>
+    <string name="hint_patrol_record_line">Jalur patroli</string>
+    <string name="hint_patrol_record_postion">Item inspeksi</string>
+    <string name="hint_patrol_time_range">Waktu mulai tidak boleh lebih lambat dari waktu akhir</string>
+
+    <string name="hint_location_startPosition">Mulai memposisikan</string>
+    <string name="hint_location_Succeed">Posisi berhasil</string>
+    <string name="hint_location_not">Tidak ada posisi</string>
+    <string name="hint_location_err">Posisi gagal</string>
+    <string name="hint_location_change">Lokasi berubah</string>
+    <string name="hint_location_Navigation_planning">Perencanaan navigasi</string>
+    <string name="hint_location_Navigation_plannErr">Perencanaan navigasi gagal</string>
+    <string name="hint_location_gpsLv">Sinyal GPS %1$s bar</string>
+    <string name="hint_location_gpsSignalWeak">Sinyal GPS lemah</string>
+    <string name="hint_location_gpsSignalStrong">Sinyal GPS kuat</string>
+    <string name="hint_location_gpsSignalGeneral">Sinyal GPS normal</string>
+
+    <string name="hint_voiceQuality_setting">Pengaturan kualitas suara</string>
+    <string name="hint_voiceQuality_High">Kualitas suara HD</string>
+    <string name="hint_voiceQuality_common">Kualitas suara normal</string>
+
+    <string name="notice_video_call">Panggilan video</string>
+    <string name="notice_request_video_call">Meminta obrolan video</string>
+    <string name="notice_connect_exception">Kesalahan koneksi</string>
+    <string name="notice_login_exception">Login tidak normal</string>
+    <string name="notice_manage_notice">Pemberitahuan pengumuman</string>
+    <string name="notice_video_call_broocast">Siarkan video</string>
+    <string name="notice_video_call_monitoring">Dispatch video</string>
+    <string name="notice_video_call_voice">Panggilan suara</string>
+
+    <string name="noticetop_video_onReconnecting">Layanan interkom video menghubungkan</string>
+    <string name="noticetop_video_onReconnected">Layanan interkom video terhubung berhasil</string>
+    <string name="noticetop_video_onReconnectfailed">Koneksi layanan interkom video gagal</string>
+    <string name="noticetop_POC_onReconnecting">Layanan interkom POC menghubungkan</string>
+    <string name="noticetop_POC_onReconnected">Layanan interkom POC terhubung berhasil</string>
+    <string name="noticetop_POC_onReconnectfailed">Koneksi layanan interkom POC gagal</string>
+    <string name="noticetop_network_off">Mencari jaringan</string>
+    <string name="noticetop_network_Switch">Mengganti jaringan</string>
+    <string name="noticetop_current_connection_lost">Harap dicatat! Login saat ini telah terputus</string>
+    <string name="network_signal_poor">Sinyal jaringan pihak lain buruk</string>
+    <string name="network_signal_poor1">Sinyal jaringan buruk</string>
+
+    <string name="chat_type_video">【Obrolan video】</string>
+<string name="chat_type_voice">【Obrolan suara】</string>
+    <string name="chat_imtype_video">【Video】</string>
+    <string name="chat_imtype_img">【Gambar】</string>
+    <string name="chat_imtype_voice">【Suara】</string>
+    <string name="chat_imtype_pttvoice">【Suara PTT】</string>
+    <string name="chat_imtype_file">【File】</string>
+    <string name="chat_imtype_location">【Lokasi】</string>
+    <string name="chat_map_sendMessage_title">Pesan</string>
+
+    <string name="member_offLine">Pihak lain offline</string>
+    <string name="diapatch_offLine">Pengirim offline</string>
+    
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">versi androidSdk:</string>
+    <string name="android_sys_version">versi sistem android:</string>
+    <string name="phone_type">Model telepon:</string>
+
+    <string name="large">Besar</string>
+    <string name="norm">Sedang</string>
+    <string name="small">Kecil</string>
+    <string name="large_text">Besar</string>
+    <string name="norm_text">Sedang</string>
+    <string name="small_text">Kecil</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">Otomatis</string>
+    <string name="manual">Manual</string>
+
+    <string name="test_name">Xiaoming</string>
+    <string name="test_name2">Zhang San</string>
+    <string name="test_group_name">Grup pengembangan</string>
+    <string name="test_chat_msg">Halo! Cantik, mari kita kembali malam ini untuk berbicara tentang kehidupan</string>
+
+    <string name="hint_inout_feedback">Terima kasih atas saran Anda, kami akan melakukan yang lebih baik</string>
+
+    <string name="hint_about_company">Suara PPT</string>
+    <string name="title_activity_google_maps">Peta</string>
+
+    <string name="have_sign_in">Telah masuk</string>
+    <string name="no_sign_in">Belum masuk</string>
+    <string name="online_car_welcome">Selamat datang di mobil online</string>
+    <string name="online_car_notify">Harap kenakan sabuk pengaman</string>
+    <string name="navigation_str">Navigasi</string>
+    <string name="navigation_Route">Perencanaan rute</string>
+    <string name="monitor_str">Pemantauan</string>
+    <string name="data_str">Daftar data</string>
+    <string name="set_str">Pengaturan</string>
+    <string name="voice_record">Rekaman suara</string>
+    <string name="sos_record">Rekaman alarm</string>
+    <string name="voice_list">Daftar suara</string>
+    <string name="voice_record1">Merekam</string>
+    <string name="media_record">Rekam</string>
+    <string name="patrol_record">Patroli</string>
+    <string name="voice_record_notopen">Rekaman suara tidak dibuka</string>
+    <string name="video_record">Rekaman video</string>
+    <string name="text_record">Pesan teks</string>
+    <string name="look_annex">Lihat lampiran</string>
+    <string name="annex">Lampiran</string>
+    <string name="device_info">Parameter terminal</string>
+    <string name="devmenu_str">Status perangkat</string>
+    <string name="reboot_str">Mulai ulang</string>
+    <string name="voice_str">Sesuaikan volume</string>
+    <string name="verinfo_str">Tentang versi</string>
+    <string name="exitfail">Dilarang keluar saat menarik video</string>
+
+    <string name="hint_lockscreen_lock">Mengunci</string>
+    <string name="hint_lockscreen_unlockIng">Membuka kunci</string>
+    <string name="hint_lockscreen_unlockFaill">Gagal membuka kunci</string>
+    <string name="hint_lockscreen_unlockSucceed">Berhasil membuka kunci</string>
+    <string name="hint_lockscreen_unlockHint">Tekan lama %1$s untuk membuka kunci</string>
+    <string name="key_back">Tombol Kembali</string>
+    <string name="ring_volume">Volume dering</string>
+    <string name="alarm_volume">Volume alarm</string>
+    <string name="alert_volume">Volume peringatan</string>
+    <string name="not_amap_app">Harap instal aplikasi peta</string>
+    <string name="map_gaode_app">Peta Gaode</string>
+    <string name="map_baidu_app">Peta Baidu</string>
+    <string name="map_tencent_app">Peta Tencent</string>
+    <string name="map_select">Pilihan peta</string>
+    <string name="create_group">Buat grup</string>
+    <string name="join_group">Bergabung dengan grup</string>
+    <string name="delete_group">Hapus grup</string>
+    <string name="delete_mem">Hapus anggota</string>
+    <string name="create_group_succ">Grup berhasil dibuat</string>
+    <string name="join_group_succ">Berhasil bergabung dengan grup</string>
+    <string name="delete_group_succ">Grup berhasil dihapus</string>
+    <string name="delete_mem_succ">Anggota berhasil dihapus</string>
+
+    
+    <string name="request_pull_somebody_video">Permintaan untuk menarik video %1$s</string>
+    <string name="request_push_somebody_video">%1$s meminta untuk mengunggah video</string>
+    <string name="pulling_somebody_video">Menarik video %1$s</string>
+    <string name="pullvideo">Menarik video</string>
+    <string name="somebody_request_pull_video">%1$s meminta untuk menarik video</string>
+    <string name="somebody_request_video_chat">%1$s meminta panggilan video</string>
+    <string name="request_somebody_video_chat">Meminta panggilan video dengan %1$s</string>
+    <string name="talking_somebody_video_chat">Dalam panggilan video dengan %1$s</string>
+    <string name="somebody_request_video_share">%1$s permintaan berbagi video</string>
+    <string name="somebody_stop_video_share">%1$s berhenti berbagi video</string>
+    <string name="invite_somebody_videomeeting">%1$s mengundang untuk bergabung dengan rapat %2$s</string>
+    <string name="somebody_join_videomeeting">%1$s bergabung dengan rapat</string>
+    <string name="somebody_leave_videomeeting">%1$s meninggalkan rapat</string>
+    <string name="delete_somebody_videomeeting">Konfirmasi untuk menghapus anggota %1$s</string>
+    <string name="create_meeting">Inisiasi rapat</string>
+    <string name="meeting_name">Nama rapat</string>
+    <string name="end_meeting">Akhiri</string>
+    <string name="meeting_members">Anggota rapat</string>
+    <string name="no_member_join">Tidak ada yang bergabung</string>
+    <string name="meeting_window_9">Layar terpisah 9</string>
+    <string name="meeting_window_4">Layar terpisah 4</string>
+    <string name="meeting_window_2">Layar terpisah 2</string>
+    <string name="request_upload_video">Mengunggah video</string>
+    <string name="videochat">Panggilan video</string>
+    <string name="hangup_video">Menggantung</string>
+    <string name="see_video">%1$s sedang melihat video</string>
+    <string name="ringing_video">Berdering</string>
+    <string name="accept_video">Melihat video %1$s</string>
+    <string name="reject_video">Ditolak</string>
+    <string name="cancel_pull_video">Batalkan penarikan</string>
+
+    <string name="hint_room_create_err">Gagal membuat ruang video</string>
+    <string name="hint_open_local_err">Gagal membuka video lokal</string>
+    <string name="hint_open_remote_err">Gagal membuka video jarak jauh</string>
+    <string name="hint_devices_err">Kesalahan perangkat</string>
+
+    <string name="hint_audio_video_acquisition">Akuisisi audio dan video</string>
+    <string name="hint_dont_operation">Jangan beroperasi</string>
+
+    
+    <string name="data_traffic_info">Informasi lalu lintas</string>
+    <string name="data_traffic_low">Lalu lintas tidak mencukupi</string>
+    <string name="data_traffic_oom">Lalu lintas terlampaui</string>
+    <string name="data_traffic_total">Total: %1$s</string>
+    <string name="data_traffic_usedMonth">Digunakan bulan ini: %1$s</string>
+    <string name="data_traffic_usedDay">Digunakan hari ini: %1$s</string>
+    <string name="data_traffic_surplusMonth">Tersisa: %1$s</string>
+
+    <string name="snd_msg">Kirim pesan</string>
+    <string name="snd_loc">Kirim lokasi</string>
+    <string name="clear_msg">Hapus catatan</string>
+    <string name="set_work">Atur sebagai grup kerja</string>
+    <string name="workgrp">Grup kerja:</string>
+    <string name="half_call">Panggilan half-duplex</string>
+    <string name="twoway_call">Jaringan pribadi</string>
+    <string name="twoway_call1">Komunikasi jaringan pribadi</string>
+    <string name="video_duplex">Video duplex</string>
+    <string name="add_contacts">Tambahkan kontak</string>
+    <string name="flash_lamp">Senter</string>
+
+    <string name="code_number">Nomor: %1$s</string>
+    <string name="details">Rincian</string>
+    
+    
+    <string name="uav_system_name">Sistem siaran UAV</string>
+    <string name="uav_text_broadcast">Siaran teks</string>
+    <string name="uav_record_broadcast">Siaran rekaman</string>
+    <string name="uav_realtime_broadcast">Siaran waktu nyata</string>
+    <string name="uav_text_broadcast_record">Rekam</string>
+    <string name="uav_text_broadcast_play">Putar</string>
+    <string name="uav_text_broadcast_stop">Hentikan</string>
+    <string name="uav_text_broadcast_sex">Pilihan suara:</string>
+    <string name="uav_text_broadcast_language">Mandarin</string>
+    <string name="uav_text_broadcast_man">Laki-laki</string>
+    <string name="uav_text_broadcast_woman">Perempuan</string>
+    <string name="uav_text_broadcast_mode">Mode pemutaran:</string>
+    <string name="uav_text_broadcast_cycle">Siklus</string>
+<string name="uav_text_broadcast_speed">Kecepatan bicara:</string>
+    <string name="uav_text_broadcast_normal">Normal</string>
+
+    <string name="hint_filemanager_filemanager">Manajer file</string>
+    <string name="hint_filemanager_up_list">Daftar unggahan</string>
+    <string name="hint_filemanager_mian_point">File utama</string>
+    <string name="hint_filemanager_no_mian_point">File non-utama</string>
+    <string name="hint_filemanager_all_file">Semua file</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_date">Tanggal</string>
+    <string name="hint_path">Jalur</string>
+    <string name="hint_size">Ukuran</string>
+
+    <string name="hint_video_record_sub_time">Durasi rekaman segmen</string>
+    <string name="hint_video_record_ratio">Resolusi rekaman video</string>
+    <string name="hint_map_setting">Pengaturan peta</string>
+    <string name="hint_other_setting">Pengaturan lainnya</string>
+    <string name="hint_account_setting">Pengaturan akun</string>
+    <string name="hint_address_setting">Pengaturan alamat</string>
+    <string name="hint_video_config2">Pengaturan video</string>
+    <string name="hint_WIFI_set">Pengaturan WIFI</string>
+    <string name="hint_blue_set">Pengaturan Bluetooth</string>
+    <string name="hint_network_set">Nirkabel dan jaringan</string>
+    <string name="hint_display_set">Pengaturan tampilan</string>
+    <string name="hint_sound_set">Pengaturan suara</string>
+    <string name="hint_about_set">Pengaturan versi</string>
+
+    <string name="call_hand_free">Permintaan hands-free</string>
+    <string name="call_user">Panggilan</string>
+    <string name="message_user">Pesan</string>
+    <string name="change_user">Edit</string>
+    <string name="change_call_user_name">Edit nama pengguna</string>
+    <string name="call_history">Riwayat panggilan</string>
+    <string name="please_inputcallnum">Harap masukkan nomor</string>
+    <string name="err_code_status">Status pengguna tidak normal</string>
+    <string name="err_code_noexist">Nomor kosong</string>
+    <string name="err_code_offline">Pengguna offline</string>
+    <string name="err_code_busy">Pengguna sibuk</string>
+    <string name="err_code_cantconn">Tidak dapat terhubung</string>
+    <string name="err_code_timeout">Waktu koneksi habis</string>
+
+    <string name="alarm_iot">Alarm sensor</string>
+    <string name="alarm_device">Alarm perangkat</string>
+    <string name="alarm_ptt">Alarm interkom</string>
+
+    <string name="law_start">Mulai penegakan hukum</string>
+    <string name="law_app">Aplikasi klaster</string>
+    <string name="law_grp">Pemilihan grup</string>
+    <string name="law_mem">Pemilihan anggota</string>
+    <string name="law_fri">Pemilihan teman</string>
+    <string name="law_dis">Pemilihan dispatcher</string>
+    <string name="law_rec">Rekaman media</string>
+    <string name="law_set">Pengaturan fungsi</string>
+    <string name="law_account_set_success">Pengaturan akun berhasil</string>
+    <string name="law_acc_or_psw_null">Akun atau kata sandi kosong</string>
+    <string name="law_about">Perekam penegakan hukum</string>
+    <string name="law_start_record_video">Mulai rekaman video</string>
+    <string name="law_start_record_voice">Mulai rekaman suara</string>
+    <string name="law_stop_record">Hentikan rekaman</string>
+    <string name="law_record_mark">Tanda kunci</string>
+    <string name="item_sysset_ir_config">Pengaturan inframerah</string>
+
+    <string name="title_trainListAct">Daftar kendaraan</string>
+    <string name="add_train">Tambahkan kereta</string>
+    <string name="please_scan_code">Harap pindai kode</string>
+    <string name="please_take_photo">Harap ambil foto</string>
+    <string name="code_not_match">Kode tidak cocok</string>
+    <string name="btn_release">Tempatkan</string>
+    <string name="btn_colletc">Kumpulkan</string>
+
+    <string name="addr_set">Pengaturan alamat</string>
+    <string name="static_ip">IP statis</string>
+    <string name="dynamic_ip">IP dinamis</string>
+    <string name="addr_port">Port alamat:</string>
+    <string name="mac_addr">Alamat MAC:</string>
+    <string name="item_sysset_priority_sharp">aman</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_my">Me</string>
+</resources>

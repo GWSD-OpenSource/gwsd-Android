@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageTextButton">
+        <attr name="drawable_src" format="reference" />
+        <attr name="drawable_height" format="dimension" />
+        <attr name="drawable_width" format="dimension" />
+        <attr name="drawable_location">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MImageTextView">
+        <attr name="mImg_src" format="reference"/>
+        <attr name="mImg_height" format="dimension" />
+        <attr name="mImg_width" format="dimension" />
+        <attr name="mImg_bg" format="reference" />
+        <attr name="mTextColor" format="color"/>
+        <attr name="mTextColorDrawable" format="reference"/>
+        <attr name="mTextSize" format="dimension"/>
+        <attr name="mText" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="VoiceSendingView">
+        <attr name="thc_AnimationDrawable" format="reference"/>
+        <attr name="thc_microphone_height" format="dimension"/>
+        <attr name="thc_microphone_width" format="dimension"/>
+    </declare-styleable>
+
+    <!--自定义实现写字板-->
+    <declare-styleable name="thc_CustomPaint">
+        <attr name="boardBackground" format="color"></attr> <!--写字板背景颜色-->
+        <attr name="paintColor" format="color"></attr><!--画笔颜色-->
+        <attr name="paintWidth" format="dimension"></attr><!--画笔宽度-->
+    </declare-styleable>
+
+    <!--自定义进度条-->
+    <declare-styleable name="thc_CustomProgress">
+
+        <attr name="radius" format="dimension" /><!--半径-->
+        <attr name="strokeWidth" format="dimension" /><!--画笔宽度-->
+        <attr name="circleColor" format="color" /><!--内圆颜色-->
+        <attr name="ringColor" format="color" /><!--进度条颜色-->
+        <attr name="totalProgress" format="integer" /><!--总进度-->
+        <attr name="textColor" format="color|reference" /><!--字体颜色-->
+        <attr name="bigCircleColor" format="color" /><!--外圆颜色-->
+
+        <attr name="textStr" format="string" /><!--里面文字-->
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleImageView">
+            <attr name="civ_border_width" format="dimension" />
+            <attr name="civ_border_color" format="color" />
+            <attr name="civ_border_overlay" format="boolean" />
+            <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideSwitch">
+        <attr name="mSS_close_color" format="color"/>
+        <attr name="mSS_open_color" format="color"/>
+        <attr name="mSS_thunm_color" format="color"/>
+        <attr name="mSS_isThumLine" format="boolean"/>
+        <attr name="mSS_isThumShapeEquilateral" format="boolean"/>
+        <attr name="mSS_isOpen" format="boolean"/>
+        <attr name="mSS_textOpen" format="string"/>
+        <attr name="mSS_textClose" format="string"/>
+        <attr name="mSS_textSize" format="dimension"/>
+        <attr name="mSS_shape" >
+            <enum name="rect" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="t_colorPrimary" format="color|reference"/>
+    <attr name="t_colorPrimaryDark" format="color|reference"/>
+    <attr name="t_bgColor" format="color|reference"/>
+    <attr name="t_txColor" format="color|reference"/>
+    <attr name="t_tabColor" format="color|reference"/>
+    <attr name="t_listItemColor" format="color|reference"/>
+
+</resources>

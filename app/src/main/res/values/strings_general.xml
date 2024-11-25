@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d张</string>
+    <string name="msg_no_camera">没找到摄像头</string>
+    <string name="msg_maxi_capacity">已达到照片选择上限</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="commit">确定</string>
+    <string name="agree">同意</string>
+    <string name="jieTing">接听</string>
+    <string name="reject">拒绝</string>
+    <string name="start">开始</string>
+    <string name="end">结束</string>
+    <string name="stop">停止</string>
+    <string name="exit">退出</string>
+    <string name="double_exit">双击退出</string>
+    <string name="double_back">双击返回</string>
+    <string name="double_operation">请双击操作</string>
+    <string name="enter">进入</string>
+    <string name="current">当前</string>
+    <string name="group">群组</string>
+    <string name="user">用户</string>
+    <string name="address">地址</string>
+    <string name="longitude">经度</string>
+    <string name="latitude">纬度</string>
+    <string name="succeed">成功</string>
+    <string name="failure">失败</string>
+    <string name="normal">正常</string>
+    <string name="exception">异常</string>
+    <string name="operationIng">操作中</string>
+    <string name="operation_failure">操作失败</string>
+    <string name="ongoing">进行中</string>
+    <string name="delete">删除</string>
+    <string name="menu">菜单</string>
+    <string name="batterty">电量</string>
+    <string name="batterty_form">电量%1$d</string>
+    <string name="volume">音量</string>
+    <string name="add">加</string>
+    <string name="subtract">减</string>
+    <string name="multiply">乘</string>
+    <string name="divide">除</string>
+    <string name="save">保存</string>
+    <string name="reset">重置</string>
+    <string name="mute">静音</string>
+    <string name="mute_on">开启静音</string>
+    <string name="mute_off">关闭静音</string>
+    <string name="sound_on">开启声音</string>
+    <string name="sound_off">关闭声音</string>
+    <string name="conversation">会话</string>
+    <string name="contacts">通讯录</string>
+
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="oneself">自己</string>
+    <string name="local_equipment">本机</string>
+    <string name="local_equipment_speak">本机正在讲话</string>
+    <string name="talking_speak">正在对讲</string>
+    <string name="more">更多</string>
+    <string name="setSucceed">设置成功</string>
+    <string name="restoreDefult">恢复默认</string>
+
+    <string name="commit_num">确定(%1$d/%2$d)</string>
+    <string name="select_num">已选（%1$s）</string>
+    <string name="select_all">全选</string>
+    <string name="selected">已选</string>
+    <string name="unit_time_hour">时</string>
+    <string name="unit_time_minute">分</string>
+    <string name="unit_time_second">秒</string>
+    <string name="week">星期</string>
+    <string name="week_Monday">星期一</string>
+    <string name="week_Tuesday">星期二</string>
+    <string name="week_Wednesday">星期三</string>
+    <string name="week_Thursday">星期四</string>
+    <string name="week_Friday">星期五</string>
+    <string name="week_Saturday">星期六</string>
+    <string name="week_Sunday">星期日</string>
+
+    <string name="unit_m">米</string>
+    <string name="unit_km">千米</string>
+
+    <string name="distance">距离</string>
+
+    <string name="nodata">暂无数据</string>
+    <string name="nodata2">无数据</string>
+    <string name="not_more_data">无更多数据</string>
+    <string name="undefined">未定义</string>
+
+    <string name="search">搜索</string>
+
+    <string name="title_select_photo">选择图片</string>
+    <string name="hint_no_storage">暂无外部存储</string>
+    <string name="hint_photo_all">全部图片</string>
+
+    <string name="expand">张</string>
+    <string name="item">条</string>
+    <string name="house_Number">号</string>
+
+    <string name="please_Waiting">请稍候...</string>
+
+    <string name="hint_version_current_on_new">当前已是最新版本</string>
+    <string name="hint_version_not_newVersion">无更新包</string>
+    <string name="hint_version_current">当前版本：</string>
+    <string name="hint_version_new">最新版本：</string>
+    <string name="hint_file_size">文件大小：</string>
+    <string name="hint_app_update">软件更新</string>
+    <string name="btn_not_update">暂不更新</string>
+    <string name="btn_now_update">立即更新</string>
+
+    <string name="notExits">不存在</string>
+    <string name="file">文件</string>
+
+    <string name="btn_cancel_down">取消下载</string>
+    <string name="btn_background_update">后台更新</string>
+    <string name="btn_cancel_update_and_exitApp">取消更新并退出APP</string>
+    <string name="pause">暂停</string>
+    <string name="again">继续</string>
+    <string name="wait">等待</string>
+
+    <string name="time_select">时间选择</string>
+    <string name="time_start">开始时间</string>
+    <string name="time_end">结束时间</string>
+    <string name="time_start_please">请选择开始时间</string>
+    <string name="time_end_please">请选择结束时间</string>
+    <string name="time_start_position">开始时间：</string>
+    <string name="time_end_position">结束时间：</string>
+    <string name="time">时间</string>
+    <string name="satellite">卫星</string>
+    <string name="satelliteCount">卫星数</string>
+    <string name="signal">信号</string>
+    <string name="hint_disk_small">内存不足</string>
+    <string name="hint_disk_no_free">存储空间不足</string>
+
+    <string name="photo">图片</string>
+    <string name="video">视频</string>
+    <string name="voice">语音</string>
+    <string name="pttcall">对讲呼叫</string>
+    <string name="voicecall">语音通话</string>
+    <string name="videocall">视频通话</string>
+    <string name="document">文档</string>
+    <string name="camera">相机</string>
+    <string name="location">位置</string>
+    <string name="refresh">刷新</string>
+</resources>

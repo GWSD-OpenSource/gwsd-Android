@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d foto</string>
+    <string name="msg_no_camera">Tidak ada kamera yang ditemukan</string>
+    <string name="msg_maxi_capacity">Mencapai jumlah maksimum foto yang dipilih</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="cancel">Batal</string>
+    <string name="commit">Konfirmasi</string>
+    <string name="agree">Setuju</string>
+    <string name="jieTing">Jawab</string>
+    <string name="reject">Tolak</string>
+    <string name="start">Mulai</string>
+    <string name="end">Akhir</string>
+    <string name="stop">Berhenti</string>
+    <string name="exit">Keluar</string>
+    <string name="double_exit">Klik dua kali untuk keluar</string>
+    <string name="double_back">Klik dua kali untuk kembali</string>
+    <string name="double_operation">Silakan klik dua kali untuk beroperasi</string>
+    <string name="enter">Masuk</string>
+    <string name="current">Saat ini</string>
+    <string name="group">Grup</string>
+    <string name="user">Pengguna</string>
+    <string name="address">Alamat</string>
+    <string name="longitude">Garis bujur</string>
+    <string name="latitude">Garis lintang</string>
+    <string name="succeed">Berhasil</string>
+    <string name="failure">Gagal</string>
+    <string name="normal">Normal</string>
+    <string name="exception">Abnormal</string>
+    <string name="operationIng">Beroperasi</string>
+    <string name="operation_failure">Operasi gagal</string>
+    <string name="ongoing">Sedang berlangsung</string>
+    <string name="delete">Hapus</string>
+    <string name="menu">Menu</string>
+    <string name="batterty">Baterai</string>
+    <string name="batterty_form">Baterai %1$d</string>
+    <string name="volume">Volume</string>
+    <string name="add">Tambahkan</string>
+    <string name="subtract">Kurangi</string>
+    <string name="multiply">Kali</string>
+    <string name="divide">Bagi</string>
+    <string name="save">Simpan</string>
+    <string name="reset">Setel ulang</string>
+    <string name="mute">Diam</string>
+    <string name="mute_on">Aktifkan diam</string>
+    <string name="mute_off">Nonaktifkan diam</string>
+    <string name="sound_on">Aktifkan suara</string>
+    <string name="sound_off">Nonaktifkan suara</string>
+    <string name="conversation">Percakapan</string>
+    <string name="contacts">Kontak</string>
+
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <string name="man">Pria</string>
+    <string name="woman">Wanita</string>
+    <string name="oneself">Diriku sendiri</string>
+    <string name="local_equipment">Perangkat lokal</string>
+    <string name="local_equipment_speak">Perangkat lokal berbicara</string>
+    <string name="talking_speak">Berbicara</string>
+    <string name="more">Lebih</string>
+    <string name="setSucceed">Pengaturan berhasil</string>
+    <string name="restoreDefult">Pulihkan default</string>
+
+    <string name="commit_num">Konfirmasi (%1$d/%2$d)</string>
+    <string name="select_num">Dipilih (%1$s)</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="selected">Dipilih</string>
+    <string name="unit_time_hour">Jam</string>
+    <string name="unit_time_minute">Menit</string>
+    <string name="unit_time_second">Detik</string>
+    <string name="week">Minggu</string>
+    <string name="week_Monday">Senin</string>
+    <string name="week_Tuesday">Selasa</string>
+    <string name="week_Wednesday">Rabu</string>
+    <string name="week_Thursday">Kamis</string>
+    <string name="week_Friday">Jumat</string>
+    <string name="week_Saturday">Sabtu</string>
+    <string name="week_Sunday">Minggu</string>
+
+    <string name="unit_m">Meter</string>
+    <string name="unit_km">Kilometer</string>
+
+    <string name="distance">Jarak</string>
+
+    <string name="nodata">Tidak ada data tersedia</string>
+    <string name="nodata2">Tidak ada data</string>
+    <string name="not_more_data">Tidak ada data lagi</string>
+    <string name="undefined">Tidak ditentukan</string>
+
+    <string name="search">Cari</string>
+
+    <string name="title_select_photo">Pilih foto</string>
+    <string name="hint_no_storage">Tidak ada penyimpanan eksternal yang tersedia</string>
+    <string name="hint_photo_all">Semua foto</string>
+
+    <string name="expand">Foto</string>
+    <string name="item">Item</string>
+    <string name="house_Number">Nomor</string>
+
+    <string name="please_Waiting">Mohon tunggu...</string>
+
+    <string name="hint_version_current_on_new">Versi saat ini adalah yang terbaru</string>
+    <string name="hint_version_not_newVersion">Tidak ada paket pembaruan</string>
+    <string name="hint_version_current">Versi saat ini:</string>
+    <string name="hint_version_new">Versi terbaru:</string>
+    <string name="hint_file_size">Ukuran file:</string>
+    <string name="hint_app_update">Pembaruan perangkat lunak</string>
+    <string name="btn_not_update">Tidak memperbarui sekarang</string>
+    <string name="btn_now_update">Perbarui sekarang</string>
+
+    <string name="notExits">Tidak ada</string>
+    <string name="file">File</string>
+
+    <string name="btn_cancel_down">Batalkan unduhan</string>
+    <string name="btn_background_update">Pembaruan latar belakang</string>
+    <string name="btn_cancel_update_and_exitApp">Batalkan pembaruan dan keluar dari aplikasi</string>
+    <string name="pause">Jeda</string>
+    <string name="again">Lanjutkan</string>
+    <string name="wait">Tunggu</string>
+
+    <string name="time_select">Pilih waktu</string>
+    <string name="time_start">Waktu mulai</string>
+    <string name="time_end">Waktu berakhir</string>
+    <string name="time_start_please">Silakan pilih waktu mulai</string>
+    <string name="time_end_please">Silakan pilih waktu berakhir</string>
+    <string name="time_start_position">Waktu mulai:</string>
+    <string name="time_end_position">Waktu berakhir:</string>
+    <string name="time">Waktu</string>
+    <string name="satellite">Satelit</string>
+    <string name="satelliteCount">Jumlah satelit</string>
+    <string name="signal">Sinyal</string>
+    <string name="hint_disk_small">Memori tidak cukup</string>
+    <string name="hint_disk_no_free">Ruang penyimpanan tidak cukup</string>
+
+    <string name="photo">Foto</string>
+    <string name="video">Video</string>
+    <string name="voice">Suara</string>
+    <string name="document">Dokumen</string>
+    <string name="camera">Kamera</string>
+    <string name="location">Lokasi</string>
+    <string name="refresh">Muat ulang</string>
+</resources>

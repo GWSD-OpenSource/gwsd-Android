@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMemberBg">#E6EBEE</color>>
+    <color name="transparent">#00000000</color>
+
+    <color name="textColor">@color/color_white</color>
+    <color name="backgroundColor">@color/color_black_22</color>
+    <color name="backgroundColor2">@color/color_black_30</color>
+    <color name="backgroundColorWhite">@color/color_grey_30</color>
+    <color name="textColorBlack">@color/color_black_30</color>
+    <color name="textColorWhite">@color/color_white</color>
+
+    <color name="textColorHint">@color/color_grey_80</color>
+
+    <color name="colorLine">@color/color_grey_90</color>
+    <color name="colorLine2">@color/color_grey_60</color>
+
+    <color name="main_tab_topLine">@color/color_black_48</color>
+    <color name="main_tab_background">@color/color_black_38</color>
+
+    <color name="mSS_close_color">@color/color_grey_60</color>
+    <color name="mSS_open_color">@color/color_green10</color>
+    <color name="mSS_thunm_color">@color/color_grey_10</color>
+
+    <color name="scan_corner_color">#0effc2</color>
+
+</resources>

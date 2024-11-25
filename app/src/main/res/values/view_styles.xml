@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextSuper">
+        <item name="android:textSize">@dimen/textSize_nroml</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="pocTerminalItem" parent="@style/TextSuper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_height</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/shape_black_radius</item>
+        <item name="android:drawableRight">@mipmap/ic_arrow_right</item>
+        <item name="android:drawablePadding">@dimen/dimen5dp</item>
+        <item name="android:paddingLeft">@dimen/dimen_boundary</item>
+        <item name="android:paddingRight">@dimen/dimen_boundary</item>
+        <item name="android:layout_marginTop">@dimen/dimen2dp</item>
+
+    </style>
+
+    <style name="SinglechipTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_height_ss</item>
+        <item name="android:background">?attr/t_bgColor</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <!--<item name="android:textSize">@dimen/testSize_nromlX</item>-->
+        <item name="android:textSize">12px</item>
+        <item name="android:textColor">?attr/t_txColor</item>
+        <item name="android:layout_marginTop">-3px</item>
+    </style>
+
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="FileManageTabLayout.Tab" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/textSize_largeX</item>
+    </style>
+
+    <style name="FileManageTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="tabTextAppearance">@style/FileManageTabLayout.Tab</item>
+        <item name="tabIndicatorColor">@color/color_white</item>
+        <item name="tabTextColor">@drawable/font_gray_write</item>
+
+    </style>
+
+    <style name="ButtonAllCaps" >
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?attr/t_txColor</item>
+    </style>
+    <style name="ButtonNorm" >
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">?attr/t_txColor</item>
+    </style>
+
+    <style name="BottomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/menu_bottom_anim</item>
+    </style>
+
+
+    <style name="mainRadioBtn" parent="TextSuper">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/textSize_nroml</item>
+        <item name="android:textColor">@drawable/font_gray_blue</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+
+    <style name="gtalkmainRadioBtn" parent="TextSuper">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/textSize_nroml</item>
+        <item name="android:textColor">@drawable/font_gray_blue</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+    <style name="mainRadioBtnTerminal" parent="mainRadioBtn">
+        <item name="android:textColor">@drawable/font_white_yellows2</item>
+        <item name="android:textSize">@dimen/textSize_nroml</item>
+    </style>
+    <style name="IMChatItemBg">
+        <item name="android:paddingBottom">@dimen/dimen15dp</item>
+    </style>
+    <style name="IMChatBubbleBg">
+        <item name="android:layout_width">@dimen/dimen120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="IMChatBubbleImageView" parent="IMChatBubbleBg">
+        <item name="android:maxHeight">@dimen/dimen100dp</item>
+        <item name="android:minHeight">@dimen/dimen50dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+</resources>

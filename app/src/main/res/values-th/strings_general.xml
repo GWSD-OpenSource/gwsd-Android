@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d รูปภาพ</string>
+    <string name="msg_no_camera">ไม่พบกล้อง</string>
+    <string name="msg_maxi_capacity">ถึงจำนวนสูงสุดของรูปภาพที่เลือกแล้ว</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="commit">ยืนยัน</string>
+    <string name="agree">ตกลง</string>
+    <string name="jieTing">ตอบรับ</string>
+    <string name="reject">ปฏิเสธ</string>
+    <string name="start">เริ่มต้น</string>
+    <string name="end">จบ</string>
+    <string name="stop">หยุด</string>
+    <string name="exit">ออก</string>
+    <string name="double_exit">คลิกสองครั้งเพื่อออก</string>
+    <string name="double_back">คลิกสองครั้งเพื่อกลับ</string>
+    <string name="double_operation">โปรดคลิกสองครั้งเพื่อดำเนินการ</string>
+    <string name="enter">เข้าสู่</string>
+    <string name="current">ปัจจุบัน</string>
+    <string name="group">กลุ่ม</string>
+    <string name="user">ผู้ใช้</string>
+    <string name="address">ที่อยู่</string>
+    <string name="longitude">ลองจิจูด</string>
+    <string name="latitude">ละติจูด</string>
+    <string name="succeed">สำเร็จ</string>
+    <string name="failure">ล้มเหลว</string>
+    <string name="normal">ปกติ</string>
+    <string name="exception">ผิดปกติ</string>
+    <string name="operationIng">กำลังดำเนินการ</string>
+    <string name="operation_failure">การดำเนินการล้มเหลว</string>
+    <string name="ongoing">กำลังดำเนินการ</string>
+    <string name="delete">ลบ</string>
+    <string name="menu">เมนู</string>
+    <string name="batterty">แบตเตอรี่</string>
+    <string name="batterty_form">แบตเตอรี่ %1$d</string>
+    <string name="volume">ปริมาณ</string>
+    <string name="add">เพิ่ม</string>
+    <string name="subtract">ลบ</string>
+    <string name="multiply">คูณ</string>
+    <string name="divide">หาร</string>
+    <string name="save">บันทึก</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="mute">ปิดเสียง</string>
+    <string name="mute_on">เปิดเสียง</string>
+    <string name="mute_off">ปิดเสียง</string>
+    <string name="sound_on">เปิดเสียง</string>
+    <string name="sound_off">ปิดเสียง</string>
+    <string name="conversation">การสนทนา</string>
+    <string name="contacts">รายชื่อผู้ติดต่อ</string>
+
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+
+    <string name="man">ชาย</string>
+    <string name="woman">หญิง</string>
+    <string name="oneself">ตัวฉันเอง</string>
+    <string name="local_equipment">อุปกรณ์ท้องถิ่น</string>
+    <string name="local_equipment_speak">อุปกรณ์ท้องถิ่นพูด</string>
+    <string name="talking_speak">กำลังพูด</string>
+    <string name="more">เพิ่มเติม</string>
+    <string name="setSucceed">การตั้งค่าสำเร็จ</string>
+    <string name="restoreDefult">คืนค่าเริ่มต้น</string>
+
+    <string name="commit_num">ยืนยัน (%1$d/%2$d)</string>
+    <string name="select_num">เลือกแล้ว (%1$s)</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="selected">เลือกแล้ว</string>
+    <string name="unit_time_hour">ชั่วโมง</string>
+    <string name="unit_time_minute">นาที</string>
+    <string name="unit_time_second">วินาที</string>
+    <string name="week">สัปดาห์</string>
+    <string name="week_Monday">วันจันทร์</string>
+    <string name="week_Tuesday">วันอังคาร</string>
+    <string name="week_Wednesday">วันพุธ</string>
+    <string name="week_Thursday">วันพฤหัสบดี</string>
+    <string name="week_Friday">วันศุกร์</string>
+    <string name="week_Saturday">วันเสาร์</string>
+    <string name="week_Sunday">วันอาทิตย์</string>
+
+    <string name="unit_m">เมตร</string>
+    <string name="unit_km">กิโลเมตร</string>
+
+    <string name="distance">ระยะทาง</string>
+
+    <string name="nodata">ไม่มีข้อมูล</string>
+    <string name="nodata2">ไม่มีข้อมูล</string>
+    <string name="not_more_data">ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="undefined">ไม่ได้กำหนด</string>
+
+    <string name="search">ค้นหา</string>
+
+    <string name="title_select_photo">เลือกภาพถ่าย</string>
+    <string name="hint_no_storage">ไม่มีที่จัดเก็บภายนอกที่สามารถใช้งานได้</string>
+    <string name="hint_photo_all">ภาพถ่ายทั้งหมด</string>
+
+    <string name="expand">ภาพถ่าย</string>
+    <string name="item">รายการ</string>
+    <string name="house_Number">หมายเลข</string>
+
+    <string name="please_Waiting">กรุณารอสักครู่...</string>
+
+    <string name="hint_version_current_on_new">เวอร์ชันปัจจุบันคือเวอร์ชันล่าสุด</string>
+    <string name="hint_version_not_newVersion">ไม่มีแพ็กเกจการอัปเดต</string>
+    <string name="hint_version_current">เวอร์ชันปัจจุบัน:</string>
+    <string name="hint_version_new">เวอร์ชันล่าสุด:</string>
+    <string name="hint_file_size">ขนาดไฟล์:</string>
+    <string name="hint_app_update">การอัปเดตซอฟต์แวร์</string>
+    <string name="btn_not_update">ยังไม่อัปเดตตอนนี้</string>
+    <string name="btn_now_update">อัปเดตตอนนี้</string>
+
+    <string name="notExits">ไม่มีอยู่</string>
+    <string name="file">ไฟล์</string>
+
+    <string name="btn_cancel_down">ยกเลิกการดาวน์โหลด</string>
+    <string name="btn_background_update">อัปเดตเบื้องหลัง</string>
+    <string name="btn_cancel_update_and_exitApp">ยกเลิกการอัปเดตและออกจากแอป</string>
+    <string name="pause">หยุดชั่วคราว</string>
+    <string name="again">ต่อ</string>
+    <string name="wait">รอ</string>
+
+    <string name="time_select">เลือกเวลา</string>
+    <string name="time_start">เวลาเริ่มต้น</string>
+    <string name="time_end">เวลาสิ้นสุด</string>
+    <string name="time_start_please">โปรดเลือกเวลาเริ่มต้น</string>
+    <string name="time_end_please">โปรดเลือกเวลาสิ้นสุด</string>
+    <string name="time_start_position">เวลาเริ่มต้น:</string>
+    <string name="time_end_position">เวลาสิ้นสุด:</string>
+    <string name="time">เวลา</string>
+    <string name="satellite">ดาวเทียม</string>
+    <string name="satelliteCount">จำนวนดาวเทียม</string>
+    <string name="signal">สัญญาณ</string>
+    <string name="hint_disk_small">หน่วยความจำไม่เพียงพอ</string>
+    <string name="hint_disk_no_free">ที่จัดเก็บไม่เพียงพอ</string>
+
+    <string name="photo">ภาพถ่าย</string>
+    <string name="video">วิดีโอ</string>
+    <string name="voice">เสียง</string>
+    <string name="document">เอกสาร</string>
+    <string name="camera">กล้อง</string>
+    <string name="location">ที่ตั้ง</string>
+    <string name="refresh">รีเฟรช</string>
+</resources>

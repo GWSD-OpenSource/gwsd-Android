@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d фото</string>
+    <string name="msg_no_camera">Камера не найдена</string>
+    <string name="msg_maxi_capacity">Достигнуто максимальное количество выбранных фотографий</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancel">Отмена</string>
+    <string name="commit">Подтвердить</string>
+    <string name="agree">Согласиться</string>
+    <string name="jieTing">Ответить</string>
+    <string name="reject">Отклонить</string>
+    <string name="start">Начать</string>
+    <string name="end">Конец</string>
+    <string name="stop">Стоп</string>
+    <string name="exit">Выход</string>
+    <string name="double_exit">Дважды щелкните, чтобы выйти</string>
+    <string name="double_back">Дважды щелкните, чтобы вернуться</string>
+    <string name="double_operation">Пожалуйста, дважды щелкните для выполнения</string>
+    <string name="enter">Войти</string>
+    <string name="current">Текущий</string>
+    <string name="group">Группа</string>
+    <string name="user">Пользователь</string>
+    <string name="address">Адрес</string>
+    <string name="longitude">Долгота</string>
+    <string name="latitude">Широта</string>
+    <string name="succeed">Успешно</string>
+    <string name="failure">Неудача</string>
+    <string name="normal">Нормально</string>
+    <string name="exception">Аномально</string>
+    <string name="operationIng">Выполняется</string>
+    <string name="operation_failure">Операция не удалась</string>
+    <string name="ongoing">В процессе</string>
+    <string name="delete">Удалить</string>
+    <string name="menu">Меню</string>
+    <string name="batterty">Батарея</string>
+    <string name="batterty_form">Батарея %1$d</string>
+    <string name="volume">Громкость</string>
+    <string name="add">Добавить</string>
+    <string name="subtract">Вычесть</string>
+    <string name="multiply">Умножить</string>
+    <string name="divide">Разделить</string>
+    <string name="save">Сохранить</string>
+    <string name="reset">Сбросить</string>
+    <string name="mute">Без звука</string>
+    <string name="mute_on">Включить беззвучный режим</string>
+    <string name="mute_off">Выключить беззвучный режим</string>
+    <string name="sound_on">Включить звук</string>
+    <string name="sound_off">Выключить звук</string>
+    <string name="conversation">Разговор</string>
+    <string name="contacts">Контакты</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="man">Мужчина</string>
+    <string name="woman">Женщина</string>
+    <string name="oneself">Сам</string>
+    <string name="local_equipment">Местное устройство</string>
+    <string name="local_equipment_speak">Местное устройство говорит</string>
+    <string name="talking_speak">Говорящий</string>
+    <string name="more">Больше</string>
+    <string name="setSucceed">Настройка выполнена успешно</string>
+    <string name="restoreDefult">Восстановить по умолчанию</string>
+
+    <string name="commit_num">Подтвердить (%1$d/%2$d)</string>
+    <string name="select_num">Выбрано (%1$s)</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="selected">Выбрано</string>
+    <string name="unit_time_hour">Час</string>
+    <string name="unit_time_minute">Минута</string>
+    <string name="unit_time_second">Секунда</string>
+    <string name="week">Неделя</string>
+    <string name="week_Monday">Понедельник</string>
+    <string name="week_Tuesday">Вторник</string>
+    <string name="week_Wednesday">Среда</string>
+    <string name="week_Thursday">Четверг</string>
+    <string name="week_Friday">Пятница</string>
+    <string name="week_Saturday">Суббота</string>
+    <string name="week_Sunday">Воскресенье</string>
+
+    <string name="unit_m">Метр</string>
+    <string name="unit_km">Километр</string>
+
+    <string name="distance">Расстояние</string>
+
+    <string name="nodata">Нет доступных данных</string>
+    <string name="nodata2">Нет данных</string>
+    <string name="not_more_data">Больше нет данных</string>
+    <string name="undefined">Не определено</string>
+
+    <string name="search">Поиск</string>
+
+    <string name="title_select_photo">Выберите фото</string>
+    <string name="hint_no_storage">Нет доступной внешней памяти</string>
+    <string name="hint_photo_all">Все фото</string>
+
+    <string name="expand">Фото</string>
+    <string name="item">Элементы</string>
+    <string name="house_Number">Номер</string>
+
+    <string name="please_Waiting">Пожалуйста, подождите...</string>
+
+    <string name="hint_version_current_on_new">Текущая версия является последней</string>
+    <string name="hint_version_not_newVersion">Нет пакета обновления</string>
+    <string name="hint_version_current">Текущая версия:</string>
+    <string name="hint_version_new">Последняя версия:</string>
+    <string name="hint_file_size">Размер файла:</string>
+    <string name="hint_app_update">Обновление ПО</string>
+    <string name="btn_not_update">Не обновлять сейчас</string>
+    <string name="btn_now_update">Обновить сейчас</string>
+
+    <string name="notExits">Не существует</string>
+    <string name="file">Файл</string>
+
+    <string name="btn_cancel_down">Отменить загрузку</string>
+    <string name="btn_background_update">Фоновое обновление</string>
+    <string name="btn_cancel_update_and_exitApp">Отменить обновление и выйти из приложения</string>
+    <string name="pause">Пауза</string>
+    <string name="again">Продолжить</string>
+    <string name="wait">Подождите</string>
+
+    <string name="time_select">Выбрать время</string>
+    <string name="time_start">Время начала</string>
+    <string name="time_end">Время окончания</string>
+    <string name="time_start_please">Пожалуйста, выберите время начала</string>
+    <string name="time_end_please">Пожалуйста, выберите время окончания</string>
+    <string name="time_start_position">Время начала:</string>
+    <string name="time_end_position">Время окончания:</string>
+    <string name="time">Время</string>
+    <string name="satellite">Спутник</string>
+    <string name="satelliteCount">Количество спутников</string>
+    <string name="signal">Сигнал</string>
+    <string name="hint_disk_small">Недостаточно памяти</string>
+    <string name="hint_disk_no_free">Недостаточно свободного места</string>
+
+    <string name="photo">Фото</string>
+    <string name="video">Видео</string>
+    <string name="voice">Голос</string>
+    <string name="document">Документ</string>
+    <string name="camera">Камера</string>
+    <string name="location">Местоположение</string>
+    <string name="refresh">Обновить</string>
+</resources>

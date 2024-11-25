@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--GTP70  226  320X170-->
+    <dimen name="line_height">@dimen/dimen1dp</dimen>
+    <dimen name="item_height">@dimen/dimen45dp</dimen>
+    <dimen name="item_height_s">@dimen/dimen40dp</dimen>
+    <dimen name="item_height_s5">@dimen/dimen35dp</dimen>
+    <dimen name="item_height_ss">@dimen/dimen30dp</dimen>
+    <dimen name="item_height_x">@dimen/dimen70dp</dimen>
+    <dimen name="dimen_boundary">@dimen/dimen10dp</dimen>
+    <dimen name="dimen_boundary_s">@dimen/dimen6dp</dimen>
+    <dimen name="dimen_boundary_xl">@dimen/dimen15dp</dimen>
+
+    <dimen name="textSize_title">@dimen/dimen18sp</dimen>
+    <dimen name="textSize_content">@dimen/dimen16sp</dimen>
+    <dimen name="textSize_item">@dimen/dimen16sp</dimen>
+    <dimen name="textSize_noData">@dimen/dimen16sp</dimen>
+
+    <dimen name="textSize_largeXXX">@dimen/dimen22sp</dimen>
+    <dimen name="textSize_largeXX">@dimen/dimen22sp</dimen>
+    <dimen name="textSize_largeX">@dimen/dimen22sp</dimen>
+    <dimen name="textSize_large">@dimen/dimen20sp</dimen>
+    <dimen name="textSize_largeXXXX">@dimen/dimen25sp</dimen>
+    <dimen name="textSize_nromlX">@dimen/dimen20sp</dimen>
+    <dimen name="textSize_nroml">@dimen/dimen18sp</dimen>
+    <dimen name="textSize_samll">@dimen/dimen18sp</dimen>
+    <dimen name="textSize_samllS">@dimen/dimen16sp</dimen>
+    <dimen name="textSize_samllSS">@dimen/dimen16sp</dimen>
+
+    <dimen name="toast_yOffset">@dimen/dimen10dp</dimen>
+    <dimen name="toast_height">@dimen/dimen50dp</dimen>
+
+    <dimen name="app_title_height">@dimen/dimen50dp</dimen>
+
+    <dimen name="dialog_CancelConfirm_w">@dimen/dimen240dp</dimen>
+    <dimen name="dialog_CancelConfirm_h">@dimen/dimen180dp</dimen>
+    <dimen name="dialog_CancelConfirm_logSize">@dimen/dimen60dp</dimen>
+    <dimen name="dialog_CancelConfirm_bottomBtnHeight">@dimen/dimen45dp</dimen>
+    <dimen name="dialog_widht">@dimen/dimen240dp</dimen>
+    <dimen name="dialog_height">@dimen/dimen180dp</dimen>
+    <dimen name="dialog_fm_listmenu_width">@dimen/dialog_widht</dimen>
+
+    <dimen name="launcher_qrSize">@dimen/dimen220dp</dimen>
+    <dimen name="launcher_qrSizeAppLog">@dimen/dimen100dp</dimen>
+    <dimen name="login_logSize">@dimen/dimen72dp</dimen>
+    <dimen name="login_logSize_launcher">@dimen/dimen72dp</dimen>
+    <dimen name="login_terminal_inputGroup_marTop">@dimen/dimen40dp</dimen>
+    <dimen name="login_inputFlag_w">@dimen/dimen21dp</dimen>
+    <dimen name="login_inputFlag_h">@dimen/dimen25dp</dimen>
+    <dimen name="login_inputContent_paddingLeft">@dimen/dimen40dp</dimen>
+    <dimen name="login_terminal_login_btn_marTop">@dimen/dimen36dp</dimen>
+    <dimen name="login_code_w">@dimen/dimen100dp</dimen>
+
+    <dimen name="main_tab_height">@dimen/dimen40dp</dimen>
+    <dimen name="main_ptt_bottomHeight">@dimen/dimen60dp</dimen>
+    <dimen name="main_ptt_size">@dimen/dimen50dp</dimen>
+
+    <dimen name="operator_networkSignal_img_width">@dimen/dimen40dp</dimen>
+    <dimen name="operator_networkSignal_img_height">@dimen/dimen20dp</dimen>
+    <dimen name="operator_BatterySignal_img_width">@dimen/dimen40dp</dimen>
+    <dimen name="operator_BatterySignal_img_height">@dimen/dimen20dp</dimen>
+    <dimen name="operator_BatteryCharge_img_width">@dimen/dimen20dp</dimen>
+    <dimen name="operator_BatteryCharge_img_height">@dimen/dimen20dp</dimen>
+    <dimen name="operator_group_item_height">@dimen/dimen30dp</dimen>
+
+    <dimen name="report_fm_notice_height">@dimen/dimen70dp</dimen>
+    <dimen name="cmccDim_apply_menu_group_marTop">@dimen/dimen8dp</dimen>
+    <dimen name="cmccDim_apply_menu_spacing">@dimen/dimen8dp</dimen>
+    <dimen name="cmccDim_apply_menu_img_size">@dimen/dimen50dp</dimen>
+
+    <dimen name="dimen_groupImgSize">@dimen/dimen30dp</dimen>
+
+    <dimen name="set_centerPerson_imgFlag_size">@dimen/dimen39dp</dimen>
+    <dimen name="set_SlideSwitch_width">@dimen/dimen44dp</dimen>
+    <dimen name="set_SlideSwitch_height">@dimen/dimen24dp</dimen>
+
+    <dimen name="obout_top_height">@dimen/dimen140dp</dimen>
+    <dimen name="obout_top_logSize">@dimen/dimen55dp</dimen>
+
+    <dimen name="group_list_ptt_VoiceSendingView_size">@dimen/dimen160dp</dimen>
+    <dimen name="group_list_ptt_VoiceSendingView_microphone_size">@dimen/dimen80dp</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_group_width">@dimen/dimen165dp</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_group_height">@dimen/dimen134dp</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_group_marTop">@dimen/dimen180dp</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_size">@dimen/dimen80dp</dimen>
+
+    <dimen name="cmccDim_record_log_item_height">@dimen/dimen70dp</dimen>
+    <dimen name="cmccDim_record_play_btnsize">@dimen/dimen44dp</dimen>
+    <dimen name="cmccDim_record_play_btnsize_big">@dimen/dimen50dp</dimen>
+    <dimen name="cmccDim_record_down_imgSize">@dimen/dimen30dp</dimen>
+    <dimen name="cmccDim_record_search_timer_item_height">@dimen/dimen65dp</dimen>
+    <dimen name="cmccDim_record_search_timer_width">@dimen/dimen105dp</dimen>
+    <dimen name="cmccDim_record_search_timer_height">@dimen/dimen30dp</dimen>
+    <dimen name="cmccDim_record_search_item_height">@dimen/dimen50dp</dimen>
+
+    <dimen name="record_list_local_nameHeight">@dimen/dimen30dp</dimen>
+    <dimen name="record_list_local_voiceImgWidth">@dimen/dimen50dp</dimen>
+    <dimen name="record_list_local_voiceImgHeight">@dimen/dimen35dp</dimen>
+
+    <dimen name="cmccDim_report_input_height">@dimen/dimen80dp</dimen>
+    <dimen name="cmccDim_report_submit_marTop">@dimen/dimen30dp</dimen>
+    <dimen name="cmccDim_report_contentImg_min_height">@dimen/dimen240dp</dimen>
+    <dimen name="cmccDim_report_contentImg_max_height">@dimen/dimen160dp</dimen>
+    <dimen name="cmccDim_report_camera_size">@dimen/dimen80dp</dimen>
+    <dimen name="cmccDim_report_play_size">@dimen/dimen80dp</dimen>
+    <dimen name="report_voice_fm_height">@dimen/dimen130dp</dimen>
+    <dimen name="report_voice_btn_marBottom">@dimen/dimen30dp</dimen>
+
+    <dimen name="video_top_hright">@dimen/dimen70dp</dimen>
+    <dimen name="video_zoop_switch_height">@dimen/dimen70dp</dimen>
+    <dimen name="video_zoop_switch_with">@dimen/dimen36dp</dimen>
+    <dimen name="video_quality_w">@dimen/dimen80dp</dimen>
+    <dimen name="video_quality_h">@dimen/dimen36dp</dimen>
+    <dimen name="video_hangup_size">@dimen/dimen70dp</dimen>
+    <dimen name="video_hangup_item_bottm">@dimen/dimen51dp</dimen>
+    <dimen name="video_hangup_item_marLeft">@dimen/dimen39dp</dimen>
+    <dimen name="video_poc_btn_size">@dimen/dimen100dp</dimen>
+    <dimen name="video_VoiceSendingView_size">@dimen/dimen80dp</dimen>
+    <dimen name="video_request_dialog_w">@dimen/dimen80dp</dimen>
+
+    <dimen name="smallVideoWindownW">@dimen/dimen100dp</dimen>
+    <dimen name="smallVideoWindownH">@dimen/dimen120dp</dimen>
+    <dimen name="smallVideoWidownInitLocationTop">@dimen/dimen60dp</dimen>
+    <dimen name="smallVideoWidownInitLocationLeft">@dimen/dimen10dp</dimen>
+    <dimen name="smallVideoWidownOffsetTop">@dimen/dimen80dp</dimen>
+    <dimen name="smallVideoWidownOffsetBottom">@dimen/dimen90dp</dimen>
+    <dimen name="smallVideoWidownOffsetLeft">@dimen/dimen60dp</dimen>
+    <dimen name="smallVideoWidownOffsetRight">@dimen/dimen60dp</dimen>
+    <dimen name="smallVideoViewInitLocationTop">@dimen/dimen60dp</dimen>
+    <dimen name="smallVideoViewInitLocationLeft">@dimen/dimenMinus10dp</dimen>
+    <dimen name="smallVideoViewOffsetTop">@dimen/dimen10dp</dimen>
+    <dimen name="smallVideoViewOffsetBottom">@dimen/dimen30dp</dimen>
+    <dimen name="smallVideoViewOffsetLeft">@dimen/dimen10dp</dimen>
+    <dimen name="smallVideoViewOffsetRight">@dimen/dimenMinus10dp</dimen>
+
+    <dimen name="sos_img_flag_size">@dimen/dimen35dp</dimen>
+    <dimen name="sos_dig_act_height">@dimen/dimen180dp</dimen>
+    <dimen name="member_select_checkbox_size">@dimen/dimen60dp</dimen>
+
+    <dimen name="lockscreen_hint_width">@dimen/dimen200dp</dimen>
+    <dimen name="lockscreen_hint_height">@dimen/dimen100dp</dimen>
+    <dimen name="lockscreen_lock_flag_size">@dimen/dimen100dp</dimen>
+    <dimen name="lockscreen_lock_flag_end_size">@dimen/dimen110dp</dimen>
+</resources>

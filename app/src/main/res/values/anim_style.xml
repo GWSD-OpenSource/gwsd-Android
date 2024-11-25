@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EasyActivityWindownTranslationAnim">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_anim_translation_open_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_anim_translation_close_out</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_anim_translation_open_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_anim_translation_close_in</item>
+    </style>
+    <style name="EasyActivityWindownTranslationSingleAnim">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_anim_translation_open_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_anim_translation_close_out</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_anim_fixedly</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_anim_fixedly</item>
+    </style>
+    <style name="EasyActivityWindownDialogAnim">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_anim_dialog_open_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_anim_dialog_close_out</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_anim_dialog_open_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_anim_dialog_close_in</item>
+    </style>
+
+
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/pophiden_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+    <style name="menu_top_anim">
+        <item name="android:windowEnterAnimation">@anim/menu_top_enter</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/menu_top_exit</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+    <style name="menu_bottom_anim">
+        <item name="android:windowEnterAnimation">@anim/menu_bottom_enter</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/menu_bottom_exit</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_transparent">#00000000</color><!--透明色 -->   
+    <color name="color_transparent10">#90000000</color> 
+    <color name="color_transparent20">#50000000</color> 
+    <color name="color_transparent30">#30000000</color> 
+    <color name="color_transparent40">#30FFFFFF</color>  
+    <color name="color_transparent50">#50FFFFFF</color>  
+    <color name="color_transparent60">#90FFFFFF</color>
+    <color name="color_parent10">#19000000</color> 
+    <color name="color_parent20">#32000000</color> 
+    <color name="color_parent30">#4B000000</color> 
+    <color name="color_parent40">#64000000</color> 
+    <color name="color_parent50">#7F000000</color> 
+
+    <!--白色-->
+    <color name="color_white">#FFFFFF</color><!--白色 -->   
+    <color name="color_white40">#FAFAFA</color>
+    <color name="color_white10">#FFFAFA</color><!--雪白色 -->
+    <color name="color_white20">#FFFAF0</color><!--花白色 -->  
+    <color name="color_white30">#F5F5F5</color><!--烟白色 -->  
+     
+
+    <!--grey-->
+    <color name="color_grey_a2">#333333</color>
+    <color name="color_grey_a1">#3B3B3B</color>
+    <color name="color_grey_90">#666666</color>
+    <color name="color_grey_80">#777777</color>
+    <color name="color_grey_70">#999999</color>
+    <color name="color_grey_60">#AAAAAA</color>
+    <color name="color_grey_50">#BBBBBB</color>
+    <color name="color_grey_40">#CCCCCC</color>
+    <color name="color_grey_30">#DDDDDD</color>
+    <color name="color_grey_20">#EEEEEE</color>
+    <color name="color_grey_10">#EDEDED</color>
+    <color name="color_grey_5">#F5F5F5</color>
+
+    <color name="color_1a1a1a">#1a1a1a</color>
+    <color name="color_222">#222222</color>
+    <color name="color_333">#333333</color>
+    <color name="color_3B3B3B">#3B3B3B</color>
+    <color name="color_444">#444444</color>
+    <color name="color_666">#666666</color>
+    <color name="color_777">#777777</color>
+    <color name="color_999">#999999</color>
+    <color name="color_ccc">#CCCCCC</color>
+    <color name="color_ddd">#DDDDDD</color>
+    <color name="color_e8e8e8">#E8E8E8</color>
+    <color name="color_gwbg">#202835</color>
+    <color name="color_gwtx">#E6F0FA</color>
+
+    <!--black-->
+    <color name="color_black">#000000</color>
+    <color name="color_black_10">#1A1A1A</color>
+    <color name="color_black_20">#212121</color>
+    <color name="color_black_22">#222222</color>
+    <color name="color_black_30">#333333</color>
+    <color name="color_black_38">#383838</color>
+    <color name="color_black_40">#424242</color>
+    <color name="color_black_48">#484848</color>
+    <color name="color_black_50">#555555</color>
+
+    <!--brown-->
+    <color name="color_brown_5">#EFEBE9</color>
+    <color name="color_brown_10">#D7CCC8</color>
+    <color name="color_brown_20">#BCAAA4</color>
+    <color name="color_brown_30">#A1887F</color>
+    <color name="color_brown_40">#8D6E63</color>
+    <color name="color_brown_50">#795548</color>
+    <color name="color_brown_60">#6D4C41</color>
+    <color name="color_brown_70">#5D4037</color>
+    <color name="color_brown_80">#4E342E</color>
+    <color name="color_brown_90">#3E2723</color>
+
+    <!--blue_grey-->
+    <color name="color_blue_grey_5">#ECEFF1</color>
+    <color name="color_blue_grey_10">#CFD8DC</color>
+    <color name="color_blue_grey_20">#B0BBC5</color>
+    <color name="color_blue_grey_30">#90A4AE</color>
+    <color name="color_blue_grey_35">#899EB2</color>
+    <color name="color_blue_grey_40">#78909C</color>
+    <color name="color_blue_grey_50">#607D8B</color>
+    <color name="color_blue_grey_60">#546E7A</color>
+    <color name="color_blue_grey_70">#455A64</color>
+    <color name="color_blue_grey_80">#37474F</color>
+    <color name="color_blue_grey_90">#263238</color>
+
+    <!-- red-->
+    <color name="color_red5">#E57373</color>
+    <color name="color_red">#FF0000</color><!--红色 -->  
+    <color name="color_red10">#A52A2A</color>
+    <color name="color_red15">#DC143C</color> 
+    <color name="color_red20">#B22222</color>
+    <color name="color_red25">#800000</color>
+
+    <!-- green-->
+    <color name="color_green5">#90EE90</color>
+    <color name="color_green">#008000</color><!--绿色 -->
+    <color name="color_green10">#2E8B57</color>
+    <color name="color_green15">#228B22</color>
+    <color name="color_green20">#228B22</color>
+    <color name="color_green25">#006400</color>
+
+
+    <!--blue-->
+    <color name="color_blue5">#448cd6</color>
+    <color name="color_blue">#2e6fb2</color>
+    <color name="color_blue10">#214e7d</color>
+    <color name="color_blue15">#2962FF</color>
+    <color name="color_blue20">#0000FF</color>  <!--蓝色 -->
+    <color name="color_blue25">#00008B</color>
+    <color name="color_blue30">#1EA7C3</color>
+    <color name="color_blue35">#55C0F6</color> 
+    <color name="cmccNormColor_blueTransparent30">#302E6FB2</color>
+
+    <!--pink-->
+    <color name="color_9">#FFB6C1</color><!--亮粉红色 -->   
+    <color name="color_pink">#F48FB1</color><!--粉红色 -->
+    <color name="color_pink10">#FF69B4</color><!--热粉红色 -->
+    <color name="color_pink15">#F06292</color>
+    <color name="color_pink20">#EC407A</color>
+    <color name="color_pink25">#FF1493</color><!--深粉红色 -->
+
+    <!--purple-->
+    <color name="color_purple5">#DA70D6</color><!--淡紫色 -->  
+    <color name="color_purple6">#9370DB</color><!--中紫色 -->  
+    <color name="color_purple">#8A2BE2</color><!--紫色 -->  
+    <color name="color_purple10">#9932CC</color><!--暗紫色 -->   
+    <color name="color_purple15">#9400D3</color><!--暗紫罗兰色 -->   
+    <color name="color_purple20">#6A1B9A</color>
+    <color name="color_purple25">#4B0082</color>
+
+    <!--orange-->
+    <color name="color_orange">#FFA500</color><!--橙色 -->  
+    <color name="color_yellow">#FCA800</color>
+    <color name="color_yellow5">#c18206</color>
+    <color name="cmccNormColor_yellowTransparent20">#20FCA800</color>
+    <color name="cmccNormColor_yellowTransparent30">#30FCA800</color>
+    <color name="cmccNormColor_yellowTransparent40">#40FCA800</color>
+
+
+</resources>

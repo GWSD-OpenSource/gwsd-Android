@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d fotoğraf</string>
+    <string name="msg_no_camera">Kamera bulunamadı</string>
+    <string name="msg_maxi_capacity">Seçilen fotoğrafların maksimum sayısına ulaşıldı</string>
+    <string name="confirm">Onayla</string>
+    <string name="cancel">İptal</string>
+    <string name="commit">Onayla</string>
+    <string name="agree">Kabul et</string>
+    <string name="jieTing">Cevapla</string>
+    <string name="reject">Reddet</string>
+    <string name="start">Başlat</string>
+    <string name="end">Bitir</string>
+    <string name="stop">Durdur</string>
+    <string name="exit">Çık</string>
+    <string name="double_exit">Çıkmak için iki kez tıklayın</string>
+    <string name="double_back">Geri dönmek için iki kez tıklayın</string>
+    <string name="double_operation">Lütfen çalıştırmak için iki kez tıklayın</string>
+    <string name="enter">Giriş</string>
+    <string name="current">Mevcut</string>
+    <string name="group">Grup</string>
+    <string name="user">Kullanıcı</string>
+    <string name="address">Adres</string>
+    <string name="longitude">Boylam</string>
+    <string name="latitude">Enlem</string>
+    <string name="succeed">Başarılı</string>
+    <string name="failure">Başarısız</string>
+    <string name="normal">Normal</string>
+    <string name="exception">Anormal</string>
+    <string name="operationIng">Çalışıyor</string>
+    <string name="operation_failure">Operasyon başarısız</string>
+    <string name="ongoing">Devam ediyor</string>
+    <string name="delete">Sil</string>
+    <string name="menu">Menü</string>
+    <string name="batterty">Pil</string>
+    <string name="batterty_form">Pil %1$d</string>
+    <string name="volume">Ses</string>
+    <string name="add">Ekle</string>
+    <string name="subtract">Çıkar</string>
+    <string name="multiply">Çarp</string>
+    <string name="divide">Böl</string>
+    <string name="save">Kaydet</string>
+    <string name="reset">Sıfırla</string>
+    <string name="mute">Sessiz</string>
+    <string name="mute_on">Sessizi aç</string>
+    <string name="mute_off">Sessizi kapat</string>
+    <string name="sound_on">Sesi aç</string>
+    <string name="sound_off">Sesi kapat</string>
+    <string name="conversation">Konuşma</string>
+    <string name="contacts">Kişiler</string>
+
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+    <string name="man">Erkek</string>
+    <string name="woman">Kadın</string>
+    <string name="oneself">Kendim</string>
+    <string name="local_equipment">Yerel cihaz</string>
+    <string name="local_equipment_speak">Yerel cihaz konuşuyor</string>
+    <string name="talking_speak">Konuşuyor</string>
+    <string name="more">Daha fazla</string>
+    <string name="setSucceed">Ayar başarılı</string>
+    <string name="restoreDefult">Varsayılanları geri yükle</string>
+
+    <string name="commit_num">Onayla (%1$d/%2$d)</string>
+    <string name="select_num">Seçildi (%1$s)</string>
+    <string name="select_all">Hepsini seç</string>
+    <string name="selected">Seçildi</string>
+    <string name="unit_time_hour">Saat</string>
+    <string name="unit_time_minute">Dakika</string>
+    <string name="unit_time_second">Saniye</string>
+    <string name="week">Hafta</string>
+    <string name="week_Monday">Pazartesi</string>
+    <string name="week_Tuesday">Salı</string>
+    <string name="week_Wednesday">Çarşamba</string>
+    <string name="week_Thursday">Perşembe</string>
+    <string name="week_Friday">Cuma</string>
+    <string name="week_Saturday">Cumartesi</string>
+    <string name="week_Sunday">Pazar</string>
+
+    <string name="unit_m">Metre</string>
+    <string name="unit_km">Kilometre</string>
+
+    <string name="distance">Mesafe</string>
+
+    <string name="nodata">Kullanılabilir veri yok</string>
+    <string name="nodata2">Veri yok</string>
+    <string name="not_more_data">Başka veri yok</string>
+    <string name="undefined">Tanımlanmadı</string>
+
+    <string name="search">Ara</string>
+
+    <string name="title_select_photo">Fotoğraf seç</string>
+    <string name="hint_no_storage">Kullanılabilir harici depolama yok</string>
+    <string name="hint_photo_all">Tüm fotoğraflar</string>
+
+    <string name="expand">Fotoğraflar</string>
+    <string name="item">Öğeler</string>
+    <string name="house_Number">Numara</string>
+
+    <string name="please_Waiting">Lütfen bekleyin...</string>
+
+    <string name="hint_version_current_on_new">Mevcut sürüm en son sürümdür</string>
+    <string name="hint_version_not_newVersion">Güncelleme paketi yok</string>
+    <string name="hint_version_current">Mevcut sürüm:</string>
+    <string name="hint_version_new">En son sürüm:</string>
+    <string name="hint_file_size">Dosya boyutu:</string>
+    <string name="hint_app_update">Yazılım güncellemesi</string>
+    <string name="btn_not_update">Şimdi güncelleme yapma</string>
+    <string name="btn_now_update">Şimdi güncelle</string>
+
+    <string name="notExits">Mevcut değil</string>
+    <string name="file">Dosya</string>
+
+    <string name="btn_cancel_down">İndirmeyi iptal et</string>
+    <string name="btn_background_update">Arka plan güncellemesi</string>
+    <string name="btn_cancel_update_and_exitApp">Güncellemeyi iptal et ve uygulamadan çık</string>
+    <string name="pause">Duraklat</string>
+    <string name="again">Devam et</string>
+    <string name="wait">Bekle</string>
+
+    <string name="time_select">Zamanı seç</string>
+    <string name="time_start">Başlangıç zamanı</string>
+    <string name="time_end">Bitiş zamanı</string>
+    <string name="time_start_please">Lütfen başlangıç zamanını seçin</string>
+    <string name="time_end_please">Lütfen bitiş zamanını seçin</string>
+    <string name="time_start_position">Başlangıç zamanı:</string>
+    <string name="time_end_position">Bitiş zamanı:</string>
+    <string name="time">Zaman</string>
+    <string name="satellite">Uydu</string>
+    <string name="satelliteCount">Uydu sayısı</string>
+    <string name="signal">Sinyal</string>
+    <string name="hint_disk_small">Yetersiz bellek</string>
+    <string name="hint_disk_no_free">Yetersiz depolama alanı</string>
+
+    <string name="photo">Fotoğraf</string>
+    <string name="video">Video</string>
+    <string name="voice">Ses</string>
+    <string name="document">Belge</string>
+    <string name="camera">Kamera</string>
+    <string name="location">Konum</string>
+    <string name="refresh">Yenile</string>
+</resources>

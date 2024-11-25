@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PNC-370-->
+    <!--
+    <dimen name="line_height">1px</dimen>
+    <dimen name="item_height">48px</dimen>
+    <dimen name="item_height_s">40px</dimen>
+    <dimen name="item_height_s5">35px</dimen>
+    <dimen name="item_height_ss">30px</dimen>
+    <dimen name="item_height_x">70px</dimen>
+    <dimen name="dimen_boundary">10px</dimen>
+    <dimen name="dimen_boundary_s">6px</dimen>
+    <dimen name="dimen_boundary_xl">15px</dimen>
+
+    <dimen name="textSize_title">18px</dimen>
+    <dimen name="textSize_content">20px</dimen>
+    <dimen name="textSize_item">20px</dimen>
+    <dimen name="textSize_noData">20px</dimen>
+
+    <dimen name="textSize_largeXXX">26px</dimen>
+    <dimen name="textSize_largeXX">24px</dimen>
+    <dimen name="textSize_largeX">22px</dimen>
+    <dimen name="textSize_large">20px</dimen>
+    <dimen name="textSize_nromlX">20px</dimen>
+    <dimen name="textSize_nroml">20px</dimen>
+    <dimen name="textSize_samll">20px</dimen>
+    <dimen name="textSize_samllS">20px</dimen>
+    <dimen name="textSize_samllSS">20px</dimen>
+
+    <dimen name="toast_yOffset">10px</dimen>
+    <dimen name="toast_height">50px</dimen>
+
+    <dimen name="app_title_height">50px</dimen>
+
+    <dimen name="dialog_CancelConfirm_w">300px</dimen>
+    <dimen name="dialog_CancelConfirm_h">240px</dimen>
+    <dimen name="dialog_CancelConfirm_logSize">80px</dimen>
+    <dimen name="dialog_CancelConfirm_bottomBtnHeight">45px</dimen>
+    <dimen name="dialog_widht">280px</dimen>
+    <dimen name="dialog_height">220px</dimen>
+    <dimen name="dialog_fm_listmenu_width">@dimen/dialog_widht</dimen>
+
+    <dimen name="launcher_qrSize">220px</dimen>
+    <dimen name="launcher_qrSizeAppLog">100px</dimen>
+    <dimen name="login_logSize">72px</dimen>
+    <dimen name="login_logSize_launcher">72px</dimen>
+    <dimen name="login_terminal_inputGroup_marTop">40px</dimen>
+    <dimen name="login_inputFlag_w">21px</dimen>
+    <dimen name="login_inputFlag_h">25px</dimen>
+    <dimen name="login_inputContent_paddingLeft">40px</dimen>
+    <dimen name="login_terminal_login_btn_marTop">36px</dimen>
+    <dimen name="login_code_w">100px</dimen>
+
+    <dimen name="main_tab_height">45px</dimen>
+    <dimen name="main_ptt_bottomHeight">60px</dimen>
+    <dimen name="main_ptt_size">100px</dimen>
+
+    <dimen name="operator_networkSignal_img_width">40px</dimen>
+    <dimen name="operator_networkSignal_img_height">20px</dimen>
+    <dimen name="operator_BatterySignal_img_width">40px</dimen>
+    <dimen name="operator_BatterySignal_img_height">20px</dimen>
+    <dimen name="operator_BatteryCharge_img_width">20px</dimen>
+    <dimen name="operator_BatteryCharge_img_height">20px</dimen>
+    <dimen name="operator_group_item_height">30px</dimen>
+
+    <dimen name="report_fm_notice_height">80px</dimen>
+    <dimen name="cmccDim_apply_menu_group_marTop">8px</dimen>
+    <dimen name="cmccDim_apply_menu_spacing">8px</dimen>
+    <dimen name="cmccDim_apply_menu_img_size">55px</dimen>
+
+    <dimen name="dimen_groupImgSize">30px</dimen>
+
+    <dimen name="set_centerPerson_imgFlag_size">39px</dimen>
+    <dimen name="set_SlideSwitch_width">44px</dimen>
+    <dimen name="set_SlideSwitch_height">24px</dimen>
+
+    <dimen name="obout_top_height">130px</dimen>
+    <dimen name="obout_top_logSize">60px</dimen>
+
+    <dimen name="group_list_ptt_VoiceSendingView_size">160px</dimen>
+    <dimen name="group_list_ptt_VoiceSendingView_microphone_size">80px</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_group_width">165px</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_group_height">134px</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_group_marTop">180px</dimen>
+    <dimen name="cmccDim_tempSoundAct_microphone_size">80px</dimen>
+
+    <dimen name="cmccDim_record_log_item_height">70px</dimen>
+    <dimen name="cmccDim_record_play_btnsize">44px</dimen>
+    <dimen name="cmccDim_record_play_btnsize_big">50px</dimen>
+    <dimen name="cmccDim_record_down_imgSize">30px</dimen>
+    <dimen name="cmccDim_record_search_timer_item_height">65px</dimen>
+    <dimen name="cmccDim_record_search_timer_width">105px</dimen>
+    <dimen name="cmccDim_record_search_timer_height">30px</dimen>
+    <dimen name="cmccDim_record_search_item_height">50px</dimen>
+
+    <dimen name="record_list_local_nameHeight">30px</dimen>
+    <dimen name="record_list_local_voiceImgWidth">50px</dimen>
+    <dimen name="record_list_local_voiceImgHeight">35px</dimen>
+
+    <dimen name="cmccDim_report_input_height">80px</dimen>
+    <dimen name="cmccDim_report_submit_marTop">30px</dimen>
+    <dimen name="cmccDim_report_contentImg_min_height">240px</dimen>
+    <dimen name="cmccDim_report_contentImg_max_height">160px</dimen>
+    <dimen name="cmccDim_report_camera_size">80px</dimen>
+    <dimen name="cmccDim_report_play_size">80px</dimen>
+    <dimen name="report_voice_fm_height">130px</dimen>
+    <dimen name="report_voice_btn_marBottom">30px</dimen>
+
+    <dimen name="video_top_hright">70px</dimen>
+    <dimen name="video_zoop_switch_height">70px</dimen>
+    <dimen name="video_zoop_switch_with">36px</dimen>
+    <dimen name="video_quality_w">110px</dimen>
+    <dimen name="video_quality_h">36px</dimen>
+    <dimen name="video_hangup_size">70px</dimen>
+    <dimen name="video_hangup_item_bottm">51px</dimen>
+    <dimen name="video_hangup_item_marLeft">39px</dimen>
+    <dimen name="video_poc_btn_size">100px</dimen>
+    <dimen name="video_VoiceSendingView_size">55px</dimen>
+    <dimen name="video_request_dialog_w">120px</dimen>
+
+    <dimen name="smallVideoWindownW">100px</dimen>
+    <dimen name="smallVideoWindownH">120px</dimen>
+    <dimen name="smallVideoWidownInitLocationTop">60px</dimen>
+    <dimen name="smallVideoWidownInitLocationLeft">10px</dimen>
+    <dimen name="smallVideoWidownOffsetTop">80px</dimen>
+    <dimen name="smallVideoWidownOffsetBottom">90px</dimen>
+    <dimen name="smallVideoWidownOffsetLeft">60px</dimen>
+    <dimen name="smallVideoWidownOffsetRight">60px</dimen>
+    <dimen name="smallVideoViewInitLocationTop">60px</dimen>
+    <dimen name="smallVideoViewInitLocationLeft">-10px</dimen>
+    <dimen name="smallVideoViewOffsetTop">10px</dimen>
+    <dimen name="smallVideoViewOffsetBottom">30px</dimen>
+    <dimen name="smallVideoViewOffsetLeft">10px</dimen>
+    <dimen name="smallVideoViewOffsetRight">-10px</dimen>
+
+    <dimen name="sos_img_flag_size">30px</dimen>
+    <dimen name="sos_dig_act_height">320px</dimen>
+    <dimen name="member_select_checkbox_size">60px</dimen>
+
+    <dimen name="lockscreen_hint_width">200px</dimen>
+    <dimen name="lockscreen_hint_height">100px</dimen>
+    <dimen name="lockscreen_lock_flag_size">100px</dimen>
+    <dimen name="lockscreen_lock_flag_end_size">110px</dimen>
+    -->
+</resources>

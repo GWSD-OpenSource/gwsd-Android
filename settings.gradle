@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://repository.liferay.com/nexus/content/repositories/public' }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+    plugins {
+        id 'com.android.application' version '7.1.0-alpha11'
+        id 'com.android.library' version '7.1.0-alpha11'
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://repository.liferay.com/nexus/content/repositories/public' }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+rootProject.name = "gwsdptt_app"
+include ':app'

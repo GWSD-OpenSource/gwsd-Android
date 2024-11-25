@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="GW.Base.Them" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="t_bgColor">@color/backgroundColor</item>
+    </style>
+    <style name="myTransparent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="GWApp.Them" parent="GW.Base.Them">
+        <item name="android:windowBackground">@color/color_transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="GW.Base.Them">
+        <item name="android:windowIsTranslucent">true</item>  <!-- ͸������ -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="NoTitle.Them" parent="GW.Base.Them">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Splash.Easy.Them" parent="NoTitle.Them">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="Splash.Theme" parent="GW.Base.Them">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/launch_back</item>
+    </style>
+    <style name="Norm.Theme" parent="GW.Base.Them">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Gw.Phone" parent="Norm.Theme">
+        <item name="t_txColor">@drawable/font_gray_blue</item>
+        <item name="t_bgColor">@color/color_grey_10</item>
+        <item name="t_tabColor">@color/color_grey_5</item>
+        <item name="t_colorPrimary">@color/color_grey_5</item>
+        <item name="t_colorPrimaryDark">@color/color_blue</item>
+        <item name="t_listItemColor">@drawable/selector_listitem_bg_day</item>
+    </style>
+    <style name="Yellow.Them" parent="Norm.Theme">
+        <item name="t_txColor">@color/color_white</item>
+        <item name="t_colorPrimary">@color/color_yellow</item>
+        <item name="t_colorPrimaryDark">@color/color_orange</item>
+    </style>
+    <style name="Blue.Them" parent="Norm.Theme">
+        <item name="t_txColor">@color/color_white</item>
+        <item name="t_colorPrimary">@color/color_blue5</item>
+        <item name="t_colorPrimaryDark">@color/color_blue</item>
+    </style>
+    <style name="DialogActivityThem" parent="Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Cluster comm</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="app_startIng">Interkom başlatılıyor</string>
+    <string name="app_initIng">Başlatılıyor</string>
+    <string name="app_Permission_to_change">İzin değişikliği</string>
+
+    <string name="login_welcome_easy">Genel ağ interkomu</string>
+    <string name="login_welcome_easy_idata">Interkom</string>
+
+    <string name="login_welcome">Hoş geldiniz %1$s interkom sistemine hoş geldiniz</string>
+
+    <string name="login_welcome_tts">Genel ağ interkomuna hoş geldiniz</string>
+    <string name="login_welcome_idata">Interkom uygulamasına hoş geldiniz</string>
+    <string name="login_welcome_Telecom_4G">Telecom 4G interkoma hoş geldiniz</string>
+    <string name="user_agreement">Kullanıcı Sözleşmesini okudum ve kabul ediyorum</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">Interkom</string>
+    <string name="main_tab_report">Uygulamalar</string>
+    <string name="main_tab_map">Harita</string>
+    <string name="main_tab_setting">Ayarlar</string>
+    <string name="main_tab_operator">Ana Sayfa</string>
+    <string name="main_tab_talkbackRecord">Interkom kayıtları</string>
+    <string name="main_tab_grp">Group</string>
+
+    <string name="accessibility_service_description">Akıllı kurulum, erişilebilirlik hizmetleri</string>
+    <string name="search_hint_group">Grupları aramak için anahtar kelimeler giriniz</string>
+    <string name="search_hint_group_member">Grup üyelerini aramak için anahtar kelimeler giriniz</string>
+    <string name="search_hint_friend">Arkadaşları aramak için anahtar kelimeler giriniz</string>
+    <string name="search_hint_norm">Aramak için anahtar kelimeler giriniz</string>
+    <string name="search_hint_easy">Anahtar kelimeler giriniz</string>
+
+    <string name="title_LoginActivity">Giriş</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">Grup</string>
+    <string name="title_FriendFragment">Arkadaş</string>
+    <string name="title_DispatcherFragment">Dispatcher</string>
+    <string name="title_contactsFragment">Kişiler</string>
+    <string name="title_MyFragment">Ben</string>
+    <string name="title_ABoutActivity">Hakkında</string>
+    <string name="title_ConnOffDialogActivity">Anormal giriş</string>
+    <string name="title_FeedbackActivity">Geri Bildirim</string>
+    <string name="title_SetLanguageActivity">Dil ayarları</string>
+    <string name="title_SetTextSizeActivity">Yazı tipi ayarları</string>
+    <string name="title_SetNetWorkActivity">Ağ modu</string>
+    <string name="title_SetUpReportCycleActivity">Konum ayarları</string>
+    <string name="title_SetUpReportVideoSizeActivity">Video raporlama çözünürlüğü</string>
+    <string name="title_videoConfig">Video yapılandırması</string>
+    <string name="title_SetGPSReportCycleActivity">Konum hizmeti</string>
+    <string name="title_SetLocationReportActivity">Konum raporu</string>
+    <string name="title_SysSetActivity">Ayarlar</string>
+    <string name="title_SetNormActivity">Genel ayarlar</string>
+    <string name="title_PocMemberListActivity">Grup üyeleri</string>
+    <string name="title_ChatActivity">Chat</string>
+    <string name="title_UpReportPhotoActivity">Fotoğraf raporu</string>
+    <string name="title_UpreportVideoActivity">Video raporu</string>
+    <string name="title_UpReportVioceActivity">Ses raporu</string>
+    <string name="title_PocGroupNoticeActivity">Duyurular</string>
+    <string name="title_requestDispatcher">Dispatcher talebi</string>
+    <string name="title_UserDescActivity">Kişisel bilgi</string>
+    <string name="title_SetSaveNoticeNumberActivity">Duyuru kaydetme ayarları</string>
+    <string name="title_SelectMemberActivity">Üye seçimi</string>
+    <string name="title_TalkbackSoundActivity">Geçici çağrı</string>
+    <string name="title_TempGrp">Geçici grup</string>
+    <string name="title_dispatchTempCall">Dispatcher çağrısı</string>
+
+    <string name="title_PlayRecordActivity">Kayıtlarım</string>
+    <string name="title_RecordListActivity">Kayıtlarım</string>
+    <string name="title_SearchConditionsActivity">Arama</string>
+    <string name="title_TalkbackRecord">Interkom kayıtları</string>
+
+    <string name="title_activity_maps">GoogleMap</string>
+    <string name="title_UserAgreementAct">Kullanıcı Sözleşmesi</string>
+    <string name="title_setDomain">Domain ayarları</string>
+    <string name="title_PatrolRecordActivity">İnceleme listesi</string>
+    <string name="title_terminal_location">Terminal konumu</string>
+    <string name="title_attach_fun">Hızlı uygulamalar</string>
+    <string name="server">Sunucu</string>
+    <string name="domain">Domain</string>
+    <string name="port">Port</string>
+    <string name="other">Diğer</string>
+
+    <string name="title_singlechip_autobackmain_timer">Otomatik dönüş süresi</string>
+    <string name="title_poc_intercom">Küme interkomu</string>
+    <string name="title_file_manager">Dosya oynatma</string>
+    
+    <string name="btn_close">Kapalı</string>
+    <string name="btn_open">Açık</string>
+    <string name="btn_affirm">Onayla</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="btn_submit">Gönder</string>
+    <string name="btn_send">Gönder</string>
+    <string name="btn_login">Giriş</string>
+    <string name="btn_login_out">Çıkış</string>
+    <string name="btn_clean_data">Hesabı temizle</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">Grup video araması</string>
+
+    <string name="btn_hangup">Telefonu kapat</string>
+    <string name="btn_accept">Kabul et</string>
+    <string name="btn_refuse">Reddet</string>
+    <string name="btn_speakerphone">Hoparlör</string>
+    <string name="btn_silence">Sessizlik</string>
+    <string name="btn_camera_change">Değiştir</string>
+
+    <string name="btn_upreport_source">Orijinal</string>
+    <string name="btn_upreport_compress">Sıkıştır</string>
+    <string name="btn_source_nativce">Yerel</string>
+    <string name="btn_source_photograph">Fotoğraf çek</string>
+    <string name="btn_source_film">Film çek</string>
+    <string name="btn_talk_photo">Fotoğraf çek</string>
+
+    <string name="btn_update_now">Şimdi güncelle</string>
+    <string name="btn_update_no">Daha sonra güncelle</string>
+    <string name="btn_upreport_location">Konum raporu</string>
+    <string name="btn_upreport_photo">Fotoğraf raporu</string>
+    <string name="btn_upreport_video">Video raporu</string>
+    <string name="btn_upreport_voice">Ses raporu</string>
+    <string name="btn_upreport_sos">Tek tuşla alarm</string>
+    <string name="btn_upreport_Patrol">Devriye kaydı</string>
+    <string name="btn_upreport_scan">Tarama</string>
+    <string name="btn_remote_monitoring">Uzaktan izleme</string>
+    <string name="btn_record_log">Ses kaydı</string>
+
+    <string name="menu_apply_notice">Bildirim</string>
+    <string name="menu_apply_group">Grup</string>
+    <string name="menu_apply_friend">Arkadaş</string>
+    <string name="menu_apply_member">Üye</string>
+    <string name="menu_apply_dispatch">Dispatcher</string>
+    <string name="menu_apply_groupSelect">Grup seçimi</string>
+    <string name="menu_apply_groupOpt">Benim gruplarım</string>
+    <string name="menu_gid_input">Lütfen grup ID\'sini giriniz</string>
+    <string name="menu_apply_friendSelect">Arkadaş seçimi</string>
+    <string name="menu_apply_memberSelect">Üye seçimi</string>
+    <string name="menu_apply_dispatchSelect">Dispatcher seçimi</string>
+    <string name="menu_apply_location">Konum</string>
+    <string name="menu_apply_setting">Ayarlar</string>
+    <string name="menu_apply_setting1">Fonksiyon ayarları</string>
+    <string name="menu_apply_upreport_photo">Fotoğraf raporu</string>
+    <string name="menu_apply_upreport_video">Video raporu</string>
+    <string name="menu_apply_upreport_voice">Ses raporu</string>
+    <string name="menu_apply_scan">Tarama</string>
+    <string name="menu_apply_patrol">İnceleme kaydı</string>
+    <string name="menu_apply_sos_record">Alarm kaydı</string>
+    <string name="menu_apply_train">Demir ayakkabı yönetimi</string>
+    <string name="menu_apply_sound">Ses sütunu</string>
+    <string name="menu_apply_sos">Tek tuşla alarm</string>
+    <string name="menu_apply_record_log">Ses kaydı</string>
+    <string name="menu_apply_voice_list">Ses listesi</string>
+    <string name="menu_apply_terminal_location">Terminal konumu</string>
+
+    <string name="btn_call_voice">Sesli arama</string>
+    <string name="btn_call_video">Görüntülü arama</string>
+    <string name="btn_switch_camera">Ön/arka değiştir</string>
+    <string name="btn_touch_video">Film çekmek için basılı tutun</string>
+
+    <string name="btn_fluency">Akıcı</string>
+    <string name="btn_common">Standart</string>
+    <string name="btn_standard">Standart</string>
+    <string name="btn_high">HD</string>
+    <string name="btn_press_speak">Konuşmak için basın</string>
+    <string name="btn_loosen_end">Sonlandırmak için bırakın</string>
+    <string name="btn_member">Üye</string>
+    <string name="btn_grplocation">Grup konumu</string>
+    <string name="btn_terminal_location">Terminal konumu</string>
+<string name="btn_navigation">Navigasyon</string>
+    <string name="btn_onekey_navigation">Tek tuşla navigasyon</string>
+    <string name="btn_navigation_start">Navigasyonu başlat</string>
+
+    <string name="item_sysset_message_hint">Mesaj bildirimi</string>
+    <string name="item_sysset_VolumeControl">Ses kontrolü</string>
+    <string name="item_sysset_VoiceEnhance">Ses geliştirme</string>
+    <string name="item_sysset_TTSVolume">TTS ses seviyesi</string>
+    <string name="item_sysset_PlayEnhance">Ses seviyesi geliştirme</string>
+    <string name="item_sysset_RecordEnhance">Kayıt geliştirme</string>
+    <string name="item_sysset_textsize">Yazı tipi boyutu</string>
+    <string name="item_sysset_network_mode">Ağ modu</string>
+    <string name="item_sysset_language">Dil ayarları</string>
+    <string name="item_sysset_meeting">Video penceresi</string>
+    <string name="item_sysset_resolution">Çözünürlük</string>
+    <string name="item_sysset_alarm_settings">Alarm ayarları</string>
+    <string name="item_sysset_norm">Genel ayarlar</string>
+    <string name="item_sysset_location">Konum ayarları</string>
+    <string name="item_sysset_locationinfo">Konum bilgisi</string>
+    <string name="item_sysset_location_report">Konum hizmeti</string>
+    <string name="item_sysset_upreport">Konum raporlama döngüsü</string>
+    <string name="item_sysset_video_record_size">Video kayıt kalitesi</string>
+    <string name="item_sysset_notice_save_number">Duyuru kaydetme numarası %1$s öğeler</string>
+    <string name="item_sysset_warning_tone_switch">Uyarı tonu</string>
+    <string name="item_sysset_notice_switch">Duyuru bildirimi</string>
+    <string name="item_sysset_video_voice_double">Video sesli çift yönlü iletişim</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">Video gönderiminde sayfayı göster</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">HD ses kalitesi</string>
+    <string name="item_sysset_station">Baz istasyonu</string>
+    <string name="item_sysset_station_location">Baz istasyonu konumu</string>
+    <string name="item_sysset_gps">GPS filtreleme</string>
+    <string name="item_sysset_gps_control">Konum gönderimi</string>
+    <string name="item_sysset_voice_type">Sesli duyuru</string>
+    <string name="item_sysset_voice_OnLine_ispriority">Çevrimiçi TTS ses önceliği</string>
+    <string name="item_sysset_video_config">Video yapılandırması</string>
+    <string name="item_sysset_video_watermark">Video filigranı</string>
+    <string name="item_sysset_watermark_size">Filigran boyutu</string>
+    <string name="item_sysset_ptt_wake_up">İnterkom ekranı açık</string>
+    <string name="item_power_mode">Güç modu</string>
+    <string name="item_powerLowModel">Bekleme modu</string>
+    <string name="item_powerHeightModel">Yüksek performans modu</string>
+    <string name="item_powerHeightModel1">Performans modu</string>
+    <string name="item_sysset_enable_agps">AGPS</string>
+    <string name="item_sysset_min_distance">Minimum raporlama mesafesi</string>
+
+    <string name="item_voiceAnnouncements">Sesli duyuru</string>
+
+    <string name="item_video_collection_ratio">Video toplama çözünürlüğü</string>
+    <string name="item_video_auto_rcv_snd">Otomatik video gönder/al</string>
+    <string name="item_video_auto_rcv_snd_desc">Anında video gönder/al</string>
+
+    <string name="item_upreport_no">Raporlama yok</string>
+    <string name="item_upreport_high">Yüksek frekans %1$s</string>
+    <string name="item_upreport_middle">Orta frekans %1$s</string>
+    <string name="item_upreport_low">Düşük frekans %1$s</string>
+
+    <string name="item_account">Hesap</string>
+    <string name="item_Feedback">Geri bildirim</string>
+    <string name="item_set">Ayarlar</string>
+    <string name="item_about">Versiyon hakkında</string>
+    <string name="item_appVersion_desc">Cihaz bilgisi</string>
+    <string name="item_check_update_version">Güncellemeleri kontrol et</string>
+    <string name="item_sysSetting">Sistem ayarları</string>
+    <string name="version_RollBack">Versiyon geri al</string>
+    <string name="version_desc">Versiyon bilgisi</string>
+    <string name="version_sys_desc">Sistem bilgisi</string>
+    <string name="version_update_ing">Güncelleniyor</string>
+    <string name="version_download_succeed">Güncelleme başarıyla alındı</string>
+    <string name="version_download_err">Güncelleme alınamadı</string>
+    <string name="version_install_ing">Yükleniyor</string>
+    <string name="version_install_succeed">Yükseltme başarılı</string>
+    <string name="please_reboot_device">Lütfen cihazı yeniden başlatın</string>
+    <string name="version_restart_app">Yeniden başlatılıyor</string>
+
+    <string name="item_personal_details_username">Adı: %1$s</string>
+    <string name="item_personal_details_account">Hesap: %1$s</string>
+    <string name="item_personal_details_ID">ID: %1$s</string>
+    <string name="item_personal_details_Imei0">IMEI:</string>
+    <string name="item_personal_details_Imei">IMEI: %1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">Video çağrısı</string>
+    <string name="item_talkback_menu_item_video_upload">Video yükle</string>
+    <string name="item_talkback_menu_item_video_look">Video izle</string>
+    <string name="item_talkback_menu_item_video_silence_look">Sessiz izle</string>
+    <string name="item_talkback_menu_item_voice_talkback">Geçici çağrı</string>
+    <string name="item_talkback_menu_item_voice_call">Sesli arama</string>
+    <string name="item_talkback_menu_item_voice_chat">Sesli sohbet</string>
+    <string name="item_talkback_menu_item_chat">Sohbet</string>
+
+    
+    <string name="hint_please_open_gps">Ayarlar\'da GPS\'i aç/kapat</string>
+    <string name="hint_please_permission">Lütfen izin verin</string>
+    <string name="hint_please_select_condition">Lütfen durumu seçin</string>
+    <string name="hint_file_size_not_none">0KB resimleri yükleyemezsiniz</string>
+
+    <string name="hint_please_inputContent">Lütfen içeriği girin</string>
+    <string name="hint_current_version">Mevcut sürüm</string>
+    <string name="hint_current_version_newest">Mevcut güncelleme yok</string>
+
+    <string name="hint_content_least_10num">İçerik en az 10 karakter olmalıdır</string>
+    <string name="hint_username_or_psw_notNull">Kullanıcı adı veya şifre boş olamaz</string>
+    <string name="hint_account_or_psw_notNull">Hesap veya şifre boş olamaz</string>
+    <string name="hint_phone_format_err">Telefon numarası formatı yanlış</string>
+    <string name="hint_psw_least_6num">Şifre en az 6 karakter olmalıdır</string>
+    <string name="hint_login_Failure">Giriş yapılamadı</string>
+    <string name="hint_login_account_notExist">Hesap mevcut değil</string>
+    <string name="hint_input_invalid">Geçersiz giriş</string>
+    <string name="hint_login_jpassword_err">Distribütör şifresi yanlış</string>
+    <string name="hint_login_jpassword_ok">Distribütör şifresi başarıyla değiştirildi</string>
+    <string name="hint_login_psw_err">Şifre yanlış</string>
+    <string name="hint_login_account_Invalid">Geçersiz hesap</string>
+    <string name="hint_login_account_or_psw_err">Hesap veya şifre yanlış</string>
+    <string name="hint_login_pswOut_of_date">Şifre süresi doldu, değiştirmek için yöneticiye başvurun</string>
+    <string name="hint_phone_num">Telefon numarası</string>
+    <string name="hint_account">Hesap</string>
+    <string name="hint_psw">Şifre</string>
+    <string name="hint_notice">Duyuru</string>
+    <string name="hint_search">Ara</string>
+
+    <string name="hint_reset_app_affirm_update">Değişiklikleri onaylamak için APP\'yi yeniden başlatın mı?</string>
+    <string name="hint_affirm_loginout">Çıkışı onaylıyor musunuz?</string>
+    <string name="hint_chat_no_self">Kendinizle sohbet edemezsiniz</string>
+    <string name="hint_voice_least_long">Ses çok kısa</string>
+
+    <string name="hint_target">Hedef</string>
+    <string name="hint_talkback_state_prepare">Hazırlanıyor...</string>
+    <string name="hint_talkback_state_wait_accept">Kabul için bekleniyor...</string>
+    <string name="hint_talkback_state_talkback_ing">İnterkom devam ediyor...</string>
+    <string name="hint_talkback_state_request">Video çağrısı isteniyor...</string>
+    <string name="hint_talkback_state_request_voice">Sesli çağrı isteniyor...</string>
+    <string name="hint_talkback_state_opposite_hangup">Çağrı diğer tarafça sonlandırıldı...</string>
+    <string name="hint_talkback_state_opposite_accept">Diğer tarafça kabul edildi...</string>
+    <string name="hint_talkback_state_call_failure">Çağrı başarısız oldu...</string>
+    <string name="hint_talkback_state_opposite_busy">Diğer taraf meşgul...</string>
+    <string name="hint_talkback_state_no_answer">Yanıt yok...</string>
+    <string name="hint_UnAnswered">Yanıtlanmadı...</string>
+    <string name="hint_talkback_state_native_video_err">Yerel video bağlantısı kesildi...</string>
+    <string name="hint_talkback_state_opposite_video_err">Video diğer tarafça bağlantısı kesildi...</string>
+    <string name="hint_chatvideo_err">Video bağlantısı kesildi...</string>
+    <string name="hint_talkback_state_opposite_off">Diğer taraf çevrimdışı</string>
+    <string name="hint_talkback_state_conn_failure">Bağlantı başarısız oldu...</string>
+    <string name="hint_talkback_state_hanup">Telefon kapandı...</string>
+
+    <string name="hint_video_call_conn_ok">Bağlandı...</string>
+    <string name="hint_video_call_conning">Bağlanıyor...</string>
+    <string name="hint_video_request_upload_video">Video yükleme isteği...</string>
+    <string name="hint_video_request_look_video">Video görüntüleme isteği...</string>
+    <string name="hint_none">Boşta</string>
+    <string name="wu">Yok</string>
+    <string name="hint_Idle_waiting">Boşta bekliyor</string>
+
+    <string name="hint_talkback_please_new_talkback">Lütfen dikkat edin, yeni bir interkomunuz var:</string>
+
+    <string name="hint_upreport_photo">Fotoğraf raporu</string>
+    <string name="hint_please_select_photo">Yüklenmiş fotoğraf yok</string>
+    <string name="hint_please_select_video">Yüklenmiş video yok</string>
+    <string name="hint_please_sd">Lütfen SD kartı takın</string>
+    <string name="hint_photo_compress_ing">Fotoğraf sıkıştırılıyor...</string>
+    <string name="hint_file_upload_failure">Dosya yükleme başarısız oldu</string>
+    <string name="hint_file_upload">Dosya yükleme</string>
+    <string name="hint_complete">Tamamlandı</string>
+    <string name="hint_complete_suc">Tamamlandı</string>
+    <string name="hint_complete_no">Tamamlanmadı</string>
+    <string name="hint_describe">Açıklama</string>
+    <string name="hint_describe_video">Video raporu\nNot: Şu anda desteklenen video formatı MP4\'tir</string>
+    <string name="hint_video_only_mp4">Şu anda yalnızca MP4 videoları desteklenmektedir</string>
+    <string name="hint_nofile">Dosya bulunamadı</string>
+    <string name="hint_video_max_size">Dosya boyutu 50MB\'yi aşmamalıdır</string>
+
+    <string name="hint_affirm_">Çıkışı onayla</string>
+    
+    <string name="about_desc">Grup interkomu</string>
+    <string name="about_desc_same">Grup interkomu</string>
+
+    <string name="hint_textsize_set_change_hint">Yazı tipi boyutu ayarı, yeniden başlattıktan sonra geçerli olur</string>
+
+    <string name="hint_welcome_back">Tekrar hoş geldiniz</string>
+    <string name="hint_opposite_account_exception">Karşı tarafın hesabı anormal</string>
+    <string name="hint_upload">Yükle</string>
+    <string name="hint_uploading">Yükleniyor...</string>
+    <string name="hint_have_upload">Yüklendi</string>
+    <string name="hint_upload_succeed">Yükleme başarılı</string>
+    <string name="hint_upload_failure">Yükleme başarısız</string>
+
+    <string name="hint_chat_videoing">Video devam ediyor</string>
+    <string name="hint_chat_videorecording">Video kaydediliyor</string>
+    <string name="hint_chat_voicerecording">Ses kaydediliyor</string>
+    <string name="hint_please_hangup_call">Lütfen önce çağrıyı kapatın</string>
+    <string name="and">ve</string>
+    <string name="hint_in_new_video">Lütfen dikkat edin, yeni bir interkomunuz var:</string>
+    <string name="hint_double_exit">Çıkmak için tekrar basın</string>
+    <string name="hint_click_savelog">Günlüğü yakalamak için %1$s kez daha tıklayın</string>
+    <string name="hint_click_savelog_cancel">Günlük yakalamayı iptal etmek için %1$s kez daha tıklayın</string>
+    <string name="hint_click_saveloging">Günlük yakalama</string>
+    <string name="hint_click_savelog_close">Günlük yakalamayı kapat</string>
+    <string name="hint_get_ststoken_failure">STSToken alma başarısız</string>
+    <string name="hint_download">İndir</string>
+    <string name="hint_download_ing">İndiriliyor...</string>
+    <string name="hint_download_finish">İndirme tamamlandı</string>
+    <string name="hint_download_failure">İndirme başarısız</string>
+    <string name="hint_download_Progress">İndirme ilerlemesi</string>
+    <string name="hint_download_address_err">Adres hatası</string>
+    <string name="hint_download_file_damage">Dosya hasarlı</string>
+    <string name="hint_connect_timeout">Bağlantı zaman aşımı</string>
+    <string name="hint_timeout">Zaman aşımı</string>
+    <string name="hint_connect_timeout_query_group_list">Grup listesini alırken zaman aşımı</string>
+    <string name="hint_connect_timeout_enter_group_list">Grup değiştirirken zaman aşımı</string>
+    <string name="hint_network_err">Ağ hatası</string>
+    <string name="hint_data_parse_err">Veri ayrıştırma hatası</string>
+    <string name="hint_tts_init_err">Ses sentezi başlatılamadı!</string>
+    <string name="hint_login_succeed">Giriş başarılı</string>
+    <string name="hint_login_failure">Giriş başarısız</string>
+    <string name="hint_yesterday">Dün</string>
+    <string name="hint_open_camera_failure">Kamera açılmadı! Lütfen kontrol edin</string>
+    <string name="hint_camera_time_small">Kayıt süresi 3 saniyeden az olmamalıdır</string>
+    <string name="hint_can_enter">%1$d karakter daha girebilirsiniz</string>
+    <string name="hint_can_enter_count">%1$d/%2$d karakter</string>
+    <string name="character">karakter</string>
+    <string name="hint_current_onLine_member">Mevcut çevrimiçi üyeler (%1$d kişi)</string>
+    <string name="hint_current_onLine_member2">Çevrimiçi (%1$d)</string>
+    <string name="hint_enter_group_failure">Grup değiştirme başarısız</string>
+    <string name="hint_request_dispatcher">%1$s sizi yönlendirmenizi istiyor</string>
+    <string name="hint_request_look_video">%1$s video izlemenizi istiyor</string>
+    <string name="hint_request_upload_video">%1$s video yüklemenizi istiyor</string>
+    <string name="hint_request_broadcast_video">%1$s video yayınlamanızı istiyor</string>
+    <string name="hint_request_monitoring_video">%1$s video izlemenizi istiyor</string>
+    <string name="hint_refuse_speak_in_video_meeting">Konuşmayı reddet</string>
+    <string name="hint_can_speak_in_video_meeting">Konuşabilir</string>
+    <string name="hint_request_speak_in_video_meeting">Konuşma isteği</string>
+
+    <string name="hint_enter_mode_person">Tek arama moduna gir</string>
+    <string name="hint_enter_mode_member">Üye moduna gir</string>
+    <string name="hint_enter_mode_friend">Arkadaş moduna gir</string>
+    <string name="hint_enter_mode_group">Grup moduna gir</string>
+    <string name="hint_out_mode_person">Tek arama modundan çık</string>
+    <string name="hint_out_mode_group">Grup modundan çık</string>
+    <string name="hint_out_mode_member">Üye modundan çık</string>
+    <string name="hint_out_mode_friend">Arkadaş modundan çık</string>
+    <string name="hint_out_mode_voice">Ses oynatma modundan çık</string>
+    <string name="hint_enter_mode_voice">Ses oynatma</string>
+    <string name="hint_ptt_request_micing">Mikrofon isteği...</string>
+    <string name="hint_ptt_speak_ing">Konuşuyor...</string>
+    <string name="hint_press_record">Kaydetmek için basın</string>
+    <string name="hint_ptt_loosen_over">Bitirmek için bırakın...</string>
+    <string name="hint_voice_record_ing">Ses oynatılıyor...</string>
+    <string name="hint_ptt_request_mic_failure">Interkom başarısız</string>
+    <string name="hint_ptt_current_no_request_mic">Şu anda mikrofon isteğinde bulunamazsınız</string>
+    <string name="hint_enterjoin_group">Gruba katıl</string>
+    <string name="hint_enterjoin_group_ing">Grup değiştiriliyor...</string>
+    <string name="hint_not_available_Group">Grup yok</string>
+    <string name="hint_not_available_Group_more">Başka grup yok</string>
+    <string name="hint_not_Group_member">Üye yok</string>
+    <string name="hint_not_Group_member_more">Başka üye yok</string>
+    <string name="hint_not_enter_GroupSelect">Grup seçimi</string>
+    <string name="hint_not_enter_GroupMember">Üye seçimi</string>
+    <string name="hint_not_currunt_Member">Mevcut üye</string>
+    <string name="hint_not_enter_FriendMember">Arkadaş seçimi</string>
+    <string name="hint_not_exit_FriendMember">Arkadaş seçiminden çık</string>
+    <string name="hint_not_exit_GroupMember">Üye seçiminden çık</string>
+    <string name="hint_not_exit_GroupSelect">Grup seçiminden çık</string>
+    <string name="hint_not_exit_DispatchMember">Yönlendirme seçiminden çık</string>
+    <string name="hint_not_exit_Voice">Ses oynatmadan çık</string>
+    <string name="hint_not_groupList">Grup yok</string>
+    <string name="hint_not_friendList">Arkadaş yok</string>
+    <string name="hint_not_memberList">Üye yok</string>
+    <string name="hint_not_dispatchList">Yönlendirme yok</string>
+    <string name="hint_not_noticeList">Bildirim yok</string>
+    <string name="hint_not_line_memberList">Çevrimiçi üye yok</string>
+    <string name="hint_not_line_friendList">Çevrimiçi arkadaş yok</string>
+    <string name="hint_not_line_dispatchList">Çevrimiçi yönlendirme yok</string>
+
+    <string name="hint_disconn_login_video_failure">Video giriş hatası</string>
+    <string name="hint_disconn_login_video">Video giriş bağlantısı kesildi</string>
+    <string name="hint_disconn_login_voice">Ses giriş bağlantısı kesildi</string>
+    <string name="hint_disconn_login">Giriş bağlantısı kesildi</string>
+    <string name="hint_attention_please_POC_lostConnection">Lütfen dikkat edin, POC giriş bağlantısı kesildi</string>
+    <string name="hint_attention_please_Video_lostConnection">Lütfen dikkat edin, video giriş bağlantısı kesildi</string>
+    <string name="hint_videoLogin_Reconnect">Video giriş bağlantısını yeniden bağla</string>
+    <string name="hint_POCLogin_Reconnect">POC giriş bağlantısını yeniden bağla</string>
+    <string name="hint_please_login">Giriş yapmadınız</string>
+    <string name="hint_please_loginSignalling">Sinyalleme başlatılıyor</string>
+    <string name="hint_login_ing">Giriş yapılıyor...</string>
+    <string name="hint_please_read_userAgreement">Lütfen önce Kullanıcı Sözleşmesini okuyun...</string>
+
+    <string name="hint_You_have_a_new_notice">Yeni bir duyuru bildiriminiz var</string>
+    <string name="hint_yu_an_notice">Acil durum yayını</string>
+
+    <string name="hint_notice_save_item_range">Numara %1$s ile %2$s arasında</string>
+    <string name="hint_notice_save_min_item">En az %1$s öğeyi kaydedin</string>
+    <string name="hint_notice_save_max_item">%1$s öğeye kadar kaydedin</string>
+
+    <string name="hint_select_persion">Lütfen üyeleri seçin</string>
+    <string name="hint_select_least_persion">Lütfen en az bir kişiyi seçin</string>
+    <string name="hint_temp_call_create_failure">Çağrı başarısız</string>
+    <string name="hint_temp_call_double_exit">Interkomdan çıkmak için tekrar basın</string>
+    <string name="hint_please_insert_sim">Lütfen SIM kartı takın</string>
+
+    <string name="hint_voice_mic_ing">Konuşuyor (%1$s)</string>
+    <string name="hint_voice_me_state">Durumum: %1$s</string>
+
+    <string name="hint_exploit_ing">Geliştiriliyor...</string>
+
+    <string name="hint_getlocationerr_please_check_network">Konum alınamadı, lütfen ağ veya GPS ayarlarını kontrol edin</string>
+    <string name="hint_Anti_Hijacking_hint">Giriş ekranınız kapalı, lütfen giriş ortamının güvenli olduğunu doğrulayın</string>
+    <string name="hint_input_code_err">Doğrulama kodu girişi hatası</string>
+    <string name="hint_input_code_timeOut">Doğrulama kodu süresi doldu</string>
+    <string name="hint_location_Unknown">Bilinmeyen konum</string>
+
+    <string name="hint_notice_list">Duyuru listesi</string>
+    <string name="hint_loging_otherterminals">Diğer terminallerde giriş yapıldı</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">Diğer terminallerde giriş yapıldı</string>
+    <string name="hint_loging_yaobi">Hesap devre dışı</string>
+
+    <string name="hint_violation_content_illegal">İçerik yasadışı</string>
+    <string name="hint_violation_video_auditing">Video başarıyla yüklendi, denetleniyor!</string>
+    <string name="hint_violation_photo_violation">Yükleme başarısız, fotoğraf ihlali şüphesi var!</string>
+    <string name="hint_violation_video_violationt">Video denetimi başarısız, video ihlali şüphesi var!</string>
+    <string name="hint_Account_Sealed">Hesap donduruldu! Lütfen daha sonra tekrar deneyin.</string>
+
+    <string name="hint_feedback_question_hint">Soru kategorisi</string>
+    <string name="hint_feedback_question_type_bug">HATA</string>
+    <string name="hint_feedback_question_type_demand">Talep</string>
+    <string name="hint_feedback_question_type_impeach">Bildirmek</string>
+    <string name="hint_feedback_impeach_hint">Rapor içeriği</string>
+    <string name="hint_feedback_impeach_type_yellow">Pornografi</string>
+    <string name="hint_feedback_impeach_type_politik">Politika</string>
+    <string name="hint_feedback_impeach_type_violence">Terörizm</string>
+    <string name="hint_feedback_impeach_type_other">Diğer</string>
+    <string name="hint_feedback_content_hint">İçerik açıklaması</string>
+    <string name="hint_feedback_input_content_hint">Açıklamanızı giriniz</string>
+    <string name="hint_feedback_phone_hint">İletişim bilgileri (isteğe bağlı)</string>
+<string name="hint_feedback_input_phone_hint">Lütfen iletişim bilgilerinizi girin</string>
+    <string name="hint_feedback_submit_succeed">Geri bildirim gönderildi</string>
+    <string name="hint_feedback_submit_content_stringform">
+        Geri bildirim türü: %1$s\n
+        Rapor türü: %2$s\n
+        İletişim bilgileri: %3$s\n
+        İçerik açıklaması: %4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        Geri bildirim türü: %1$s\n
+        İletişim bilgileri: %2$s\n
+        İçerik açıklaması: %3$s
+    </string>
+    <string name="hint_setDomain_domain">Alan adı:</string>
+    <string name="hint_setDomain_loginServer_hint">Giriş sunucusu</string>
+    <string name="hint_setDomain_pocServer">Giriş adresi:</string>
+    <string name="hint_setDomain_VideoServer">Sinyal adresi:</string>
+    <string name="hint_setDomain_DispatchServer">Gönderim adresi:</string>
+    <string name="hint_setDomain_fastdfsServer">Dosya adresi:</string>
+    <string name="hint_setDomain_fastdfsUploadServer">Yükleme adresi:</string>
+    <string name="hint_setDomain_getconfig">Yapılandırmayı al</string>
+    <string name="hint_setDomain_Restore_default">Varsayılanı geri yükle</string>
+    <string name="hint_setDomain_getconfig_failure">Güncelleme başarısız</string>
+    <string name="hint_setDomain_getconfig_succeed">Güncelleme başarılı, lütfen kaydetmek için onaylayın</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">Güncelleme başarılı, lütfen ortamı seçin</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">Lütfen değişiklikleri kaydedin</string>
+    <string name="hint_setDomain_getconfig_default">Varsayılan olarak geri yüklendi, lütfen kaydetmek için onaylayın</string>
+    <string name="hint_setDomain_uploadUrl_invalid">Geçersiz yükleme adresi</string>
+
+    <string name="hint_poc_current_member">Geçerli kullanıcı: %1$s</string>
+    <string name="hint_poc_current_group">Geçerli grup: %1$s</string>
+    <string name="hint_poc_this_machine_user">Yerel kullanıcı: %1$s</string>
+    <string name="hint_poc_current_memberHint">Geçerli kullanıcı:</string>
+    <string name="hint_poc_current_groupHint">Geçerli grup:</string>
+    <string name="hint_poc_this_machine_userHint">Yerel kullanıcı:</string>
+    <string name="hint_user_desc">Kullanıcı bilgileri</string>
+    <string name="hint_poc_group_select">Grup seçimi</string>
+    <string name="hint_poc_friend_select">Arkadaş seçimi</string>
+    <string name="hint_poc_member_select">Üye seçimi</string>
+    <string name="hint_poc_member_toomany">Çok fazla üye</string>
+    <string name="hint_poc_dispatcher_select">Gönderici seçimi</string>
+    <string name="hint_poc_group_selectShort">Grup</string>
+    <string name="hint_poc_friend_selectShort">Arkadaş</string>
+    <string name="hint_poc_member_selectShort">Üye</string>
+    <string name="hint_poc_dispatcher_selectShort">Gönderici</string>
+    <string name="hint_please_select_group">Lütfen bir grup seçin</string>
+    <string name="hint_please_select_member">Lütfen bir üye seçin</string>
+    <string name="hint_temp_voice_add">Geçici çağrıya katılın</string>
+    <string name="hint_ptt_click_send_tempcall">PTT geçici çağrı başlat</string>
+    <string name="hint_cur_tempcall">Geçici çağrıda</string>
+    <string name="hint_video_set_err">Video çözünürlüğü ayar hatası</string>
+    <string name="hint_video_current_not_enable">Geçerli video modülü desteklenmiyor</string>
+    <string name="hint_not_support">Desteklenmiyor</string>
+    <string name="hint_quality">Kalite</string>
+    <string name="hint_Resolving">Çözünürlük</string>
+    <string name="hint_video_quality">Video kalitesi</string>
+    <string name="hint_video_screenOrientation">Video ekran yönü</string>
+    <string name="hint_video_angle">Video açısı</string>
+    <string name="landscape">Yatay</string>
+    <string name="portrait">Dikey</string>
+    <string name="hint_video_Resolving">Video çözünürlüğü</string>
+    <string name="hint_uplocation_locationErr">Konum alma hatası</string>
+    <string name="hint_uplocation_currendLocation">Konum</string>
+    <string name="hint_uplocation_isRunUpreport">Rapor başlatıldı</string>
+    <string name="hint_uplocation_locationIsEffective">Konum etkili</string>
+    <string name="hint_uplocation_distanceIsEffective">Mesafe etkili</string>
+    <string name="hint_uplocation_UpReportState">Rapor durumu</string>
+
+    <string name="hint_remote_change_account">Uzaktan numara değiştirme</string>
+    <string name="hint_remote_change_account_notPermission">Uzaktan numara değiştirme izni yok</string>
+    <string name="hint_notPermission">İzin yok</string>
+    <string name="hint_volume_please_affirm">Lütfen ses kontrolünü onaylayın</string>
+    <string name="hint_volume_level">Ses seviyesi %1$s</string>
+    <string name="hint_voice_please_affirm">Lütfen ses iyileştirmesini onaylayın</string>
+    <string name="hint_tts_please_affirm">Lütfen TTS sesini onaylayın</string>
+    <string name="hint_volume_enter">Ses kontrolüne gir</string>
+    <string name="hint_volume_out">Ses kontrolünden çık</string>
+    <string name="hint_voice_enter">Ses iyileştirmesine gir</string>
+    <string name="hint_voice_out">Ses iyileştirmesinden çık</string>
+    <string name="hint_tts_enter">TTS kontrolüne gir</string>
+    <string name="hint_tts_out">TTS kontrolünden çık</string>
+    <string name="hint_enter_control">Kontrole gir</string>
+    <string name="hint_out_control">Kontrolden çık</string>
+    <string name="hint_control_please_affirm">Lütfen kontrolü onaylayın</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">Lütfen ses iyileştirmesini onaylayın</string>
+    <string name="hint_EnhanceVoicePlay_enter">İyileştirme kontrolüne gir</string>
+    <string name="hint_EnhanceVoicePlay_out">İyileştirme kontrolünden çık</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">Lütfen kayıt ses iyileştirmesini onaylayın</string>
+    <string name="hint_EnhanceVoiceRecord_enter">Kayıt kontrolüne gir</string>
+    <string name="hint_EnhanceVoiceRecord_out">Kayıt kontrolünden çık</string>
+
+    <string name="hint_sos_dig_time">Zaman:</string>
+    <string name="hint_sos_dig_time_strForm">Zaman: %1$s</string>
+    <string name="hint_sos_dig_address">Konum:</string>
+    <string name="hint_sos_dig_address_strForm">Konum: %1$s</string>
+    <string name="hint_sos_dig_group">Acil grup:</string>
+    <string name="hint_sos_dig_group_strForm">Acil grup: %1$s</string>
+    <string name="hint_sos_dig_name">Personel:</string>
+    <string name="hint_sos_dig_name_strForm">Personel: %1$s</string>
+    <string name="hint_sos_dig_distance_strForm">%1$s metre mesafede</string>
+    <string name="hint_sos_dig_title">%1$s bir alarm gönderdi</string>
+    <string name="hint_sos_dig_title_new">%1$s %2$s saatinde bir alarm gönderdi</string>
+    <string name="hint_sos_dig_title_new_ptt">Interkom %1$s bir alarm gönderdi</string>
+    <string name="hint_sos_dig_title_new_alarm">Alarm %1$s bir alarm gönderdi</string>
+    <string name="hint_sos_dig_unTitle">%1$s alarmı iptal etti</string>
+    <string name="hint_sos_help_failure">Alarm başarısız</string>
+    <string name="hint_sos_unhelp_failure">Alarm iptali başarısız</string>
+    <string name="hint_sos_notLocation_notHelp">Konum alma hatası, alarm gönderilemiyor</string>
+    <string name="hint_sos_exitNavi">Navigasyondan çık</string>
+    <string name="hint_sos_notRecord">Alarm kaydı yok</string>
+    <string name="hint_sos_unHelp">Alarmı iptal et</string>
+    <string name="hint_sos_unHelping">Alarm iptali sürüyor</string>
+    <string name="hint_sos_HelpIng">Alarm gönderiliyor</string>
+    <string name="hint_sos_Help_succeed">Alarm başarılı</string>
+    <string name="hint_no_record">Kayıt yok</string>
+    <string name="hint_set_major_dispatch">Ana gönderici olarak ayarla</string>
+
+    <string name="hint_sos_set_title">Alarm numarası</string>
+
+    <string name="hint_patrol_sign_err_notLocation">Geçersiz giriş, konum alma hatası</string>
+    <string name="hint_patrol_sign_err_server">Giriş başarısız, sunucu hatası</string>
+    <string name="hint_patrol_sign_err_location">Giriş başarısız, hizmet alanı dışında</string>
+    <string name="hint_patrol_sign_err_network">Giriş başarısız, ağ hatası</string>
+    <string name="hint_patrol_sign_err_dataErr">QR kodu veri hatası</string>
+    <string name="hint_patrol_sign_err_scanErr">QR kodu tarama hatası</string>
+    <string name="hint_patrol_sign_succeed">Giriş başarılı</string>
+    <string name="hint_patrol_record_time">Devriye zamanı</string>
+    <string name="hint_patrol_record_line">Devriye hattı</string>
+    <string name="hint_patrol_record_postion">Kontrol noktası</string>
+    <string name="hint_patrol_time_range">Başlangıç ​​zamanı bitiş zamanından sonra olamaz</string>
+
+    <string name="hint_location_startPosition">Konumlandırmayı başlat</string>
+    <string name="hint_location_Succeed">Konumlandırma başarılı</string>
+    <string name="hint_location_not">Konum yok</string>
+    <string name="hint_location_err">Konumlandırma başarısız</string>
+    <string name="hint_location_change">Konum değiştirildi</string>
+    <string name="hint_location_Navigation_planning">Navigasyon planlaması</string>
+    <string name="hint_location_Navigation_plannErr">Navigasyon planlaması başarısız</string>
+    <string name="hint_location_gpsLv">GPS sinyali %1$s bar</string>
+    <string name="hint_location_gpsSignalWeak">Zayıf GPS sinyali</string>
+    <string name="hint_location_gpsSignalStrong">Güçlü GPS sinyali</string>
+    <string name="hint_location_gpsSignalGeneral">Normal GPS sinyali</string>
+
+    <string name="hint_voiceQuality_setting">Ses kalitesi ayarı</string>
+    <string name="hint_voiceQuality_High">HD ses kalitesi</string>
+    <string name="hint_voiceQuality_common">Normal ses kalitesi</string>
+
+    <string name="notice_video_call">Video araması</string>
+    <string name="notice_request_video_call">Video sohbet talebi</string>
+    <string name="notice_connect_exception">Bağlantı hatası</string>
+    <string name="notice_login_exception">Anormal giriş</string>
+    <string name="notice_manage_notice">Duyuru bildirimi</string>
+    <string name="notice_video_call_broocast">Video yayını</string>
+    <string name="notice_video_call_monitoring">Video dispatch</string>
+    <string name="notice_video_call_voice">Sesli arama</string>
+
+    <string name="noticetop_video_onReconnecting">Video interkom servisi yeniden bağlanıyor</string>
+    <string name="noticetop_video_onReconnected">Video interkom servisi başarıyla bağlandı</string>
+    <string name="noticetop_video_onReconnectfailed">Video interkom servisi yeniden bağlanma başarısız</string>
+    <string name="noticetop_POC_onReconnecting">POC interkom servisi yeniden bağlanıyor</string>
+    <string name="noticetop_POC_onReconnected">POC interkom servisi başarıyla bağlandı</string>
+    <string name="noticetop_POC_onReconnectfailed">POC interkom servisi yeniden bağlanma başarısız</string>
+    <string name="noticetop_network_off">Ağ aranıyor</string>
+    <string name="noticetop_network_Switch">Ağ değiştiriliyor</string>
+    <string name="noticetop_current_connection_lost">Lütfen dikkat edin! Mevcut bağlantı kesildi</string>
+    <string name="network_signal_poor">Diğer tarafın ağ sinyali zayıf</string>
+    <string name="network_signal_poor1">Ağ sinyali zayıf</string>
+
+    <string name="chat_type_video">【Video sohbet】</string>
+<string name="chat_type_voice">【Sesli sohbet】</string>
+    <string name="chat_imtype_video">【Video】</string>
+    <string name="chat_imtype_img">【Resim】</string>
+    <string name="chat_imtype_voice">【Ses】</string>
+    <string name="chat_imtype_pttvoice">【PTT sesi】</string>
+    <string name="chat_imtype_file">【Dosya】</string>
+    <string name="chat_imtype_location">【Konum】</string>
+    <string name="chat_map_sendMessage_title">Mesaj</string>
+
+    <string name="member_offLine">Diğer taraf çevrimdışı</string>
+    <string name="diapatch_offLine">Dağıtıcı çevrimdışı</string>
+    
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">androidSdk versiyonu:</string>
+    <string name="android_sys_version">android sistem versiyonu:</string>
+    <string name="phone_type">Telefon modeli:</string>
+
+    <string name="large">Büyük</string>
+    <string name="norm">Orta</string>
+    <string name="small">Küçük</string>
+    <string name="large_text">Büyük</string>
+    <string name="norm_text">Orta</string>
+    <string name="small_text">Küçük</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">Otomatik</string>
+    <string name="manual">Manuel</string>
+
+    <string name="test_name">Xiaoming</string>
+    <string name="test_name2">Zhang San</string>
+    <string name="test_group_name">Geliştirme grubu</string>
+    <string name="test_chat_msg">Merhaba! Güzelim, bu gece hayattan konuşmak için geri dönelim</string>
+
+    <string name="hint_inout_feedback">Öneriniz için teşekkürler, daha iyisini yapacağız</string>
+
+    <string name="hint_about_company">PPT sesi</string>
+    <string name="title_activity_google_maps">Harita</string>
+
+    <string name="have_sign_in">Giriş yapıldı</string>
+    <string name="no_sign_in">Giriş yapılmadı</string>
+    <string name="online_car_welcome">Çevrimiçi arabaya hoş geldiniz</string>
+    <string name="online_car_notify">Lütfen emniyet kemerinizi takın</string>
+    <string name="navigation_str">Navigasyon</string>
+    <string name="navigation_Route">Rota planlama</string>
+    <string name="monitor_str">İzleme</string>
+    <string name="data_str">Veri listesi</string>
+    <string name="set_str">Ayarlar</string>
+    <string name="voice_record">Ses kaydı</string>
+    <string name="sos_record">Alarm kaydı</string>
+    <string name="voice_list">Ses listesi</string>
+    <string name="voice_record1">Kayıt yapılıyor</string>
+    <string name="media_record">Kayıt</string>
+    <string name="patrol_record">Devriye</string>
+    <string name="voice_record_notopen">Ses kaydı açık değil</string>
+    <string name="video_record">Video kaydı</string>
+    <string name="text_record">Metin mesajı</string>
+    <string name="look_annex">Ekli dosyayı görüntüle</string>
+    <string name="annex">Ek</string>
+    <string name="device_info">Terminal parametreleri</string>
+    <string name="devmenu_str">Cihaz durumu</string>
+    <string name="reboot_str">Yeniden başlat</string>
+    <string name="voice_str">Ses ayarı</string>
+    <string name="verinfo_str">Versiyon hakkında</string>
+    <string name="exitfail">Video çekilirken çıkmak yasak</string>
+
+    <string name="hint_lockscreen_lock">Kilitleniyor</string>
+    <string name="hint_lockscreen_unlockIng">Kilit açılıyor</string>
+    <string name="hint_lockscreen_unlockFaill">Kilit açma başarısız</string>
+    <string name="hint_lockscreen_unlockSucceed">Kilit açıldı</string>
+    <string name="hint_lockscreen_unlockHint">Kilit açmak için %1$s uzun basın</string>
+    <string name="key_back">Geri tuşu</string>
+    <string name="ring_volume">Zil sesi seviyesi</string>
+    <string name="alarm_volume">Alarm sesi seviyesi</string>
+    <string name="alert_volume">Uyarı sesi seviyesi</string>
+    <string name="not_amap_app">Lütfen bir harita uygulaması yükleyin</string>
+    <string name="map_gaode_app">Gaode haritası</string>
+    <string name="map_baidu_app">Baidu haritası</string>
+    <string name="map_tencent_app">Tencent haritası</string>
+    <string name="map_select">Harita seçimi</string>
+    <string name="create_group">Grup oluştur</string>
+    <string name="join_group">Gruba katıl</string>
+    <string name="delete_group">Grubu sil</string>
+    <string name="delete_mem">Üyeyi sil</string>
+    <string name="create_group_succ">Grup başarıyla oluşturuldu</string>
+    <string name="join_group_succ">Gruba başarıyla katıldı</string>
+    <string name="delete_group_succ">Grup başarıyla silindi</string>
+    <string name="delete_mem_succ">Üye başarıyla silindi</string>
+
+    
+    <string name="request_pull_somebody_video">%1$s videosunu çekme isteği</string>
+    <string name="request_push_somebody_video">%1$s video yükleme isteği</string>
+    <string name="pulling_somebody_video">%1$s videosu çekiliyor</string>
+    <string name="pullvideo">Video çek</string>
+    <string name="somebody_request_pull_video">%1$s video çekme isteği</string>
+    <string name="somebody_request_video_chat">%1$s video görüşme isteği</string>
+    <string name="request_somebody_video_chat">%1$s ile video görüşme isteği</string>
+    <string name="talking_somebody_video_chat">%1$s ile video görüşmede</string>
+    <string name="somebody_request_video_share">%1$s video paylaşma isteği</string>
+    <string name="somebody_stop_video_share">%1$s video paylaşımını durdurdu</string>
+    <string name="invite_somebody_videomeeting">%1$s %2$s toplantısına katılmaya davet ediyor</string>
+    <string name="somebody_join_videomeeting">%1$s toplantıya katıldı</string>
+    <string name="somebody_leave_videomeeting">%1$s toplantıdan ayrıldı</string>
+    <string name="delete_somebody_videomeeting">%1$s üyesini kaldırmak için onayla</string>
+    <string name="create_meeting">Toplantı başlat</string>
+    <string name="meeting_name">Toplantı adı</string>
+    <string name="end_meeting">Bitir</string>
+    <string name="meeting_members">Toplantı üyeleri</string>
+    <string name="no_member_join">Kimse katılmadı</string>
+    <string name="meeting_window_9">9 bölmeli ekran</string>
+    <string name="meeting_window_4">4 bölmeli ekran</string>
+    <string name="meeting_window_2">2 bölmeli ekran</string>
+    <string name="request_upload_video">Video yükleniyor</string>
+    <string name="videochat">Video görüşme</string>
+    <string name="hangup_video">Kapattı</string>
+    <string name="see_video">%1$s video izliyor</string>
+    <string name="ringing_video">Çalıyor</string>
+    <string name="accept_video">%1$s videosunu izliyor</string>
+    <string name="reject_video">Reddedildi</string>
+    <string name="cancel_pull_video">Çekimi iptal et</string>
+
+    <string name="hint_room_create_err">Video odası oluşturma başarısız</string>
+    <string name="hint_open_local_err">Yerel video açma başarısız</string>
+    <string name="hint_open_remote_err">Uzak video açma başarısız</string>
+    <string name="hint_devices_err">Cihaz hatası</string>
+
+    <string name="hint_audio_video_acquisition">Ses ve video alımı</string>
+    <string name="hint_dont_operation">Çalıştırmayın</string>
+
+    
+    <string name="data_traffic_info">Trafik bilgisi</string>
+    <string name="data_traffic_low">Yetersiz trafik</string>
+    <string name="data_traffic_oom">Trafik aşıldı</string>
+    <string name="data_traffic_total">Toplam: %1$s</string>
+    <string name="data_traffic_usedMonth">Bu ay kullanılan: %1$s</string>
+    <string name="data_traffic_usedDay">Bugün kullanılan: %1$s</string>
+    <string name="data_traffic_surplusMonth">Kalan: %1$s</string>
+
+    <string name="snd_msg">Mesaj gönder</string>
+    <string name="snd_loc">Konum gönder</string>
+    <string name="clear_msg">Kaydı temizle</string>
+    <string name="set_work">Çalışma grubu olarak ayarla</string>
+    <string name="workgrp">Çalışma grubu:</string>
+    <string name="half_call">Yarım-dupleks çağrı</string>
+    <string name="twoway_call">Özel ağ</string>
+    <string name="twoway_call1">Özel ağ iletişimi</string>
+    <string name="video_duplex">Video dupleksi</string>
+    <string name="add_contacts">Kişi ekle</string>
+    <string name="flash_lamp">El feneri</string>
+
+    <string name="code_number">Numara: %1$s</string>
+    <string name="details">Ayrıntılar</string>
+    
+    
+    <string name="uav_system_name">UAV yayın sistemi</string>
+    <string name="uav_text_broadcast">Metin yayını</string>
+    <string name="uav_record_broadcast">Kayıt yayını</string>
+    <string name="uav_realtime_broadcast">Gerçek zamanlı yayın</string>
+    <string name="uav_text_broadcast_record">Kayıt</string>
+    <string name="uav_text_broadcast_play">Oynat</string>
+    <string name="uav_text_broadcast_stop">Durdur</string>
+    <string name="uav_text_broadcast_sex">Ses seçimi:</string>
+    <string name="uav_text_broadcast_language">Mandarin</string>
+    <string name="uav_text_broadcast_man">Erkek</string>
+    <string name="uav_text_broadcast_woman">Kadın</string>
+    <string name="uav_text_broadcast_mode">Oynatma modu:</string>
+    <string name="uav_text_broadcast_cycle">Döngü</string>
+<string name="uav_text_broadcast_speed">Konuşma hızı:</string>
+    <string name="uav_text_broadcast_normal">Normal</string>
+
+    <string name="hint_filemanager_filemanager">Dosya yöneticisi</string>
+    <string name="hint_filemanager_up_list">Yükleme listesi</string>
+    <string name="hint_filemanager_mian_point">Ana dosya</string>
+    <string name="hint_filemanager_no_mian_point">Ana olmayan dosya</string>
+    <string name="hint_filemanager_all_file">Tüm dosyalar</string>
+    <string name="hint_name">İsim</string>
+    <string name="hint_date">Tarih</string>
+    <string name="hint_path">Yol</string>
+    <string name="hint_size">Boyut</string>
+
+    <string name="hint_video_record_sub_time">Segment kayıt süresi</string>
+    <string name="hint_video_record_ratio">Video kayıt çözünürlüğü</string>
+    <string name="hint_map_setting">Harita ayarları</string>
+    <string name="hint_other_setting">Diğer ayarlar</string>
+    <string name="hint_account_setting">Hesap ayarları</string>
+    <string name="hint_address_setting">Adres ayarları</string>
+    <string name="hint_video_config2">Video ayarları</string>
+    <string name="hint_WIFI_set">WIFI ayarları</string>
+    <string name="hint_blue_set">Bluetooth ayarları</string>
+    <string name="hint_network_set">Kablosuz ve ağ</string>
+    <string name="hint_display_set">Ekran ayarları</string>
+    <string name="hint_sound_set">Ses ayarları</string>
+    <string name="hint_about_set">Sürüm ayarları</string>
+
+    <string name="call_hand_free">Eller serbest isteği</string>
+    <string name="call_user">Arama</string>
+    <string name="message_user">Mesaj</string>
+    <string name="change_user">Düzenle</string>
+    <string name="change_call_user_name">Kullanıcı adını düzenle</string>
+    <string name="call_history">Arama geçmişi</string>
+    <string name="please_inputcallnum">Lütfen bir numara girin</string>
+    <string name="err_code_status">Kullanıcı durumu anormal</string>
+    <string name="err_code_noexist">Boş numara</string>
+    <string name="err_code_offline">Kullanıcı çevrimdışı</string>
+    <string name="err_code_busy">Kullanıcı meşgul</string>
+    <string name="err_code_cantconn">Bağlanılamıyor</string>
+    <string name="err_code_timeout">Bağlantı zaman aşımı</string>
+
+    <string name="alarm_iot">Sensör alarmı</string>
+    <string name="alarm_device">Cihaz alarmı</string>
+    <string name="alarm_ptt">İnterkom alarmı</string>
+
+    <string name="law_start">Hukuk uygulamaya başla</string>
+    <string name="law_app">Küme uygulaması</string>
+    <string name="law_grp">Grup seçimi</string>
+    <string name="law_mem">Üye seçimi</string>
+    <string name="law_fri">Arkadaş seçimi</string>
+    <string name="law_dis">Gönderici seçimi</string>
+    <string name="law_rec">Medya kaydı</string>
+    <string name="law_set">Fonksiyon ayarları</string>
+    <string name="law_account_set_success">Hesap ayarları başarılı</string>
+    <string name="law_acc_or_psw_null">Hesap veya şifre boş</string>
+    <string name="law_about">Hukuk uygulama kaydedicisi</string>
+    <string name="law_start_record_video">Video kaydını başlat</string>
+    <string name="law_start_record_voice">Ses kaydını başlat</string>
+    <string name="law_stop_record">Kaydı durdur</string>
+    <string name="law_record_mark">Anahtar işaret</string>
+    <string name="item_sysset_ir_config">Kızılötesi ayarları</string>
+
+    <string name="title_trainListAct">Araç listesi</string>
+    <string name="add_train">Tren ekle</string>
+    <string name="please_scan_code">Lütfen kodu tarayın</string>
+    <string name="please_take_photo">Lütfen fotoğraf çekin</string>
+    <string name="code_not_match">Kod uyuşmuyor</string>
+    <string name="btn_release">Yerleştir</string>
+    <string name="btn_colletc">Topla</string>
+
+    <string name="addr_set">Adres ayarları</string>
+    <string name="static_ip">Statik IP</string>
+    <string name="dynamic_ip">Dinamik IP</string>
+    <string name="addr_port">Adres bağlantı noktası:</string>
+    <string name="mac_addr">MAC adresi:</string>
+    <string name="item_sysset_priority_sharp">temiz</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_my">Me</string>
+</resources>

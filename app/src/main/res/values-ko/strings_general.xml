@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="photos_num">%1$d 사진</string>
+    <string name="msg_no_camera">카메라를 찾을 수 없음</string>
+    <string name="msg_maxi_capacity">선택된 사진의 최대 수에 도달했습니다</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="commit">확인</string>
+    <string name="agree">동의</string>
+    <string name="jieTing">응답</string>
+    <string name="reject">거부</string>
+    <string name="start">시작</string>
+    <string name="end">종료</string>
+    <string name="stop">정지</string>
+    <string name="exit">종료</string>
+    <string name="double_exit">두 번 클릭하여 종료</string>
+    <string name="double_back">두 번 클릭하여 돌아가기</string>
+    <string name="double_operation">작동하려면 두 번 클릭하십시오</string>
+    <string name="enter">입력</string>
+    <string name="current">현재</string>
+    <string name="group">그룹</string>
+    <string name="user">사용자</string>
+    <string name="address">주소</string>
+    <string name="longitude">경도</string>
+    <string name="latitude">위도</string>
+    <string name="succeed">성공</string>
+    <string name="failure">실패</string>
+    <string name="normal">정상</string>
+    <string name="exception">비정상</string>
+    <string name="operationIng">작동 중</string>
+    <string name="operation_failure">작동 실패</string>
+    <string name="ongoing">진행 중</string>
+    <string name="delete">삭제</string>
+    <string name="menu">메뉴</string>
+    <string name="batterty">배터리</string>
+    <string name="batterty_form">배터리 %1$d</string>
+    <string name="volume">볼륨</string>
+    <string name="add">추가</string>
+    <string name="subtract">빼기</string>
+    <string name="multiply">곱하기</string>
+    <string name="divide">나누기</string>
+    <string name="save">저장</string>
+    <string name="reset">재설정</string>
+    <string name="mute">무음</string>
+    <string name="mute_on">무음 켜기</string>
+    <string name="mute_off">무음 끄기</string>
+    <string name="sound_on">소리 켜기</string>
+    <string name="sound_off">소리 끄기</string>
+    <string name="conversation">대화</string>
+    <string name="contacts">연락처</string>
+
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+
+    <string name="man">남성</string>
+    <string name="woman">여성</string>
+    <string name="oneself">나 자신</string>
+    <string name="local_equipment">로컬 장치</string>
+    <string name="local_equipment_speak">로컬 장치가 말합니다</string>
+    <string name="talking_speak">말하기</string>
+    <string name="more">더</string>
+    <string name="setSucceed">설정 성공</string>
+    <string name="restoreDefult">기본값 복원</string>
+
+    <string name="commit_num">확인 (%1$d/%2$d)</string>
+    <string name="select_num">선택됨 (%1$s)</string>
+    <string name="select_all">모두 선택</string>
+    <string name="selected">선택됨</string>
+    <string name="unit_time_hour">시간</string>
+    <string name="unit_time_minute">분</string>
+    <string name="unit_time_second">초</string>
+    <string name="week">주</string>
+    <string name="week_Monday">월요일</string>
+    <string name="week_Tuesday">화요일</string>
+    <string name="week_Wednesday">수요일</string>
+    <string name="week_Thursday">목요일</string>
+    <string name="week_Friday">금요일</string>
+    <string name="week_Saturday">토요일</string>
+    <string name="week_Sunday">일요일</string>
+
+    <string name="unit_m">미터</string>
+    <string name="unit_km">킬로미터</string>
+
+    <string name="distance">거리</string>
+
+    <string name="nodata">사용할 수 있는 데이터 없음</string>
+    <string name="nodata2">데이터 없음</string>
+    <string name="not_more_data">더 이상 데이터 없음</string>
+    <string name="undefined">정의되지 않음</string>
+
+    <string name="search">검색</string>
+
+    <string name="title_select_photo">사진 선택</string>
+    <string name="hint_no_storage">사용할 수 있는 외부 저장소 없음</string>
+    <string name="hint_photo_all">모든 사진</string>
+
+    <string name="expand">사진</string>
+    <string name="item">항목</string>
+    <string name="house_Number">번호</string>
+
+    <string name="please_Waiting">기다려 주세요...</string>
+
+    <string name="hint_version_current_on_new">현재 버전이 최신 버전입니다</string>
+    <string name="hint_version_not_newVersion">업데이트 패키지가 없습니다</string>
+    <string name="hint_version_current">현재 버전:</string>
+    <string name="hint_version_new">최신 버전:</string>
+    <string name="hint_file_size">파일 크기:</string>
+    <string name="hint_app_update">소프트웨어 업데이트</string>
+    <string name="btn_not_update">지금은 업데이트 안 함</string>
+    <string name="btn_now_update">지금 업데이트</string>
+
+    <string name="notExits">존재하지 않음</string>
+    <string name="file">파일</string>
+
+    <string name="btn_cancel_down">다운로드 취소</string>
+    <string name="btn_background_update">백그라운드 업데이트</string>
+    <string name="btn_cancel_update_and_exitApp">업데이트 취소 및 앱 종료</string>
+    <string name="pause">일시 중지</string>
+    <string name="again">계속</string>
+    <string name="wait">기다리기</string>
+
+    <string name="time_select">시간 선택</string>
+    <string name="time_start">시작 시간</string>
+    <string name="time_end">종료 시간</string>
+    <string name="time_start_please">시작 시간을 선택하십시오</string>
+    <string name="time_end_please">종료 시간을 선택하십시오</string>
+    <string name="time_start_position">시작 시간:</string>
+    <string name="time_end_position">종료 시간:</string>
+    <string name="time">시간</string>
+    <string name="satellite">위성</string>
+    <string name="satelliteCount">위성 수</string>
+    <string name="signal">신호</string>
+    <string name="hint_disk_small">메모리 부족</string>
+    <string name="hint_disk_no_free">저장 공간 부족</string>
+
+    <string name="photo">사진</string>
+    <string name="video">비디오</string>
+    <string name="voice">음성</string>
+    <string name="document">문서</string>
+    <string name="camera">카메라</string>
+    <string name="location">위치</string>
+    <string name="refresh">새로 고침</string>
+</resources>

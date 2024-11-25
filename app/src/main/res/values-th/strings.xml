@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Cluster comm</string>
+
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="app_startIng">การเริ่มต้นอินเตอร์คอม</string>
+    <string name="app_initIng">กำลังเริ่มต้น</string>
+    <string name="app_Permission_to_change">การเปลี่ยนแปลงสิทธิ์</string>
+
+    <string name="login_welcome_easy">อินเตอร์คอมเครือข่ายสาธารณะ</string>
+    <string name="login_welcome_easy_idata">อินเตอร์คอม</string>
+
+    <string name="login_welcome">ยินดีต้อนรับสู่ระบบอินเตอร์คอม %1$s</string>
+
+    <string name="login_welcome_tts">ยินดีต้อนรับสู่เครือข่ายสาธารณะอินเตอร์คอม</string>
+    <string name="login_welcome_idata">ยินดีต้อนรับสู่แอปอินเตอร์คอม</string>
+    <string name="login_welcome_Telecom_4G">ยินดีต้อนรับสู่ Telecom 4G อินเตอร์คอม</string>
+    <string name="user_agreement">ฉันได้อ่านและตกลงตามข้อตกลงผู้ใช้</string>
+    <string name="main_tab_poc">POC</string>
+    <string name="main_tab_poc_temp">อินเตอร์คอม</string>
+    <string name="main_tab_report">แอปพลิเคชัน</string>
+    <string name="main_tab_map">แผนที่</string>
+    <string name="main_tab_setting">การตั้งค่า</string>
+    <string name="main_tab_operator">หน้าหลัก</string>
+    <string name="main_tab_talkbackRecord">บันทึกอินเตอร์คอม</string>
+    <string name="main_tab_grp">Group</string>
+
+    <string name="accessibility_service_description">การติดตั้งอัจฉริยะ บริการการเข้าถึง</string>
+    <string name="search_hint_group">กรุณาใส่คำสำคัญเพื่อค้นหากลุ่ม</string>
+    <string name="search_hint_group_member">กรุณาใส่คำสำคัญเพื่อค้นหาสมาชิกในกลุ่ม</string>
+    <string name="search_hint_friend">กรุณาใส่คำสำคัญเพื่อค้นหาเพื่อน</string>
+    <string name="search_hint_norm">กรุณาใส่คำสำคัญเพื่อค้นหา</string>
+    <string name="search_hint_easy">กรุณาใส่คำสำคัญ</string>
+
+    <string name="title_LoginActivity">เข้าสู่ระบบ</string>
+    <string name="title_PocFragment">POC</string>
+    <string name="title_GroupFragment">กลุ่ม</string>
+    <string name="title_FriendFragment">เพื่อน</string>
+    <string name="title_DispatcherFragment">ผู้ดูแล</string>
+    <string name="title_contactsFragment">รายชื่อผู้ติดต่อ</string>
+    <string name="title_MyFragment">ฉัน</string>
+    <string name="title_ABoutActivity">เกี่ยวกับ</string>
+    <string name="title_ConnOffDialogActivity">เข้าสู่ระบบผิดปกติ</string>
+    <string name="title_FeedbackActivity">ข้อเสนอแนะ</string>
+    <string name="title_SetLanguageActivity">การตั้งค่าภาษา</string>
+    <string name="title_SetTextSizeActivity">การตั้งค่าฟอนต์</string>
+    <string name="title_SetNetWorkActivity">โหมดเครือข่าย</string>
+    <string name="title_SetUpReportCycleActivity">การตั้งค่าตำแหน่ง</string>
+    <string name="title_SetUpReportVideoSizeActivity">ความละเอียดการรายงานวิดีโอ</string>
+    <string name="title_videoConfig">การกำหนดค่าวิดีโอ</string>
+    <string name="title_SetGPSReportCycleActivity">บริการตำแหน่ง</string>
+    <string name="title_SetLocationReportActivity">การรายงานตำแหน่ง</string>
+    <string name="title_SysSetActivity">การตั้งค่า</string>
+    <string name="title_SetNormActivity">การตั้งค่าทั่วไป</string>
+    <string name="title_PocMemberListActivity">สมาชิกกลุ่ม</string>
+    <string name="title_ChatActivity">Chat</string>
+    <string name="title_UpReportPhotoActivity">การรายงานภาพถ่าย</string>
+    <string name="title_UpreportVideoActivity">การรายงานวิดีโอ</string>
+    <string name="title_UpReportVioceActivity">การรายงานเสียง</string>
+    <string name="title_PocGroupNoticeActivity">ประกาศ</string>
+    <string name="title_requestDispatcher">คำขอผู้ดูแล</string>
+    <string name="title_UserDescActivity">ข้อมูลส่วนตัว</string>
+    <string name="title_SetSaveNoticeNumberActivity">การตั้งค่าการบันทึกประกาศ</string>
+    <string name="title_SelectMemberActivity">การเลือกสมาชิก</string>
+    <string name="title_TalkbackSoundActivity">การโทรชั่วคราว</string>
+    <string name="title_TempGrp">กลุ่มชั่วคราว</string>
+    <string name="title_dispatchTempCall">การโทรของผู้ดูแล</string>
+
+    <string name="title_PlayRecordActivity">การบันทึกของฉัน</string>
+    <string name="title_RecordListActivity">การบันทึกของฉัน</string>
+    <string name="title_SearchConditionsActivity">ค้นหา</string>
+    <string name="title_TalkbackRecord">บันทึกอินเตอร์คอม</string>
+
+    <string name="title_activity_maps">GoogleMap</string>
+    <string name="title_UserAgreementAct">ข้อตกลงผู้ใช้</string>
+    <string name="title_setDomain">การตั้งค่าโดเมน</string>
+    <string name="title_PatrolRecordActivity">รายการตรวจสอบ</string>
+    <string name="title_terminal_location">ตำแหน่งเทอร์มินัล</string>
+    <string name="title_attach_fun">แอปพลิเคชันด่วน</string>
+    <string name="server">เซิร์ฟเวอร์</string>
+    <string name="domain">โดเมน</string>
+    <string name="port">พอร์ต</string>
+    <string name="other">อื่นๆ</string>
+
+    <string name="title_singlechip_autobackmain_timer">เวลาในการกลับอัตโนมัติ</string>
+    <string name="title_poc_intercom">อินเตอร์คอมกลุ่ม</string>
+    <string name="title_file_manager">การเล่นไฟล์</string>
+    
+    <string name="btn_close">ปิด</string>
+    <string name="btn_open">เปิด</string>
+    <string name="btn_affirm">ยืนยัน</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="btn_submit">ส่ง</string>
+    <string name="btn_send">ส่ง</string>
+    <string name="btn_login">เข้าสู่ระบบ</string>
+    <string name="btn_login_out">ออกจากระบบ</string>
+    <string name="btn_clean_data">ล้างบัญชี</string>
+    <string name="btn_ppt">PPT</string>
+    <string name="btn_group_video_call">การโทรวิดีโอกลุ่ม</string>
+
+    <string name="btn_hangup">วางสาย</string>
+    <string name="btn_accept">ยอมรับ</string>
+    <string name="btn_refuse">ปฏิเสธ</string>
+    <string name="btn_speakerphone">ลำโพง</string>
+    <string name="btn_silence">เงียบ</string>
+    <string name="btn_camera_change">เปลี่ยน</string>
+
+    <string name="btn_upreport_source">ต้นฉบับ</string>
+    <string name="btn_upreport_compress">บีบอัด</string>
+    <string name="btn_source_nativce">ท้องถิ่น</string>
+    <string name="btn_source_photograph">ถ่ายภาพ</string>
+    <string name="btn_source_film">ถ่ายทำ</string>
+    <string name="btn_talk_photo">ถ่ายภาพ</string>
+
+    <string name="btn_update_now">อัปเดตตอนนี้</string>
+    <string name="btn_update_no">อัปเดตภายหลัง</string>
+    <string name="btn_upreport_location">การรายงานตำแหน่ง</string>
+    <string name="btn_upreport_photo">การรายงานภาพถ่าย</string>
+    <string name="btn_upreport_video">การรายงานวิดีโอ</string>
+    <string name="btn_upreport_voice">การรายงานเสียง</string>
+    <string name="btn_upreport_sos">สัญญาณเตือนภัยแบบหนึ่งปุ่ม</string>
+    <string name="btn_upreport_Patrol">บันทึกการลาดตระเวน</string>
+    <string name="btn_upreport_scan">สแกน</string>
+    <string name="btn_remote_monitoring">การตรวจสอบระยะไกล</string>
+    <string name="btn_record_log">บันทึกเสียง</string>
+
+    <string name="menu_apply_notice">การแจ้งเตือน</string>
+    <string name="menu_apply_group">กลุ่ม</string>
+    <string name="menu_apply_friend">เพื่อน</string>
+    <string name="menu_apply_member">สมาชิก</string>
+    <string name="menu_apply_dispatch">ผู้ดูแล</string>
+    <string name="menu_apply_groupSelect">การเลือกกลุ่ม</string>
+    <string name="menu_apply_groupOpt">กลุ่มของฉัน</string>
+    <string name="menu_gid_input">กรุณาใส่ ID ของกลุ่ม</string>
+    <string name="menu_apply_friendSelect">การเลือกเพื่อน</string>
+    <string name="menu_apply_memberSelect">การเลือกสมาชิก</string>
+    <string name="menu_apply_dispatchSelect">การเลือกผู้ดูแล</string>
+    <string name="menu_apply_location">ตำแหน่ง</string>
+    <string name="menu_apply_setting">การตั้งค่า</string>
+    <string name="menu_apply_setting1">การตั้งค่าฟังก์ชัน</string>
+    <string name="menu_apply_upreport_photo">การรายงานภาพถ่าย</string>
+    <string name="menu_apply_upreport_video">การรายงานวิดีโอ</string>
+    <string name="menu_apply_upreport_voice">การรายงานเสียง</string>
+    <string name="menu_apply_scan">สแกน</string>
+    <string name="menu_apply_patrol">บันทึกการตรวจสอบ</string>
+    <string name="menu_apply_sos_record">บันทึกการเตือนภัย</string>
+    <string name="menu_apply_train">การจัดการรองเท้าเหล็ก</string>
+    <string name="menu_apply_sound">คอลัมน์เสียง</string>
+    <string name="menu_apply_sos">สัญญาณเตือนภัยแบบหนึ่งปุ่ม</string>
+    <string name="menu_apply_record_log">บันทึกเสียง</string>
+    <string name="menu_apply_voice_list">รายการเสียง</string>
+    <string name="menu_apply_terminal_location">ตำแหน่งเทอร์มินัล</string>
+
+    <string name="btn_call_voice">การโทรเสียง</string>
+    <string name="btn_call_video">การโทรวิดีโอ</string>
+    <string name="btn_switch_camera">เปลี่ยนกล้อง</string>
+    <string name="btn_touch_video">กดค้างเพื่อถ่ายทำ</string>
+
+    <string name="btn_fluency">ราบรื่น</string>
+    <string name="btn_common">มาตรฐาน</string>
+    <string name="btn_standard">มาตรฐาน</string>
+    <string name="btn_high">HD</string>
+    <string name="btn_press_speak">กดค้างเพื่อพูด</string>
+    <string name="btn_loosen_end">ปล่อยเพื่อสิ้นสุด</string>
+    <string name="btn_member">สมาชิก</string>
+    <string name="btn_grplocation">ตำแหน่งกลุ่ม</string>
+    <string name="btn_terminal_location">ตำแหน่งเทอร์มินัล</string>
+<string name="btn_navigation">นำทาง</string>
+    <string name="btn_onekey_navigation">การนำทางแบบหนึ่งคีย์</string>
+    <string name="btn_navigation_start">เริ่มการนำทาง</string>
+
+    <string name="item_sysset_message_hint">แจ้งเตือนข้อความ</string>
+    <string name="item_sysset_VolumeControl">ควบคุมระดับเสียง</string>
+    <string name="item_sysset_VoiceEnhance">เพิ่มคุณภาพเสียง</string>
+    <string name="item_sysset_TTSVolume">ระดับเสียง TTS</string>
+    <string name="item_sysset_PlayEnhance">เพิ่มระดับเสียง</string>
+    <string name="item_sysset_RecordEnhance">เพิ่มคุณภาพการบันทึก</string>
+    <string name="item_sysset_textsize">ขนาดฟอนต์</string>
+    <string name="item_sysset_network_mode">โหมดเครือข่าย</string>
+    <string name="item_sysset_language">ตั้งค่าภาษา</string>
+    <string name="item_sysset_meeting">หน้าต่างวิดีโอ</string>
+    <string name="item_sysset_resolution">ความละเอียด</string>
+    <string name="item_sysset_alarm_settings">ตั้งค่าการแจ้งเตือน</string>
+    <string name="item_sysset_norm">ตั้งค่าทั่วไป</string>
+    <string name="item_sysset_location">ตั้งค่าตำแหน่ง</string>
+    <string name="item_sysset_locationinfo">ข้อมูลตำแหน่ง</string>
+    <string name="item_sysset_location_report">บริการตำแหน่ง</string>
+    <string name="item_sysset_upreport">รอบการรายงานตำแหน่ง</string>
+    <string name="item_sysset_video_record_size">คุณภาพการบันทึกวิดีโอ</string>
+    <string name="item_sysset_notice_save_number">บันทึกหมายเลขประกาศ %1$s รายการ</string>
+    <string name="item_sysset_warning_tone_switch">เสียงแจ้งเตือน</string>
+    <string name="item_sysset_notice_switch">แจ้งเตือนประกาศ</string>
+    <string name="item_sysset_video_voice_double">เสียงวิดีโอสองทาง</string>
+    <string name="item_sysset_video_DispatchVideoShowUI">แสดงหน้าระหว่างการส่งวิดีโอ</string>
+    <string name="item_sysset_sos">SOS</string>
+    <string name="item_sysset_codec">คุณภาพเสียง HD</string>
+    <string name="item_sysset_station">สถานีฐาน</string>
+    <string name="item_sysset_station_location">ตำแหน่งสถานีฐาน</string>
+    <string name="item_sysset_gps">กรอง GPS</string>
+    <string name="item_sysset_gps_control">ส่งตำแหน่ง</string>
+    <string name="item_sysset_voice_type">ประกาศเสียง</string>
+    <string name="item_sysset_voice_OnLine_ispriority">ความสำคัญของเสียง TTS ออนไลน์</string>
+    <string name="item_sysset_video_config">การตั้งค่าวิดีโอ</string>
+    <string name="item_sysset_video_watermark">ลายน้ำวิดีโอ</string>
+    <string name="item_sysset_watermark_size">ขนาดลายน้ำ</string>
+    <string name="item_sysset_ptt_wake_up">หน้าจออินเตอร์คอมเปิด</string>
+    <string name="item_power_mode">โหมดพลังงาน</string>
+    <string name="item_powerLowModel">โหมดสแตนด์บาย</string>
+    <string name="item_powerHeightModel">โหมดประสิทธิภาพสูง</string>
+    <string name="item_powerHeightModel1">โหมดประสิทธิภาพ</string>
+    <string name="item_sysset_enable_agps">AGPS</string>
+    <string name="item_sysset_min_distance">ระยะการรายงานขั้นต่ำ</string>
+
+    <string name="item_voiceAnnouncements">ประกาศเสียง</string>
+
+    <string name="item_video_collection_ratio">ความละเอียดการเก็บรวบรวมวิดีโอ</string>
+    <string name="item_video_auto_rcv_snd">ส่ง/รับวิดีโออัตโนมัติ</string>
+    <string name="item_video_auto_rcv_snd_desc">ส่ง/รับวิดีโอทันที</string>
+
+    <string name="item_upreport_no">ไม่มีการรายงาน</string>
+    <string name="item_upreport_high">ความถี่สูง %1$s</string>
+    <string name="item_upreport_middle">ความถี่กลาง %1$s</string>
+    <string name="item_upreport_low">ความถี่ต่ำ %1$s</string>
+
+    <string name="item_account">บัญชี</string>
+    <string name="item_Feedback">ข้อเสนอแนะ</string>
+    <string name="item_set">การตั้งค่า</string>
+    <string name="item_about">เกี่ยวกับเวอร์ชัน</string>
+    <string name="item_appVersion_desc">ข้อมูลอุปกรณ์</string>
+    <string name="item_check_update_version">ตรวจสอบการอัปเดต</string>
+    <string name="item_sysSetting">การตั้งค่าระบบ</string>
+    <string name="version_RollBack">เวอร์ชันย้อนกลับ</string>
+    <string name="version_desc">ข้อมูลเวอร์ชัน</string>
+    <string name="version_sys_desc">ข้อมูลระบบ</string>
+    <string name="version_update_ing">กำลังอัปเดต</string>
+    <string name="version_download_succeed">อัปเดตสำเร็จ</string>
+    <string name="version_download_err">การอัปเดตล้มเหลว</string>
+    <string name="version_install_ing">กำลังติดตั้ง</string>
+    <string name="version_install_succeed">อัปเดตสำเร็จ</string>
+    <string name="please_reboot_device">โปรดรีบูตอุปกรณ์</string>
+    <string name="version_restart_app">กำลังรีสตาร์ท</string>
+
+    <string name="item_personal_details_username">ชื่อ: %1$s</string>
+    <string name="item_personal_details_account">บัญชี: %1$s</string>
+    <string name="item_personal_details_ID">ID: %1$s</string>
+    <string name="item_personal_details_Imei0">IMEI:</string>
+    <string name="item_personal_details_Imei">IMEI: %1$s</string>
+
+    <string name="item_talkback_menu_item_video_talkback">วิดีโอคอล</string>
+    <string name="item_talkback_menu_item_video_upload">อัปโหลดวิดีโอ</string>
+    <string name="item_talkback_menu_item_video_look">ดูวิดีโอ</string>
+    <string name="item_talkback_menu_item_video_silence_look">ดูแบบเงียบ</string>
+    <string name="item_talkback_menu_item_voice_talkback">การโทรชั่วคราว</string>
+    <string name="item_talkback_menu_item_voice_call">การโทรเสียง</string>
+    <string name="item_talkback_menu_item_voice_chat">แชทเสียง</string>
+    <string name="item_talkback_menu_item_chat">แชท</string>
+
+    
+    <string name="hint_please_open_gps">เปิด/ปิด GPS ในการตั้งค่า</string>
+    <string name="hint_please_permission">โปรดอนุญาตสิทธิ์</string>
+    <string name="hint_please_select_condition">โปรดเลือกเงื่อนไข</string>
+    <string name="hint_file_size_not_none">ไม่สามารถอัปโหลดภาพ 0KB</string>
+
+    <string name="hint_please_inputContent">โปรดป้อนเนื้อหา</string>
+    <string name="hint_current_version">เวอร์ชันปัจจุบัน</string>
+    <string name="hint_current_version_newest">ไม่มีการอัปเดตใหม่</string>
+
+    <string name="hint_content_least_10num">เนื้อหาต้องมีอย่างน้อย 10 ตัวอักษร</string>
+    <string name="hint_username_or_psw_notNull">ชื่อผู้ใช้หรือรหัสผ่านต้องไม่ว่างเปล่า</string>
+    <string name="hint_account_or_psw_notNull">บัญชีหรือรหัสผ่านต้องไม่ว่างเปล่า</string>
+    <string name="hint_phone_format_err">รูปแบบหมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="hint_psw_least_6num">รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร</string>
+    <string name="hint_login_Failure">การเข้าสู่ระบบล้มเหลว</string>
+    <string name="hint_login_account_notExist">บัญชีไม่มีอยู่</string>
+    <string name="hint_input_invalid">ป้อนข้อมูลไม่ถูกต้อง</string>
+    <string name="hint_login_jpassword_err">รหัสผ่านของผู้จัดจำหน่ายไม่ถูกต้อง</string>
+    <string name="hint_login_jpassword_ok">รหัสผ่านของผู้จัดจำหน่ายถูกเปลี่ยนเรียบร้อยแล้ว</string>
+    <string name="hint_login_psw_err">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="hint_login_account_Invalid">บัญชีไม่ถูกต้อง</string>
+    <string name="hint_login_account_or_psw_err">บัญชีหรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="hint_login_pswOut_of_date">รหัสผ่านหมดอายุ โปรดติดต่อผู้ดูแลระบบเพื่อเปลี่ยน</string>
+    <string name="hint_phone_num">หมายเลขโทรศัพท์</string>
+    <string name="hint_account">บัญชี</string>
+    <string name="hint_psw">รหัสผ่าน</string>
+    <string name="hint_notice">ประกาศ</string>
+    <string name="hint_search">ค้นหา</string>
+
+    <string name="hint_reset_app_affirm_update">รีสตาร์ท APP เพื่อยืนยันการเปลี่ยนแปลง?</string>
+    <string name="hint_affirm_loginout">ยืนยันการออกจากระบบ?</string>
+    <string name="hint_chat_no_self">ไม่สามารถแชทกับตัวเองได้</string>
+    <string name="hint_voice_least_long">เสียงสั้นเกินไป</string>
+
+    <string name="hint_target">เป้าหมาย</string>
+    <string name="hint_talkback_state_prepare">กำลังเตรียม...</string>
+    <string name="hint_talkback_state_wait_accept">รอการยอมรับ...</string>
+    <string name="hint_talkback_state_talkback_ing">การสื่อสารทางอินเตอร์คอมกำลังดำเนินการ...</string>
+    <string name="hint_talkback_state_request">ขอการโทรวิดีโอ...</string>
+    <string name="hint_talkback_state_request_voice">ขอการโทรเสียง...</string>
+    <string name="hint_talkback_state_opposite_hangup">การโทรถูกยุติโดยอีกฝ่าย...</string>
+    <string name="hint_talkback_state_opposite_accept">ยอมรับโดยอีกฝ่าย...</string>
+    <string name="hint_talkback_state_call_failure">การโทรล้มเหลว...</string>
+    <string name="hint_talkback_state_opposite_busy">อีกฝ่ายกำลังยุ่ง...</string>
+    <string name="hint_talkback_state_no_answer">ไม่มีการตอบรับ...</string>
+    <string name="hint_UnAnswered">ไม่มีการตอบรับ...</string>
+    <string name="hint_talkback_state_native_video_err">การเชื่อมต่อวิดีโอท้องถิ่นขาด...</string>
+    <string name="hint_talkback_state_opposite_video_err">วิดีโอถูกขาดโดยอีกฝ่าย...</string>
+    <string name="hint_chatvideo_err">การเชื่อมต่อวิดีโอขาด...</string>
+    <string name="hint_talkback_state_opposite_off">อีกฝ่ายออฟไลน์</string>
+    <string name="hint_talkback_state_conn_failure">การเชื่อมต่อล้มเหลว...</string>
+    <string name="hint_talkback_state_hanup">การโทรถูกยุติ...</string>
+
+    <string name="hint_video_call_conn_ok">เชื่อมต่อแล้ว...</string>
+    <string name="hint_video_call_conning">กำลังเชื่อมต่อ...</string>
+    <string name="hint_video_request_upload_video">ขอการอัปโหลดวิดีโอ...</string>
+    <string name="hint_video_request_look_video">ขอการดูวิดีโอ...</string>
+    <string name="hint_none">ไม่ได้ใช้งาน</string>
+    <string name="wu">ไม่มี</string>
+    <string name="hint_Idle_waiting">รอไม่ได้ใช้งาน</string>
+
+    <string name="hint_talkback_please_new_talkback">โปรดทราบ คุณมีอินเตอร์คอมใหม่:</string>
+
+    <string name="hint_upreport_photo">รายงานภาพถ่าย</string>
+    <string name="hint_please_select_photo">ไม่มีการอัปโหลดภาพถ่าย</string>
+    <string name="hint_please_select_video">ไม่มีการอัปโหลดวิดีโอ</string>
+    <string name="hint_please_sd">โปรดใส่การ์ด SD</string>
+    <string name="hint_photo_compress_ing">กำลังบีบอัดภาพถ่าย...</string>
+    <string name="hint_file_upload_failure">การอัปโหลดไฟล์ล้มเหลว</string>
+    <string name="hint_file_upload">การอัปโหลดไฟล์</string>
+    <string name="hint_complete">เสร็จสมบูรณ์</string>
+    <string name="hint_complete_suc">เสร็จสมบูรณ์</string>
+    <string name="hint_complete_no">ยังไม่เสร็จสมบูรณ์</string>
+    <string name="hint_describe">คำอธิบาย</string>
+    <string name="hint_describe_video">รายงานวิดีโอ\nหมายเหตุ: รูปแบบวิดีโอที่รองรับในขณะนี้คือ MP4</string>
+<string name="hint_video_only_mp4">ขณะนี้รองรับเฉพาะวิดีโอ MP4</string>
+    <string name="hint_nofile">ไม่พบไฟล์</string>
+    <string name="hint_video_max_size">ขนาดไฟล์ไม่ควรเกิน 50MB</string>
+
+    <string name="hint_affirm_">ยืนยันการออก</string>
+    
+    <string name="about_desc">อินเตอร์คอมกลุ่ม</string>
+    <string name="about_desc_same">อินเตอร์คอมกลุ่ม</string>
+
+    <string name="hint_textsize_set_change_hint">การตั้งค่าขนาดฟอนต์มีผลหลังจากรีสตาร์ท</string>
+
+    <string name="hint_welcome_back">ยินดีต้อนรับกลับ</string>
+    <string name="hint_opposite_account_exception">บัญชีของฝ่ายตรงข้ามผิดปกติ</string>
+    <string name="hint_upload">อัปโหลด</string>
+    <string name="hint_uploading">กำลังอัปโหลด...</string>
+    <string name="hint_have_upload">อัปโหลดแล้ว</string>
+    <string name="hint_upload_succeed">อัปโหลดสำเร็จ</string>
+    <string name="hint_upload_failure">อัปโหลดล้มเหลว</string>
+
+    <string name="hint_chat_videoing">กำลังถ่ายทอดวิดีโอ</string>
+    <string name="hint_chat_videorecording">กำลังบันทึกวิดีโอ</string>
+    <string name="hint_chat_voicerecording">กำลังบันทึกเสียง</string>
+    <string name="hint_please_hangup_call">กรุณาวางสายก่อน</string>
+    <string name="and">และ</string>
+    <string name="hint_in_new_video">โปรดทราบว่าคุณมีอินเตอร์คอมใหม่:</string>
+    <string name="hint_double_exit">กดอีกครั้งเพื่อออก</string>
+    <string name="hint_click_savelog">คลิกอีก %1$s ครั้งเพื่อจับบันทึก</string>
+    <string name="hint_click_savelog_cancel">คลิกอีก %1$s ครั้งเพื่อยกเลิกการจับบันทึก</string>
+    <string name="hint_click_saveloging">กำลังจับบันทึก</string>
+    <string name="hint_click_savelog_close">ปิดการจับบันทึก</string>
+    <string name="hint_get_ststoken_failure">ไม่สามารถรับ STSToken ได้</string>
+    <string name="hint_download">ดาวน์โหลด</string>
+    <string name="hint_download_ing">กำลังดาวน์โหลด...</string>
+    <string name="hint_download_finish">ดาวน์โหลดเสร็จสิ้น</string>
+    <string name="hint_download_failure">ดาวน์โหลดล้มเหลว</string>
+    <string name="hint_download_Progress">ความคืบหน้าการดาวน์โหลด</string>
+    <string name="hint_download_address_err">ข้อผิดพลาดของที่อยู่</string>
+    <string name="hint_download_file_damage">ไฟล์เสียหาย</string>
+    <string name="hint_connect_timeout">การเชื่อมต่อหมดเวลา</string>
+    <string name="hint_timeout">หมดเวลา</string>
+    <string name="hint_connect_timeout_query_group_list">การเชื่อมต่อหมดเวลารับรายการกลุ่ม</string>
+    <string name="hint_connect_timeout_enter_group_list">การเชื่อมต่อหมดเวลาสลับกลุ่ม</string>
+    <string name="hint_network_err">ข้อผิดพลาดของเครือข่าย</string>
+    <string name="hint_data_parse_err">ข้อผิดพลาดการวิเคราะห์ข้อมูล</string>
+    <string name="hint_tts_init_err">การเริ่มต้นการสังเคราะห์เสียงล้มเหลว!</string>
+    <string name="hint_login_succeed">เข้าสู่ระบบสำเร็จ</string>
+    <string name="hint_login_failure">เข้าสู่ระบบล้มเหลว</string>
+    <string name="hint_yesterday">เมื่อวาน</string>
+    <string name="hint_open_camera_failure">ไม่สามารถเปิดกล้องได้! กรุณาตรวจสอบ</string>
+    <string name="hint_camera_time_small">เวลาบันทึกไม่ควรน้อยกว่า 3 วินาที</string>
+    <string name="hint_can_enter">คุณยังสามารถป้อน %1$d อักขระ</string>
+    <string name="hint_can_enter_count">%1$d/%2$d อักขระ</string>
+    <string name="character">อักขระ</string>
+    <string name="hint_current_onLine_member">สมาชิกออนไลน์ปัจจุบัน (%1$d คน)</string>
+    <string name="hint_current_onLine_member2">ออนไลน์ (%1$d)</string>
+    <string name="hint_enter_group_failure">ไม่สามารถสลับกลุ่มได้</string>
+    <string name="hint_request_dispatcher">%1$s ร้องขอการจัดส่งของคุณ</string>
+    <string name="hint_request_look_video">%1$s ร้องขอดูวิดีโอ</string>
+    <string name="hint_request_upload_video">%1$s ร้องขออัปโหลดวิดีโอ</string>
+    <string name="hint_request_broadcast_video">%1$s ร้องขอการถ่ายทอดวิดีโอ</string>
+    <string name="hint_request_monitoring_video">%1$s ร้องขอการตรวจสอบวิดีโอ</string>
+    <string name="hint_refuse_speak_in_video_meeting">ปฏิเสธการพูด</string>
+    <string name="hint_can_speak_in_video_meeting">สามารถพูดได้</string>
+    <string name="hint_request_speak_in_video_meeting">ร้องขอการพูด</string>
+
+    <string name="hint_enter_mode_person">เข้าสู่โหมดการโทรเดี่ยว</string>
+    <string name="hint_enter_mode_member">เข้าสู่โหมดสมาชิก</string>
+    <string name="hint_enter_mode_friend">เข้าสู่โหมดเพื่อน</string>
+    <string name="hint_enter_mode_group">เข้าสู่โหมดกลุ่ม</string>
+    <string name="hint_out_mode_person">ออกจากโหมดการโทรเดี่ยว</string>
+    <string name="hint_out_mode_group">ออกจากโหมดกลุ่ม</string>
+    <string name="hint_out_mode_member">ออกจากโหมดสมาชิก</string>
+    <string name="hint_out_mode_friend">ออกจากโหมดเพื่อน</string>
+    <string name="hint_out_mode_voice">ออกจากการเล่นเสียง</string>
+    <string name="hint_enter_mode_voice">การเล่นเสียง</string>
+    <string name="hint_ptt_request_micing">กำลังร้องขอไมโครโฟน...</string>
+    <string name="hint_ptt_speak_ing">กำลังพูด...</string>
+    <string name="hint_press_record">กดเพื่อบันทึก</string>
+    <string name="hint_ptt_loosen_over">ปล่อยเพื่อสิ้นสุด...</string>
+    <string name="hint_voice_record_ing">กำลังเล่นเสียง...</string>
+    <string name="hint_ptt_request_mic_failure">การใช้ระบบอินเตอร์คอมล้มเหลว</string>
+    <string name="hint_ptt_current_no_request_mic">ไม่สามารถร้องขอไมโครโฟนได้ในขณะนี้</string>
+    <string name="hint_enterjoin_group">เข้าสู่กลุ่ม</string>
+    <string name="hint_enterjoin_group_ing">กำลังสลับกลุ่ม...</string>
+    <string name="hint_not_available_Group">ไม่มีกลุ่ม</string>
+    <string name="hint_not_available_Group_more">ไม่มีการกลุ่มเพิ่มเติม</string>
+    <string name="hint_not_Group_member">ไม่มีสมาชิก</string>
+    <string name="hint_not_Group_member_more">ไม่มีสมาชิกเพิ่มเติม</string>
+    <string name="hint_not_enter_GroupSelect">การเลือกกลุ่ม</string>
+    <string name="hint_not_enter_GroupMember">การเลือกสมาชิก</string>
+    <string name="hint_not_currunt_Member">สมาชิกปัจจุบัน</string>
+    <string name="hint_not_enter_FriendMember">การเลือกเพื่อน</string>
+    <string name="hint_not_exit_FriendMember">ออกจากการเลือกเพื่อน</string>
+    <string name="hint_not_exit_GroupMember">ออกจากการเลือกสมาชิก</string>
+    <string name="hint_not_exit_GroupSelect">ออกจากการเลือกกลุ่ม</string>
+    <string name="hint_not_exit_DispatchMember">ออกจากการเลือกจัดส่ง</string>
+    <string name="hint_not_exit_Voice">ออกจากการเล่นเสียง</string>
+    <string name="hint_not_groupList">ไม่มีกลุ่ม</string>
+    <string name="hint_not_friendList">ไม่มีเพื่อน</string>
+    <string name="hint_not_memberList">ไม่มีสมาชิก</string>
+    <string name="hint_not_dispatchList">ไม่มีการจัดส่ง</string>
+    <string name="hint_not_noticeList">ไม่มีการแจ้งเตือน</string>
+    <string name="hint_not_line_memberList">ไม่มีสมาชิกออนไลน์</string>
+    <string name="hint_not_line_friendList">ไม่มีเพื่อนออนไลน์</string>
+    <string name="hint_not_line_dispatchList">ไม่มีการจัดส่งออนไลน์</string>
+
+    <string name="hint_disconn_login_video_failure">การเข้าสู่ระบบวิดีโอล้มเหลว</string>
+    <string name="hint_disconn_login_video">การเข้าสู่ระบบวิดีโอถูกตัดขาด</string>
+    <string name="hint_disconn_login_voice">การเข้าสู่ระบบเสียงถูกตัดขาด</string>
+    <string name="hint_disconn_login">การเข้าสู่ระบบถูกตัดขาด</string>
+    <string name="hint_attention_please_POC_lostConnection">โปรดทราบว่าการเข้าสู่ระบบ POC ถูกตัดขาด</string>
+    <string name="hint_attention_please_Video_lostConnection">โปรดทราบว่าการเข้าสู่ระบบวิดีโอถูกตัดขาด</string>
+    <string name="hint_videoLogin_Reconnect">เชื่อมต่อใหม่กับการเข้าสู่ระบบวิดีโอ</string>
+    <string name="hint_POCLogin_Reconnect">เชื่อมต่อใหม่กับการเข้าสู่ระบบ POC</string>
+    <string name="hint_please_login">ยังไม่ได้เข้าสู่ระบบ</string>
+    <string name="hint_please_loginSignalling">การเริ่มต้นสัญญาณ</string>
+    <string name="hint_login_ing">กำลังเข้าสู่ระบบ...</string>
+    <string name="hint_please_read_userAgreement">โปรดอ่านข้อตกลงผู้ใช้ก่อน...</string>
+
+    <string name="hint_You_have_a_new_notice">คุณมีการแจ้งเตือนใหม่</string>
+    <string name="hint_yu_an_notice">การถ่ายทอดฉุกเฉิน</string>
+
+    <string name="hint_notice_save_item_range">หมายเลขระหว่าง %1$s และ %2$s</string>
+    <string name="hint_notice_save_min_item">บันทึกอย่างน้อย %1$s รายการ</string>
+    <string name="hint_notice_save_max_item">บันทึกสูงสุด %1$s รายการ</string>
+
+    <string name="hint_select_persion">โปรดเลือกสมาชิก</string>
+    <string name="hint_select_least_persion">โปรดเลือกอย่างน้อยหนึ่งคน</string>
+    <string name="hint_temp_call_create_failure">การโทรล้มเหลว</string>
+    <string name="hint_temp_call_double_exit">กดอีกครั้งเพื่อออกจากอินเตอร์คอม</string>
+    <string name="hint_please_insert_sim">โปรดใส่ซิมการ์ด</string>
+
+    <string name="hint_voice_mic_ing">กำลังพูด (%1$s)</string>
+    <string name="hint_voice_me_state">สถานะของฉัน: %1$s</string>
+
+    <string name="hint_exploit_ing">กำลังพัฒนา...</string>
+
+    <string name="hint_getlocationerr_please_check_network">ไม่สามารถระบุตำแหน่งได้ กรุณาตรวจสอบการตั้งค่าเครือข่ายหรือ GPS</string>
+    <string name="hint_Anti_Hijacking_hint">หน้าจอการเข้าสู่ระบบของคุณถูกปกคลุม โปรดยืนยันว่าสภาพแวดล้อมการเข้าสู่ระบบปลอดภัย</string>
+    <string name="hint_input_code_err">ข้อผิดพลาดในการป้อนรหัสยืนยัน</string>
+    <string name="hint_input_code_timeOut">รหัสยืนยันหมดอายุ</string>
+    <string name="hint_location_Unknown">ตำแหน่งไม่ทราบ</string>
+
+    <string name="hint_notice_list">รายการแจ้งเตือน</string>
+    <string name="hint_loging_otherterminals">เข้าสู่ระบบที่เทอร์มินัลอื่น</string>
+    <string name="hint_the_ccount_is_loging_otherterminals">เข้าสู่ระบบที่เทอร์มินัลอื่น</string>
+    <string name="hint_loging_yaobi">บัญชีถูกปิดใช้งาน</string>
+
+    <string name="hint_violation_content_illegal">เนื้อหาผิดกฎหมาย</string>
+    <string name="hint_violation_video_auditing">อัปโหลดวิดีโอสำเร็จ อยู่ระหว่างการตรวจสอบ!</string>
+    <string name="hint_violation_photo_violation">อัปโหลดล้มเหลว ภาพถ่ายถูกสงสัยว่าฝ่าฝืน!</string>
+    <string name="hint_violation_video_violationt">การตรวจสอบวิดีโอล้มเหลว วิดีโอถูกสงสัยว่าฝ่าฝืน!</string>
+    <string name="hint_Account_Sealed">บัญชีถูกระงับ! กรุณาลองใหม่ภายหลัง.</string>
+
+    <string name="hint_feedback_question_hint">หมวดหมู่คำถาม</string>
+    <string name="hint_feedback_question_type_bug">BUG</string>
+    <string name="hint_feedback_question_type_demand">คำขอ</string>
+    <string name="hint_feedback_question_type_impeach">รายงาน</string>
+    <string name="hint_feedback_impeach_hint">เนื้อหารายงาน</string>
+    <string name="hint_feedback_impeach_type_yellow">ภาพลามกอนาจาร</string>
+    <string name="hint_feedback_impeach_type_politik">การเมือง</string>
+    <string name="hint_feedback_impeach_type_violence">การก่อการร้าย</string>
+    <string name="hint_feedback_impeach_type_other">อื่น ๆ</string>
+    <string name="hint_feedback_content_hint">คำอธิบายเนื้อหา</string>
+    <string name="hint_feedback_input_content_hint">โปรดป้อนคำอธิบายของคุณ</string>
+    <string name="hint_feedback_phone_hint">ข้อมูลติดต่อ (ไม่บังคับ)</string>
+<string name="hint_feedback_input_phone_hint">กรุณาใส่ข้อมูลการติดต่อของคุณ</string>
+    <string name="hint_feedback_submit_succeed">ส่งข้อเสนอแนะสำเร็จ</string>
+    <string name="hint_feedback_submit_content_stringform">
+        ประเภทของข้อเสนอแนะ: %1$s\n
+        ประเภทของรายงาน: %2$s\n
+        ข้อมูลการติดต่อ: %3$s\n
+        คำอธิบายเนื้อหา: %4$s
+    </string>
+    <string name="hint_feedback_submit_content_stringformNoImpeach">
+        ประเภทของข้อเสนอแนะ: %1$s\n
+        ข้อมูลการติดต่อ: %2$s\n
+        คำอธิบายเนื้อหา: %3$s
+    </string>
+    <string name="hint_setDomain_domain">โดเมน:</string>
+    <string name="hint_setDomain_loginServer_hint">เซิร์ฟเวอร์เข้าสู่ระบบ</string>
+    <string name="hint_setDomain_pocServer">ที่อยู่เข้าสู่ระบบ:</string>
+    <string name="hint_setDomain_VideoServer">ที่อยู่การแจ้งเตือน:</string>
+    <string name="hint_setDomain_DispatchServer">ที่อยู่การส่ง:</string>
+    <string name="hint_setDomain_fastdfsServer">ที่อยู่ไฟล์:</string>
+    <string name="hint_setDomain_fastdfsUploadServer">ที่อยู่การอัพโหลด:</string>
+    <string name="hint_setDomain_getconfig">รับการกำหนดค่า</string>
+    <string name="hint_setDomain_Restore_default">คืนค่าเริ่มต้น</string>
+    <string name="hint_setDomain_getconfig_failure">การอัปเดตล้มเหลว</string>
+    <string name="hint_setDomain_getconfig_succeed">อัปเดตสำเร็จ กรุณายืนยันเพื่อบันทึก</string>
+    <string name="hint_setDomain_getconfig_succeed_plaseSelect">อัปเดตสำเร็จ กรุณาเลือกสภาพแวดล้อม</string>
+    <string name="hint_setDomain_getconfig_pleaseSaveUpdate">กรุณาบันทึกการเปลี่ยนแปลง</string>
+    <string name="hint_setDomain_getconfig_default">คืนค่าเริ่มต้น กรุณายืนยันเพื่อบันทึก</string>
+    <string name="hint_setDomain_uploadUrl_invalid">ที่อยู่การอัพโหลดไม่ถูกต้อง</string>
+
+    <string name="hint_poc_current_member">ผู้ใช้ปัจจุบัน: %1$s</string>
+    <string name="hint_poc_current_group">กลุ่มปัจจุบัน: %1$s</string>
+    <string name="hint_poc_this_machine_user">ผู้ใช้ในเครื่อง: %1$s</string>
+    <string name="hint_poc_current_memberHint">ผู้ใช้ปัจจุบัน:</string>
+    <string name="hint_poc_current_groupHint">กลุ่มปัจจุบัน:</string>
+    <string name="hint_poc_this_machine_userHint">ผู้ใช้ในเครื่อง:</string>
+    <string name="hint_user_desc">ข้อมูลผู้ใช้</string>
+    <string name="hint_poc_group_select">เลือกกลุ่ม</string>
+    <string name="hint_poc_friend_select">เลือกเพื่อน</string>
+    <string name="hint_poc_member_select">เลือกสมาชิก</string>
+    <string name="hint_poc_member_toomany">สมาชิกมากเกินไป</string>
+    <string name="hint_poc_dispatcher_select">เลือกผู้จัดการ</string>
+    <string name="hint_poc_group_selectShort">กลุ่ม</string>
+    <string name="hint_poc_friend_selectShort">เพื่อน</string>
+    <string name="hint_poc_member_selectShort">สมาชิก</string>
+    <string name="hint_poc_dispatcher_selectShort">ผู้จัดการ</string>
+    <string name="hint_please_select_group">กรุณาเลือกกลุ่ม</string>
+    <string name="hint_please_select_member">กรุณาเลือกสมาชิก</string>
+    <string name="hint_temp_voice_add">เข้าร่วมการโทรชั่วคราว</string>
+    <string name="hint_ptt_click_send_tempcall">PTT เริ่มการโทรชั่วคราว</string>
+    <string name="hint_cur_tempcall">ในการโทรชั่วคราว</string>
+    <string name="hint_video_set_err">ข้อผิดพลาดในการตั้งค่าความละเอียดวิดีโอ</string>
+    <string name="hint_video_current_not_enable">โมดูลวิดีโอปัจจุบันไม่รองรับ</string>
+    <string name="hint_not_support">ไม่รองรับ</string>
+    <string name="hint_quality">คุณภาพ</string>
+    <string name="hint_Resolving">ความละเอียด</string>
+    <string name="hint_video_quality">คุณภาพวิดีโอ</string>
+    <string name="hint_video_screenOrientation">ทิศทางหน้าจอวิดีโอ</string>
+    <string name="hint_video_angle">มุมวิดีโอ</string>
+    <string name="landscape">แนวนอน</string>
+    <string name="portrait">แนวตั้ง</string>
+    <string name="hint_video_Resolving">ความละเอียดวิดีโอ</string>
+    <string name="hint_uplocation_locationErr">การรับตำแหน่งล้มเหลว</string>
+    <string name="hint_uplocation_currendLocation">ตำแหน่ง</string>
+    <string name="hint_uplocation_isRunUpreport">รายงานเริ่มทำงาน</string>
+    <string name="hint_uplocation_locationIsEffective">ตำแหน่งมีประสิทธิภาพ</string>
+    <string name="hint_uplocation_distanceIsEffective">ระยะทางมีประสิทธิภาพ</string>
+    <string name="hint_uplocation_UpReportState">สถานะการรายงาน</string>
+
+    <string name="hint_remote_change_account">เปลี่ยนหมายเลขระยะไกล</string>
+    <string name="hint_remote_change_account_notPermission">ไม่มีสิทธิ์ในการเปลี่ยนหมายเลขระยะไกล</string>
+    <string name="hint_notPermission">ไม่มีสิทธิ์</string>
+    <string name="hint_volume_please_affirm">กรุณายืนยันการควบคุมเสียง</string>
+    <string name="hint_volume_level">ระดับเสียง %1$s</string>
+    <string name="hint_voice_please_affirm">กรุณายืนยันการเพิ่มเสียง</string>
+    <string name="hint_tts_please_affirm">กรุณายืนยันเสียง TTS</string>
+    <string name="hint_volume_enter">เข้าสู่การควบคุมเสียง</string>
+    <string name="hint_volume_out">ออกจากการควบคุมเสียง</string>
+    <string name="hint_voice_enter">เข้าสู่การเพิ่มเสียง</string>
+    <string name="hint_voice_out">ออกจากการเพิ่มเสียง</string>
+    <string name="hint_tts_enter">เข้าสู่การควบคุม TTS</string>
+    <string name="hint_tts_out">ออกจากการควบคุม TTS</string>
+    <string name="hint_enter_control">เข้าสู่การควบคุม</string>
+    <string name="hint_out_control">ออกจากการควบคุม</string>
+    <string name="hint_control_please_affirm">กรุณายืนยันการควบคุม</string>
+
+    <string name="hint_EnhanceVoicePlay_please_affirm">กรุณายืนยันการเพิ่มเสียง</string>
+    <string name="hint_EnhanceVoicePlay_enter">เข้าสู่การควบคุมการเพิ่มเสียง</string>
+    <string name="hint_EnhanceVoicePlay_out">ออกจากการควบคุมการเพิ่มเสียง</string>
+    <string name="hint_EnhanceVoiceRecord_please_affirm">กรุณายืนยันการเพิ่มเสียงในการบันทึก</string>
+    <string name="hint_EnhanceVoiceRecord_enter">เข้าสู่การควบคุมการบันทึก</string>
+    <string name="hint_EnhanceVoiceRecord_out">ออกจากการควบคุมการบันทึก</string>
+
+    <string name="hint_sos_dig_time">เวลา:</string>
+    <string name="hint_sos_dig_time_strForm">เวลา: %1$s</string>
+    <string name="hint_sos_dig_address">ตำแหน่ง:</string>
+    <string name="hint_sos_dig_address_strForm">ตำแหน่ง: %1$s</string>
+    <string name="hint_sos_dig_group">กลุ่มฉุกเฉิน:</string>
+    <string name="hint_sos_dig_group_strForm">กลุ่มฉุกเฉิน: %1$s</string>
+    <string name="hint_sos_dig_name">บุคลากร:</string>
+    <string name="hint_sos_dig_name_strForm">บุคลากร: %1$s</string>
+    <string name="hint_sos_dig_distance_strForm">%1$s เมตรจากคุณ</string>
+    <string name="hint_sos_dig_title">%1$s ได้ส่งสัญญาณเตือน</string>
+    <string name="hint_sos_dig_title_new">%1$s ได้ส่งสัญญาณเตือนเวลา %2$s</string>
+    <string name="hint_sos_dig_title_new_ptt">อินเตอร์คอม %1$s ได้ส่งสัญญาณเตือน</string>
+    <string name="hint_sos_dig_title_new_alarm">การเตือนภัย %1$s ได้ส่งสัญญาณเตือน</string>
+    <string name="hint_sos_dig_unTitle">%1$s ยกเลิกสัญญาณเตือน</string>
+    <string name="hint_sos_help_failure">การเตือนล้มเหลว</string>
+    <string name="hint_sos_unhelp_failure">การยกเลิกการเตือนล้มเหลว</string>
+    <string name="hint_sos_notLocation_notHelp">การรับตำแหน่งล้มเหลว ไม่สามารถส่งสัญญาณเตือน</string>
+    <string name="hint_sos_exitNavi">ออกจากการนำทาง</string>
+    <string name="hint_sos_notRecord">ไม่มีบันทึกการเตือน</string>
+    <string name="hint_sos_unHelp">ยกเลิกการเตือน</string>
+    <string name="hint_sos_unHelping">กำลังยกเลิกการเตือน</string>
+    <string name="hint_sos_HelpIng">ส่งสัญญาณเตือน</string>
+    <string name="hint_sos_Help_succeed">การเตือนสำเร็จ</string>
+    <string name="hint_no_record">ไม่มีบันทึก</string>
+    <string name="hint_set_major_dispatch">ตั้งเป็น dispatcher หลัก</string>
+
+    <string name="hint_sos_set_title">หมายเลขการเตือน</string>
+
+    <string name="hint_patrol_sign_err_notLocation">การลงเวลางานไม่ถูกต้อง การรับตำแหน่งล้มเหลว</string>
+    <string name="hint_patrol_sign_err_server">การลงเวลางานล้มเหลว ข้อผิดพลาดของเซิร์ฟเวอร์</string>
+    <string name="hint_patrol_sign_err_location">การลงเวลางานล้มเหลว นอกเขตบริการ</string>
+    <string name="hint_patrol_sign_err_network">การลงเวลางานล้มเหลว ข้อผิดพลาดของเครือข่าย</string>
+    <string name="hint_patrol_sign_err_dataErr">ข้อผิดพลาดของข้อมูลโค้ด QR</string>
+    <string name="hint_patrol_sign_err_scanErr">การสแกนโค้ด QR ล้มเหลว</string>
+    <string name="hint_patrol_sign_succeed">การลงเวลางานสำเร็จ</string>
+    <string name="hint_patrol_record_time">เวลาการลาดตระเวน</string>
+    <string name="hint_patrol_record_line">เส้นทางการลาดตระเวน</string>
+    <string name="hint_patrol_record_postion">ตำแหน่งการตรวจสอบ</string>
+    <string name="hint_patrol_time_range">เวลาเริ่มต้นไม่สามารถอยู่หลังเวลาสิ้นสุดได้</string>
+
+    <string name="hint_location_startPosition">เริ่มการระบุตำแหน่ง</string>
+    <string name="hint_location_Succeed">การระบุตำแหน่งสำเร็จ</string>
+    <string name="hint_location_not">ไม่มีการระบุตำแหน่ง</string>
+    <string name="hint_location_err">การระบุตำแหน่งล้มเหลว</string>
+    <string name="hint_location_change">ตำแหน่งเปลี่ยนแปลง</string>
+    <string name="hint_location_Navigation_planning">การวางแผนการนำทาง</string>
+    <string name="hint_location_Navigation_plannErr">การวางแผนการนำทางล้มเหลว</string>
+    <string name="hint_location_gpsLv">สัญญาณ GPS %1$s บาร์</string>
+    <string name="hint_location_gpsSignalWeak">สัญญาณ GPS อ่อน</string>
+    <string name="hint_location_gpsSignalStrong">สัญญาณ GPS แข็งแรง</string>
+    <string name="hint_location_gpsSignalGeneral">สัญญาณ GPS ปกติ</string>
+
+    <string name="hint_voiceQuality_setting">การตั้งค่าคุณภาพเสียง</string>
+    <string name="hint_voiceQuality_High">คุณภาพเสียง HD</string>
+    <string name="hint_voiceQuality_common">คุณภาพเสียงปกติ</string>
+
+    <string name="notice_video_call">การโทรวิดีโอ</string>
+    <string name="notice_request_video_call">ขอการสนทนาทางวิดีโอ</string>
+    <string name="notice_connect_exception">ข้อผิดพลาดในการเชื่อมต่อ</string>
+    <string name="notice_login_exception">เข้าสู่ระบบไม่ปกติ</string>
+    <string name="notice_manage_notice">การแจ้งเตือนประกาศ</string>
+    <string name="notice_video_call_broocast">การถ่ายทอดวิดีโอ</string>
+    <string name="notice_video_call_monitoring">การจัดการวิดีโอ</string>
+    <string name="notice_video_call_voice">การโทรเสียง</string>
+
+    <string name="noticetop_video_onReconnecting">บริการอินเตอร์คอมวิดีโอกำลังเชื่อมต่อ</string>
+    <string name="noticetop_video_onReconnected">บริการอินเตอร์คอมวิดีโอเชื่อมต่อสำเร็จ</string>
+    <string name="noticetop_video_onReconnectfailed">การเชื่อมต่อบริการอินเตอร์คอมวิดีโอล้มเหลว</string>
+    <string name="noticetop_POC_onReconnecting">บริการอินเตอร์คอม POC กำลังเชื่อมต่อ</string>
+    <string name="noticetop_POC_onReconnected">บริการอินเตอร์คอม POC เชื่อมต่อสำเร็จ</string>
+    <string name="noticetop_POC_onReconnectfailed">การเชื่อมต่อบริการอินเตอร์คอม POC ล้มเหลว</string>
+    <string name="noticetop_network_off">กำลังค้นหาเครือข่าย</string>
+    <string name="noticetop_network_Switch">กำลังเปลี่ยนเครือข่าย</string>
+    <string name="noticetop_current_connection_lost">โปรดทราบ! การเชื่อมต่อปัจจุบันถูกตัดขาด</string>
+    <string name="network_signal_poor">สัญญาณเครือข่ายของอีกฝ่ายไม่ดี</string>
+    <string name="network_signal_poor1">สัญญาณเครือข่ายไม่ดี</string>
+
+    <string name="chat_type_video">【การสนทนาทางวิดีโอ】</string>
+<string name="chat_type_voice">【แชทเสียง】</string>
+    <string name="chat_imtype_video">【วิดีโอ】</string>
+    <string name="chat_imtype_img">【รูปภาพ】</string>
+    <string name="chat_imtype_voice">【เสียง】</string>
+    <string name="chat_imtype_pttvoice">【เสียง PTT】</string>
+    <string name="chat_imtype_file">【ไฟล์】</string>
+    <string name="chat_imtype_location">【ตำแหน่ง】</string>
+    <string name="chat_map_sendMessage_title">ข้อความ</string>
+
+    <string name="member_offLine">ฝ่ายตรงข้ามออฟไลน์</string>
+    <string name="diapatch_offLine">ผู้ส่งออฟไลน์</string>
+    
+    <string name="version_num">appNum:</string>
+    <string name="sdk_version">เวอร์ชัน androidSdk:</string>
+    <string name="android_sys_version">เวอร์ชันระบบ android:</string>
+    <string name="phone_type">รุ่นโทรศัพท์:</string>
+
+    <string name="large">ใหญ่</string>
+    <string name="norm">กลาง</string>
+    <string name="small">เล็ก</string>
+    <string name="large_text">ใหญ่</string>
+    <string name="norm_text">กลาง</string>
+    <string name="small_text">เล็ก</string>
+    <string name="network_2G">2G</string>
+    <string name="network_3G">3G</string>
+    <string name="network_4G">4G</string>
+    <string name="network_WIFI">WIFI</string>
+    <string name="auto">อัตโนมัติ</string>
+    <string name="manual">ด้วยตนเอง</string>
+
+    <string name="test_name">เสี่ยวหมิง</string>
+    <string name="test_name2">จางซาน</string>
+    <string name="test_group_name">กลุ่มพัฒนา</string>
+    <string name="test_chat_msg">สวัสดี! ความงาม กลับมาคืนนี้เพื่อพูดคุยเกี่ยวกับชีวิตกันเถอะ</string>
+
+    <string name="hint_inout_feedback">ขอบคุณสำหรับข้อเสนอแนะของคุณ เราจะทำได้ดีขึ้น</string>
+
+    <string name="hint_about_company">เสียง PPT</string>
+    <string name="title_activity_google_maps">แผนที่</string>
+
+    <string name="have_sign_in">ลงชื่อเข้าใช้แล้ว</string>
+    <string name="no_sign_in">ยังไม่ได้ลงชื่อเข้าใช้</string>
+    <string name="online_car_welcome">ยินดีต้อนรับสู่รถออนไลน์</string>
+    <string name="online_car_notify">โปรดคาดเข็มขัดนิรภัย</string>
+    <string name="navigation_str">นำทาง</string>
+    <string name="navigation_Route">วางแผนเส้นทาง</string>
+    <string name="monitor_str">การตรวจสอบ</string>
+    <string name="data_str">รายการข้อมูล</string>
+    <string name="set_str">การตั้งค่า</string>
+    <string name="voice_record">บันทึกเสียง</string>
+    <string name="sos_record">บันทึกการเตือนภัย</string>
+    <string name="voice_list">รายการเสียง</string>
+    <string name="voice_record1">กำลังบันทึก</string>
+    <string name="media_record">บันทึก</string>
+    <string name="patrol_record">การลาดตระเวน</string>
+    <string name="voice_record_notopen">ไม่ได้เปิดบันทึกเสียง</string>
+    <string name="video_record">บันทึกวิดีโอ</string>
+    <string name="text_record">ข้อความ</string>
+    <string name="look_annex">ดูสิ่งที่แนบมา</string>
+    <string name="annex">สิ่งที่แนบมา</string>
+    <string name="device_info">พารามิเตอร์ของเทอร์มินัล</string>
+    <string name="devmenu_str">สถานะอุปกรณ์</string>
+    <string name="reboot_str">รีบูต</string>
+    <string name="voice_str">ปรับระดับเสียง</string>
+    <string name="verinfo_str">เกี่ยวกับเวอร์ชัน</string>
+    <string name="exitfail">ห้ามออกขณะกำลังดึงวิดีโอ</string>
+
+    <string name="hint_lockscreen_lock">กำลังล็อค</string>
+    <string name="hint_lockscreen_unlockIng">กำลังปลดล็อค</string>
+    <string name="hint_lockscreen_unlockFaill">ปลดล็อคไม่สำเร็จ</string>
+    <string name="hint_lockscreen_unlockSucceed">ปลดล็อคแล้ว</string>
+    <string name="hint_lockscreen_unlockHint">กดค้าง %1$s เพื่อปลดล็อค</string>
+    <string name="key_back">ปุ่มย้อนกลับ</string>
+    <string name="ring_volume">ระดับเสียงเรียกเข้า</string>
+    <string name="alarm_volume">ระดับเสียงเตือน</string>
+    <string name="alert_volume">ระดับเสียงเตือน</string>
+    <string name="not_amap_app">โปรดติดตั้งแอพแผนที่</string>
+    <string name="map_gaode_app">แผนที่ Gaode</string>
+    <string name="map_baidu_app">แผนที่ Baidu</string>
+    <string name="map_tencent_app">แผนที่ Tencent</string>
+    <string name="map_select">การเลือกแผนที่</string>
+    <string name="create_group">สร้างกลุ่ม</string>
+    <string name="join_group">เข้าร่วมกลุ่ม</string>
+    <string name="delete_group">ลบกลุ่ม</string>
+    <string name="delete_mem">ลบสมาชิก</string>
+    <string name="create_group_succ">สร้างกลุ่มสำเร็จ</string>
+    <string name="join_group_succ">เข้าร่วมกลุ่มสำเร็จ</string>
+    <string name="delete_group_succ">ลบกลุ่มสำเร็จ</string>
+    <string name="delete_mem_succ">ลบสมาชิกสำเร็จ</string>
+
+    
+    <string name="request_pull_somebody_video">ขอให้ดึงวิดีโอของ %1$s</string>
+    <string name="request_push_somebody_video">%1$s ขออัปโหลดวิดีโอ</string>
+    <string name="pulling_somebody_video">ดึงวิดีโอของ %1$s</string>
+    <string name="pullvideo">ดึงวิดีโอ</string>
+    <string name="somebody_request_pull_video">%1$s ขอให้ดึงวิดีโอ</string>
+    <string name="somebody_request_video_chat">%1$s ขอวิดีโอคอล</string>
+    <string name="request_somebody_video_chat">ขอวิดีโอคอลกับ %1$s</string>
+    <string name="talking_somebody_video_chat">กำลังวิดีโอคอลกับ %1$s</string>
+    <string name="somebody_request_video_share">%1$s ขอแบ่งปันวิดีโอ</string>
+    <string name="somebody_stop_video_share">%1$s หยุดแบ่งปันวิดีโอ</string>
+    <string name="invite_somebody_videomeeting">%1$s เชิญเข้าร่วมประชุม %2$s</string>
+    <string name="somebody_join_videomeeting">%1$s เข้าร่วมประชุม</string>
+    <string name="somebody_leave_videomeeting">%1$s ออกจากประชุม</string>
+    <string name="delete_somebody_videomeeting">ยืนยันการลบสมาชิก %1$s</string>
+    <string name="create_meeting">เริ่มประชุม</string>
+    <string name="meeting_name">ชื่อการประชุม</string>
+    <string name="end_meeting">สิ้นสุด</string>
+    <string name="meeting_members">สมาชิกการประชุม</string>
+    <string name="no_member_join">ไม่มีใครเข้าร่วม</string>
+    <string name="meeting_window_9">หน้าจอแบ่ง 9</string>
+    <string name="meeting_window_4">หน้าจอแบ่ง 4</string>
+    <string name="meeting_window_2">หน้าจอแบ่ง 2</string>
+    <string name="request_upload_video">กำลังอัปโหลดวิดีโอ</string>
+    <string name="videochat">วิดีโอคอล</string>
+    <string name="hangup_video">วางสาย</string>
+    <string name="see_video">%1$s กำลังดูวิดีโอ</string>
+    <string name="ringing_video">กำลังดัง</string>
+    <string name="accept_video">กำลังดูวิดีโอของ %1$s</string>
+    <string name="reject_video">ปฏิเสธแล้ว</string>
+    <string name="cancel_pull_video">ยกเลิกการดึง</string>
+
+    <string name="hint_room_create_err">สร้างห้องวิดีโอไม่สำเร็จ</string>
+    <string name="hint_open_local_err">เปิดวิดีโอในเครื่องไม่สำเร็จ</string>
+    <string name="hint_open_remote_err">เปิดวิดีโอระยะไกลไม่สำเร็จ</string>
+    <string name="hint_devices_err">ข้อผิดพลาดของอุปกรณ์</string>
+
+    <string name="hint_audio_video_acquisition">การรับเสียงและวิดีโอ</string>
+    <string name="hint_dont_operation">อย่าดำเนินการ</string>
+
+    
+    <string name="data_traffic_info">ข้อมูลการจราจร</string>
+    <string name="data_traffic_low">การจราจรไม่เพียงพอ</string>
+    <string name="data_traffic_oom">การจราจรเกิน</string>
+    <string name="data_traffic_total">รวม: %1$s</string>
+    <string name="data_traffic_usedMonth">ใช้ในเดือนนี้: %1$s</string>
+    <string name="data_traffic_usedDay">ใช้วันนี้: %1$s</string>
+    <string name="data_traffic_surplusMonth">เหลือ: %1$s</string>
+
+    <string name="snd_msg">ส่งข้อความ</string>
+    <string name="snd_loc">ส่งตำแหน่ง</string>
+    <string name="clear_msg">ลบประวัติ</string>
+    <string name="set_work">ตั้งเป็นกลุ่มทำงาน</string>
+    <string name="workgrp">กลุ่มทำงาน:</string>
+    <string name="half_call">การโทร half-duplex</string>
+    <string name="twoway_call">เครือข่ายส่วนตัว</string>
+    <string name="twoway_call1">การสื่อสารเครือข่ายส่วนตัว</string>
+    <string name="video_duplex">วิดีโอ duplex</string>
+    <string name="add_contacts">เพิ่มผู้ติดต่อ</string>
+    <string name="flash_lamp">ไฟฉาย</string>
+
+    <string name="code_number">หมายเลข: %1$s</string>
+    <string name="details">รายละเอียด</string>
+    
+    
+    <string name="uav_system_name">ระบบกระจายเสียง UAV</string>
+    <string name="uav_text_broadcast">กระจายเสียงข้อความ</string>
+    <string name="uav_record_broadcast">บันทึกกระจายเสียง</string>
+    <string name="uav_realtime_broadcast">กระจายเสียงแบบเรียลไทม์</string>
+    <string name="uav_text_broadcast_record">บันทึก</string>
+    <string name="uav_text_broadcast_play">เล่น</string>
+    <string name="uav_text_broadcast_stop">หยุด</string>
+    <string name="uav_text_broadcast_sex">เลือกเสียง:</string>
+    <string name="uav_text_broadcast_language">ภาษาจีนกลาง</string>
+    <string name="uav_text_broadcast_man">ชาย</string>
+    <string name="uav_text_broadcast_woman">หญิง</string>
+    <string name="uav_text_broadcast_mode">โหมดการเล่น:</string>
+    <string name="uav_text_broadcast_cycle">รอบ</string>
+<string name="uav_text_broadcast_speed">ความเร็วในการพูด:</string>
+    <string name="uav_text_broadcast_normal">ปกติ</string>
+
+    <string name="hint_filemanager_filemanager">ตัวจัดการไฟล์</string>
+    <string name="hint_filemanager_up_list">รายการอัปโหลด</string>
+    <string name="hint_filemanager_mian_point">ไฟล์หลัก</string>
+    <string name="hint_filemanager_no_mian_point">ไฟล์ไม่ใช่หลัก</string>
+    <string name="hint_filemanager_all_file">ไฟล์ทั้งหมด</string>
+    <string name="hint_name">ชื่อ</string>
+    <string name="hint_date">วันที่</string>
+    <string name="hint_path">เส้นทาง</string>
+    <string name="hint_size">ขนาด</string>
+
+    <string name="hint_video_record_sub_time">ระยะเวลาการบันทึกแบบเซ็กเมนต์</string>
+    <string name="hint_video_record_ratio">ความละเอียดการบันทึกวิดีโอ</string>
+    <string name="hint_map_setting">การตั้งค่าแผนที่</string>
+    <string name="hint_other_setting">การตั้งค่าอื่น ๆ</string>
+    <string name="hint_account_setting">การตั้งค่าบัญชี</string>
+    <string name="hint_address_setting">การตั้งค่าที่อยู่</string>
+    <string name="hint_video_config2">การตั้งค่าวิดีโอ</string>
+    <string name="hint_WIFI_set">การตั้งค่า WIFI</string>
+    <string name="hint_blue_set">การตั้งค่า Bluetooth</string>
+    <string name="hint_network_set">การตั้งค่าไร้สายและเครือข่าย</string>
+    <string name="hint_display_set">การตั้งค่าการแสดงผล</string>
+    <string name="hint_sound_set">การตั้งค่าเสียง</string>
+    <string name="hint_about_set">การตั้งค่าเวอร์ชัน</string>
+
+    <string name="call_hand_free">ขอแฮนด์ฟรี</string>
+    <string name="call_user">โทร</string>
+    <string name="message_user">ข้อความ</string>
+    <string name="change_user">แก้ไข</string>
+    <string name="change_call_user_name">แก้ไขชื่อผู้ใช้</string>
+    <string name="call_history">ประวัติการโทร</string>
+    <string name="please_inputcallnum">กรุณาใส่หมายเลข</string>
+    <string name="err_code_status">สถานะผู้ใช้ผิดปกติ</string>
+    <string name="err_code_noexist">หมายเลขว่าง</string>
+    <string name="err_code_offline">ผู้ใช้ออฟไลน์</string>
+    <string name="err_code_busy">ผู้ใช้ไม่ว่าง</string>
+    <string name="err_code_cantconn">ไม่สามารถเชื่อมต่อ</string>
+    <string name="err_code_timeout">การเชื่อมต่อหมดเวลา</string>
+
+    <string name="alarm_iot">การเตือนเซนเซอร์</string>
+    <string name="alarm_device">การเตือนอุปกรณ์</string>
+    <string name="alarm_ptt">การเตือนอินเตอร์คอม</string>
+
+    <string name="law_start">เริ่มบังคับใช้กฎหมาย</string>
+    <string name="law_app">แอปพลิเคชันคลัสเตอร์</string>
+    <string name="law_grp">การเลือกกลุ่ม</string>
+    <string name="law_mem">การเลือกสมาชิก</string>
+    <string name="law_fri">การเลือกเพื่อน</string>
+    <string name="law_dis">การเลือกผู้สั่งงาน</string>
+    <string name="law_rec">บันทึกสื่อ</string>
+    <string name="law_set">การตั้งค่าฟังก์ชัน</string>
+    <string name="law_account_set_success">การตั้งค่าบัญชีสำเร็จ</string>
+    <string name="law_acc_or_psw_null">บัญชีหรือรหัสผ่านว่าง</string>
+    <string name="law_about">เครื่องบันทึกการบังคับใช้กฎหมาย</string>
+    <string name="law_start_record_video">เริ่มบันทึกวิดีโอ</string>
+    <string name="law_start_record_voice">เริ่มบันทึกเสียง</string>
+    <string name="law_stop_record">หยุดบันทึก</string>
+    <string name="law_record_mark">เครื่องหมายคีย์</string>
+    <string name="item_sysset_ir_config">การตั้งค่าอินฟราเรด</string>
+
+    <string name="title_trainListAct">รายการยานพาหนะ</string>
+    <string name="add_train">เพิ่มรถไฟ</string>
+    <string name="please_scan_code">กรุณาสแกนรหัส</string>
+    <string name="please_take_photo">กรุณาถ่ายรูป</string>
+    <string name="code_not_match">รหัสไม่ตรงกัน</string>
+    <string name="btn_release">วาง</string>
+    <string name="btn_colletc">รวบรวม</string>
+
+    <string name="addr_set">การตั้งค่าที่อยู่</string>
+    <string name="static_ip">IP คงที่</string>
+    <string name="dynamic_ip">IP ไดนามิก</string>
+    <string name="addr_port">พอร์ตที่อยู่:</string>
+    <string name="mac_addr">ที่อยู่ MAC:</string>
+    <string name="item_sysset_priority_sharp">ความชัดเจน</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_my">Me</string>
+</resources>

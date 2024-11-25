@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/t_bgColor"
+    android:orientation="vertical">
+
+    <com.gwsd.open_ptt.view.AppTopView
+        android:id="@+id/viewTopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dimen5dp"
+        android:paddingBottom="@dimen/dimen5dp"
+        android:layout_marginTop="@dimen/dimen5dp">
+        <ImageView
+            android:id="@+id/groupAvatar"
+            android:layout_width="@dimen/obout_top_logSize"
+            android:layout_height="@dimen/obout_top_logSize"
+            android:src="@mipmap/ic_gw_menu_group_64"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/dimen10dp">
+            <TextView
+                android:id="@+id/groupName"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="groupName"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSize_largeXXX"
+                android:textColor="?attr/t_txColor"/>
+            <TextView
+                android:id="@+id/groupId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize_largeX"
+                android:textColor="?attr/t_txColor"
+                android:text="123456"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_40" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_40"
+        android:layout_marginTop="@dimen/dimen30dp"/>
+
+    <LinearLayout
+        android:id="@+id/sendMsgLL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="?attr/t_listItemColor"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_boundary"
+        android:paddingRight="@dimen/dimen_boundary"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_chat"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/send_msg"
+            android:textSize="@dimen/textSize_large"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:textColor="?attr/t_txColor"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_40" />
+    <LinearLayout
+        android:id="@+id/halfDuplexLL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="?attr/t_listItemColor"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_boundary"
+        android:paddingRight="@dimen/dimen_boundary"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_pttcall"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/half_duplex"
+            android:textSize="@dimen/textSize_large"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:textColor="?attr/t_txColor"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_40" />
+
+    <LinearLayout
+        android:id="@+id/grpAnnouncement"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="?attr/t_listItemColor"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_boundary"
+        android:paddingRight="@dimen/dimen_boundary">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_notice"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/group_announcement"
+            android:textSize="@dimen/textSize_large"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:textColor="?attr/t_txColor"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_40" />
+
+    <LinearLayout
+        android:id="@+id/viewDelGroupMsg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="?attr/t_listItemColor"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_boundary"
+        android:paddingRight="@dimen/dimen_boundary">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_delete"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/del_msg"
+            android:textSize="@dimen/textSize_large"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:textColor="?attr/t_txColor"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_grey_40" />
+
+</LinearLayout>

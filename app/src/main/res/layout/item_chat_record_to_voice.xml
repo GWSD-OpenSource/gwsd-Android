@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/IMChatItemBg"
+    >
+    <include layout="@layout/item_chat_record_to_public_base"/>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/viewHead"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/user"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/viewName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toLeftOf="@+id/viewHead"-->
+        <!--android:gravity="center"-->
+        <!--android:text="name"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/textColorBlack"-->
+        <!--android:textSize="@dimen/textSize_nroml"-->
+        <!--/>-->
+    <com.gwsd.open_ptt.view.ChatFromVoiceView
+        android:id="@+id/viewFromMsgView"
+        android:layout_width="@dimen/dimen110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewName"
+        android:layout_toLeftOf="@+id/viewHead"
+        android:background="@drawable/chat_right_word_bubble"
+        android:layout_marginRight="@dimen/dimen1dp"
+        >
+
+        <ImageView
+            android:id="@+id/viewVoiceFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen20dp"
+            android:src="@drawable/yida_ic_msg_viice_me03"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/viewVoiceTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/viewVoiceFlag"
+            android:text=""
+            android:textColor="@color/textColorBlack"
+            android:textSize="@dimen/textSize_nroml"
+            />
+    </com.gwsd.open_ptt.view.ChatFromVoiceView>
+</RelativeLayout>
