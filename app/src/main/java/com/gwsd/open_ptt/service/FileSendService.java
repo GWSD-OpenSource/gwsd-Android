@@ -121,7 +121,7 @@ public class FileSendService extends Service {
                         msg.getData().setUrl(fileSendParam.getFilepath());
                         msg.getData().setThumbUrl(fileSendParam.getFilepathThumb());
                         MsgContentPojo msgContentPojo = MsgDaoHelp.saveMsgContent(getUid(), msg);
-                        MsgConversationPojo msgConversationPojo = MsgDaoHelp.saveOrUpdateConv(msgContentPojo);
+                        MsgConversationPojo msgConversationPojo = MsgDaoHelp.saveOrUpdateConv(msgContentPojo, false);
                         EventBus.getDefault().post(msgContentPojo);
                         EventBus.getDefault().post(msgConversationPojo);
                     } else {

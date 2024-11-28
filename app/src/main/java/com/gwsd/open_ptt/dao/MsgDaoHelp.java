@@ -105,7 +105,7 @@ public class MsgDaoHelp {
         return msgContentPojo;
     }
 
-    public static synchronized MsgConversationPojo saveOrUpdateConv(MsgContentPojo msgContent) {
+    public static synchronized MsgConversationPojo saveOrUpdateConv(MsgContentPojo msgContent, boolean clearunread) {
         String uid=msgContent.getLoginUId();
         Integer cid =msgContent.getConvId();
         Integer ctype = msgContent.getConvType();
@@ -146,8 +146,10 @@ public class MsgDaoHelp {
         if (uid.equals(msgContent.getSenderId())) {
             msgConversationPojo.setMsgUnReadCnt(0);
         } else {
-            int unread = msgConversationPojo.getMsgUnReadCnt();
-            msgConversationPojo.setMsgUnReadCnt(unread+1);
+            if (!clearunread) {
+                int unread = msgConversationPojo.getMsgUnReadCnt();
+                msgConversationPojo.setMsgUnReadCnt(unread + 1);
+            }
         }
         convDao.insertOrReplace(msgConversationPojo);
         return msgConversationPojo;

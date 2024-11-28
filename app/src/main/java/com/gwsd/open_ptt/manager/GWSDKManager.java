@@ -540,7 +540,7 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
                 } else {
                     GWMsgBean gwMsgBean = JSON.parseObject(s, GWMsgBean.class);
                     MsgContentPojo msgContentPojo = MsgDaoHelp.saveMsgContent(String.valueOf(userInfo.getId()), gwMsgBean);
-                    MsgConversationPojo msgConversationPojo = MsgDaoHelp.saveOrUpdateConv(msgContentPojo);
+                    MsgConversationPojo msgConversationPojo = MsgDaoHelp.saveOrUpdateConv(msgContentPojo,false);
                     EventBus.getDefault().post(msgContentPojo);
                     EventBus.getDefault().post(msgConversationPojo);
                     NotifiDataBean notifiDataBean = new NotifiDataBean();

@@ -15,9 +15,12 @@ import com.gwsd.open_ptt.R;
 import com.gwsd.open_ptt.bean.OfflineEventBean;
 import com.gwsd.open_ptt.dao.MsgDaoHelp;
 import com.gwsd.open_ptt.dao.pojo.MsgContentPojo;
+import com.gwsd.open_ptt.dao.pojo.MsgConversationPojo;
 import com.gwsd.open_ptt.manager.CallManager;
 import com.gwsd.open_ptt.manager.GWSDKManager;
 import com.gwsd.open_ptt.utils.Utils;
+
+import org.greenrobot.eventbus.EventBus;
 
 public class AudioCallActivity extends CommBusiActivity{
 
@@ -162,17 +165,28 @@ public class AudioCallActivity extends CommBusiActivity{
 
     private void saveCallRecord() {
         GWMsgBean gwMsgBean = null;
+        MsgContentPojo msgContentPojo = null;
+        MsgConversationPojo msgConversationPojo = null;
         if (caller) {
             gwMsgBean = GWSDKManager.getSdkManager().createMsgBean(GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER, remoteid, remoteNm, 0);
             gwMsgBean.getData().setContent(String.valueOf(calltime));
-            MsgContentPojo msgContentPojo = MsgDaoHelp.saveMsgContent(getUid(), gwMsgBean);
-            MsgDaoHelp.saveOrUpdateConv(msgContentPojo);
+            msgContentPojo = MsgDaoHelp.saveMsgContent(getUid(), gwMsgBean);
+            msgConversationPojo = MsgDaoHelp.saveOrUpdateConv(msgContentPojo, false);
         } else {
             gwMsgBean = GWSDKManager.getSdkManager().createMsgBean1(String.valueOf(remoteid), remoteNm, GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER, getUid(), getUnm(), 0);
             gwMsgBean.getData().setContent(String.valueOf(calltime));
-            MsgContentPojo msgContentPojo = MsgDaoHelp.saveMsgContent(getUid(), gwMsgBean);
-            MsgDaoHelp.saveOrUpdateConv(msgContentPojo);
+            msgContentPojo = MsgDaoHelp.saveMsgContent(getUid(), gwMsgBean);
+            boolean unreadflag = false;
+            if (calltime > 0) {
+                // call establisth should not show unread
+                unreadflag = true;
+            } else {
+                unreadflag = false;
+            }
+            msgConversationPojo = MsgDaoHelp.saveOrUpdateConv(msgContentPojo, unreadflag);
         }
+        EventBus.getDefault().post(msgContentPojo);
+        EventBus.getDefault().post(msgConversationPojo);
     }
 
     @Override

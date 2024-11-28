@@ -171,7 +171,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
         gwMsgBean.getData().setContent(str);
         GWSDKManager.getSdkManager().sendMsg(gwMsgBean);
         MsgContentPojo msgContentPojo = MsgDaoHelp.saveMsgContent(getUid(), gwMsgBean);
-        MsgDaoHelp.saveOrUpdateConv(msgContentPojo);
+        MsgDaoHelp.saveOrUpdateConv(msgContentPojo, false);
         mAdapter.addMessage(msgContentPojo);
     }
 
