@@ -10,8 +10,8 @@ android {
         applicationId "com.gwsd.openptt"
         minSdk 21
         targetSdk 28
-        versionCode 24111817
-        versionName "V0.0.1_Dev"
+        versionCode 24120316
+        versionName "V0.0.2_Dev"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true

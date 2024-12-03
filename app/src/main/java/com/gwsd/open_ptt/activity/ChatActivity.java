@@ -26,7 +26,6 @@ import com.gwsd.open_ptt.bean.FileSendParam;
 import com.gwsd.open_ptt.comm_ui.voice.PlayVoice;
 import com.gwsd.open_ptt.dao.MsgDaoHelp;
 import com.gwsd.open_ptt.dao.pojo.MsgContentPojo;
-import com.gwsd.open_ptt.manager.AppManager;
 import com.gwsd.open_ptt.manager.CallManager;
 import com.gwsd.open_ptt.manager.GWSDKManager;
 import com.gwsd.open_ptt.service.FileSendService;

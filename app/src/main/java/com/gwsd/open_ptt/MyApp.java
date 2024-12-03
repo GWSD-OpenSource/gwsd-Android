@@ -46,4 +46,7 @@ public class MyApp extends Application {
         System.gc();
     }
 
+    public static int getAppResLog(){
+        return R.mipmap.ic_logo_gw_day;
+    }
 }

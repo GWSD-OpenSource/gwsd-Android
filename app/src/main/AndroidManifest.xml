@@ -69,6 +69,14 @@
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboard|keyboardHidden|mcc|mnc|navigation|screenSize|screenLayout|locale|layoutDirection|touchscreen|uiMode|smallestScreenSize"
             />
+        <activity android:name=".activity.VideoViewActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboard|keyboardHidden|mcc|mnc|navigation|screenSize|screenLayout|locale|layoutDirection|touchscreen|uiMode|smallestScreenSize"
+            />
+        <activity android:name=".activity.VideoMeetingActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboard|keyboardHidden|mcc|mnc|navigation|screenSize|screenLayout|locale|layoutDirection|touchscreen|uiMode|smallestScreenSize"
+            />
         <activity android:name=".activity.ChatListActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboard|keyboardHidden|mcc|mnc|navigation|screenSize|screenLayout|locale|layoutDirection|touchscreen|uiMode|smallestScreenSize"
