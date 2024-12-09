@@ -62,31 +62,26 @@ public class ChatVideoContentView extends ChatVideoBaseView {
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.viewHangup:
-                if(hasQuickClick())return;
-                if(getVideoBtnCallback()!=null){
-                    getVideoBtnCallback().onVideoBtnHangup();
-                }
-                break;
-            case R.id.viewAccept:
-                if(hasQuickClick())return;
-                if(getVideoBtnCallback()!=null){
-                    getVideoBtnCallback().onVideoBtnAccept();
-                }
-                break;
-            case R.id.viewVideoMuteLocal:
-                if(hasQuickClick())return;
-                updateMuteState(true);
-                break;
-            case R.id.viewVideoMuteRemote:
-                if(hasQuickClick())return;
-                updateMuteState(false);
-                break;
-            case R.id.viewVideoSwitchCamera:
-                if(hasQuickClick())return;
-                updateCamera();
-                break;
+        int id = view.getId();
+        if (id == R.id.viewHangup) {
+            if(hasQuickClick())return;
+            if(getVideoBtnCallback()!=null){
+                getVideoBtnCallback().onVideoBtnHangup();
+            }
+        } else if (id == R.id.viewAccept) {
+             if(hasQuickClick())return;
+             if(getVideoBtnCallback()!=null){
+                 getVideoBtnCallback().onVideoBtnAccept();
+             }
+        } else if (id == R.id.viewVideoMuteLocal) {
+            if(hasQuickClick())return;
+            updateMuteState(true);
+        } else if (id == R.id.viewVideoMuteRemote) {
+            if(hasQuickClick())return;
+            updateMuteState(false);
+        } else if (id == R.id.viewVideoSwitchCamera) {
+            if(hasQuickClick())return;
+            updateCamera();
         }
     }
 

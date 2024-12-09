@@ -948,5 +948,7 @@
     <string name="group_members">群组成员</string>
     <string name="group_detail">群组详情</string>
     <string name="group_voice_intercom">群组对讲</string>
+    <string name="invite_to_voice_call">邀请你语音通话</string>
+    <string name="invite_to_video_call">邀请你视频通话</string>
 
 </resources>

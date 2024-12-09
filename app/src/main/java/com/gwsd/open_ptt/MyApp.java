@@ -1,52 +1,37 @@
-package com.gwsd.open_ptt;
 
-import android.app.Application;
+#define GW_PTT_SIGNAL_DATA_EVENT_LOSTMIC           0x0d
+#define GW_PTT_SIGNAL_DATA_EVENT_NETWORK           0x80
 
-import com.gwsd.open_ptt.dao.DBManager;
-import com.gwsd.open_ptt.dao.greendao.DaoSession;
-import com.gwsd.open_ptt.manager.AppManager;
-import com.gwsd.open_ptt.manager.CallManager;
-import com.gwsd.open_ptt.manager.GWSDKManager;
-import com.gwsd.open_ptt.service.MainService;
+/*
+ *   voice data format  
+ *
+ *       1 frame opus data (12kbps)
+ *
+ *   0             1               2               3
+ *   0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+ *  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ *  |                            Data                               | 
+ *  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ *  |                                                               |
+ *  |                                                               |
+ *  |                            Data                               |
+ *  |                                                               |
+ *  |                                                               |
+ *  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ *   
+ */
+ 
 
-public class MyApp extends Application {
-
-    public static final String TAG = "GWAPP";
-
-    static MyApp myApp;
-    public static MyApp getInstance(){
-        return myApp;
-    }
-
-    DaoSession daoSession;
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        myApp = this;
-        init();
-    }
-
-    private void init() {
-        AppManager.getInstance().init(this, true);
-        this.daoSession = DBManager.initDB(this);
-        GWSDKManager.INSTANCE(AppManager.getApp());
-        CallManager.INSTANCE(AppManager.getApp());
-    }
-
-    public DaoSession getDaoSession() {
-        return daoSession;
-    }
-
-    public static void exitApp(){
-        MainService.stopServer(myApp);
-        int myPid = android.os.Process.myPid();
-        AppManager.getInstance().exit();
-        android.os.Process.killProcess(myPid);
-        System.exit(0);
-        System.gc();
-    }
-
-    public static int getAppResLog(){
-        return R.mipmap.ic_logo_gw_day;
-    }
-}
+/*
+ *   voice control format  
+ *
+ *       1Byte Action
+ *
+ *   0             1               2               3
+ *   0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+ *  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ *  |    Action     | 
+ *  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ *   
+ */
+#define GW_PTT_VOICE_CONTROL_A

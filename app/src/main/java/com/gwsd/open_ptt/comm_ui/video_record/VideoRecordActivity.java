@@ -170,29 +170,21 @@ public class VideoRecordActivity extends BaseActivity {
     }
 
     public void onEvenOnClick(View view){
-
-        switch (view.getId()){
-            case R.id.view_album:{
-                Intent intent = new Intent();
-                intent.setType("video/*");
-                intent.setAction(Intent.ACTION_GET_CONTENT);
-                startActivityForResult(intent, INTENT_CODE_selectVideo_content);
-            }
-            break;
-            case R.id.view_retraction:
-                uiUpdateViewByNone();
-                break;
-            case R.id.view_startVideo:
-                stopOrStartVideoRecord(STOP_Record_TYPE_Norm);
-                break;
-            case R.id.view_record_ok:
-                sendEvenRecordSuc(SUC_TYPE_Click);
-                break;
-            case R.id.view_camera_change:{
-                view_camera_change.startImgViewFlipAnim();
-                videoRecordingUI.uiCameraSwitchChange();
-            }
-            break;
+        int id = view.getId();
+        if (id == R.id.view_album) {
+            Intent intent = new Intent();
+            intent.setType("video/*");
+            intent.setAction(Intent.ACTION_GET_CONTENT);
+            startActivityForResult(intent, INTENT_CODE_selectVideo_content);
+        } else if (id == R.id.view_retraction) {
+            uiUpdateViewByNone();
+        } else if (id == R.id.view_startVideo) {
+            stopOrStartVideoRecord(STOP_Record_TYPE_Norm);
+        } else if (id == R.id.view_record_ok) {
+            sendEvenRecordSuc(SUC_TYPE_Click);
+        } else if (id == R.id.view_camera_change) {
+            view_camera_change.startImgViewFlipAnim();
+            videoRecordingUI.uiCameraSwitchChange();
         }
     }
 
@@ -365,11 +357,21 @@ public class VideoRecordActivity extends BaseActivity {
 
     private void prequestPermission(){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            String[] mPermissions=new String[]{
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                    Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.CAMERA,
-                    Manifest.permission.RECORD_AUDIO};
+            String[] mPermissions;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                mPermissions=new String[]{
+                        Manifest.permission.READ_MEDIA_AUDIO,
+                        Manifest.permission.READ_MEDIA_VIDEO,
+                        Manifest.permission.READ_MEDIA_IMAGES,
+                        Manifest.permission.CAMERA,
+                        Manifest.permission.RECORD_AUDIO};
+            } else {
+                mPermissions=new String[]{
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                        Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.CAMERA,
+                        Manifest.permission.RECORD_AUDIO};
+            }
             List<String> requstPer=new ArrayList<>();
             for (String string:mPermissions){
                 if (ContextCompat.checkSelfPermission(this,string)!= PackageManager.PERMISSION_GRANTED){

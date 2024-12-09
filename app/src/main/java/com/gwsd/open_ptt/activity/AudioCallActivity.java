@@ -13,12 +13,15 @@ import com.gwsd.bean.GWDuplexBean;
 import com.gwsd.bean.GWMsgBean;
 import com.gwsd.bean.GWType;
 import com.gwsd.open_ptt.R;
+import com.gwsd.open_ptt.bean.NotifiDataBean;
 import com.gwsd.open_ptt.bean.OfflineEventBean;
 import com.gwsd.open_ptt.dao.MsgDaoHelp;
 import com.gwsd.open_ptt.dao.pojo.MsgContentPojo;
 import com.gwsd.open_ptt.dao.pojo.MsgConversationPojo;
+import com.gwsd.open_ptt.manager.AppManager;
 import com.gwsd.open_ptt.manager.CallManager;
 import com.gwsd.open_ptt.manager.GWSDKManager;
+import com.gwsd.open_ptt.service.MainService;
 import com.gwsd.open_ptt.utils.Utils;
 
 import org.greenrobot.eventbus.EventBus;
@@ -37,13 +40,30 @@ public class AudioCallActivity extends CommBusiActivity{
     boolean caller;
     int calltime;
 
-    public static void startAct(Context context, int remoteid, String remotenm, boolean caller) {
+    public static void startAct(Context context, int remoteid, String remotenm, boolean caller, boolean notification) {
+        if (notification) {
+            NotifiDataBean notifiDataBean = new NotifiDataBean();
+            notifiDataBean.setRecvNm(remotenm);
+            notifiDataBean.setRecvId(remoteid);
+            notifiDataBean.setType(NotifiDataBean.NOTIFI_TYPE_AUDIO_CALL);
+            MainService.startServerWithData(AppManager.getApp(), notifiDataBean);
+        } else {
+            Intent intent = new Intent(context, AudioCallActivity.class);
+            intent.putExtra("remoteid", remoteid);
+            intent.putExtra("remotenm", remotenm);
+            intent.putExtra("caller", caller);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(intent);
+        }
+    }
+
+    public static Intent getStartIntent(Context context, int remoteid, String remotenm) {
         Intent intent = new Intent(context, AudioCallActivity.class);
         intent.putExtra("remoteid", remoteid);
         intent.putExtra("remotenm", remotenm);
-        intent.putExtra("caller", caller);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
-        context.startActivity(intent);
+        intent.putExtra("caller", false);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        return intent;
     }
 
     private String getUid() {

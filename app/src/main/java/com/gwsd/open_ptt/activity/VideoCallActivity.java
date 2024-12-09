@@ -6,11 +6,14 @@ import android.content.Intent;
 import com.gwsd.GWVideoEngine;
 import com.gwsd.bean.GWMsgBean;
 import com.gwsd.bean.GWType;
+import com.gwsd.open_ptt.bean.NotifiDataBean;
 import com.gwsd.open_ptt.dao.MsgDaoHelp;
 import com.gwsd.open_ptt.dao.pojo.MsgContentPojo;
 import com.gwsd.open_ptt.dao.pojo.MsgConversationPojo;
+import com.gwsd.open_ptt.manager.AppManager;
 import com.gwsd.open_ptt.manager.CallManager;
 import com.gwsd.open_ptt.manager.GWSDKManager;
+import com.gwsd.open_ptt.service.MainService;
 import com.gwsd.open_ptt.utils.VideoWinSwitchUtil;
 import com.gwsd.open_ptt.view.ChatVideoViewContracts;
 
@@ -20,17 +23,33 @@ public class VideoCallActivity extends VideoCommBaseActivity {
 
     private VideoWinSwitchUtil videoWinSwitchUtil;
 
+    public static void startAct(Context context, String remoteid, String remotenm, boolean caller, boolean record, boolean notification) {
+        if (notification) {
+            NotifiDataBean notifiDataBean = new NotifiDataBean();
+            notifiDataBean.setRecvNm(remotenm);
+            notifiDataBean.setRecvIdStr(remoteid);
+            notifiDataBean.setRecord(record);
+            notifiDataBean.setType(NotifiDataBean.NOTIFI_TYPE_VIDEO_CALL);
+            MainService.startServerWithData(AppManager.getApp(), notifiDataBean);
+        } else {
+            Intent intent = new Intent(context, VideoCallActivity.class);
+            intent.putExtra("remoteid", remoteid);
+            intent.putExtra("remotenm", remotenm);
+            intent.putExtra("caller", caller);
+            intent.putExtra("record", record);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(intent);
+        }
+    }
 
-                //normal confirm
-
-    public static void startAct(Context context, String remoteid, String remotenm, boolean caller, boolean record) {
+    public static Intent getStartIntent(Context context, String remoteid, String remotenm, boolean record) {
         Intent intent = new Intent(context, VideoCallActivity.class);
         intent.putExtra("remoteid", remoteid);
         intent.putExtra("remotenm", remotenm);
-        intent.putExtra("caller", caller);
+        intent.putExtra("caller", false);
         intent.putExtra("record", record);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
-        context.startActivity(intent);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        return intent;
     }
 
     private String getUid() {
@@ -48,9 +67,7 @@ public class VideoCallActivity extends VideoCommBaseActivity {
     }
 
     @Override
-
     protected void doVideoAction() {
-
         videoWinSwitchUtil = new VideoWinSwitchUtil(this);
         videoWinSwitchUtil.setVideoView(viewSurfaceGroup, viewRenderRemote, viewRenderLocal);
         videoWinSwitchUtil.addClickListener();
@@ -63,73 +80,48 @@ public class VideoCallActivity extends VideoCommBaseActivity {
     }
 
     @Override
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     protected void doAttachRemoteVideoView(boolean video, long uid) {
-                    if (video) {
-                        videoStateParam.setVideoStatus(ChatVideoViewContracts.VIDEO_View_send_Accept);
-                        videoContentView.setUpdateVideoVState(videoStateParam);
-                        GWSDKManager.getSdkManager().attachRemoteVideoView(viewRenderRemote, uid);
-                        CallManager.getManager().changeToSpeaker();
-                        calltime = 1;
-                    } else {
-                        //showToast("remote stream ready not have video");
-                    }
-            }
+        if (video) {
+            videoStateParam.setVideoStatus(ChatVideoViewContracts.VIDEO_View_send_Accept);
+            videoContentView.setUpdateVideoVState(videoStateParam);
+            GWSDKManager.getSdkManager().attachRemoteVideoView(viewRenderRemote, uid);
+            CallManager.getManager().changeToSpeaker();
+            calltime = 1;
+        } else {
+            //showToast("remote stream ready not have video");
+        }
+    }
 
-            @Override
+    @Override
     protected void doAttachLocalVideoView() {
         GWSDKManager.getSdkManager().attachLocalVideoView(viewRenderLocal);
-            }
+    }
 
-            @Override
+    @Override
     protected void doSwitchCamera() {
         GWSDKManager.getSdkManager().switchCamera();
-            }
+    }
 
-            @Override
+    @Override
     protected void doAcceptVideo() {
         GWSDKManager.getSdkManager().acceptCallVideo();
-            }
+    }
 
-            @Override
+    @Override
     protected void doMute(boolean mute, boolean local) {
         if (local){
             if (mute) {//1、down, open，0、up,close
                 GWSDKManager.getSdkManager().muteMic(true);
             } else {
                 GWSDKManager.getSdkManager().muteMic(false);
-
             }
         }else {
             if (mute) {//1、down, open，0、up,close
                 GWSDKManager.getSdkManager().muteSpk(true);
-        // delay some time
             } else {
-
                 GWSDKManager.getSdkManager().muteSpk(false);
-    }
-
-    }
-
+            }
+        }
     }
 
     @Override

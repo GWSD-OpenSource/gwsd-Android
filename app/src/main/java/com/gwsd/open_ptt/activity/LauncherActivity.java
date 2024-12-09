@@ -137,8 +137,14 @@ public class LauncherActivity extends AppCompatActivity {
     private void requestPermissions() {
         if(permissionsGroupList==null)permissionsGroupList=new ArrayList<>();
         permissionsGroupList.clear();
-        permissionsGroupList.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
-        permissionsGroupList.add(Manifest.permission.READ_EXTERNAL_STORAGE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            permissionsGroupList.add(Manifest.permission.READ_MEDIA_VIDEO);
+            permissionsGroupList.add(Manifest.permission.READ_MEDIA_AUDIO);
+            permissionsGroupList.add(Manifest.permission.READ_MEDIA_IMAGES);
+        } else {
+            permissionsGroupList.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            permissionsGroupList.add(Manifest.permission.READ_EXTERNAL_STORAGE);
+        }
         permissionsGroupList.add(Manifest.permission.RECORD_AUDIO);
         permissionsGroupList.add(Manifest.permission.READ_PHONE_STATE);
         permissionsGroupList.add(Manifest.permission.ACCESS_COARSE_LOCATION);

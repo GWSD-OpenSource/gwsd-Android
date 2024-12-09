@@ -98,7 +98,8 @@ public class FileSendService extends Service {
         okHttpClient.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
-
+                e.printStackTrace();
+                log("upload file fail");
             }
 
             @Override
@@ -125,10 +126,11 @@ public class FileSendService extends Service {
                         EventBus.getDefault().post(msgContentPojo);
                         EventBus.getDefault().post(msgConversationPojo);
                     } else {
-
+                        log("upload file fail1");
                     }
                 }catch (Exception e) {
-
+                    e.printStackTrace();
+                    log("upload file fail2");
                 }
             }
         });

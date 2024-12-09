@@ -4,12 +4,19 @@ import java.io.Serializable;
 
 public class NotifiDataBean implements Serializable {
 
+    public static final int NOTIFI_TYPE_MSG = 0;
+    public static final int NOTIFI_TYPE_AUDIO_CALL = 1;
+    public static final int NOTIFI_TYPE_VIDEO_CALL = 2;
+
     private String sendNm;
     private int recvType;  // user msg or group msg
     private String recvNm;
     private int recvId;
     private int msgType;
     private String content;
+    private String recvIdStr;
+    private boolean record;
+    private int type = NOTIFI_TYPE_MSG; // 0 msg   1 audio call request  2 video call request
 
     public String getSendNm() {
         return sendNm;
@@ -51,11 +58,35 @@ public class NotifiDataBean implements Serializable {
         this.msgType = msgType;
     }
 
+    public String getRecvIdStr() {
+        return recvIdStr;
+    }
+
+    public void setRecvIdStr(String recvIdStr) {
+        this.recvIdStr = recvIdStr;
+    }
+
+    public boolean isRecord() {
+        return record;
+    }
+
+    public void setRecord(boolean record) {
+        this.record = record;
+    }
+
     public String getContent() {
         return content;
     }
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
     }
 }
