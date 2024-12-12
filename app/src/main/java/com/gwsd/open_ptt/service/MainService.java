@@ -6,11 +6,15 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ServiceInfo;
 import android.graphics.drawable.BitmapDrawable;
+import android.media.AudioAttributes;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -31,8 +35,9 @@ import com.gwsd.open_ptt.manager.AppManager;
 
 public class MainService extends Service {
 
-    public static final String CHANNEL_ID_STRING = "gwsd_ptt_service";
+    public static final String BASE_CHANNEL_ID_STRING = "gwsd_ptt_base";
     public static final String MSG_CHANNEL_ID_STRING = "gwsd_ptt_msg";
+    public static final String CALL_CHANNEL_ID_STRING = "gwsd_ptt_call";
     public static void startServer(Context context){
         Intent intent=new Intent(context,MainService.class);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -80,11 +85,11 @@ public class MainService extends Service {
         super.onCreate();
         log("service create");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel mChannel = new NotificationChannel(CHANNEL_ID_STRING, getString(R.string.app_name), NotificationManager.IMPORTANCE_NONE);
-            mChannel.setDescription("service notify");
             NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            NotificationChannel mChannel = new NotificationChannel(BASE_CHANNEL_ID_STRING, getString(R.string.app_name), NotificationManager.IMPORTANCE_NONE);
+            mChannel.setDescription("base notify");
             notificationManager.createNotificationChannel(mChannel);
-            Notification notification = new Notification.Builder(getApplicationContext(), CHANNEL_ID_STRING).build();
+            Notification notification = new Notification.Builder(getApplicationContext(), BASE_CHANNEL_ID_STRING).build();
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                 int serviceType = ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PLAYBACK
                         | ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE
@@ -94,6 +99,25 @@ public class MainService extends Service {
             } else {
                 startForeground(1, notification);
             }
+            mChannel = new NotificationChannel(MSG_CHANNEL_ID_STRING, getString(R.string.app_name), NotificationManager.IMPORTANCE_HIGH);
+            mChannel.setDescription("msg notify");
+            mChannel.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION),
+                    new AudioAttributes.Builder()
+                            .setUsage(AudioAttributes.USAGE_NOTIFICATION)
+                            .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                            .build());
+            notificationManager.createNotificationChannel(mChannel);
+
+            mChannel = new NotificationChannel(CALL_CHANNEL_ID_STRING, getString(R.string.app_name), NotificationManager.IMPORTANCE_HIGH);
+            mChannel.setDescription("call notify");
+            Uri sound = null;
+            sound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE+"://"+getPackageName()+"/"+R.raw.call_atria);
+            mChannel.setSound(sound,
+                    new AudioAttributes.Builder()
+                            .setUsage(AudioAttributes.USAGE_NOTIFICATION_RINGTONE)
+                            .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                            .build());
+            notificationManager.createNotificationChannel(mChannel);
         }
         init();
     }
@@ -123,6 +147,7 @@ public class MainService extends Service {
         String content = "";
         String convNm = "";
         Intent intent = null;
+        String channelid;
         int type = notifiDataBean.getType();
         if (type == NotifiDataBean.NOTIFI_TYPE_MSG) {
             if (notifiDataBean.getRecvType() == GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER) {
@@ -155,6 +180,7 @@ public class MainService extends Service {
                 convNm = notifiDataBean.getRecvNm();
             }
             intent = ChatActivity.getStartIntent(this, notifiDataBean.getRecvId(), convNm, notifiDataBean.getRecvType());
+            channelid = MSG_CHANNEL_ID_STRING;
         } else {
             int remoteid = notifiDataBean.getRecvId();
             String remoteidStr = notifiDataBean.getRecvIdStr();;
@@ -168,6 +194,7 @@ public class MainService extends Service {
                 content = getString(R.string.invite_to_video_call);
                 intent = VideoCallActivity.getStartIntent(this, remoteidStr, remotenm, record);
             }
+            channelid = CALL_CHANNEL_ID_STRING;
         }
         int flag;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
@@ -178,12 +205,7 @@ public class MainService extends Service {
         log("send notice");
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, flag);
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel mChannel = new NotificationChannel(MSG_CHANNEL_ID_STRING, getString(R.string.app_name), NotificationManager.IMPORTANCE_HIGH);
-            mChannel.setDescription("msg notify");
-            notificationManager.createNotificationChannel(mChannel);
-        }
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, MSG_CHANNEL_ID_STRING)
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, channelid)
                 .setSmallIcon(R.mipmap.ic_logo_gw_desktop)
                 .setLargeIcon(((BitmapDrawable) getResources().getDrawable(R.mipmap.ic_logo_gw_desktop)).getBitmap())
                 .setContentTitle(title)
