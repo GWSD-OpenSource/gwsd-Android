@@ -40,8 +40,8 @@ public class AudioCallActivity extends CommBusiActivity{
     boolean caller;
     int calltime;
 
-    public static void startAct(Context context, int remoteid, String remotenm, boolean caller, boolean notification) {
-        if (notification) {
+    public static void startAct(Context context, int remoteid, String remotenm, boolean caller) {
+        if (!AppManager.getInstance().isForeground()) {
             NotifiDataBean notifiDataBean = new NotifiDataBean();
             notifiDataBean.setRecvNm(remotenm);
             notifiDataBean.setRecvId(remoteid);

@@ -286,10 +286,10 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
                         Observable.timer(500,TimeUnit.MILLISECONDS)
                                 .observeOn(AndroidSchedulers.mainThread())
                                 .subscribe(aLong -> {
-                                    AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true, false);
+                                    AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true);
                                 });
                     } else {
-                        AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true, false);
+                        AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true);
                     }
                 } else {
                     showToast(R.string.failure);
@@ -314,10 +314,10 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
                         Observable.timer(500,TimeUnit.MILLISECONDS)
                                 .observeOn(AndroidSchedulers.mainThread())
                                 .subscribe(aLong -> {
-                                    VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false, false);
+                                    VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false);
                                 });
                     } else {
-                        VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false, false);
+                        VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false);
                     }
                 } else {
                     showToast(R.string.failure);

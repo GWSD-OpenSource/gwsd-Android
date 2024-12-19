@@ -23,8 +23,8 @@ public class VideoCallActivity extends VideoCommBaseActivity {
 
     private VideoWinSwitchUtil videoWinSwitchUtil;
 
-    public static void startAct(Context context, String remoteid, String remotenm, boolean caller, boolean record, boolean notification) {
-        if (notification) {
+    public static void startAct(Context context, String remoteid, String remotenm, boolean caller, boolean record) {
+        if (!AppManager.getInstance().isForeground()) {
             NotifiDataBean notifiDataBean = new NotifiDataBean();
             notifiDataBean.setRecvNm(remotenm);
             notifiDataBean.setRecvIdStr(remoteid);

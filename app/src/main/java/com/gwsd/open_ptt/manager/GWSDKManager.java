@@ -455,10 +455,10 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
                                     Observable.timer(500,TimeUnit.MILLISECONDS)
                                             .observeOn(AndroidSchedulers.mainThread())
                                             .subscribe(aLong -> {
-                                                AudioCallActivity.startAct(AppManager.getApp(), gwDuplexBean.getUid(), gwDuplexBean.getName(), false, true);
+                                                AudioCallActivity.startAct(AppManager.getApp(), gwDuplexBean.getUid(), gwDuplexBean.getName(), false);
                                             });
                                 } else {
-                                    AudioCallActivity.startAct(AppManager.getApp(), gwDuplexBean.getUid(), gwDuplexBean.getName(), false, true);
+                                    AudioCallActivity.startAct(AppManager.getApp(), gwDuplexBean.getUid(), gwDuplexBean.getName(), false);
                                 }
                             } else {
                                 fullDuplex(gwDuplexBean.getUid(), GWType.GW_DUPLEX_TYPE.GW_PTT_DUPLEX_ACTION_HANGUP);
@@ -686,10 +686,10 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
                     Observable.timer(500,TimeUnit.MILLISECONDS)
                             .observeOn(AndroidSchedulers.mainThread())
                             .subscribe(aLong -> {
-                                VideoCallActivity.startAct(AppManager.getApp(), s, s1, false, false, true);
+                                VideoCallActivity.startAct(AppManager.getApp(), s, s1, false, false);
                             });
                 } else {
-                    VideoCallActivity.startAct(AppManager.getApp(), s, s1, false, false, true);
+                    VideoCallActivity.startAct(AppManager.getApp(), s, s1, false, false);
                 }
             } else {
                 hangupVideo(s);
