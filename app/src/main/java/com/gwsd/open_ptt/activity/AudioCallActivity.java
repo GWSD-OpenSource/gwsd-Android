@@ -184,7 +184,7 @@ public class AudioCallActivity extends CommBusiActivity{
     protected void release() {
         super.release();
         stopTimer();
-        CallManager.getManager().exitAudioVideoCall();
+        CallManager.getManager().exitAudioVideoCall(0);
         GWSDKManager.getSdkManager().registerPttObserver(null);
         saveCallRecord();
     }

@@ -127,7 +127,7 @@ public class VideoCallActivity extends VideoCommBaseActivity {
     @Override
     protected void release() {
         super.release();
-        CallManager.getManager().exitAudioVideoCall();
+        CallManager.getManager().exitAudioVideoCall(1);
         saveCallRecord();
     }
 

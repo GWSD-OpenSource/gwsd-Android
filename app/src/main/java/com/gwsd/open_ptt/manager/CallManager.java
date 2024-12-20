@@ -42,6 +42,7 @@ public class CallManager {
 
     private AudioManager audioManager;
     private int callState;
+    private int avType; // 0 audio 1 video
     private CallManager(Context context) {
         audioManager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
         callState = CALL_STATE_IDLE;
@@ -81,16 +82,19 @@ public class CallManager {
         boolean canswitch;
         if (callState == CALL_STATE_PTT_GROUP_CALL) {
             // goto video/audio call activity
+            log("current0 call state "+callState+" recv audio/video("+type+") call request");
             callState = CALL_STATE_AUDIO_VIDEO_CALL;
+            avType = type;
             canswitch = true;
         } else if (callState == CALL_STATE_PTT_TMP_GROUP_CALL) {
-            log("current call state "+callState+" recv audio/video("+type+") call request");
+            log("current1 call state "+callState+" recv audio/video("+type+") call request");
             callState = CALL_STATE_AUDIO_VIDEO_CALL;
             // exit tmp group call
+            avType = type;
             canswitch = true;
         } else {
             // call state is not idle exit tmp call
-            log("current call state "+callState+" is high priority enter audio/video call fail");
+            log("current call state "+callState+" is high priority enter audio/video call fail"+":"+avType);
             canswitch = false;
         }
         if (onCallStateSwitch != null) {
@@ -98,8 +102,8 @@ public class CallManager {
         }
     }
 
-    public void exitAudioVideoCall() {
-        log("exit audio or video call reset idle");
+    public void exitAudioVideoCall(int type) {
+        log("exit audio or video call reset idle from:"+type+"/"+avType);
         callState = CALL_STATE_IDLE;
     }
 

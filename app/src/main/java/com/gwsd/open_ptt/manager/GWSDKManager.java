@@ -465,6 +465,8 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
                             }
                         });
                     }
+                } else if (gwDuplexBean.getStatus() == GWType.GW_DUPLEX_STATUS.GW_PTT_DUPLEX_STATUS_END) {
+                    CallManager.getManager().exitAudioVideoCall(0);
                 }
             }
         } else if (event == GWType.GW_PTT_EVENT.GW_PTT_EVENT_LOGOUT) {
@@ -795,6 +797,7 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
         if (videoObserver != null) {
             videoObserver.onHangup(s);
         }
+        CallManager.getManager().exitAudioVideoCall(1);
     }
 
     @Override
@@ -802,6 +805,7 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
         if (videoObserver != null) {
             videoObserver.onError(i, s);
         }
+        CallManager.getManager().exitAudioVideoCall(1);
     }
 
     private void startTimer() {
