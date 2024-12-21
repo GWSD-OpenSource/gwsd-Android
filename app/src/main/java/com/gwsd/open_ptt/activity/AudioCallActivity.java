@@ -3,6 +3,7 @@ package com.gwsd.open_ptt.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -173,12 +174,18 @@ public class AudioCallActivity extends CommBusiActivity{
             }
         });
         iVHungUp.setOnClickListener(v->{
+            Intent stopRingtoneIntent = new Intent("com.gwsd.open_ptt.STOP_RINGTONE");
+            sendBroadcast(stopRingtoneIntent);
             GWSDKManager.getSdkManager().fullDuplex(remoteid, GWType.GW_DUPLEX_TYPE.GW_PTT_DUPLEX_ACTION_HANGUP);
         });
         iVAccept.setOnClickListener(v -> {
+            Intent stopRingtoneIntent = new Intent("com.gwsd.open_ptt.STOP_RINGTONE");
+            sendBroadcast(stopRingtoneIntent);
             GWSDKManager.getSdkManager().fullDuplex(remoteid, GWType.GW_DUPLEX_TYPE.GW_PTT_DUPLEX_ACTION_ACCEPT);
         });
     }
+
+
 
     @Override
     protected void release() {

@@ -17,11 +17,14 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.android.material.tabs.TabLayout;
 import com.gwsd.open_ptt.R;
 import com.gwsd.open_ptt.bean.LoginEventBean;
+import com.gwsd.open_ptt.bean.NotifiDataBean;
 import com.gwsd.open_ptt.bean.OfflineEventBean;
 import com.gwsd.open_ptt.fragment.BaseFragment;
 import com.gwsd.open_ptt.fragment.ChatListFragment;
 import com.gwsd.open_ptt.fragment.GroupListFragment;
 import com.gwsd.open_ptt.fragment.MeFragment;
+import com.gwsd.open_ptt.manager.AppManager;
+import com.gwsd.open_ptt.service.MainService;
 import com.gwsd.open_ptt.view.AppTopView;
 
 import java.util.ArrayList;
@@ -38,8 +41,22 @@ public class MainActivity extends CommBusiActivity {
     List<BaseFragment> fragmentList;
 
     public static void startAct(Context context) {
+        if (!AppManager.getInstance().isForeground()) {
+            NotifiDataBean notifiDataBean = new NotifiDataBean();
+            notifiDataBean.setType(NotifiDataBean.NOTIFI_TYPE_CANCEL);
+            MainService.startServerWithData(AppManager.getApp(), notifiDataBean);
+        }else{
+            Intent intent = new Intent(context, MainActivity.class);
+            context.startActivity(intent);
+        }
+
+    }
+
+    public static Intent getStartIntent(Context context) {
         Intent intent = new Intent(context, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         context.startActivity(intent);
+        return intent;
     }
 
     @Override

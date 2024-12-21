@@ -1,6 +1,7 @@
 package com.gwsd.open_ptt.manager;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
@@ -29,6 +30,8 @@ import com.gwsd.bean.GWTempGroupNotifyBean;
 import com.gwsd.bean.GWType;
 import com.gwsd.open_ptt.MyApp;
 import com.gwsd.open_ptt.activity.AudioCallActivity;
+import com.gwsd.open_ptt.activity.ChatListActivity;
+import com.gwsd.open_ptt.activity.MainActivity;
 import com.gwsd.open_ptt.activity.PttCallActivity;
 import com.gwsd.open_ptt.activity.VideoCallActivity;
 import com.gwsd.open_ptt.activity.VideoMeetingActivity;
@@ -466,6 +469,13 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
                         });
                     }
                 } else if (gwDuplexBean.getStatus() == GWType.GW_DUPLEX_STATUS.GW_PTT_DUPLEX_STATUS_END) {
+                    Intent stopRingtoneIntent = new Intent("com.gwsd.open_ptt.STOP_RINGTONE");
+                    context.sendBroadcast(stopRingtoneIntent);
+                    log("send broadcast ok voice cancel");
+                    if (!AppManager.getInstance().isForeground()) {
+                        log("is foreground chatlist ok");
+                        MainActivity.startAct(AppManager.getApp());
+                    }
                     CallManager.getManager().exitAudioVideoCall(0);
                 }
             }
@@ -796,6 +806,13 @@ public class GWSDKManager implements GWPttApi.GWPttObserver, GWVideoEngine.GWVid
     public void onHangup(String s) {
         if (videoObserver != null) {
             videoObserver.onHangup(s);
+        }
+        Intent stopRingtoneIntent = new Intent("com.gwsd.open_ptt.STOP_RINGTONE");
+        context.sendBroadcast(stopRingtoneIntent);
+        log("send video hangup");
+        if (!AppManager.getInstance().isForeground()) {
+            log("is foreground sure ok");
+            MainActivity.startAct(AppManager.getApp());
         }
         CallManager.getManager().exitAudioVideoCall(1);
     }

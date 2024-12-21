@@ -6,38 +6,50 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.content.pm.ServiceInfo;
 import android.graphics.drawable.BitmapDrawable;
 import android.media.AudioAttributes;
+import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
+import android.view.View;
 
 import androidx.core.app.NotificationCompat;
 
+import com.alibaba.fastjson.JSON;
+import com.gwsd.bean.GWDuplexBean;
 import com.gwsd.bean.GWType;
 import com.gwsd.open_ptt.MyApp;
 import com.gwsd.open_ptt.R;
 import com.gwsd.open_ptt.activity.AudioCallActivity;
 import com.gwsd.open_ptt.activity.ChatActivity;
+import com.gwsd.open_ptt.activity.ChatListActivity;
+import com.gwsd.open_ptt.activity.MainActivity;
 import com.gwsd.open_ptt.activity.VideoCallActivity;
+import com.gwsd.open_ptt.activity.VideoViewActivity;
 import com.gwsd.open_ptt.bean.NotifiDataBean;
 import com.gwsd.open_ptt.broadcast.KeyReceiver;
 import com.gwsd.open_ptt.config.DeviceConfig;
 import com.gwsd.open_ptt.manager.AppManager;
+import com.gwsd.open_ptt.manager.CallManager;
+import com.gwsd.open_ptt.manager.GWSDKManager;
 
 public class MainService extends Service {
 
     public static final String BASE_CHANNEL_ID_STRING = "gwsd_ptt_base";
     public static final String MSG_CHANNEL_ID_STRING = "gwsd_ptt_msg";
     public static final String CALL_CHANNEL_ID_STRING = "gwsd_ptt_call";
+    private static final String ACTION_STOP_RINGTONE = "com.gwsd.open_ptt.STOP_RINGTONE";
     public static void startServer(Context context){
         Intent intent=new Intent(context,MainService.class);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -77,12 +89,17 @@ public class MainService extends Service {
     public void onDestroy() {
         super.onDestroy();
         release();
+        GWSDKManager.getSdkManager().registerPttObserver(null);
     }
 
-    @SuppressLint("ForegroundServiceType")
+    @SuppressLint({"ForegroundServiceType", "NewApi"})
     @Override
     public void onCreate() {
         super.onCreate();
+
+        IntentFilter ringfiltet = new IntentFilter(ACTION_STOP_RINGTONE);
+        registerReceiver(stopRingtoneReceiver, ringfiltet, Context.RECEIVER_EXPORTED);
+
         log("service create");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
@@ -142,6 +159,8 @@ public class MainService extends Service {
         return START_STICKY;
     }
 
+    private Ringtone ringtone;
+    @SuppressLint("NewApi")
     private void showNotification(NotifiDataBean notifiDataBean) {
         String title = "";
         String content = "";
@@ -181,7 +200,13 @@ public class MainService extends Service {
             }
             intent = ChatActivity.getStartIntent(this, notifiDataBean.getRecvId(), convNm, notifiDataBean.getRecvType());
             channelid = MSG_CHANNEL_ID_STRING;
-        } else {
+        }else if(type == NotifiDataBean.NOTIFI_TYPE_CANCEL){
+            log("notif type is ok");
+            content = "通话已取消";
+            intent = MainActivity.getStartIntent(this);
+            channelid = MSG_CHANNEL_ID_STRING;
+        }
+        else {
             int remoteid = notifiDataBean.getRecvId();
             String remoteidStr = notifiDataBean.getRecvIdStr();;
             String remotenm = notifiDataBean.getRecvNm();
@@ -190,9 +215,12 @@ public class MainService extends Service {
             if (type == NotifiDataBean.NOTIFI_TYPE_AUDIO_CALL) {
                 content = getString(R.string.invite_to_voice_call);
                 intent = AudioCallActivity.getStartIntent(this, remoteid, remotenm);
-            } else {
+            } else if (type == NotifiDataBean.NOTIFI_TYPE_VIDEO_CALL){
                 content = getString(R.string.invite_to_video_call);
                 intent = VideoCallActivity.getStartIntent(this, remoteidStr, remotenm, record);
+            }else if(type == NotifiDataBean.NOTIFI_TYPE_VIDEO_PULL){
+                content = getString(R.string.invite_to_video_call);
+                intent = VideoViewActivity.getStartIntent(this, remoteidStr, remotenm, record);
             }
             channelid = CALL_CHANNEL_ID_STRING;
         }
@@ -214,6 +242,17 @@ public class MainService extends Service {
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
         notificationManager.notify(2, builder.build());
+
+        log("type = " + type);
+        if (type == NotifiDataBean.NOTIFI_TYPE_AUDIO_CALL || type == NotifiDataBean.NOTIFI_TYPE_VIDEO_CALL || type == NotifiDataBean.NOTIFI_TYPE_VIDEO_PULL) {
+            if (ringtone == null) {
+                log("ring ok");
+                Uri ringtoneUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE);
+                ringtone = RingtoneManager.getRingtone(this, ringtoneUri);
+                ringtone.setLooping(true); // 设置铃声循环播放
+                ringtone.play(); // 播放铃声
+            }
+        }
     }
 
     private void release(){
@@ -238,6 +277,29 @@ public class MainService extends Service {
         }
         return intentFilter;
     }
+
+
+    private BroadcastReceiver stopRingtoneReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            log("action1 = " + action);
+            // 停止铃声
+            stopRingtone();
+        }
+    };
+    private void stopRingtone() {
+        if (ringtone != null && ringtone.isPlaying()) {
+            ringtone.stop();
+            ringtone = null;
+        }
+    }
+
+
+
+
+
+
 
 
 }
