@@ -932,4 +932,5 @@
     <string name="group_voice_intercom">Group call</string>
     <string name="invite_to_voice_call">Invite you to voice call</string>
     <string name="invite_to_video_call">Invite you to video call</string>
+    <string name="request_to_video_pull">Request to pull video</string>
 </resources>

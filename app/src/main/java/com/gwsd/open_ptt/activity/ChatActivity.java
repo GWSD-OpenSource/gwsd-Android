@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.gwsd.bean.GWMsgBean;
 import com.gwsd.bean.GWType;
@@ -48,19 +49,21 @@ import java.util.concurrent.TimeUnit;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 
-public class ChatActivity extends BaseActivity implements ChatInputView.OnInputViewLisenter {
+public class ChatActivity extends BaseActivity implements ChatInputView.OnInputViewLisenter, SwipeRefreshLayout.OnRefreshListener {
 
     private static final int MAX_VIDEO_RECORD_TIME = 15;
 
     AppTopView viewChatTopView;
     ChatInputView viewChatInputView;
-
+    SwipeRefreshLayout swipeRefreshLayout;
     RecyclerView viewRecyclerView;
     VoiceSendingView viewVoiceAnimPanel;
 
     ChatParam chatParam;
     ChatAdapter mAdapter;
     protected List<MsgContentPojo> mData;
+
+    private int currentPage = 0;
 
     private static class FileSelectData {
         public int type;
@@ -100,6 +103,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
         log(chatParam.toString());
         mAdapter = new ChatAdapter(getUid());
         mData=new ArrayList<>();
+        mData.clear();
     }
 
     @Override
@@ -116,6 +120,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
 
         viewChatInputView = findViewById(R.id.viewChatInputView);
 
+        swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout);
         viewRecyclerView = findViewById(R.id.viewRecyclerView);
         viewRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         viewRecyclerView.setAdapter(mAdapter);
@@ -138,6 +143,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
             finish();
         });
         viewChatInputView.setOnInputVewCLisenter(this);
+        swipeRefreshLayout.setOnRefreshListener(this);
     }
 
     private void setConvUnReadNone() {
@@ -147,9 +153,15 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
 
     private void refreshData() {
         String userId=getUid();
-        List<MsgContentPojo> chatMsgBasePojoList = MsgDaoHelp.queryChatRecord(userId, chatParam.getConvId(), chatParam.getConvType(),0,30);
-        mData.clear();
+        List<MsgContentPojo> chatMsgBasePojoList = MsgDaoHelp.queryChatRecord(userId, chatParam.getConvId(), chatParam.getConvType(), currentPage,30);
+        //mData.clear();
+        if (chatMsgBasePojoList == null || chatMsgBasePojoList.size() <= 0) {
+            log("have load all data");
+            swipeRefreshLayout.setRefreshing(false);
+            return;
+        }
         mData.addAll(chatMsgBasePojoList);
+        log("mData size:"+mData.size());
         mAdapter.addAllMessage(mData);
         if(mData.size()>0){
             Observable.timer(200, TimeUnit.MILLISECONDS)
@@ -158,6 +170,13 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
                         viewRecyclerView.scrollToPosition(mAdapter.getItemCount()-1);
                     });
         }
+        currentPage++;
+        swipeRefreshLayout.setRefreshing(false);
+    }
+
+    @Override
+    public void onRefresh() {
+        refreshData();
     }
 
     @Override
@@ -262,11 +281,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
     @Override
     public void onBtnPttCall() {
         if (chatParam.getConvType() == GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER) {
-            CallManager.getManager().enterPttTmpGroupCall((canswitch, oldstate, newstate) -> {
-                if (canswitch) {
-                    PttCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), chatParam.getConvType(), true);
-                }
-            });
+            PttCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), chatParam.getConvType(), true);
         } else {
             PttCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), chatParam.getConvType(), false);
         }
@@ -279,22 +294,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
             return;
         }
         if (chatParam.getConvType() == GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER) {
-            CallManager.getManager().enterAudioVideoCall(0, (canswitch, oldstate, newstate) -> {
-                if (canswitch) {
-                    if (oldstate == CallManager.CALL_STATE_PTT_TMP_GROUP_CALL) {
-                        EventBus.getDefault().post(new ExitTmpGroupEventBean());
-                        Observable.timer(500,TimeUnit.MILLISECONDS)
-                                .observeOn(AndroidSchedulers.mainThread())
-                                .subscribe(aLong -> {
-                                    AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true);
-                                });
-                    } else {
-                        AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true);
-                    }
-                } else {
-                    showToast(R.string.failure);
-                }
-            });
+            AudioCallActivity.startAct(this, chatParam.getConvId(), chatParam.getConvName(), true);
         } else {
             showToast(R.string.hint_not_support);
         }
@@ -307,22 +307,7 @@ public class ChatActivity extends BaseActivity implements ChatInputView.OnInputV
             return;
         }
         if (chatParam.getConvType() == GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER) {
-            CallManager.getManager().enterAudioVideoCall(1, (canswitch, oldstate, newstate) -> {
-                if (canswitch) {
-                    if (oldstate == CallManager.CALL_STATE_PTT_TMP_GROUP_CALL) {
-                        EventBus.getDefault().post(new ExitTmpGroupEventBean());
-                        Observable.timer(500,TimeUnit.MILLISECONDS)
-                                .observeOn(AndroidSchedulers.mainThread())
-                                .subscribe(aLong -> {
-                                    VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false);
-                                });
-                    } else {
-                        VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false);
-                    }
-                } else {
-                    showToast(R.string.failure);
-                }
-            });
+            VideoCallActivity.startAct(this, String.valueOf(chatParam.getConvId()), chatParam.getConvName(), true, false);
         } else {
             showToast(R.string.hint_not_support);
         }

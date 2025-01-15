@@ -69,6 +69,14 @@ public class VideoMeetingActivity extends CommBusiActivity {
         context.startActivity(intent);
     }
 
+    public static Intent getStartIntent(Context context, String creater, String topic) {
+        Intent intent = new Intent(context, VideoMeetingActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra("creater", creater);
+        intent.putExtra("topic", topic);
+        return intent;
+    }
+
     @Override
     protected int getViewId() {
         getWindow().addFlags(
@@ -85,6 +93,7 @@ public class VideoMeetingActivity extends CommBusiActivity {
         creater = getIntent().getStringExtra("creater");
         topic = getIntent().getStringExtra("topic");
         log(creater + " invite join meeting " + topic);
+        CallManager.getManager().enterAudioVideoCall();
     }
 
     @Override
@@ -336,6 +345,7 @@ public class VideoMeetingActivity extends CommBusiActivity {
     protected void release() {
         super.release();
         GWSDKManager.getSdkManager().registerVideoObserver(null);
+        CallManager.getManager().exitAudioVideoCall(1);
     }
 
     private void showMeetingInviteDialog(String name, String desc) {

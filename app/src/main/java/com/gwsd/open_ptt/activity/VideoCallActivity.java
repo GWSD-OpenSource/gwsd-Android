@@ -24,22 +24,13 @@ public class VideoCallActivity extends VideoCommBaseActivity {
     private VideoWinSwitchUtil videoWinSwitchUtil;
 
     public static void startAct(Context context, String remoteid, String remotenm, boolean caller, boolean record) {
-        if (!AppManager.getInstance().isForeground()) {
-            NotifiDataBean notifiDataBean = new NotifiDataBean();
-            notifiDataBean.setRecvNm(remotenm);
-            notifiDataBean.setRecvIdStr(remoteid);
-            notifiDataBean.setRecord(record);
-            notifiDataBean.setType(NotifiDataBean.NOTIFI_TYPE_VIDEO_CALL);
-            MainService.startServerWithData(AppManager.getApp(), notifiDataBean);
-        } else {
-            Intent intent = new Intent(context, VideoCallActivity.class);
-            intent.putExtra("remoteid", remoteid);
-            intent.putExtra("remotenm", remotenm);
-            intent.putExtra("caller", caller);
-            intent.putExtra("record", record);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            context.startActivity(intent);
-        }
+        Intent intent = new Intent(context, VideoCallActivity.class);
+        intent.putExtra("remoteid", remoteid);
+        intent.putExtra("remotenm", remotenm);
+        intent.putExtra("caller", caller);
+        intent.putExtra("record", record);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
     }
 
     public static Intent getStartIntent(Context context, String remoteid, String remotenm, boolean record) {
@@ -63,6 +54,7 @@ public class VideoCallActivity extends VideoCommBaseActivity {
 
     @Override
     protected void doInitVideoParam() {
+        CallManager.getManager().enterAudioVideoCall();
         videoStateParam.setDuplex(true);
     }
 

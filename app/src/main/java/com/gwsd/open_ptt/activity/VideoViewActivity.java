@@ -5,31 +5,20 @@ import android.content.Intent;
 import android.view.View;
 
 import com.gwsd.GWVideoEngine;
-import com.gwsd.open_ptt.bean.NotifiDataBean;
-import com.gwsd.open_ptt.manager.AppManager;
+import com.gwsd.open_ptt.manager.CallManager;
 import com.gwsd.open_ptt.manager.GWSDKManager;
-import com.gwsd.open_ptt.service.MainService;
 import com.gwsd.open_ptt.view.ChatVideoViewContracts;
 
 public class VideoViewActivity extends VideoCommBaseActivity {
 
     public static void startAct(Context context, String remoteid, String remotenm, boolean caller, boolean record) {
-        if (!AppManager.getInstance().isForeground()) {
-            NotifiDataBean notifiDataBean = new NotifiDataBean();
-            notifiDataBean.setRecvNm(remotenm);
-            notifiDataBean.setRecvIdStr(remoteid);
-            notifiDataBean.setRecord(record);
-            notifiDataBean.setType(NotifiDataBean.NOTIFI_TYPE_VIDEO_PULL);
-            MainService.startServerWithData(AppManager.getApp(), notifiDataBean);
-        }else{
-            Intent intent = new Intent(context, VideoViewActivity.class);
-            intent.putExtra("remoteid", remoteid);
-            intent.putExtra("remotenm", remotenm);
-            intent.putExtra("caller", caller);
-            intent.putExtra("record", record);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
-            context.startActivity(intent);
-        }
+        Intent intent = new Intent(context, VideoViewActivity.class);
+        intent.putExtra("remoteid", remoteid);
+        intent.putExtra("remotenm", remotenm);
+        intent.putExtra("caller", caller);
+        intent.putExtra("record", record);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
+        context.startActivity(intent);
     }
 
     public static Intent getStartIntent(Context context, String remoteid, String remotenm, boolean record) {
@@ -45,6 +34,7 @@ public class VideoViewActivity extends VideoCommBaseActivity {
     @Override
     protected void doInitVideoParam() {
         videoStateParam.setDuplex(false);
+        CallManager.getManager().enterAudioVideoCall();
     }
 
     @Override
@@ -90,5 +80,11 @@ public class VideoViewActivity extends VideoCommBaseActivity {
     @Override
     protected void doMute(boolean mute, boolean local) {
         log("mute="+mute+",local="+local);
+    }
+
+    @Override
+    protected void release() {
+        super.release();
+        CallManager.getManager().exitAudioVideoCall(1);
     }
 }

@@ -8,8 +8,8 @@ public class NotifiDataBean implements Serializable {
     public static final int NOTIFI_TYPE_AUDIO_CALL = 1;
     public static final int NOTIFI_TYPE_VIDEO_CALL = 2;
     public static final int NOTIFI_TYPE_VIDEO_PULL = 3;
-
-    public static final int NOTIFI_TYPE_CANCEL = 4;
+    public static final int NOTIFI_TYPE_VIDEO_MEETING = 4;
+    public static final int NOTIFI_TYPE_CALL_END = 5;
 
     private String sendNm;
     private int recvType;  // user msg or group msg
@@ -20,6 +20,7 @@ public class NotifiDataBean implements Serializable {
     private String recvIdStr;
     private boolean record;
     private int type = NOTIFI_TYPE_MSG; // 0 msg   1 audio call request  2 video call request
+    private boolean forceNotice = false;
 
     public String getSendNm() {
         return sendNm;
@@ -91,5 +92,13 @@ public class NotifiDataBean implements Serializable {
 
     public void setType(int type) {
         this.type = type;
+    }
+
+    public boolean isForceNotice() {
+        return forceNotice;
+    }
+
+    public void setForceNotice(boolean forceNotice) {
+        this.forceNotice = forceNotice;
     }
 }

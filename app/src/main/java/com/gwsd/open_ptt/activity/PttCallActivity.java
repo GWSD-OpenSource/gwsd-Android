@@ -2,6 +2,7 @@ package com.gwsd.open_ptt.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.telecom.Call;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -80,6 +81,7 @@ public class PttCallActivity extends CommBusiActivity implements View.OnTouchLis
             GWSDKManager.getSdkManager().joinGroup(id,type);
         } else if (type == GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER) {
             log("ptt call user");
+            CallManager.getManager().enterPttTmpGroupCall();
             if (create) {
                 int[] ids = new int[1];
                 ids[0] = (int) id;

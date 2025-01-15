@@ -1,7 +1,6 @@
 package com.gwsd.open_ptt.view;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -65,17 +64,11 @@ public class ChatVideoContentView extends ChatVideoBaseView {
     public void onClick(View view) {
         int id = view.getId();
         if (id == R.id.viewHangup) {
-            log("video hangup");
-            Intent stopRingtoneIntent = new Intent("com.gwsd.open_ptt.STOP_RINGTONE");
-            sendBroadcast(stopRingtoneIntent);
             if(hasQuickClick())return;
             if(getVideoBtnCallback()!=null){
                 getVideoBtnCallback().onVideoBtnHangup();
             }
         } else if (id == R.id.viewAccept) {
-            log("video accept");
-            Intent stopRingtoneIntent = new Intent("com.gwsd.open_ptt.STOP_RINGTONE");
-            sendBroadcast(stopRingtoneIntent);
              if(hasQuickClick())return;
              if(getVideoBtnCallback()!=null){
                  getVideoBtnCallback().onVideoBtnAccept();
@@ -91,11 +84,6 @@ public class ChatVideoContentView extends ChatVideoBaseView {
             updateCamera();
         }
     }
-
-    private void sendBroadcast(Intent stopRingtoneIntent) {
-        getContext().sendBroadcast(stopRingtoneIntent);
-    }
-
 
     private void updateCamera(){
         getVideoBtnCallback().onChangeCamera();

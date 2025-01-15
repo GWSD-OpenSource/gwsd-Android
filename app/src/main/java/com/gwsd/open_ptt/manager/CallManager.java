@@ -18,7 +18,7 @@ public class CallManager {
     public static final int CALL_STATE_AUDIO_VIDEO_CALL = 2;
 
     public interface OnCallStateSwitch {
-        public void callStateSwitch(boolean canswitch, int oldstate, int newstate);
+        public void callStateSwitch(boolean notice, boolean caninterrupt, int currentstate, int nextstate);
     }
 
     private static CallManager callManager;
@@ -56,55 +56,44 @@ public class CallManager {
         callState = CALL_STATE_IDLE;
     }
 
-    public void enterPttTmpGroupCall(OnCallStateSwitch onCallStateSwitch) {
-        int pendingState = callState;
-        boolean canswitch;
-        if (callState == CALL_STATE_PTT_GROUP_CALL) {
-            // goto ptt call activity for tmp group
-            callState = CALL_STATE_PTT_TMP_GROUP_CALL;
-            canswitch = true;
-        } else {
-            // call state is not idle exit tmp call
-            log("current call state "+callState+" is high priority enter tmp group call fail");
-            canswitch = false;
-        }
-        if (onCallStateSwitch != null) {
-            onCallStateSwitch.callStateSwitch(canswitch, pendingState, callState);
-        }
+    public void enterPttTmpGroupCall() {
+        callState = CALL_STATE_PTT_TMP_GROUP_CALL;
     }
 
     public void exitPttTmpGroupCall() {
         callState = CALL_STATE_IDLE;
     }
 
-    public void enterAudioVideoCall(int type, OnCallStateSwitch onCallStateSwitch) {
-        int pendingState = callState;
-        boolean canswitch;
-        if (callState == CALL_STATE_PTT_GROUP_CALL) {
-            // goto video/audio call activity
-            log("current0 call state "+callState+" recv audio/video("+type+") call request");
-            callState = CALL_STATE_AUDIO_VIDEO_CALL;
-            avType = type;
-            canswitch = true;
-        } else if (callState == CALL_STATE_PTT_TMP_GROUP_CALL) {
-            log("current1 call state "+callState+" recv audio/video("+type+") call request");
-            callState = CALL_STATE_AUDIO_VIDEO_CALL;
-            // exit tmp group call
-            avType = type;
-            canswitch = true;
-        } else {
-            // call state is not idle exit tmp call
-            log("current call state "+callState+" is high priority enter audio/video call fail"+":"+avType);
-            canswitch = false;
-        }
-        if (onCallStateSwitch != null) {
-            onCallStateSwitch.callStateSwitch(canswitch, pendingState, callState);
-        }
+    public void enterAudioVideoCall() {
+        callState = CALL_STATE_AUDIO_VIDEO_CALL;
     }
 
     public void exitAudioVideoCall(int type) {
-        log("exit audio or video call reset idle from:"+type+"/"+avType);
+        log("exit audio or video call reset idle:"+type);
         callState = CALL_STATE_IDLE;
+    }
+
+    public void checkCallStateSwitch(int newState, OnCallStateSwitch onCallStateSwitch) {
+        boolean canintertupt = false;
+        boolean neednotice = false;
+        if (!AppManager.getInstance().isForeground()) {
+            // need notice
+            neednotice = true;
+        } else {
+            // check current call state
+            neednotice = false;
+        }
+        if (newState > callState) {
+            canintertupt = true;
+            log("current call state "+callState+" need switch to "+newState);
+        } else {
+            // not interrupt should let user to decide
+            canintertupt = false;
+            // need notice
+        }
+        if (onCallStateSwitch != null) {
+            onCallStateSwitch.callStateSwitch(neednotice, canintertupt, callState, newState);
+        }
     }
 
     public int getCallState() {
@@ -183,7 +172,7 @@ public class CallManager {
         if (uiShow) {
             audioManager.setStreamVolume(streamType, volume, AudioManager.FLAG_SHOW_UI);
         } else {
-            audioManager.setStreamVolume(streamType, volume, AudioManager.FX_KEY_CLICK);
+            audioManager.setStreamVolume(streamType, volume, 0);
         }
     }
 

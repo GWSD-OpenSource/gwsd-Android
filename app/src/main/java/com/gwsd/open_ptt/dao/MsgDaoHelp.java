@@ -167,15 +167,15 @@ public class MsgDaoHelp {
         }
     }
 
-    public static List<MsgContentPojo> queryChatRecord(String loginUId, int cId,int ctype, int pageNum,int pagrSize) {
+    public static List<MsgContentPojo> queryChatRecord(String loginUId, int cId,int ctype, int pageNum,int pageSize) {
         MsgContentPojoDao dao = getMsgDao();
         if (dao == null) return new ArrayList<>();
         List<MsgContentPojo> msgBeanList = dao
                 .queryBuilder()
                 .where(MsgContentPojoDao.Properties.LoginUId.eq(loginUId),MsgContentPojoDao.Properties.ConvId.eq(cId),MsgContentPojoDao.Properties.ConvType.eq(ctype))
                 .orderDesc(MsgContentPojoDao.Properties.Time)
-                .offset(pageNum*pagrSize)
-                .limit(pagrSize)
+                .offset(pageNum*pageSize)
+                .limit(pageSize)
                 .list();
         Collections.reverse(msgBeanList);
         return msgBeanList;
