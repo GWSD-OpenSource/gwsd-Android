@@ -151,6 +151,7 @@ public class MainService extends Service {
         Intent intent = null;
         String channelid;
         boolean loop = false;
+        int id = 2;
         int type = notifiDataBean.getType();
         if (type == NotifiDataBean.NOTIFI_TYPE_MSG) {
             if (notifiDataBean.getRecvType() == GWType.GW_MSG_RECV_TYPE.GW_PTT_MSG_RECV_TYPE_USER) {
@@ -184,6 +185,7 @@ public class MainService extends Service {
             }
             intent = ChatActivity.getStartIntent(this, notifiDataBean.getRecvId(), convNm, notifiDataBean.getRecvType());
             channelid = MSG_CHANNEL_ID_STRING;
+            id = 2;
         } else {
             int remoteid = notifiDataBean.getRecvId();
             String remoteidStr = notifiDataBean.getRecvIdStr();;
@@ -208,6 +210,7 @@ public class MainService extends Service {
                 content = getString(R.string.hint_talkback_state_opposite_hangup);
             }
             channelid = CALL_CHANNEL_ID_STRING;
+            id = 3;
         }
         log("send notice");
         PendingIntent pendingIntent = null;
@@ -237,10 +240,10 @@ public class MainService extends Service {
             builder.setTimeoutAfter(5000);
         }
         Notification notification = builder.build();
-        if (loop) {
+        if (loop && type != NotifiDataBean.NOTIFI_TYPE_MSG) {
             notification.flags |= Notification.FLAG_INSISTENT;
         }
-        notificationManager.notify(2, notification);
+        notificationManager.notify(id, notification);
     }
 
     private void release(){
